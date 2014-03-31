@@ -1,0 +1,36 @@
+stem=perd
+parent=cantar
+
+infinitive_suffix=re
+
+gerund={stem}ent
+
+# Participles
+participle_stem={stem}
+m_participle={participle_stem}ut
+f_participle={participle_stem}uda
+pm_participle={participle_stem}uts
+pf_participle={participle_stem}udes
+
+# Present indicative
+pi_tu={pi_stem}s
+pi_ell={pi_stem}
+
+# Imperfect indicative
+ii_jo={ii_stem}ia
+ii_tu={ii_stem}ies
+ii_ell={ii_stem}ia
+ii_nosaltres={ii_stem}íem
+ii_vosaltres={ii_stem}íeu
+ii_ells={ii_stem}ien
+
+# Simple past indicative
+spi_stem={pi_stem}
+spi_tu={spi_stem}eres
+spi_ell={spi_stem}é
+spi_nosaltres={spi_stem}érem
+spi_vosaltres={spi_stem}éreu
+spi_ells={spi_stem}eren
+
+# Future
+future_stem={stem}r
