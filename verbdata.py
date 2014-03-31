@@ -80,7 +80,7 @@ class Verb:
                                                                depth + 1),
                                           to_check.values[name])
             elif "parent" in to_check.values:
-                to_check = dictionary.get_verb(to_check.values["parent"])
+                to_check = self.dictionary.get_verb(to_check.values["parent"])
             else:
                 raise MissingValueError("No value for " + name)
 
