@@ -4,8 +4,15 @@ infinitive_suffix=ar
 infinitive={stem}{infinitive_suffix}
 
 gerund={stem}ant
-participle={stem}at
 
+# Participles
+participle_stem={stem}
+m_participle={participle_stem}at
+f_participle={participle_stem}ada
+pm_participle={participle_stem}ats
+pf_participle={participle_stem}ades
+
+# Present indicative
 pi_stem={stem}
 pi_jo={pi_stem}o
 pi_tu={pi_stem}es
@@ -14,6 +21,7 @@ pi_nosaltres={pi_stem}em
 pi_vosaltres={pi_stem}eu
 pi_ells={pi_stem}en
 
+# Imperfect indicative
 ii_stem={pi_stem}
 ii_jo={ii_stem}ava
 ii_tu={ii_stem}aves
@@ -22,6 +30,16 @@ ii_nosaltres={ii_stem}àvem
 ii_vosaltres={ii_stem}àveu
 ii_ells={ii_stem}aven
 
+# Simple past indicative
+spi_stem={pi_stem}
+spi_jo={spi_stem}í
+spi_tu={spi_stem}ares
+spi_ell={spi_stem}à
+spi_nosaltres={spi_stem}àrem
+spi_vosaltres={spi_stem}àreu
+spi_ells={spi_stem}aren
+
+# Present subjunctive
 ps_stem={stem}
 ps_jo={ps_stem}i
 ps_tu={ps_stem}is
@@ -30,6 +48,7 @@ ps_nosaltres={ps_stem}em
 ps_vosaltres={ps_stem}eu
 ps_ells={ps_stem}in
 
+# Imperfect subjunctive
 is_stem={ps_stem}
 is_jo={is_stem}és
 is_tu={is_stem}essis
@@ -38,6 +57,7 @@ is_nosaltres={is_stem}éssim
 is_vosaltres={is_stem}éssiu
 is_ells={is_stem}essin
 
+# Future
 future_stem={infinitive}
 future_jo={future_stem}é
 future_tu={future_stem}às
@@ -46,6 +66,7 @@ future_nosaltres={future_stem}em
 future_vosaltres={future_stem}eu
 future_ells={future_stem}an
 
+# Conditional
 cond_stem={future_stem}
 cond_jo={cond_stem}ia
 cond_tu={cond_stem}ies
@@ -54,6 +75,7 @@ cond_nosaltres={cond_stem}íem
 cond_vosaltres={cond_stem}íeu
 cond_ells={cond_stem}ien
 
+# Imperative
 imp_jo=-
 imp_tu={pi_ell}
 imp_ell={ps_ell}
