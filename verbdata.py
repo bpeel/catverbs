@@ -34,6 +34,9 @@ class Dictionary:
             name = os.path.splitext(short_filename)[0]
             self.verbs[name] = Verb(self, filename)
 
+    def __iter__(self):
+        return self.verbs.values().__iter__()
+
     def get_verb(self, name):
         if name in self.verbs:
             return self.verbs[name]
