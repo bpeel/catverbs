@@ -1,0 +1,60 @@
+parent=cantar
+
+infinitive=ésser
+
+gerund=essent (sent)
+
+# Participles
+m_participle=estat (sigut)
+f_participle=estada (siguda)
+pm_participle=estats (siguts)
+pf_participle=estades (sigudes)
+
+# Present indicative
+pi_jo=sóc
+pi_tu=ets
+pi_ell=és
+pi_nosaltres=som
+pi_vosaltres=sou
+pi_ells=són
+
+# Imperfect indicative
+ii_jo=era
+ii_tu=eres
+ii_ell=era
+ii_nosaltres=érem
+ii_vosaltres=éreu
+ii_ells=eren
+
+# Simple past indicative
+spi_jo=fui
+spi_tu=fores
+spi_ell=fou
+spi_nosaltres=fórem
+spi_vosaltres=fóreu
+spi_ells=foren
+
+# Present subjunctive
+ps_stem=sigu
+
+# Imperfect subjunctive
+is_jo=fos
+is_tu=fossis
+is_ell=fos
+is_nosaltres=fóssim
+is_vosaltres=fóssiu
+is_ells=fossin
+
+# Future
+future_stem=ser
+
+# Conditional
+cond_jo=seria (fóra)
+cond_tu=series (fores)
+cond_ell={cond_jo}
+cond_nosaltres=seríem (fórem)
+cond_vosaltres=seríeu (foreu)
+cond_ells=serien (foren)
+
+# Imperative
+imp_tu=sigues
