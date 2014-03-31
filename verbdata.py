@@ -22,11 +22,16 @@ class ParseError(Error):
     pass
 
 class Dictionary:
-    def __init__(self, files):
+    def __init__(self):
         self.verbs = {}
 
-        for filename in files:
-            name = os.path.basename(os.path.splitext(filename)[0])
+        data_dir = os.path.join(os.path.split(__file__)[0], 'data')
+
+        for short_filename in os.listdir(data_dir):
+            if not short_filename.endswith('.txt'):
+                continue
+            filename = os.path.join(data_dir, short_filename)
+            name = os.path.splitext(short_filename)[0]
             self.verbs[name] = Verb(self, filename)
 
     def get_verb(self, name):
@@ -80,7 +85,7 @@ class Verb:
                 raise MissingValueError("No value for " + name)
 
 if __name__ == "__main__":
-    dictionary = Dictionary(sys.argv[1:])
+    dictionary = Dictionary()
 
     for verb in dictionary.verbs:
         print(verb + ":")
