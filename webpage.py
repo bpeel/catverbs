@@ -1,59 +1,97 @@
 import verbdata
 import cgi
+import os
+import errno
 
-def dump_conjugations(verb, title, name_prefix):
+def dump_conjugations(f, verb, title, name_prefix):
     if title:
-        print("<h4>" + cgi.escape(title) + "</h4>")
+        f.write("<h3>" + cgi.escape(title) + "</h3>\n")
 
-    print("<p>")
+        f.write("<p>\n")
 
     for name in ["jo", "tu", "ell", "nosaltres", "vosaltres", "ells"]:
-        print(cgi.escape(verb.get_value(name_prefix + "_" + name)) + "<br />")
+        f.write(cgi.escape(verb.get_value(name_prefix + "_" + name)) +
+                "<br />\n")
 
-    print("</p>")
+    f.write("</p>\n")
 
 dictionary = verbdata.Dictionary()
 
-print("""<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title>Conjugació dels verbs catalans</title>
-</head>
-<body>
-<h1>Conjugació dels verbs catalans</h1>""")
+try:
+    os.mkdir("html")
+except OSError as e:
+    if e.errno != errno.EEXIST:
+        raise
+
+infinitives = []
 
 for verb in dictionary:
-    print("<h2>" + cgi.escape(verb.get_value("infinitive")) + "<h2>")
+    infinitive = verb.get_value("infinitive")
+    infinitives.append(infinitive)
 
-    print("<h3>Indicatiu</h3>")
+    f = open(os.path.join("html", infinitive + ".html"), "w", encoding="UTF-8")
 
-    dump_conjugations(verb, "Present", "pi")
-    dump_conjugations(verb, "Imperfet", "ii")
-    dump_conjugations(verb, "Passat simple", "spi")
-    dump_conjugations(verb, "Futur", "future")
-    dump_conjugations(verb, "Condicional", "cond")
+    f.write("<!DOCTYPE html>\n"
+            "<html>\n"
+            "<head>\n"
+            "<meta http-equiv=\"content-type\" "
+            "content=\"text/html; charset=utf-8\">\n"
+            "<title>" + cgi.escape(infinitive) + "</title>\n"
+            "</head>\n"
+            "<body>\n"
+            "<h1>" + cgi.escape(infinitive) + "</h1>\n")
 
-    print("<h3>Subjuntiu</h3>")
+    f.write("<h2>Indicatiu</h2>\n")
 
-    dump_conjugations(verb, "Present", "ps")
-    dump_conjugations(verb, "Imperfet", "is")
+    dump_conjugations(f, verb, "Present", "pi")
+    dump_conjugations(f, verb, "Imperfet", "ii")
+    dump_conjugations(f, verb, "Passat simple", "spi")
+    dump_conjugations(f, verb, "Futur", "future")
+    dump_conjugations(f, verb, "Condicional", "cond")
 
-    print("<h3>Imperatiu</h3>")
+    f.write("<h2>Subjuntiu</h2>\n")
 
-    dump_conjugations(verb, None, "imp")
-    dump_conjugations(verb, "Imperfet", "is")
+    dump_conjugations(f, verb, "Present", "ps")
+    dump_conjugations(f, verb, "Imperfet", "is")
 
-    print("<h3>Formes no personals</h3>\n"
-          "<h4>Gerundi</h4>\n"
-          "<p>" + cgi.escape(verb.get_value("gerund")) + "</p>\n"
-          "<h4>Participi</h4>\n"
-          "<p>\n" +
-          cgi.escape(verb.get_value("m_participle")) + "<br />\n" +
-          cgi.escape(verb.get_value("f_participle")) + "<br />\n" +
-          cgi.escape(verb.get_value("pm_participle")) + "<br />\n" +
-          cgi.escape(verb.get_value("pf_participle")) + "<br />\n"
-          "</p>")
+    f.write("<h2>Imperatiu</h2>\n")
 
-print("""</body>
-</html>""")
+    dump_conjugations(f, verb, None, "imp")
+    dump_conjugations(f, verb, "Imperfet", "is")
+
+    f.write("<h2>Formes no personals</h2>\n"
+            "<h3>Gerundi</h3>\n"
+            "<p>" + cgi.escape(verb.get_value("gerund")) + "</p>\n"
+            "<h3>Participi</h3>\n"
+            "<p>\n" +
+            cgi.escape(verb.get_value("m_participle")) + "<br />\n" +
+            cgi.escape(verb.get_value("f_participle")) + "<br />\n" +
+            cgi.escape(verb.get_value("pm_participle")) + "<br />\n" +
+            cgi.escape(verb.get_value("pf_participle")) + "<br />\n"
+            "</p>\n")
+
+    f.write("</body>\n"
+            "</html>\n")
+
+    f.close()
+
+f = open(os.path.join("html", "index.html"), "w", encoding="UTF-8")
+
+f.write("<!DOCTYPE html>\n"
+        "<html>\n"
+        "<head>\n"
+        "<meta http-equiv=\"content-type\" "
+        "content=\"text/html; charset=utf-8\">\n"
+        "<title>Conjugació dels verbs catalans</title>\n"
+        "</head>\n"
+        "<body>\n"
+        "<h1>Conjugació dels verbs catalans</h1>\n"
+        "<ul>\n")
+
+for infinitive in sorted(infinitives):
+    f.write("<li><a href=\"" + cgi.escape(infinitive) + ".html\">" +
+            cgi.escape(infinitive) + "</a></li>\n")
+
+f.write("</ul>\n"
+        "</body>\n"
+        "</html>\n")
