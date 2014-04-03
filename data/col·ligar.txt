@@ -1,0 +1,2 @@
+stem=col·lig
+parent=pregar

@@ -1,0 +1,2 @@
+stem=apeg
+parent=pregar

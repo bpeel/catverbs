@@ -1,0 +1,2 @@
+stem=al·leg
+parent=pregar

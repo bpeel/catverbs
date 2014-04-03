@@ -1,0 +1,2 @@
+stem=afameg
+parent=pregar

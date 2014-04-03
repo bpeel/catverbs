@@ -1,0 +1,2 @@
+stem=ennaveg
+parent=pregar

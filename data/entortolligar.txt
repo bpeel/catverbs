@@ -1,0 +1,2 @@
+stem=entortollig
+parent=pregar

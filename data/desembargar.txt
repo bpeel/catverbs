@@ -1,0 +1,2 @@
+stem=desembarg
+parent=pregar

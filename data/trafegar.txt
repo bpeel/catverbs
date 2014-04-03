@@ -1,0 +1,2 @@
+stem=trafeg
+parent=pregar

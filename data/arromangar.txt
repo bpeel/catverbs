@@ -1,0 +1,2 @@
+stem=arromang
+parent=pregar

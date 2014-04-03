@@ -1,0 +1,2 @@
+stem=breg
+parent=pregar

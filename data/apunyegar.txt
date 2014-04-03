@@ -1,0 +1,2 @@
+stem=apunyeg
+parent=pregar

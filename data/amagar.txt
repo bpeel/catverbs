@@ -1,0 +1,2 @@
+stem=amag
+parent=pregar

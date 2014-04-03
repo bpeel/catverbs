@@ -1,0 +1,2 @@
+stem=sufumig
+parent=pregar

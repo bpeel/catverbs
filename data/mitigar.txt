@@ -1,0 +1,2 @@
+stem=mitig
+parent=pregar

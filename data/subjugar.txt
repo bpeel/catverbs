@@ -1,0 +1,2 @@
+stem=subjug
+parent=pregar

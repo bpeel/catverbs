@@ -1,0 +1,2 @@
+stem=vog
+parent=pregar

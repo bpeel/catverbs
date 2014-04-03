@@ -1,0 +1,2 @@
+stem=llodrig
+parent=pregar

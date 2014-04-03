@@ -1,0 +1,2 @@
+stem=pessig
+parent=pregar

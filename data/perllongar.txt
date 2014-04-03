@@ -1,0 +1,2 @@
+stem=perllong
+parent=pregar

@@ -1,0 +1,2 @@
+stem=desagreg
+parent=pregar

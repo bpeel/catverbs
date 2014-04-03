@@ -1,0 +1,2 @@
+stem=espig
+parent=pregar

@@ -1,0 +1,2 @@
+stem=desdobleg
+parent=pregar

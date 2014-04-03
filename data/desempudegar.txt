@@ -1,0 +1,2 @@
+stem=desempudeg
+parent=pregar

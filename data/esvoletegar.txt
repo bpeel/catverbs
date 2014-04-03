@@ -1,0 +1,2 @@
+stem=esvoleteg
+parent=pregar

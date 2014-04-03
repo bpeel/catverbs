@@ -1,0 +1,2 @@
+stem=desenfetgeg
+parent=pregar

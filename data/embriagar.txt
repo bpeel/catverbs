@@ -1,0 +1,2 @@
+stem=embriag
+parent=pregar

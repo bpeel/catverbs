@@ -1,0 +1,2 @@
+stem=allig
+parent=pregar

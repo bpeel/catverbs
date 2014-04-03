@@ -1,0 +1,2 @@
+stem=assosseg
+parent=pregar

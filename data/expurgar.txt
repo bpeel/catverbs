@@ -1,0 +1,2 @@
+stem=expurg
+parent=pregar

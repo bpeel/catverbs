@@ -1,0 +1,2 @@
+stem=desvag
+parent=pregar

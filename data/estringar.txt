@@ -1,0 +1,2 @@
+stem=estring
+parent=pregar

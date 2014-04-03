@@ -1,0 +1,2 @@
+stem=arrepleg
+parent=pregar

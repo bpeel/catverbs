@@ -1,0 +1,2 @@
+stem=encarreg
+parent=pregar

@@ -1,0 +1,2 @@
+stem=llorig
+parent=pregar

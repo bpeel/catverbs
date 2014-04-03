@@ -1,0 +1,2 @@
+stem=atorg
+parent=pregar

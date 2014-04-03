@@ -1,0 +1,2 @@
+stem=llog
+parent=pregar

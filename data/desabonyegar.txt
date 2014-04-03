@@ -1,0 +1,2 @@
+stem=desabonyeg
+parent=pregar

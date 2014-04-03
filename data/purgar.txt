@@ -1,0 +1,2 @@
+stem=purg
+parent=pregar

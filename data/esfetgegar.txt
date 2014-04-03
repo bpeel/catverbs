@@ -1,0 +1,2 @@
+stem=esfetgeg
+parent=pregar

@@ -1,0 +1,2 @@
+stem=cag
+parent=pregar

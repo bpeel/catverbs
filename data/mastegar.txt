@@ -1,0 +1,2 @@
+stem=masteg
+parent=pregar

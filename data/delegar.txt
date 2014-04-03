@@ -1,0 +1,2 @@
+stem=deleg
+parent=pregar

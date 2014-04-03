@@ -1,0 +1,2 @@
+stem=esbeleg
+parent=pregar

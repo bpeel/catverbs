@@ -1,0 +1,2 @@
+stem=prorrog
+parent=pregar

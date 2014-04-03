@@ -1,0 +1,2 @@
+stem=desarreng
+parent=pregar

@@ -1,0 +1,2 @@
+stem=redobleg
+parent=pregar

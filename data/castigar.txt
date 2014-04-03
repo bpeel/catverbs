@@ -1,0 +1,2 @@
+stem=castig
+parent=pregar

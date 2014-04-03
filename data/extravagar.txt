@@ -1,0 +1,2 @@
+stem=extravag
+parent=pregar

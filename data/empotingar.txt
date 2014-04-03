@@ -1,0 +1,2 @@
+stem=empoting
+parent=pregar

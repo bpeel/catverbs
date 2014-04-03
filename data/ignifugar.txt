@@ -1,0 +1,2 @@
+stem=ignifug
+parent=pregar

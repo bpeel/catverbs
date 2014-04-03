@@ -1,0 +1,2 @@
+stem=esvelleg
+parent=pregar

@@ -1,0 +1,2 @@
+stem=espetarreg
+parent=pregar

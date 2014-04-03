@@ -1,0 +1,2 @@
+stem=entrig
+parent=pregar

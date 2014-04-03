@@ -1,0 +1,2 @@
+stem=enlliteg
+parent=pregar

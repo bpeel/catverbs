@@ -1,0 +1,2 @@
+stem=empasseg
+parent=pregar

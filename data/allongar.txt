@@ -1,0 +1,2 @@
+stem=allong
+parent=pregar

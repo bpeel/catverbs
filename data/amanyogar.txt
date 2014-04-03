@@ -1,0 +1,2 @@
+stem=amanyog
+parent=pregar

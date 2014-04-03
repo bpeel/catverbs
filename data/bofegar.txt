@@ -1,0 +1,2 @@
+stem=bofeg
+parent=pregar

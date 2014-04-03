@@ -1,0 +1,2 @@
+stem=bleg
+parent=pregar

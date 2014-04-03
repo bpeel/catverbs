@@ -1,0 +1,2 @@
+stem=apaivag
+parent=pregar

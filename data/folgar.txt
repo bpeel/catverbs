@@ -1,0 +1,2 @@
+stem=folg
+parent=pregar

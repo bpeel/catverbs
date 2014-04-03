@@ -1,0 +1,2 @@
+stem=esbornag
+parent=pregar

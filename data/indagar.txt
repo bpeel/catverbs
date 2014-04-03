@@ -1,0 +1,2 @@
+stem=indag
+parent=pregar

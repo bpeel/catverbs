@@ -1,0 +1,2 @@
+stem=ressag
+parent=pregar

@@ -1,0 +1,2 @@
+stem=desennueg
+parent=pregar

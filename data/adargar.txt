@@ -1,0 +1,2 @@
+stem=adarg
+parent=pregar

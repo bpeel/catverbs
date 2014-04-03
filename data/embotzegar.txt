@@ -1,0 +1,2 @@
+stem=embotzeg
+parent=pregar

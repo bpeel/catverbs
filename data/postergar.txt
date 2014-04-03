@@ -1,0 +1,2 @@
+stem=posterg
+parent=pregar

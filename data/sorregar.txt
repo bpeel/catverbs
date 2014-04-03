@@ -1,0 +1,2 @@
+stem=sorreg
+parent=pregar

@@ -1,0 +1,2 @@
+stem=escotxeg
+parent=pregar

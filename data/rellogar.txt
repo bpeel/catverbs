@@ -1,0 +1,2 @@
+stem=rellog
+parent=pregar

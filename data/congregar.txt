@@ -1,0 +1,2 @@
+stem=congreg
+parent=pregar

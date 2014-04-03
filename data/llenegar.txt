@@ -1,0 +1,2 @@
+stem=lleneg
+parent=pregar

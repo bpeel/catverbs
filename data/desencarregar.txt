@@ -1,0 +1,2 @@
+stem=desencarreg
+parent=pregar

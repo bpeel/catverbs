@@ -1,0 +1,2 @@
+stem=apag
+parent=pregar
