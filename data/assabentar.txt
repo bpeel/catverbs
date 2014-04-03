@@ -1,0 +1,2 @@
+stem=assabent
+parent=cantar

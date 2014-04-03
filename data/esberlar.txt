@@ -1,0 +1,2 @@
+stem=esberl
+parent=cantar

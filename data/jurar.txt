@@ -1,0 +1,2 @@
+stem=jur
+parent=cantar

@@ -1,0 +1,2 @@
+stem=arrestell
+parent=cantar

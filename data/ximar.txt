@@ -1,0 +1,2 @@
+stem=xim
+parent=cantar

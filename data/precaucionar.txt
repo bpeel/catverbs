@@ -1,0 +1,2 @@
+stem=precaucion
+parent=cantar

@@ -1,0 +1,2 @@
+stem=ball
+parent=cantar

@@ -1,0 +1,2 @@
+stem=perdon
+parent=cantar

@@ -1,0 +1,2 @@
+stem=pernoct
+parent=cantar

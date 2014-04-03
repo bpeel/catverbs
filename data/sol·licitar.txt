@@ -1,0 +1,2 @@
+stem=sol·licit
+parent=cantar

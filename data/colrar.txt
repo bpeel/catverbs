@@ -1,0 +1,2 @@
+stem=colr
+parent=cantar

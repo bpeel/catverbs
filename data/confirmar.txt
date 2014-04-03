@@ -1,0 +1,2 @@
+stem=confirm
+parent=cantar

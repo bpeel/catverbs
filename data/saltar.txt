@@ -1,0 +1,2 @@
+stem=salt
+parent=cantar

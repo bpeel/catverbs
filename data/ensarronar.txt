@@ -1,0 +1,2 @@
+stem=ensarron
+parent=cantar

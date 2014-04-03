@@ -1,0 +1,2 @@
+stem=separ
+parent=cantar
