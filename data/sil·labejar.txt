@@ -1,0 +1,2 @@
+common_stem=sil·labe
+parent=envejar

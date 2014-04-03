@@ -1,0 +1,2 @@
+common_stem=al·lote
+parent=envejar

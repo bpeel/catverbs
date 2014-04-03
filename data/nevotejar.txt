@@ -1,0 +1,2 @@
+common_stem=nevote
+parent=envejar

@@ -1,0 +1,2 @@
+common_stem=besote
+parent=envejar

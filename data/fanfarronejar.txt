@@ -1,0 +1,2 @@
+common_stem=fanfarrone
+parent=envejar

@@ -1,0 +1,2 @@
+common_stem=corde
+parent=envejar

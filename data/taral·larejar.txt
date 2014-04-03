@@ -1,0 +1,2 @@
+common_stem=taral·lare
+parent=envejar

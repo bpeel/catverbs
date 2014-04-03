@@ -1,0 +1,2 @@
+common_stem=freture
+parent=envejar

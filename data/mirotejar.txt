@@ -1,0 +1,2 @@
+common_stem=mirote
+parent=envejar

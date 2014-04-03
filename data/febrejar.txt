@@ -1,0 +1,2 @@
+common_stem=febre
+parent=envejar

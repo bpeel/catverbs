@@ -1,0 +1,2 @@
+common_stem=quarante
+parent=envejar
