@@ -83,7 +83,6 @@ para41|circumscri
 para20|cl
 para4|cobr|cob
 para6|col
-para5|coll|cull
 para74|collt
 para64|com
 para14|commo

@@ -1,0 +1,16 @@
+common_stem=c
+ustem={common_stem}ull
+stem={common_stem}oll
+parent=dormir
+
+# Present indicative
+pi_jo={ustem}o
+pi_tu={ustem}s
+pi_ell={ustem}
+pi_ells={ustem}en
+
+# Present subjunctive
+ps_jo={ustem}i
+ps_tu={ustem}is
+ps_ell={ustem}i
+ps_ells={ustem}in
