@@ -1,0 +1,2 @@
+stem=cultiv
+parent=cantar

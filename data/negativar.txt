@@ -1,0 +1,2 @@
+stem=negativ
+parent=cantar

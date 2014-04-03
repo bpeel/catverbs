@@ -1,0 +1,2 @@
+stem=sollev
+parent=cantar

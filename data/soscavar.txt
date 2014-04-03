@@ -1,0 +1,2 @@
+stem=soscav
+parent=cantar

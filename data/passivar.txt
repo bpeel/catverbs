@@ -1,0 +1,2 @@
+stem=passiv
+parent=cantar

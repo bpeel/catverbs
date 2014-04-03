@@ -1,0 +1,2 @@
+stem=manllev
+parent=cantar

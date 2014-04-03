@@ -1,0 +1,2 @@
+stem=estov
+parent=cantar

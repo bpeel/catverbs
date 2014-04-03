@@ -1,0 +1,2 @@
+stem=ajov
+parent=cantar

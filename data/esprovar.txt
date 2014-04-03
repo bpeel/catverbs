@@ -1,0 +1,2 @@
+stem=esprov
+parent=cantar

@@ -1,0 +1,2 @@
+stem=renov
+parent=cantar

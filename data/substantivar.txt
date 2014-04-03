@@ -1,0 +1,2 @@
+stem=substantiv
+parent=cantar

@@ -1,0 +1,2 @@
+stem=trav
+parent=cantar

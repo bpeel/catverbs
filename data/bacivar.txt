@@ -1,0 +1,2 @@
+stem=baciv
+parent=cantar

@@ -1,0 +1,2 @@
+stem=bav
+parent=cantar

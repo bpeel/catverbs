@@ -1,0 +1,2 @@
+stem=prov
+parent=cantar

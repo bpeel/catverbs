@@ -1,0 +1,2 @@
+stem=bescav
+parent=cantar

@@ -1,0 +1,2 @@
+stem=cav
+parent=cantar

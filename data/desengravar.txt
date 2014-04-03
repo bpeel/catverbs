@@ -1,0 +1,2 @@
+stem=desengrav
+parent=cantar

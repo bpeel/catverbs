@@ -1,0 +1,2 @@
+stem=socaliv
+parent=cantar
