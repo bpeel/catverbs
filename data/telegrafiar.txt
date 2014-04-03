@@ -1,0 +1,2 @@
+stem=telegrafi
+parent=canviar

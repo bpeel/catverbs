@@ -1,0 +1,2 @@
+stem=estenografi
+parent=canviar

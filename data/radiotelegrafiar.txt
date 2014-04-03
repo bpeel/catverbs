@@ -1,0 +1,2 @@
+stem=radiotelegrafi
+parent=canviar

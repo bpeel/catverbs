@@ -1,0 +1,2 @@
+stem=cal·ligrafi
+parent=canviar

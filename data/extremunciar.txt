@@ -1,0 +1,2 @@
+stem=extremunci
+parent=canviar

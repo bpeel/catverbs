@@ -1,0 +1,2 @@
+stem=acoti
+parent=canviar

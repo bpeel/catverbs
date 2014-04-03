@@ -1,0 +1,2 @@
+stem=somi
+parent=canviar

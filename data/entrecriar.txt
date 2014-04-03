@@ -1,0 +1,2 @@
+stem=entrecri
+parent=canviar

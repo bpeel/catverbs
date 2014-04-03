@@ -1,0 +1,2 @@
+stem=desni
+parent=canviar

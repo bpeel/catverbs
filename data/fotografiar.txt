@@ -1,0 +1,2 @@
+stem=fotografi
+parent=canviar

@@ -1,0 +1,2 @@
+stem=incendi
+parent=canviar

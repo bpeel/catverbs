@@ -1,0 +1,2 @@
+stem=esbarri
+parent=canviar

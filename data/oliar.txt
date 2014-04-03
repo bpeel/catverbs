@@ -1,0 +1,2 @@
+stem=oli
+parent=canviar

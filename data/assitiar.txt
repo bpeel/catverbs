@@ -1,0 +1,2 @@
+stem=assiti
+parent=canviar

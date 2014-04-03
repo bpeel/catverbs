@@ -1,0 +1,2 @@
+stem=adi
+parent=canviar

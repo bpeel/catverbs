@@ -1,0 +1,2 @@
+stem=vi
+parent=canviar

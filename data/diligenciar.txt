@@ -1,0 +1,2 @@
+stem=diligenci
+parent=canviar

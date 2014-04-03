@@ -1,0 +1,2 @@
+stem=expropi
+parent=canviar

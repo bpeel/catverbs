@@ -1,0 +1,2 @@
+stem=desencossi
+parent=canviar

@@ -1,0 +1,2 @@
+stem=domicili
+parent=canviar

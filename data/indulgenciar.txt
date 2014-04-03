@@ -1,0 +1,2 @@
+stem=indulgenci
+parent=canviar

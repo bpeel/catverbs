@@ -1,0 +1,2 @@
+stem=reconcili
+parent=canviar

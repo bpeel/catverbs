@@ -1,0 +1,2 @@
+stem=encabori
+parent=canviar

@@ -1,0 +1,2 @@
+stem=evidenci
+parent=canviar

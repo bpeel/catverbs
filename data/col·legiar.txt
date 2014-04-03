@@ -1,0 +1,2 @@
+stem=col·legi
+parent=canviar

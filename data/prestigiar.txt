@@ -1,0 +1,2 @@
+stem=prestigi
+parent=canviar

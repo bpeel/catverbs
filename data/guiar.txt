@@ -1,0 +1,2 @@
+stem=gui
+parent=canviar

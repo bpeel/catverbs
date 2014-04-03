@@ -1,0 +1,2 @@
+stem=arre
+parent=canviar

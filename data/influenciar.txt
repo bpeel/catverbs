@@ -1,0 +1,2 @@
+stem=influenci
+parent=canviar

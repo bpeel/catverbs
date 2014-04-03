@@ -1,0 +1,2 @@
+stem=bati
+parent=canviar

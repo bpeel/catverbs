@@ -1,0 +1,2 @@
+stem=desvi
+parent=canviar

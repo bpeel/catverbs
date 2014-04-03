@@ -1,0 +1,2 @@
+stem=sumari
+parent=canviar

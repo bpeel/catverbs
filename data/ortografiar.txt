@@ -1,0 +1,2 @@
+stem=ortografi
+parent=canviar

@@ -1,0 +1,2 @@
+stem=litografi
+parent=canviar

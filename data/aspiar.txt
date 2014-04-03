@@ -1,0 +1,2 @@
+stem=aspi
+parent=canviar

@@ -1,0 +1,2 @@
+stem=ensomni
+parent=canviar

@@ -1,0 +1,2 @@
+stem=pronunci
+parent=canviar

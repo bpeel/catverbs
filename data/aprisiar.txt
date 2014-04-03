@@ -1,0 +1,2 @@
+stem=aprisi
+parent=canviar

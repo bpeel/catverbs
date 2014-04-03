@@ -1,0 +1,2 @@
+stem=penitenci
+parent=canviar

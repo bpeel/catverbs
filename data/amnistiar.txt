@@ -1,0 +1,2 @@
+stem=amnisti
+parent=canviar

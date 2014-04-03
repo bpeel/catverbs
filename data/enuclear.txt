@@ -1,0 +1,2 @@
+stem=enucle
+parent=canviar

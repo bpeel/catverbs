@@ -1,0 +1,2 @@
+stem=dissoci
+parent=canviar

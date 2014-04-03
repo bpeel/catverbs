@@ -1,0 +1,2 @@
+stem=cri
+parent=canviar

@@ -1,0 +1,2 @@
+stem=xilografi
+parent=canviar

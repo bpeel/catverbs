@@ -1,0 +1,2 @@
+stem=contrari
+parent=canviar

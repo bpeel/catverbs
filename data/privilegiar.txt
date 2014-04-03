@@ -1,0 +1,2 @@
+stem=privilegi
+parent=canviar

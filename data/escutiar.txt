@@ -1,0 +1,2 @@
+stem=escuti
+parent=canviar

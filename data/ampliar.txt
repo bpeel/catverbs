@@ -1,0 +1,2 @@
+stem=ampli
+parent=canviar

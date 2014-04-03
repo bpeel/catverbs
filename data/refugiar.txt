@@ -1,0 +1,2 @@
+stem=refugi
+parent=canviar

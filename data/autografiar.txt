@@ -1,0 +1,2 @@
+stem=autografi
+parent=canviar

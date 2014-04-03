@@ -1,0 +1,2 @@
+stem=llussi
+parent=canviar

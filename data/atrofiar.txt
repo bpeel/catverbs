@@ -1,0 +1,2 @@
+stem=atrofi
+parent=canviar

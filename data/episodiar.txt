@@ -1,0 +1,2 @@
+stem=episodi
+parent=canviar

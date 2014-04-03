@@ -1,0 +1,2 @@
+stem=copi
+parent=canviar

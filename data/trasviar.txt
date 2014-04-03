@@ -1,0 +1,2 @@
+stem=trasvi
+parent=canviar

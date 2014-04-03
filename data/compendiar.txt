@@ -1,0 +1,2 @@
+stem=compendi
+parent=canviar

@@ -1,0 +1,2 @@
+stem=esqui
+parent=canviar

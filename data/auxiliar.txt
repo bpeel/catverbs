@@ -1,0 +1,2 @@
+stem=auxili
+parent=canviar

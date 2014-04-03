@@ -1,0 +1,2 @@
+stem=amorri
+parent=canviar

@@ -1,0 +1,2 @@
+stem=cadmi
+parent=canviar

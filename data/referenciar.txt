@@ -1,0 +1,2 @@
+stem=referenci
+parent=canviar

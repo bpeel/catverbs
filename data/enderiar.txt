@@ -1,0 +1,2 @@
+stem=enderi
+parent=canviar

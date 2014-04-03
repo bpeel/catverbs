@@ -1,0 +1,2 @@
+stem=silenci
+parent=canviar

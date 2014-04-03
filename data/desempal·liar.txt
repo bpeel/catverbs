@@ -1,0 +1,2 @@
+stem=desempal·li
+parent=canviar

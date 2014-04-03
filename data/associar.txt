@@ -1,0 +1,2 @@
+stem=associ
+parent=canviar

@@ -1,0 +1,2 @@
+stem=segovi
+parent=canviar

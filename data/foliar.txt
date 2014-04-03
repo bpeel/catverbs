@@ -1,0 +1,2 @@
+stem=foli
+parent=canviar

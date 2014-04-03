@@ -1,0 +1,2 @@
+stem=deline
+parent=canviar

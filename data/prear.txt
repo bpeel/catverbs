@@ -1,0 +1,2 @@
+stem=pre
+parent=canviar

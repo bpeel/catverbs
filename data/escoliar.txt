@@ -1,0 +1,2 @@
+stem=escoli
+parent=canviar

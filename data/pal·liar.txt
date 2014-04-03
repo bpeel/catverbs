@@ -1,0 +1,2 @@
+stem=pal·li
+parent=canviar

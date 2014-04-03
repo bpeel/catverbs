@@ -1,0 +1,2 @@
+stem=agraci
+parent=canviar

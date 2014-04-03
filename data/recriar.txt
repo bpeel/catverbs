@@ -1,0 +1,2 @@
+stem=recri
+parent=canviar

@@ -1,0 +1,2 @@
+stem=enfuri
+parent=canviar
