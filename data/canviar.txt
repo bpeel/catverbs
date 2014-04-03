@@ -1,0 +1,9 @@
+stem=canvi
+parent=cantar
+
+# Present subjunctive
+ps_stem={stem}
+ps_jo={ps_stem}ï
+ps_tu={ps_stem}ïs
+ps_ell={ps_stem}ï
+ps_ells={ps_stem}ïn

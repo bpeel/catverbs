@@ -1947,7 +1947,6 @@ ar|assahon
 ar|ball
 ar|bramul
 car|bus
-para17|canvi
 ar|cobr
 car|col·lo
 ar|colr
