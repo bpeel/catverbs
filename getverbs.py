@@ -4,7 +4,7 @@ import re
 
 e = ET.parse(sys.stdin)
 
-verb_re = re.compile(r'\{\{-verb-\|català\}\}')
+verb_re = re.compile(r'\{\{-verb-\|ca(?:talà)?\}\}')
 group_re = re.compile(r'{{ca\.v\.conj\.(.*)}}')
 
 for text in e.findall(".//{http://www.mediawiki.org/xml/export-0.8/}text"):
