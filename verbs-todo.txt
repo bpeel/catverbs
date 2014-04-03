@@ -1841,7 +1841,6 @@ para1.inar|predetermin|predeterm
 para1.osar|predispos|predisp
 para1.inar|predomin|predom
 para24|preestabl
-para52|preg
 para83|prejut
 para17|preludi
 para56|prem

@@ -1,0 +1,27 @@
+stem=preg
+parent=cantar
+
+# Present indicative
+pi_tu={pi_stem}ues
+pi_nosaltres={pi_stem}uem
+pi_vosaltres={pi_stem}ueu
+pi_ells={pi_stem}uen
+
+# Simple past indicative
+spi_jo={spi_stem}uí
+
+# Present subjunctive
+ps_jo={ps_stem}ui
+ps_tu={ps_stem}uis
+ps_ell={ps_stem}ui
+ps_nosaltres={ps_stem}uem
+ps_vosaltres={ps_stem}ueu
+ps_ells={ps_stem}uin
+
+# Imperfect subjunctive
+is_jo={is_stem}ués
+is_tu={is_stem}uessis
+is_ell={is_stem}ués
+is_nosaltres={is_stem}uéssim
+is_vosaltres={is_stem}uéssiu
+is_ells={is_stem}uessin
