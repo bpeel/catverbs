@@ -1,51 +1,14 @@
 stem=serv
-parent=cantar
-
-infinitive_suffix=ir
-
-gerund={stem}int
-
-# Participles
-m_participle={participle_stem}it
-f_participle={participle_stem}ida
-pm_participle={participle_stem}its
-pf_participle={participle_stem}ides
+parent=dormir
 
 # Present indicative
 pi_jo={pi_stem}eixo
 pi_tu={pi_stem}eixes
 pi_ell={pi_stem}eix
-pi_nosaltres={pi_stem}im
-pi_vosaltres={pi_stem}iu
 pi_ells={pi_stem}eixen
-
-# Imperfect indicative
-ii_jo={ii_stem}ia
-ii_tu={ii_stem}ies
-ii_ell={ii_stem}ia
-ii_nosaltres={ii_stem}íem
-ii_vosaltres={ii_stem}íeu
-ii_ells={ii_stem}ien
-
-# Simple past indicative
-spi_tu={spi_stem}ires
-spi_ell={spi_stem}í
-spi_nosaltres={spi_stem}írem
-spi_vosaltres={spi_stem}íreu
-spi_ells={spi_stem}iren
 
 # Present subjunctive
 ps_jo={ps_stem}eixi
 ps_tu={ps_stem}eixis
 ps_ell={ps_stem}eixi
-ps_nosaltres={ps_stem}im
-ps_vosaltres={ps_stem}iu
 ps_ells={ps_stem}eixin
-
-# Imperfect subjunctive
-is_jo={is_stem}ís
-is_tu={is_stem}issis
-is_ell={is_stem}ís
-is_nosaltres={is_stem}íssim
-is_vosaltres={is_stem}íssiu
-is_ells={is_stem}issin
