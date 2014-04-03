@@ -1,0 +1,28 @@
+common_stem=tren
+stem={common_stem}c
+parent=cantar
+
+# Present indicative
+pi_tu={common_stem}ques
+pi_nosaltres={common_stem}quem
+pi_vosaltres={common_stem}queu
+pi_ells={common_stem}quen
+
+# Simple past indicative
+spi_jo={common_stem}quí
+
+# Present subjunctive
+ps_jo={common_stem}qui
+ps_tu={common_stem}quis
+ps_ell={common_stem}qui
+ps_nosaltres={common_stem}quem
+ps_vosaltres={common_stem}queu
+ps_ells={common_stem}quin
+
+# Imperfect subjunctive
+is_jo={common_stem}qués
+is_tu={common_stem}quessis
+is_ell={common_stem}qués
+is_nosaltres={common_stem}quéssim
+is_vosaltres={common_stem}quéssiu
+is_ells={common_stem}quessin
