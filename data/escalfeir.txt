@@ -1,0 +1,2 @@
+stem=escalfe
+parent=reduir

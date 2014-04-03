@@ -1,0 +1,2 @@
+stem=fru
+parent=reduir

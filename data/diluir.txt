@@ -1,0 +1,2 @@
+stem=dilu
+parent=reduir

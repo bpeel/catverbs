@@ -1,0 +1,2 @@
+stem=desconstru
+parent=reduir

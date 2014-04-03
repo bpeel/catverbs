@@ -1,0 +1,2 @@
+stem=espa
+parent=reduir

@@ -1,0 +1,2 @@
+stem=introdu
+parent=reduir

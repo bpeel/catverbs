@@ -1,0 +1,2 @@
+stem=eixarre
+parent=reduir

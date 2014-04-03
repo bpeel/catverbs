@@ -1,0 +1,2 @@
+stem=ensutze
+parent=reduir

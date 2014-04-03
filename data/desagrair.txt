@@ -1,0 +1,2 @@
+stem=desagra
+parent=reduir

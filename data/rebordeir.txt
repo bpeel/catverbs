@@ -1,0 +1,2 @@
+stem=reborde
+parent=reduir

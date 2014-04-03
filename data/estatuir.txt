@@ -1,0 +1,2 @@
+stem=estatu
+parent=reduir

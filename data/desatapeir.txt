@@ -1,0 +1,2 @@
+stem=desatape
+parent=reduir

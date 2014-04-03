@@ -1,0 +1,2 @@
+stem=pol·lu
+parent=reduir

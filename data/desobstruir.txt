@@ -1,0 +1,2 @@
+stem=desobstru
+parent=reduir

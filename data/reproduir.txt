@@ -1,0 +1,2 @@
+stem=reprodu
+parent=reduir

@@ -1,0 +1,2 @@
+stem=prostitu
+parent=reduir

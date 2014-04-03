@@ -1,0 +1,2 @@
+stem=recondu
+parent=reduir

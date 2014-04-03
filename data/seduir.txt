@@ -1,0 +1,2 @@
+stem=sedu
+parent=reduir

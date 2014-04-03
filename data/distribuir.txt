@@ -1,0 +1,2 @@
+stem=distribu
+parent=reduir

@@ -1,0 +1,2 @@
+stem=enfade
+parent=reduir

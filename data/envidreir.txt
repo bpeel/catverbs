@@ -1,0 +1,2 @@
+stem=envidre
+parent=reduir

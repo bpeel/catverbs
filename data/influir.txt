@@ -1,0 +1,2 @@
+stem=influ
+parent=reduir

@@ -1,0 +1,2 @@
+stem=tra
+parent=reduir

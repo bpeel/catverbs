@@ -1,0 +1,2 @@
+stem=intu
+parent=reduir
