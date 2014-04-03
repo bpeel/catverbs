@@ -1,0 +1,2 @@
+common_stem=abalan
+parent=començar

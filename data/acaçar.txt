@@ -1,0 +1,2 @@
+common_stem=aca
+parent=començar

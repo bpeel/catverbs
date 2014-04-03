@@ -1,0 +1,2 @@
+common_stem=escun
+parent=començar

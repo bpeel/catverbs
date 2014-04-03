@@ -1,0 +1,2 @@
+common_stem=rellan
+parent=començar
