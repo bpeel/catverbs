@@ -1,0 +1,2 @@
+stem=escruix
+parent=dormir

@@ -1,0 +1,2 @@
+stem=barbull
+parent=dormir

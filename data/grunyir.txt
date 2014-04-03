@@ -1,0 +1,2 @@
+stem=gruny
+parent=dormir

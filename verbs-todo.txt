@@ -38,7 +38,6 @@ para4o5|acud
 para36|ad
 para7|adeq
 para64|adm
-para5|adorm
 para41|adscri
 para63|adv
 para4.llegir|afeg|afig|afij
@@ -47,7 +46,6 @@ para7|ag
 para42|agombo
 para51|aj
 para51|aj
-para5|ajup
 para42|ando
 para10|apar
 para3|apar|aparer
@@ -67,7 +65,6 @@ para42|atala
 para77|atr
 para77|atr
 para63|av
-para5|barbull
 para14|be
 para82|benv
 para77|bestr
@@ -76,7 +73,6 @@ para42|bo
 para42|bole
 para4o5|brum
 para4o5|brunz
-para5|bull
 para20|c
 para27|c
 para55|capt
@@ -103,11 +99,9 @@ para27|conc
 para67|conce
 para20|concl
 para78|condol
-para5|condorm
 para4.llegir|confeg|config|confij
 para26|confon|conf
 para47|confu
-para5|consent
 para39|constr
 uir|constru
 para4o5|consum
@@ -131,7 +125,6 @@ para33|cr
 para31|créix|cr
 para32|creu
 para42|cru
-para5|cruix
 para36|d
 para37|d
 para14|de
@@ -198,7 +191,6 @@ para77|distr
 para77|distr
 para78|dol
 para78|dol
-para5|dorm
 para64|em
 para42|embaba
 para14|embe
@@ -228,7 +220,6 @@ para54|entrell
 para64|entrem
 para60|entreo
 para14.defectiu|entreplo
-para5|entresent
 para55|entret
 para4.llegir|entreteix|entretix
 para63|entrev
@@ -242,11 +233,9 @@ para5|escoll|escull
 para64|escom
 para5|escop|escup
 para41|escri
-para5|escruix
 para63|esdev
 para42|esga
 para42|esgla
-para5|esmuny
 para39|esp
 para42|espa
 para32|espeu
@@ -273,8 +262,6 @@ para26|fon|f
 para4.fregir|freg|fr
 para47|fu
 para3|fum|fúmer
-para5|funy
-para5|gruny
 para50|impr
 para27|inc
 para20|incl
@@ -316,7 +303,6 @@ cons.jar|min
 para14|mo
 para6|mol
 para42|monjo
-para5|muny
 para57|n
 para57|n
 para1|nann|nan
@@ -336,7 +322,6 @@ para57|p
 para10|par
 para58.obrir|pell
 para4.vestir|pened|penet
-para5|perbull
 para67|perce
 para4o5|percud
 para46|perf
@@ -357,7 +342,6 @@ para24|preestabl
 para56|prem
 para3|prem|prémer
 para41|prescri
-para5|pressent
 para4o5|presum
 para13|pret
 para32|preu
@@ -368,7 +352,6 @@ para64|prom
 para14|promo
 para41|proscri
 para63|prov
-para5|puny
 para42|quisso
 para69|r
 para23|ra
@@ -383,7 +366,6 @@ para64|readm
 para10|reapar
 para14|rebe
 para24|rebl
-para5|rebull
 para20|rec
 para27|rec
 para20|recl
@@ -416,7 +398,6 @@ para32|repeu
 para11|repr
 para6|resol
 para68|respo
-para5|ressent
 para5|ressort|ressurt
 para24|restabl
 para39|restr
@@ -432,7 +413,6 @@ para64|retransm
 para77|retrotr
 para77|retrotr
 para80|retrov
-para5|retruny
 para63|rev
 para79|rev
 para80|rev
@@ -443,7 +423,6 @@ para68|roma
 para33|s
 para11|salpr
 para46|satisf
-para5|sent
 para38|sobre
 para4.llegir|sobreafeg|sobreafig|sobreafij
 para31|sobrecréix|sobrecr

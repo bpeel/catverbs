@@ -1,0 +1,2 @@
+stem=cruix
+parent=dormir

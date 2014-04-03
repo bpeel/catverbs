@@ -1,0 +1,2 @@
+stem=ajup
+parent=dormir
