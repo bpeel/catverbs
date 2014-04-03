@@ -1,0 +1,2 @@
+stem=avalu
+parent=evacuar

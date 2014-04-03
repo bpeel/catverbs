@@ -1,0 +1,2 @@
+stem=accentu
+parent=evacuar

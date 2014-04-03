@@ -1,0 +1,2 @@
+stem=puntu
+parent=evacuar

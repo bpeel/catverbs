@@ -1,0 +1,2 @@
+stem=escu
+parent=evacuar

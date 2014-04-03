@@ -1,0 +1,2 @@
+stem=abarlo
+parent=evacuar

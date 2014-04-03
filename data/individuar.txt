@@ -1,0 +1,2 @@
+stem=individu
+parent=evacuar

@@ -1,0 +1,2 @@
+stem=acorru
+parent=evacuar

@@ -1,0 +1,2 @@
+stem=atenu
+parent=evacuar

@@ -1,0 +1,2 @@
+stem=discontinu
+parent=evacuar

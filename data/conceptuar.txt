@@ -1,0 +1,2 @@
+stem=conceptu
+parent=evacuar
