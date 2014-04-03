@@ -305,7 +305,6 @@ para32|estiu
 para42|estorme
 para39|estr
 para46|estraf
-para45|evacu
 para45|exceptu
 para20|excl
 para11|exp
