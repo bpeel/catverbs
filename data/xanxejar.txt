@@ -1,0 +1,2 @@
+common_stem=xanxe
+parent=envejar
