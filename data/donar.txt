@@ -1,2 +1,6 @@
 stem=don
 parent=cantar
+
+# Present indicative
+pi_tu=dónes
+pi_ell=dóna
