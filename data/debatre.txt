@@ -1,0 +1,2 @@
+stem=debat
+parent=perdre

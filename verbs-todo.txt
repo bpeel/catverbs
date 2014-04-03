@@ -33,7 +33,6 @@ para76|abarran
 para76|abarro
 para52|abasseg
 para4|abast
-para2|abat
 para76|abdi
 para75|abdu
 para4|abell
@@ -180,7 +179,6 @@ para1.isar|aguis|agu
 para1.isar|aguiss|agu
 para1.usar|agus|ag
 para66|aiguabarre
-para2|aiguabat
 para4|aigual
 jar|aiguale
 para1.inar|aïn|a
@@ -197,7 +195,6 @@ para76|ajo
 para5|ajup
 para17|ajustici
 para22|al
-para2|alabat
 para1.inar|alambin|alamb
 jar|albardane
 para52|alberg
@@ -534,7 +531,6 @@ para66|basque
 para4|bast
 para66|baste
 para66|bastone
-para2|bat
 para66|bate
 para52|bateg
 para17|bati
@@ -611,7 +607,6 @@ para66|borre
 para66|borrime
 para66|borrufe
 para76|bos
-para2|bot
 para4|bot
 para66|bote
 para66|botxine
@@ -846,7 +841,6 @@ jar|colpe
 para66|coltelle
 para64|com
 para66|comare
-para2|combat
 para1.inar|combin|comb
 para52|combreg
 para22|comen
@@ -942,7 +936,6 @@ para77|contr
 para77|contr
 para76|contraata
 para22|contrabalan
-para2|contrabat
 para76|contracal
 para36|contrad
 para46|contraf
@@ -990,7 +983,6 @@ para68|correspo
 para66|correte
 para66|corriole
 para75|corro
-para2|corromp
 para52|corrug
 para66|corruque
 para76|corse
@@ -1044,7 +1036,6 @@ para76|damnifi
 para66|davante
 para14|de
 para18|de
-para2|debat
 para52|debateg
 para1|debel·l|debel
 para27|dec
@@ -2033,7 +2024,6 @@ para1.esar|entravess|entrav
 para58.obrir|entre
 para4|entreabalt
 para76|entreban
-para2|entrebat
 para1.esar|entrebes|entreb
 para52|entrebig
 para1.var|entreca
@@ -2131,7 +2121,6 @@ para1.isar|esbardiss|esbard
 para4|esbarg
 para66|esbarre
 para17|esbarri
-para2|esbat
 para52|esbateg
 para1.usar|esbatuss|esbat
 para52|esbeleg
@@ -2572,7 +2561,6 @@ para76|fortifi
 para66|fosfore
 para66|fosque
 para1.osar|foss|f
-para2|fot
 para83|fot
 para66|fotese
 para66|fotisque
@@ -2815,7 +2803,6 @@ para17|interline
 para1|interpel·l|interpel
 para1.osar|interpos|interp
 para52|interrog
-para2|interromp
 para76|interse
 para63|interv
 para4|intervert
@@ -2837,7 +2824,6 @@ para1.isar|iris|ir
 para17|irradi
 para52|irrig
 para52|irrog
-para2|irromp
 para51|j
 para51|j
 para4|jaqu
@@ -3253,7 +3239,6 @@ para5|perbull
 para22|perca
 para67|perce
 para4o5|percud
-para2|perd
 para1.inar|peregrin|peregr
 para46|perf
 para66|perifrase
@@ -3262,7 +3247,6 @@ para76|perjudi
 para66|perle
 para52|perllong
 para64|perm
-para2|pernabat
 para66|perne
 para17|pernoli
 para45|perpetu
@@ -3448,7 +3432,6 @@ para1.inar|propin|prop
 para1.osar|propos|prop
 para66|prorrate
 para52|prorrog
-para2|prorromp
 para41|proscri
 para76|prosifi
 para4|prossegu
@@ -3529,7 +3512,6 @@ para52|reagreg
 para22|real
 para10|reapar
 para4|reassum
-para2|rebat
 para66|rebate
 para14|rebe
 para76|rebe
@@ -3542,7 +3524,6 @@ para66|rebombore
 para75|reborde
 para4|rebordon
 para66|reboste
-para2|rebot
 para4|rebot
 para52|reboteg
 para52|rebreg
@@ -3749,7 +3730,6 @@ para75|restitu
 para39|restr
 para4|restring
 para4o5|resum
-para2|ret
 para55|ret
 para74|ret
 para4.llegir|reteix|retix
@@ -3810,7 +3790,6 @@ para1.inar|roin|ro
 para68|roma
 para66|romance
 para66|rome
-para2|romp
 car|ron
 para66|rondalle
 para66|ronde
@@ -3982,7 +3961,6 @@ para41|sotaescri
 para7|sotaig
 para66|sotaplu
 para1.osar|sotapos|sotap
-para2|sotbat
 para64|sotm
 para52|sotrag
 jar|sovinte

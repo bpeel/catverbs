@@ -1,0 +1,2 @@
+stem=aiguabat
+parent=perdre

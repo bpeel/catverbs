@@ -1,0 +1,2 @@
+stem=rebat
+parent=perdre

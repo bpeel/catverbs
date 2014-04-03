@@ -1,0 +1,2 @@
+stem=combat
+parent=perdre

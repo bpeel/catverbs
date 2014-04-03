@@ -1,0 +1,2 @@
+stem=corromp
+parent=perdre

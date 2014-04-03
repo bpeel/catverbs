@@ -1,0 +1,2 @@
+stem=bat
+parent=perdre

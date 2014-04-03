@@ -1,0 +1,2 @@
+stem=pernabat
+parent=perdre

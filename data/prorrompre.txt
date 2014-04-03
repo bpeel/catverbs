@@ -1,0 +1,2 @@
+stem=prorromp
+parent=perdre
