@@ -1,0 +1,15 @@
+common_stem=enve
+stem={common_stem}j
+parent=cantar
+
+# Present indicative
+pi_tu={common_stem}ges
+pi_nosaltres={common_stem}gem
+pi_vosaltres={common_stem}geu
+pi_ells={common_stem}gen
+
+# Simple past indicative
+spi_jo={common_stem}gí
+
+# Present subjunctive
+ps_stem={common_stem}g
