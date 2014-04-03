@@ -10,12 +10,16 @@ function remove_group {
 
 function generate_group {
   if test "$#" -lt 3; then
-    echo "usage: generate_group <group_name> <parent> <infinitive_suffix>";
+    echo "usage: generate_group <group_name> <parent> <infinitive_suffix> [variable]";
     return 1
+  fi
+  var="$4"
+  if test -z "$var"; then
+      var=stem;
   fi
   # Generate files for a group
   for x in `sed -n 's/^'"$1"'|\([^|]\+\)$/\1/p' < verbs-todo.txt `; do
-      echo -e "stem=$x\nparent=$2" > data/"$x$3".txt;
+      echo -e "$var=$x\nparent=$2" > data/"$x$3".txt;
       git add data/"$x$3".txt;
   done
 }
