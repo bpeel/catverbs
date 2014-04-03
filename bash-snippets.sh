@@ -11,6 +11,7 @@ function remove_group {
 function generate_group {
   if test "$#" -lt 3; then
     echo "usage: generate_group <group_name> <parent> <infinitive_suffix>";
+    return 1
   fi
   # Generate files for a group
   for x in `sed -n 's/^'"$1"'|\([^|]\+\)$/\1/p' < verbs-todo.txt `; do
