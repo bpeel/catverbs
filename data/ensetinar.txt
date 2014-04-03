@@ -1,0 +1,2 @@
+stem=ensetin
+parent=cantar

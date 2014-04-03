@@ -1,0 +1,2 @@
+stem=peregrin
+parent=cantar

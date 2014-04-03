@@ -1,0 +1,2 @@
+stem=rondin
+parent=cantar

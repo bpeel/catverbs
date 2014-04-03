@@ -1,0 +1,2 @@
+stem=cuin
+parent=cantar

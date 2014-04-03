@@ -1,0 +1,2 @@
+stem=compagin
+parent=cantar

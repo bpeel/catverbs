@@ -1,0 +1,2 @@
+stem=ratin
+parent=cantar

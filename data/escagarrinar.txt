@@ -1,0 +1,2 @@
+stem=escagarrin
+parent=cantar

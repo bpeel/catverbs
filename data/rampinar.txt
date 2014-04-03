@@ -1,0 +1,2 @@
+stem=rampin
+parent=cantar

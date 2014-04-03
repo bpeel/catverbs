@@ -1,0 +1,2 @@
+stem=atonyin
+parent=cantar

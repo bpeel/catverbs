@@ -1,0 +1,2 @@
+stem=enteranyin
+parent=cantar

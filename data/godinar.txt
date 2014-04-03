@@ -1,0 +1,2 @@
+stem=godin
+parent=cantar

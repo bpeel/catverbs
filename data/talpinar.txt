@@ -1,0 +1,2 @@
+stem=talpin
+parent=cantar

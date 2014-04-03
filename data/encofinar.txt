@@ -1,0 +1,2 @@
+stem=encofin
+parent=cantar

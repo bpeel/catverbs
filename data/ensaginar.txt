@@ -1,0 +1,2 @@
+stem=ensagin
+parent=cantar

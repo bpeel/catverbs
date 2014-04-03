@@ -1,0 +1,2 @@
+stem=predestin
+parent=cantar

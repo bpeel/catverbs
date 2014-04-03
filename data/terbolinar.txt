@@ -1,0 +1,2 @@
+stem=terbolin
+parent=cantar

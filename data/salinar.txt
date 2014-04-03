@@ -1,0 +1,2 @@
+stem=salin
+parent=cantar

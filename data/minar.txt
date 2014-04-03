@@ -1,0 +1,2 @@
+stem=min
+parent=cantar

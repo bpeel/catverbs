@@ -1,0 +1,2 @@
+stem=gemin
+parent=cantar

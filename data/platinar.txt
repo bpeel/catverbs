@@ -1,0 +1,2 @@
+stem=platin
+parent=cantar

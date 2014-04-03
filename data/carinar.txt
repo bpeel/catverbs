@@ -1,0 +1,2 @@
+stem=carin
+parent=cantar

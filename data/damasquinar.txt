@@ -1,0 +1,2 @@
+stem=damasquin
+parent=cantar

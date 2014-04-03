@@ -1,0 +1,2 @@
+stem=eguin
+parent=cantar

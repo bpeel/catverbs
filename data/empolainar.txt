@@ -1,0 +1,2 @@
+stem=empolain
+parent=cantar

@@ -1,0 +1,2 @@
+stem=tegin
+parent=cantar

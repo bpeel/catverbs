@@ -1,0 +1,2 @@
+stem=patrocin
+parent=cantar

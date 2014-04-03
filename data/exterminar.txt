@@ -1,0 +1,2 @@
+stem=extermin
+parent=cantar

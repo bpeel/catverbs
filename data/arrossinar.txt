@@ -1,0 +1,2 @@
+stem=arrossin
+parent=cantar

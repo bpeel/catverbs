@@ -1,0 +1,2 @@
+stem=patin
+parent=cantar

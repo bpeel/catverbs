@@ -1,0 +1,2 @@
+stem=predomin
+parent=cantar

@@ -1,0 +1,2 @@
+stem=rumin
+parent=cantar

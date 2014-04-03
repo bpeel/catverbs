@@ -1,0 +1,2 @@
+stem=aixafin
+parent=cantar

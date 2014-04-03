@@ -1,0 +1,2 @@
+stem=empolsin
+parent=cantar

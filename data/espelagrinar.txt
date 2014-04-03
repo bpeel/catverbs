@@ -1,0 +1,2 @@
+stem=espelagrin
+parent=cantar

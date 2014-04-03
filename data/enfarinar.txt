@@ -1,0 +1,2 @@
+stem=enfarin
+parent=cantar

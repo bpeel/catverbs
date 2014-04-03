@@ -1,0 +1,2 @@
+stem=escaïn
+parent=cantar

@@ -1,0 +1,2 @@
+stem=arruïn
+parent=cantar

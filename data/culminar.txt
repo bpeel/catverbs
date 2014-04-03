@@ -1,0 +1,2 @@
+stem=culmin
+parent=cantar

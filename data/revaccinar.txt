@@ -1,0 +1,2 @@
+stem=revaccin
+parent=cantar

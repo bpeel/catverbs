@@ -1,0 +1,2 @@
+stem=sofregin
+parent=cantar

@@ -1,0 +1,2 @@
+stem=aïn
+parent=cantar

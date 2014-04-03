@@ -1,0 +1,2 @@
+stem=aporrin
+parent=cantar

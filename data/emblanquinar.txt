@@ -1,0 +1,2 @@
+stem=emblanquin
+parent=cantar

@@ -1,0 +1,2 @@
+stem=reexamin
+parent=cantar

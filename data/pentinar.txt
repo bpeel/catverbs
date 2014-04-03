@@ -1,0 +1,2 @@
+stem=pentin
+parent=cantar

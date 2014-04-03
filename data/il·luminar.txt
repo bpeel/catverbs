@@ -1,0 +1,2 @@
+stem=il·lumin
+parent=cantar

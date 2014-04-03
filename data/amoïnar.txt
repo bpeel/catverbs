@@ -1,0 +1,2 @@
+stem=amoïn
+parent=cantar

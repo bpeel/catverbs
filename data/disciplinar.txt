@@ -1,0 +1,2 @@
+stem=disciplin
+parent=cantar

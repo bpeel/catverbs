@@ -1,0 +1,2 @@
+stem=setin
+parent=cantar

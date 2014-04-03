@@ -1,0 +1,2 @@
+stem=xauxin
+parent=cantar

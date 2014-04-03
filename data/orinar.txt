@@ -1,0 +1,2 @@
+stem=orin
+parent=cantar

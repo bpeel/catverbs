@@ -1,0 +1,2 @@
+stem=botzin
+parent=cantar

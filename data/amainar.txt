@@ -1,0 +1,2 @@
+stem=amain
+parent=cantar

@@ -1,0 +1,2 @@
+stem=reveixin
+parent=cantar

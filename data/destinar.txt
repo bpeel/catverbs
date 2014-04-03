@@ -1,0 +1,2 @@
+stem=destin
+parent=cantar

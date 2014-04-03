@@ -1,0 +1,2 @@
+stem=emmolin
+parent=cantar

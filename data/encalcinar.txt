@@ -1,0 +1,2 @@
+stem=encalcin
+parent=cantar

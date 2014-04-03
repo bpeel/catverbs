@@ -1,0 +1,2 @@
+stem=desemportin
+parent=cantar

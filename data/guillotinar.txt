@@ -1,0 +1,2 @@
+stem=guillotin
+parent=cantar

@@ -1,0 +1,2 @@
+stem=engavatxin
+parent=cantar

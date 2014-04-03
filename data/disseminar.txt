@@ -1,0 +1,2 @@
+stem=dissemin
+parent=cantar

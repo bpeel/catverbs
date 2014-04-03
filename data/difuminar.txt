@@ -1,0 +1,2 @@
+stem=difumin
+parent=cantar

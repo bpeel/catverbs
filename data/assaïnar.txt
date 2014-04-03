@@ -1,0 +1,2 @@
+stem=assaïn
+parent=cantar

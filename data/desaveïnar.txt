@@ -1,0 +1,2 @@
+stem=desaveïn
+parent=cantar
