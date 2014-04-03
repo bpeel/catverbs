@@ -1,0 +1,2 @@
+stem=adormiss
+parent=cantar

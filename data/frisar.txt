@@ -1,0 +1,2 @@
+stem=fris
+parent=cantar

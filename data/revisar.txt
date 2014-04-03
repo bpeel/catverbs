@@ -1,0 +1,2 @@
+stem=revis
+parent=cantar

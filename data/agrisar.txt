@@ -1,0 +1,2 @@
+stem=agris
+parent=cantar

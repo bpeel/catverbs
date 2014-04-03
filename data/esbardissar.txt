@@ -1,0 +1,2 @@
+stem=esbardiss
+parent=cantar

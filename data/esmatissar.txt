@@ -1,0 +1,2 @@
+stem=esmatiss
+parent=cantar

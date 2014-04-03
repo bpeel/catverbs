@@ -1,0 +1,2 @@
+stem=rapiss
+parent=cantar

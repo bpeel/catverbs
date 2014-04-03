@@ -1,0 +1,2 @@
+stem=enverniss
+parent=cantar

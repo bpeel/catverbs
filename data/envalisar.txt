@@ -1,0 +1,2 @@
+stem=envalis
+parent=cantar

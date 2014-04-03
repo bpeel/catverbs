@@ -1,0 +1,2 @@
+stem=enllardiss
+parent=cantar

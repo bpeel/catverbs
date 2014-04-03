@@ -1,0 +1,2 @@
+stem=desencrostiss
+parent=cantar

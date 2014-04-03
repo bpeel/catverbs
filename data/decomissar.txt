@@ -1,0 +1,2 @@
+stem=decomiss
+parent=cantar

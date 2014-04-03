@@ -1,0 +1,2 @@
+stem=tamis
+parent=cantar

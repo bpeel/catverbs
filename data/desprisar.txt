@@ -1,0 +1,2 @@
+stem=despris
+parent=cantar

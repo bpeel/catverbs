@@ -1,0 +1,2 @@
+stem=desenferriss
+parent=cantar

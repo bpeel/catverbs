@@ -1,0 +1,2 @@
+stem=supervis
+parent=cantar

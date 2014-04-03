@@ -1,0 +1,2 @@
+stem=aguis
+parent=cantar

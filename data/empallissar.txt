@@ -1,0 +1,2 @@
+stem=empalliss
+parent=cantar

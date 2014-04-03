@@ -1,0 +1,2 @@
+stem=graniss
+parent=cantar
