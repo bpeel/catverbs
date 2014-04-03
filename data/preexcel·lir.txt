@@ -1,0 +1,2 @@
+stem=preexcel·l
+parent=servir

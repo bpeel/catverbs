@@ -1,0 +1,2 @@
+stem=aconsegu
+parent=servir

@@ -1,0 +1,2 @@
+stem=al·lud
+parent=servir

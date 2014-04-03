@@ -1,0 +1,2 @@
+stem=aman
+parent=servir

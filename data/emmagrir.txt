@@ -1,0 +1,2 @@
+stem=emmagr
+parent=servir

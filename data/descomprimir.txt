@@ -1,0 +1,2 @@
+stem=descomprim
+parent=servir

@@ -1,0 +1,2 @@
+stem=embretol
+parent=servir

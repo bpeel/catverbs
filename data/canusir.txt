@@ -1,0 +1,2 @@
+stem=canus
+parent=servir

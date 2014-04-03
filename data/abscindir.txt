@@ -1,0 +1,2 @@
+stem=abscind
+parent=servir

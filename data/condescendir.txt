@@ -1,0 +1,2 @@
+stem=condescend
+parent=servir

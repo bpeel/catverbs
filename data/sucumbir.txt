@@ -1,0 +1,2 @@
+stem=sucumb
+parent=servir

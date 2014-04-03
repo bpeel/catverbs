@@ -1,0 +1,2 @@
+stem=custod
+parent=servir

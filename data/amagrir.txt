@@ -1,0 +1,2 @@
+stem=amagr
+parent=servir

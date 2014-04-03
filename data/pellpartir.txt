@@ -1,0 +1,2 @@
+stem=pellpart
+parent=servir

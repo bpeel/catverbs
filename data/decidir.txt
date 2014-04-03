@@ -1,0 +1,2 @@
+stem=decid
+parent=servir

@@ -1,0 +1,2 @@
+stem=condol
+parent=servir

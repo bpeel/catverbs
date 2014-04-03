@@ -1,0 +1,2 @@
+stem=fing
+parent=servir

@@ -1,0 +1,2 @@
+stem=barbut
+parent=servir

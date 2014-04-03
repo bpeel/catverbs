@@ -1,0 +1,2 @@
+stem=dibol
+parent=servir

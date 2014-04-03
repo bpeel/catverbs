@@ -1,0 +1,2 @@
+stem=correg
+parent=servir

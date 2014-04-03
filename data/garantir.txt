@@ -1,0 +1,2 @@
+stem=garant
+parent=servir

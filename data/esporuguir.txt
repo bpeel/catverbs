@@ -1,0 +1,2 @@
+stem=esporugu
+parent=servir

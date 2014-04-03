@@ -1,0 +1,2 @@
+stem=usucap
+parent=servir

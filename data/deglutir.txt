@@ -1,0 +1,2 @@
+stem=deglut
+parent=servir

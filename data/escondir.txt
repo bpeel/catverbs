@@ -1,0 +1,2 @@
+stem=escond
+parent=servir

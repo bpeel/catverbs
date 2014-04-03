@@ -1,0 +1,2 @@
+stem=acced
+parent=servir

@@ -1,0 +1,2 @@
+stem=embasard
+parent=servir

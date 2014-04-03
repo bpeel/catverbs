@@ -1,0 +1,2 @@
+stem=esllangu
+parent=servir

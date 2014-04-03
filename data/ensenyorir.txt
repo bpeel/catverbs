@@ -1,0 +1,2 @@
+stem=ensenyor
+parent=servir

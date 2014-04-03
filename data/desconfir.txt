@@ -1,0 +1,2 @@
+stem=desconf
+parent=servir

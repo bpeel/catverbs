@@ -1,0 +1,2 @@
+stem=dirim
+parent=servir

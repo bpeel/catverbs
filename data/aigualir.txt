@@ -1,0 +1,2 @@
+stem=aigual
+parent=servir

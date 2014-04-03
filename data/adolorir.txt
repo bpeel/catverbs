@@ -1,0 +1,2 @@
+stem=adolor
+parent=servir

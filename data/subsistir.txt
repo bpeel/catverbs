@@ -1,0 +1,2 @@
+stem=subsist
+parent=servir

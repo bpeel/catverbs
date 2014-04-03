@@ -1,0 +1,2 @@
+stem=redhib
+parent=servir

@@ -1,0 +1,2 @@
+stem=neglig
+parent=servir

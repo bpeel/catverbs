@@ -1,0 +1,2 @@
+stem=esquif
+parent=servir

@@ -1,0 +1,2 @@
+stem=camp
+parent=servir

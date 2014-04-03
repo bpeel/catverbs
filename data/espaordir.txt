@@ -1,0 +1,2 @@
+stem=espaord
+parent=servir

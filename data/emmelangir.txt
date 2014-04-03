@@ -1,0 +1,2 @@
+stem=emmelang
+parent=servir

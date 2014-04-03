@@ -1,0 +1,2 @@
+stem=entossud
+parent=servir

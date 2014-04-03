@@ -1,0 +1,2 @@
+stem=segu
+parent=servir

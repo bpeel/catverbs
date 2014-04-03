@@ -1,0 +1,2 @@
+stem=repodr
+parent=servir

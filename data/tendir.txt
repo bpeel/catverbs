@@ -1,0 +1,2 @@
+stem=tend
+parent=servir

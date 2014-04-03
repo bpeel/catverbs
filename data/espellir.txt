@@ -1,0 +1,2 @@
+stem=espell
+parent=servir

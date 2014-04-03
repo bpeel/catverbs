@@ -1,0 +1,2 @@
+stem=interced
+parent=servir

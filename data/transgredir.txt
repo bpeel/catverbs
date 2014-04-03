@@ -1,0 +1,2 @@
+stem=transgred
+parent=servir

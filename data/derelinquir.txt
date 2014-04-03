@@ -1,0 +1,2 @@
+stem=derelinqu
+parent=servir

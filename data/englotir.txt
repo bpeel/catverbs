@@ -1,0 +1,2 @@
+stem=englot
+parent=servir

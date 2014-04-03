@@ -1,0 +1,2 @@
+stem=resid
+parent=servir

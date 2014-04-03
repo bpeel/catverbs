@@ -1,0 +1,2 @@
+stem=embadal
+parent=servir

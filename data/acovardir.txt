@@ -1,0 +1,2 @@
+stem=acovard
+parent=servir

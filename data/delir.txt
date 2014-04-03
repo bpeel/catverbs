@@ -1,0 +1,2 @@
+stem=del
+parent=servir

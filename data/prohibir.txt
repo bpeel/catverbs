@@ -1,0 +1,2 @@
+stem=prohib
+parent=servir

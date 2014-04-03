@@ -1,0 +1,2 @@
+stem=resist
+parent=servir

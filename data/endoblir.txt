@@ -1,0 +1,2 @@
+stem=endobl
+parent=servir

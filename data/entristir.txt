@@ -1,0 +1,2 @@
+stem=entrist
+parent=servir

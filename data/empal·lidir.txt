@@ -1,0 +1,2 @@
+stem=empal·lid
+parent=servir

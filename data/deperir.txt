@@ -1,0 +1,2 @@
+stem=deper
+parent=servir
