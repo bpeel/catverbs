@@ -1,0 +1,2 @@
+stem=tes
+parent=cantar

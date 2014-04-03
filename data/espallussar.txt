@@ -1,0 +1,2 @@
+stem=espalluss
+parent=cantar

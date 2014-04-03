@@ -1,0 +1,2 @@
+stem=pales
+parent=cantar

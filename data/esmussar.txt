@@ -1,0 +1,2 @@
+stem=esmuss
+parent=cantar

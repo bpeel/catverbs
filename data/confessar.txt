@@ -1,0 +1,2 @@
+stem=confess
+parent=cantar

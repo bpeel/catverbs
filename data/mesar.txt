@@ -1,0 +1,2 @@
+stem=mes
+parent=cantar

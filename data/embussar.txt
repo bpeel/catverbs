@@ -1,0 +1,2 @@
+stem=embuss
+parent=cantar

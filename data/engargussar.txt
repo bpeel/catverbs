@@ -1,0 +1,2 @@
+stem=engarguss
+parent=cantar

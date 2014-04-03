@@ -1,0 +1,2 @@
+stem=aferruss
+parent=cantar

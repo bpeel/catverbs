@@ -1,0 +1,2 @@
+stem=regress
+parent=cantar

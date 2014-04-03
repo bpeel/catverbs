@@ -1,0 +1,2 @@
+stem=ades
+parent=cantar

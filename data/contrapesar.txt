@@ -1,0 +1,2 @@
+stem=contrapes
+parent=cantar

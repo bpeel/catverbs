@@ -1,0 +1,2 @@
+stem=arreguss
+parent=cantar

@@ -1,0 +1,2 @@
+stem=interess
+parent=cantar

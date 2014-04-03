@@ -1,0 +1,2 @@
+stem=refus
+parent=cantar

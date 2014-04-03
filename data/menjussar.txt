@@ -1,0 +1,2 @@
+stem=menjuss
+parent=cantar

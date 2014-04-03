@@ -1,0 +1,2 @@
+stem=fress
+parent=cantar

@@ -1,0 +1,2 @@
+stem=esbelluss
+parent=cantar

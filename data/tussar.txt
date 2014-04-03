@@ -1,0 +1,2 @@
+stem=tuss
+parent=cantar

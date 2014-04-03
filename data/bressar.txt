@@ -1,0 +1,2 @@
+stem=bress
+parent=cantar

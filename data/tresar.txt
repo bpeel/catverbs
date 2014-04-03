@@ -1,0 +1,2 @@
+stem=tres
+parent=cantar

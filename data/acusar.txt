@@ -1,0 +1,2 @@
+stem=acus
+parent=cantar

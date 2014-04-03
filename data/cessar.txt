@@ -1,0 +1,2 @@
+stem=cess
+parent=cantar
