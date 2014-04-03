@@ -1,0 +1,30 @@
+stem=redu
+parent=servir
+
+# Participles
+m_participle={participle_stem}ït
+f_participle={participle_stem}ïda
+pm_participle={participle_stem}ïts
+pf_participle={participle_stem}ïdes
+
+# Present indicative
+pi_nosaltres={pi_stem}ïm
+pi_vosaltres={pi_stem}ïu
+
+# Imperfect indicative
+ii_jo={ii_stem}ïa
+ii_tu={ii_stem}ïes
+ii_ell={ii_stem}ïa
+ii_ells={ii_stem}ïen
+
+# Simple past indicative
+spi_tu={spi_stem}ïres
+spi_ells={spi_stem}ïren
+
+# Present subjunctive
+ps_nosaltres={ps_stem}ïm
+ps_vosaltres={ps_stem}ïu
+
+# Imperfect subjunctive
+is_tu={is_stem}ïssis
+is_ells={is_stem}ïssin
