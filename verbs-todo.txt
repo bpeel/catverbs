@@ -30,7 +30,6 @@ para55|abst
 para77|abstr
 para77|abstr
 para27|ac
-para5|acoll|acull
 para42|acombo
 para24|acompl
 para31|acréix|acr
@@ -137,7 +136,6 @@ para64|dem
 para11|dep
 para38|des
 para58|des
-para5|desacoll|desacull
 para7|desaig
 para10|desapar
 para11|desapr
@@ -228,7 +226,6 @@ para78|equival
 para18|es
 para42|esborne
 para27|esc
-para5|escoll|escull
 para64|escom
 para5|escop|escup
 para41|escri
@@ -369,7 +366,6 @@ para20|rec
 para27|rec
 para20|recl
 para4|recobr|recob
-para5|recoll|recull
 para24|recompl
 para68|recompo
 para25|recon
