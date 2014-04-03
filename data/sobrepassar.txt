@@ -1,0 +1,2 @@
+stem=sobrepass
+parent=cantar

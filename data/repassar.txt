@@ -1,0 +1,2 @@
+stem=repass
+parent=cantar

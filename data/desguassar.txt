@@ -1,0 +1,2 @@
+stem=desguass
+parent=cantar

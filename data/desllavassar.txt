@@ -1,0 +1,2 @@
+stem=desllavass
+parent=cantar

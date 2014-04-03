@@ -1,0 +1,2 @@
+stem=enfigass
+parent=cantar

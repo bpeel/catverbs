@@ -1,0 +1,2 @@
+stem=tirass
+parent=cantar

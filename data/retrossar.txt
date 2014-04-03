@@ -1,0 +1,2 @@
+stem=retross
+parent=cantar

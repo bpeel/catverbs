@@ -1,0 +1,2 @@
+stem=encendros
+parent=cantar

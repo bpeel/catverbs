@@ -1,0 +1,2 @@
+stem=ofren
+parent=cantar

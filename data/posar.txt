@@ -1,0 +1,2 @@
+stem=pos
+parent=cantar

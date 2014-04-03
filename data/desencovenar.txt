@@ -1,0 +1,2 @@
+stem=desencoven
+parent=cantar

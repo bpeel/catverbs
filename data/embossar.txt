@@ -1,0 +1,2 @@
+stem=emboss
+parent=cantar

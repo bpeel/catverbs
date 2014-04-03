@@ -1,0 +1,2 @@
+stem=trompass
+parent=cantar

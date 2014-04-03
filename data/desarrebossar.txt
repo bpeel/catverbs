@@ -1,0 +1,2 @@
+stem=desarreboss
+parent=cantar

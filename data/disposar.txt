@@ -1,0 +1,2 @@
+stem=dispos
+parent=cantar

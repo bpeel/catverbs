@@ -1,0 +1,2 @@
+stem=dos
+parent=cantar

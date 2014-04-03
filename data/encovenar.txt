@@ -1,0 +1,2 @@
+stem=encoven
+parent=cantar

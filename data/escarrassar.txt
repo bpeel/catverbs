@@ -1,0 +1,2 @@
+stem=escarrass
+parent=cantar

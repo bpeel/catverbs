@@ -1,0 +1,2 @@
+stem=lass
+parent=cantar

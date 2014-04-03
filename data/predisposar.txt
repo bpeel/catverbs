@@ -1,0 +1,2 @@
+stem=predispos
+parent=cantar

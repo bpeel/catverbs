@@ -1,0 +1,2 @@
+stem=encas
+parent=cantar

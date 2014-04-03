@@ -1,0 +1,2 @@
+stem=estiregass
+parent=cantar

@@ -1,0 +1,2 @@
+stem=prepos
+parent=cantar

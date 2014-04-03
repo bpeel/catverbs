@@ -1,0 +1,2 @@
+stem=esfilegass
+parent=cantar

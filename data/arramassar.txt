@@ -1,0 +1,2 @@
+stem=arramass
+parent=cantar

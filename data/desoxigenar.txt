@@ -1,0 +1,2 @@
+stem=desoxigen
+parent=cantar

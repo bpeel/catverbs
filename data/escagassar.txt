@@ -1,0 +1,2 @@
+stem=escagass
+parent=cantar

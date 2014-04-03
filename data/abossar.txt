@@ -1,0 +1,2 @@
+stem=aboss
+parent=cantar

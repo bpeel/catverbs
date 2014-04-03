@@ -1,0 +1,2 @@
+stem=glos
+parent=cantar

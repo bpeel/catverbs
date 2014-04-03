@@ -1,0 +1,2 @@
+stem=ultrapass
+parent=cantar

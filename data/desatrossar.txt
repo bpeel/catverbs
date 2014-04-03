@@ -1,0 +1,2 @@
+stem=desatross
+parent=cantar

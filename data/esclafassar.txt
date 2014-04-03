@@ -1,0 +1,2 @@
+stem=esclafass
+parent=cantar

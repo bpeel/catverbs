@@ -1,0 +1,2 @@
+stem=metamorfos
+parent=cantar

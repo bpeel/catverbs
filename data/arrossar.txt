@@ -1,0 +1,2 @@
+stem=arross
+parent=cantar

@@ -1,0 +1,2 @@
+stem=entretzen
+parent=cantar

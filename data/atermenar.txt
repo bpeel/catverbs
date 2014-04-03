@@ -1,0 +1,2 @@
+stem=atermen
+parent=cantar

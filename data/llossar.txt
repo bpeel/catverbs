@@ -1,0 +1,2 @@
+stem=lloss
+parent=cantar

@@ -1,0 +1,2 @@
+stem=emborrass
+parent=cantar

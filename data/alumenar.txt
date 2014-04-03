@@ -1,0 +1,2 @@
+stem=alumen
+parent=cantar

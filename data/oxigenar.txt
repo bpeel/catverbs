@@ -1,0 +1,2 @@
+stem=oxigen
+parent=cantar

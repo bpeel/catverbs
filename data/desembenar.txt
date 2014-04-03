@@ -1,0 +1,2 @@
+stem=desemben
+parent=cantar

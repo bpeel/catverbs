@@ -1,0 +1,2 @@
+stem=mortas
+parent=cantar

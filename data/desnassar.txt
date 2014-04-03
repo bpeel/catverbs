@@ -1,0 +1,2 @@
+stem=desnass
+parent=cantar

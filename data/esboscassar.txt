@@ -1,0 +1,2 @@
+stem=esboscass
+parent=cantar

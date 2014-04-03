@@ -1,0 +1,2 @@
+stem=enfren
+parent=cantar

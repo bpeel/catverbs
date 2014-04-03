@@ -1,0 +1,2 @@
+stem=adomass
+parent=cantar

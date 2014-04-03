@@ -1,0 +1,2 @@
+stem=despass
+parent=cantar

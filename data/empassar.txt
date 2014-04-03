@@ -1,0 +1,2 @@
+stem=empass
+parent=cantar

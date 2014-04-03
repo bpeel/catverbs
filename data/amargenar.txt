@@ -1,0 +1,2 @@
+stem=amargen
+parent=cantar

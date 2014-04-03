@@ -1,0 +1,2 @@
+stem=hidrogen
+parent=cantar

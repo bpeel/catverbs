@@ -1,0 +1,2 @@
+stem=llass
+parent=cantar

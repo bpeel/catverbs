@@ -1,0 +1,2 @@
+stem=aterross
+parent=cantar

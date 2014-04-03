@@ -1,0 +1,2 @@
+stem=cognomen
+parent=cantar

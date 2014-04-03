@@ -1,0 +1,2 @@
+stem=arros
+parent=cantar
