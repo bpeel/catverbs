@@ -57,7 +57,6 @@ for verb in dictionary:
     f.write("<h2>Imperatiu</h2>\n")
 
     dump_conjugations(f, verb, None, "imp")
-    dump_conjugations(f, verb, "Imperfet", "is")
 
     f.write("<h2>Formes no personals</h2>\n"
             "<h3>Gerundi</h3>\n"
