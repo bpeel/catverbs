@@ -1,0 +1,2 @@
+stem=expir
+parent=cantar

@@ -1,0 +1,2 @@
+stem=niquel
+parent=cantar

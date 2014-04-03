@@ -1,0 +1,2 @@
+stem=encontr
+parent=cantar

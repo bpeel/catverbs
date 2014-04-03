@@ -1,0 +1,2 @@
+stem=llustr
+parent=cantar

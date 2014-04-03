@@ -1,0 +1,2 @@
+stem=tel
+parent=cantar

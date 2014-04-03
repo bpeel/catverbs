@@ -1,0 +1,2 @@
+stem=museïtz
+parent=cantar

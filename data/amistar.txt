@@ -1,0 +1,2 @@
+stem=amist
+parent=cantar

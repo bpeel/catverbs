@@ -1,0 +1,2 @@
+stem=punxon
+parent=cantar

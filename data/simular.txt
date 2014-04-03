@@ -1,0 +1,2 @@
+stem=simul
+parent=cantar

@@ -1,0 +1,2 @@
+stem=conform
+parent=cantar

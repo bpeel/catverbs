@@ -1,0 +1,2 @@
+stem=desinflam
+parent=cantar

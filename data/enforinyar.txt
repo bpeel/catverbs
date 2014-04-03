@@ -1,0 +1,2 @@
+stem=enforiny
+parent=cantar

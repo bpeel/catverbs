@@ -1,0 +1,2 @@
+stem=vel
+parent=cantar

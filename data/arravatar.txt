@@ -1,0 +1,2 @@
+stem=arravat
+parent=cantar

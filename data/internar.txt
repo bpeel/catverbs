@@ -1,0 +1,2 @@
+stem=intern
+parent=cantar

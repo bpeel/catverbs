@@ -1,0 +1,2 @@
+stem=llim
+parent=cantar

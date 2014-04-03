@@ -1,0 +1,2 @@
+stem=reorquestr
+parent=cantar

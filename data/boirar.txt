@@ -1,0 +1,2 @@
+stem=boir
+parent=cantar

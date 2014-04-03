@@ -1,0 +1,2 @@
+stem=defraud
+parent=cantar

@@ -1,0 +1,2 @@
+stem=preny
+parent=cantar

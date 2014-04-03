@@ -1,0 +1,2 @@
+stem=atabal
+parent=cantar

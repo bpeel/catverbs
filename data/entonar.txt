@@ -1,0 +1,2 @@
+stem=enton
+parent=cantar

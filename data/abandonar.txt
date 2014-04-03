@@ -1,0 +1,2 @@
+stem=abandon
+parent=cantar

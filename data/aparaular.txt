@@ -1,0 +1,2 @@
+stem=aparaul
+parent=cantar

@@ -1,0 +1,2 @@
+stem=sil·logitz
+parent=cantar

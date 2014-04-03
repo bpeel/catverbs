@@ -1,0 +1,2 @@
+stem=brom
+parent=cantar

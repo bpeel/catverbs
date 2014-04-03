@@ -1,0 +1,2 @@
+stem=esclovell
+parent=cantar

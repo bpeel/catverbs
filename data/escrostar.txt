@@ -1,0 +1,2 @@
+stem=escrost
+parent=cantar

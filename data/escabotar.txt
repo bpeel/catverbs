@@ -1,0 +1,2 @@
+stem=escabot
+parent=cantar

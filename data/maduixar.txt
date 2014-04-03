@@ -1,0 +1,2 @@
+stem=maduix
+parent=cantar

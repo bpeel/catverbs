@@ -1,0 +1,2 @@
+stem=degust
+parent=cantar

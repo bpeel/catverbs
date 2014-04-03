@@ -1,0 +1,2 @@
+stem=giravolt
+parent=cantar

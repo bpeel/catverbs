@@ -1,0 +1,2 @@
+stem=factur
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desemmidon
+parent=cantar

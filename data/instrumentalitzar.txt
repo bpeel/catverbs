@@ -1,0 +1,2 @@
+stem=instrumentalitz
+parent=cantar

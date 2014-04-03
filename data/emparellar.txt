@@ -1,0 +1,2 @@
+stem=emparell
+parent=cantar

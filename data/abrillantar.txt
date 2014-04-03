@@ -1,0 +1,2 @@
+stem=abrillant
+parent=cantar

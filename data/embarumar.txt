@@ -1,0 +1,2 @@
+stem=embarum
+parent=cantar

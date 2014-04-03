@@ -1,0 +1,2 @@
+stem=embagul
+parent=cantar

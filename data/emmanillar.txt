@@ -1,0 +1,2 @@
+stem=emmanill
+parent=cantar

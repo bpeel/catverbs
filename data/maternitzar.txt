@@ -1,0 +1,2 @@
+stem=maternitz
+parent=cantar

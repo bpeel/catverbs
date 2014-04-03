@@ -1,0 +1,2 @@
+stem=dessuard
+parent=cantar

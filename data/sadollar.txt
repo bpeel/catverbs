@@ -1,0 +1,2 @@
+stem=sadoll
+parent=cantar

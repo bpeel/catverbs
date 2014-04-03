@@ -1,0 +1,2 @@
+stem=desopercul
+parent=cantar

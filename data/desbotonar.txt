@@ -1,0 +1,2 @@
+stem=desboton
+parent=cantar

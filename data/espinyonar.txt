@@ -1,0 +1,2 @@
+stem=espinyon
+parent=cantar

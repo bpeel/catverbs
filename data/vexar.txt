@@ -1,0 +1,2 @@
+stem=vex
+parent=cantar

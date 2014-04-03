@@ -1,0 +1,2 @@
+stem=cabriol
+parent=cantar

@@ -1,0 +1,2 @@
+stem=retard
+parent=cantar

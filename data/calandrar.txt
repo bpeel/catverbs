@@ -1,0 +1,2 @@
+stem=calandr
+parent=cantar

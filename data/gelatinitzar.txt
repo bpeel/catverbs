@@ -1,0 +1,2 @@
+stem=gelatinitz
+parent=cantar

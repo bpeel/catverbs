@@ -1,0 +1,2 @@
+stem=abjur
+parent=cantar

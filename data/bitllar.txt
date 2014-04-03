@@ -1,0 +1,2 @@
+stem=bitll
+parent=cantar

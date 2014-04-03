@@ -1,0 +1,2 @@
+stem=coral
+parent=cantar

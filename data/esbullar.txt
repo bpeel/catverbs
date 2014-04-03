@@ -1,0 +1,2 @@
+stem=esbull
+parent=cantar

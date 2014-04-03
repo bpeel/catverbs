@@ -1,0 +1,2 @@
+stem=acanton
+parent=cantar

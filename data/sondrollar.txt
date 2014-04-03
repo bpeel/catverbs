@@ -1,0 +1,2 @@
+stem=sondroll
+parent=cantar

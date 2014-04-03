@@ -1,0 +1,2 @@
+stem=esgraon
+parent=cantar

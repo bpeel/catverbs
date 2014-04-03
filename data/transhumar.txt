@@ -1,0 +1,2 @@
+stem=transhum
+parent=cantar

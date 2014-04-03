@@ -1,0 +1,2 @@
+stem=sutur
+parent=cantar

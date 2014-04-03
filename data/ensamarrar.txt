@@ -1,0 +1,2 @@
+stem=ensamarr
+parent=cantar

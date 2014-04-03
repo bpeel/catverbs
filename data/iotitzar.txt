@@ -1,0 +1,2 @@
+stem=iotitz
+parent=cantar

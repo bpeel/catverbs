@@ -1,0 +1,2 @@
+stem=trivialitz
+parent=cantar

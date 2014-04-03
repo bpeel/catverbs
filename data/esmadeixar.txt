@@ -1,0 +1,2 @@
+stem=esmadeix
+parent=cantar

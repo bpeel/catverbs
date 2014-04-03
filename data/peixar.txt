@@ -1,0 +1,2 @@
+stem=peix
+parent=cantar

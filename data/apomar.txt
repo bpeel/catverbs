@@ -1,0 +1,2 @@
+stem=apom
+parent=cantar

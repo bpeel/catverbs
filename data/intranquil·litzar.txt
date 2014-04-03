@@ -1,0 +1,2 @@
+stem=intranquil·litz
+parent=cantar

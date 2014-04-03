@@ -1,0 +1,2 @@
+stem=arrest
+parent=cantar

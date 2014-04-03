@@ -1,0 +1,2 @@
+stem=repobl
+parent=cantar

@@ -1,0 +1,2 @@
+stem=tron
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desemborratx
+parent=cantar

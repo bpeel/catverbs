@@ -1,0 +1,2 @@
+stem=involucr
+parent=cantar

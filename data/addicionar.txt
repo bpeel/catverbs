@@ -1,0 +1,2 @@
+stem=addicion
+parent=cantar

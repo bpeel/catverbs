@@ -1,0 +1,2 @@
+stem=oripell
+parent=cantar

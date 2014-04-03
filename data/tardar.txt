@@ -1,0 +1,2 @@
+stem=tard
+parent=cantar

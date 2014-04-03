@@ -1,0 +1,2 @@
+stem=modelitz
+parent=cantar

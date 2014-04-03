@@ -1,0 +1,2 @@
+stem=daur
+parent=cantar

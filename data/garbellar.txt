@@ -1,0 +1,2 @@
+stem=garbell
+parent=cantar

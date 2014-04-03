@@ -1,0 +1,2 @@
+stem=arn
+parent=cantar

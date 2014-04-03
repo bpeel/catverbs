@@ -1,0 +1,2 @@
+stem=peüll
+parent=cantar

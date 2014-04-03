@@ -1,0 +1,2 @@
+stem=aponent
+parent=cantar

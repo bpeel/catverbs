@@ -1,0 +1,2 @@
+stem=desnicotinitz
+parent=cantar

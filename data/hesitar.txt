@@ -1,0 +1,2 @@
+stem=hesit
+parent=cantar

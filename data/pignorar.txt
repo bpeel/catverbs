@@ -1,0 +1,2 @@
+stem=pignor
+parent=cantar

@@ -1,0 +1,2 @@
+stem=simetritz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=segment
+parent=cantar

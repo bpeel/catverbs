@@ -1,0 +1,2 @@
+stem=apetit
+parent=cantar

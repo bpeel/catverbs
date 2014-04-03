@@ -1,0 +1,2 @@
+stem=desenquimer
+parent=cantar

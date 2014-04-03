@@ -1,0 +1,2 @@
+stem=esquarter
+parent=cantar

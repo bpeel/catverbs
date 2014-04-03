@@ -1,0 +1,2 @@
+stem=embruix
+parent=cantar

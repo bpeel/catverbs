@@ -1,0 +1,2 @@
+stem=terreny
+parent=cantar

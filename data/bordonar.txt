@@ -1,0 +1,2 @@
+stem=bordon
+parent=cantar

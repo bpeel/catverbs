@@ -1,0 +1,2 @@
+stem=sermon
+parent=cantar

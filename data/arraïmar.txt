@@ -1,0 +1,2 @@
+stem=arraïm
+parent=cantar

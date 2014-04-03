@@ -1,0 +1,2 @@
+stem=naturalitz
+parent=cantar

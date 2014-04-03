@@ -1,0 +1,2 @@
+stem=gesticul
+parent=cantar

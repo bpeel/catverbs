@@ -1,0 +1,2 @@
+stem=empicon
+parent=cantar

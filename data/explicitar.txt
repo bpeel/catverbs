@@ -1,0 +1,2 @@
+stem=explicit
+parent=cantar

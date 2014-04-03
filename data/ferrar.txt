@@ -1,0 +1,2 @@
+stem=ferr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=ventall
+parent=cantar

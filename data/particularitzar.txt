@@ -1,0 +1,2 @@
+stem=particularitz
+parent=cantar

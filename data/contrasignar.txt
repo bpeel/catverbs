@@ -1,0 +1,2 @@
+stem=contrasign
+parent=cantar

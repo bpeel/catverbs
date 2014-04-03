@@ -1,0 +1,2 @@
+stem=subsol
+parent=cantar

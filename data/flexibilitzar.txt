@@ -1,0 +1,2 @@
+stem=flexibilitz
+parent=cantar

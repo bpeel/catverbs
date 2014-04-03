@@ -1,0 +1,2 @@
+stem=endiabl
+parent=cantar

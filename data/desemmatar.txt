@@ -1,0 +1,2 @@
+stem=desemmat
+parent=cantar

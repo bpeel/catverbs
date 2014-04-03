@@ -1,0 +1,2 @@
+stem=roll
+parent=cantar

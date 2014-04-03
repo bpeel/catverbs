@@ -1,0 +1,2 @@
+stem=flect
+parent=cantar

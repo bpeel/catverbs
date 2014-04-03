@@ -1,0 +1,2 @@
+stem=batologitz
+parent=cantar

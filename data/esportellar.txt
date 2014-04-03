@@ -1,0 +1,2 @@
+stem=esportell
+parent=cantar

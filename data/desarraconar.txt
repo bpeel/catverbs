@@ -1,0 +1,2 @@
+stem=desarracon
+parent=cantar

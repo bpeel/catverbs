@@ -1,0 +1,2 @@
+stem=cintur
+parent=cantar

@@ -1,0 +1,2 @@
+stem=allun
+parent=cantar

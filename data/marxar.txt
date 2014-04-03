@@ -1,0 +1,2 @@
+stem=marx
+parent=cantar

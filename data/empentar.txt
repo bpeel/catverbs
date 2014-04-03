@@ -1,0 +1,2 @@
+stem=empent
+parent=cantar

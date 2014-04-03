@@ -1,0 +1,2 @@
+stem=aflor
+parent=cantar

@@ -1,0 +1,2 @@
+stem=estimb
+parent=cantar

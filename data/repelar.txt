@@ -1,0 +1,2 @@
+stem=repel
+parent=cantar

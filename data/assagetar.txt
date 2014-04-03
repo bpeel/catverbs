@@ -1,0 +1,2 @@
+stem=assaget
+parent=cantar

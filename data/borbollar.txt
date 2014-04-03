@@ -1,0 +1,2 @@
+stem=borboll
+parent=cantar

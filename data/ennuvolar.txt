@@ -1,0 +1,2 @@
+stem=ennuvol
+parent=cantar

@@ -1,0 +1,2 @@
+stem=prolifer
+parent=cantar

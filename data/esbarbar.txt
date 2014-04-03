@@ -1,0 +1,2 @@
+stem=esbarb
+parent=cantar

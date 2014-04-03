@@ -1,0 +1,2 @@
+stem=mal·leabilitz
+parent=cantar

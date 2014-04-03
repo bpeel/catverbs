@@ -1,0 +1,2 @@
+stem=minut
+parent=cantar

@@ -1,0 +1,2 @@
+stem=deler
+parent=cantar

@@ -1,0 +1,2 @@
+stem=guaix
+parent=cantar

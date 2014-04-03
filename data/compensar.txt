@@ -1,0 +1,2 @@
+stem=compens
+parent=cantar

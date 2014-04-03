@@ -1,0 +1,2 @@
+stem=fricatitz
+parent=cantar

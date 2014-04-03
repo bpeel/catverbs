@@ -1,0 +1,2 @@
+stem=atirany
+parent=cantar

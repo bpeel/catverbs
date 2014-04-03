@@ -1,0 +1,2 @@
+stem=curs
+parent=cantar

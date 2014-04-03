@@ -1,0 +1,2 @@
+stem=digit
+parent=cantar

@@ -1,0 +1,2 @@
+stem=agonitz
+parent=cantar

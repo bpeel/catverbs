@@ -1,0 +1,2 @@
+stem=llambr
+parent=cantar

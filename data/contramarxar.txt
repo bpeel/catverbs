@@ -1,0 +1,2 @@
+stem=contramarx
+parent=cantar

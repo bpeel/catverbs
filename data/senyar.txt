@@ -1,0 +1,2 @@
+stem=seny
+parent=cantar

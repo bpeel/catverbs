@@ -1,0 +1,2 @@
+stem=burocratitz
+parent=cantar

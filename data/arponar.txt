@@ -1,0 +1,2 @@
+stem=arpon
+parent=cantar

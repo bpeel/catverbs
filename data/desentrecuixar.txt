@@ -1,0 +1,2 @@
+stem=desentrecuix
+parent=cantar

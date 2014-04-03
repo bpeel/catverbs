@@ -1,0 +1,2 @@
+stem=simbolitz
+parent=cantar

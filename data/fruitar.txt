@@ -1,0 +1,2 @@
+stem=fruit
+parent=cantar

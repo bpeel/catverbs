@@ -1,0 +1,2 @@
+stem=abill
+parent=cantar

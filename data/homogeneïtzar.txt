@@ -1,0 +1,2 @@
+stem=homogeneïtz
+parent=cantar

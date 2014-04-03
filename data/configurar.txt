@@ -1,0 +1,2 @@
+stem=configur
+parent=cantar

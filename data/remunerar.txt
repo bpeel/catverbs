@@ -1,0 +1,2 @@
+stem=remuner
+parent=cantar

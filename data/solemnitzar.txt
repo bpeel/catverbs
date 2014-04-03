@@ -1,0 +1,2 @@
+stem=solemnitz
+parent=cantar

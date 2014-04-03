@@ -1,0 +1,2 @@
+stem=desenfebr
+parent=cantar

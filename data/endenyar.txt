@@ -1,0 +1,2 @@
+stem=endeny
+parent=cantar

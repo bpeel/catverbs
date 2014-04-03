@@ -1,0 +1,2 @@
+stem=abrom
+parent=cantar

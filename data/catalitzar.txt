@@ -1,0 +1,2 @@
+stem=catalitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=deban
+parent=cantar

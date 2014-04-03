@@ -1,0 +1,2 @@
+stem=abarbet
+parent=cantar

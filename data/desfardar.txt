@@ -1,0 +1,2 @@
+stem=desfard
+parent=cantar

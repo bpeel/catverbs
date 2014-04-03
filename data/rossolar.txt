@@ -1,0 +1,2 @@
+stem=rossol
+parent=cantar

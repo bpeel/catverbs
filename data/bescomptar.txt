@@ -1,0 +1,2 @@
+stem=bescompt
+parent=cantar

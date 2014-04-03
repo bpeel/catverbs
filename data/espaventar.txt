@@ -1,0 +1,2 @@
+stem=espavent
+parent=cantar

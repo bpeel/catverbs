@@ -1,0 +1,2 @@
+stem=puny
+parent=cantar

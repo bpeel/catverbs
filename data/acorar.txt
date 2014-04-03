@@ -1,0 +1,2 @@
+stem=acor
+parent=cantar

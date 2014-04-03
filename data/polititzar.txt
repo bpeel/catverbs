@@ -1,0 +1,2 @@
+stem=polititz
+parent=cantar

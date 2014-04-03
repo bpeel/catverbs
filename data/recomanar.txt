@@ -1,0 +1,2 @@
+stem=recoman
+parent=cantar

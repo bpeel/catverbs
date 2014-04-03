@@ -1,0 +1,2 @@
+stem=filigran
+parent=cantar

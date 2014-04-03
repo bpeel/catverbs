@@ -1,0 +1,2 @@
+stem=rall
+parent=cantar

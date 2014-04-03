@@ -1,0 +1,2 @@
+stem=eixavuir
+parent=cantar

@@ -1,0 +1,2 @@
+stem=sobresembr
+parent=cantar

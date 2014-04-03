@@ -1,0 +1,2 @@
+stem=desembanyon
+parent=cantar

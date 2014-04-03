@@ -1,0 +1,2 @@
+stem=cautxut
+parent=cantar

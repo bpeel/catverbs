@@ -1,0 +1,2 @@
+stem=cotonitz
+parent=cantar

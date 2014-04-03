@@ -1,0 +1,2 @@
+stem=sinteritz
+parent=cantar

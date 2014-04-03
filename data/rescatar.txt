@@ -1,0 +1,2 @@
+stem=rescat
+parent=cantar

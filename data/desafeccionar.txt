@@ -1,0 +1,2 @@
+stem=desafeccion
+parent=cantar

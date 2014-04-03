@@ -1,0 +1,2 @@
+stem=crid
+parent=cantar

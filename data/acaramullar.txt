@@ -1,0 +1,2 @@
+stem=acaramull
+parent=cantar

@@ -1,0 +1,2 @@
+stem=annex
+parent=cantar

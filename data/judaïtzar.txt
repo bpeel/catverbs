@@ -1,0 +1,2 @@
+stem=judaïtz
+parent=cantar

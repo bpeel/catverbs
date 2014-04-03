@@ -1,0 +1,2 @@
+stem=eman
+parent=cantar

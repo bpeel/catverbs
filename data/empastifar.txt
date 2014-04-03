@@ -1,0 +1,2 @@
+stem=empastif
+parent=cantar

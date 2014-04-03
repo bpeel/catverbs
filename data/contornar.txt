@@ -1,0 +1,2 @@
+stem=contorn
+parent=cantar

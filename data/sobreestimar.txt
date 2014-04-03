@@ -1,0 +1,2 @@
+stem=sobreestim
+parent=cantar

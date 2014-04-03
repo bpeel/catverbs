@@ -1,0 +1,2 @@
+stem=partion
+parent=cantar

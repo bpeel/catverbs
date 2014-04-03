@@ -1,0 +1,2 @@
+stem=col·labor
+parent=cantar

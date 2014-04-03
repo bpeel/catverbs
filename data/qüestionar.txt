@@ -1,0 +1,2 @@
+stem=qüestion
+parent=cantar

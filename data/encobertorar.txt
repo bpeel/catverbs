@@ -1,0 +1,2 @@
+stem=encobertor
+parent=cantar

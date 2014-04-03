@@ -1,0 +1,2 @@
+stem=dist
+parent=cantar

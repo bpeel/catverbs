@@ -1,0 +1,2 @@
+stem=trampel
+parent=cantar

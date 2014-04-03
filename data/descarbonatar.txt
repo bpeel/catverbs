@@ -1,0 +1,2 @@
+stem=descarbonat
+parent=cantar

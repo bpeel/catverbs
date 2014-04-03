@@ -1,0 +1,2 @@
+stem=hel·lenitz
+parent=cantar

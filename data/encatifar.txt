@@ -1,0 +1,2 @@
+stem=encatif
+parent=cantar

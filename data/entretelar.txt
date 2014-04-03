@@ -1,0 +1,2 @@
+stem=entretel
+parent=cantar

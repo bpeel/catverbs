@@ -1,0 +1,2 @@
+stem=cristian
+parent=cantar

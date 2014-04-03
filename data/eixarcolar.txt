@@ -1,0 +1,2 @@
+stem=eixarcol
+parent=cantar

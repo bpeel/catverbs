@@ -1,0 +1,2 @@
+stem=esclafiny
+parent=cantar

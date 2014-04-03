@@ -1,0 +1,2 @@
+stem=copolimeritz
+parent=cantar

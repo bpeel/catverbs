@@ -1,0 +1,2 @@
+stem=escarroll
+parent=cantar

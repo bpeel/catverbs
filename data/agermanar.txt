@@ -1,0 +1,2 @@
+stem=agerman
+parent=cantar

@@ -1,0 +1,2 @@
+stem=buf
+parent=cantar

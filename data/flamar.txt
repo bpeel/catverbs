@@ -1,0 +1,2 @@
+stem=flam
+parent=cantar

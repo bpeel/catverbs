@@ -1,0 +1,2 @@
+stem=empassol
+parent=cantar

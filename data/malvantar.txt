@@ -1,0 +1,2 @@
+stem=malvant
+parent=cantar

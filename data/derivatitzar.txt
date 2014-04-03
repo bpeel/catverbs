@@ -1,0 +1,2 @@
+stem=derivatitz
+parent=cantar

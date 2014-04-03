@@ -1,0 +1,2 @@
+stem=encamer
+parent=cantar

@@ -1,0 +1,2 @@
+stem=enrajol
+parent=cantar

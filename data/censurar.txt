@@ -1,0 +1,2 @@
+stem=censur
+parent=cantar

@@ -1,0 +1,2 @@
+stem=culot
+parent=cantar

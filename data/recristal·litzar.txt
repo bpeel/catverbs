@@ -1,0 +1,2 @@
+stem=recristal·litz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=encarcer
+parent=cantar

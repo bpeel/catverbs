@@ -1,0 +1,2 @@
+stem=empreny
+parent=cantar

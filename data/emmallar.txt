@@ -1,0 +1,2 @@
+stem=emmall
+parent=cantar

@@ -1,0 +1,2 @@
+stem=reball
+parent=cantar

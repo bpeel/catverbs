@@ -1,0 +1,2 @@
+stem=aclivell
+parent=cantar

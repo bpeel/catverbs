@@ -1,0 +1,2 @@
+stem=miol
+parent=cantar

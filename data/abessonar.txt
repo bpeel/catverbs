@@ -1,0 +1,2 @@
+stem=abesson
+parent=cantar

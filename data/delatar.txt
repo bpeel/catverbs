@@ -1,0 +1,2 @@
+stem=delat
+parent=cantar

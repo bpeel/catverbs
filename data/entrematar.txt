@@ -1,0 +1,2 @@
+stem=entremat
+parent=cantar

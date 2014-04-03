@@ -1,0 +1,2 @@
+stem=envellut
+parent=cantar

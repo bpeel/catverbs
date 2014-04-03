@@ -1,0 +1,2 @@
+stem=envel
+parent=cantar

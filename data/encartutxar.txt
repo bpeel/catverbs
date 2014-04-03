@@ -1,0 +1,2 @@
+stem=encartutx
+parent=cantar

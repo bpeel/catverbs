@@ -1,0 +1,2 @@
+stem=agibell
+parent=cantar

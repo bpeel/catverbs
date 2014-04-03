@@ -1,0 +1,2 @@
+stem=sonoritz
+parent=cantar

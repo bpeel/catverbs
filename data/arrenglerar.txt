@@ -1,0 +1,2 @@
+stem=arrengler
+parent=cantar

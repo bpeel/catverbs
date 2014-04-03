@@ -1,0 +1,2 @@
+stem=entom
+parent=cantar

@@ -1,0 +1,2 @@
+stem=xorr
+parent=cantar

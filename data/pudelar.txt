@@ -1,0 +1,2 @@
+stem=pudel
+parent=cantar

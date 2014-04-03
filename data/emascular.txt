@@ -1,0 +1,2 @@
+stem=emascul
+parent=cantar

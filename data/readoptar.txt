@@ -1,0 +1,2 @@
+stem=readopt
+parent=cantar

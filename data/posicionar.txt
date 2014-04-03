@@ -1,0 +1,2 @@
+stem=posicion
+parent=cantar

@@ -1,0 +1,2 @@
+stem=contraperfil
+parent=cantar

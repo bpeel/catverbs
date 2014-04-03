@@ -1,0 +1,2 @@
+stem=arrib
+parent=cantar

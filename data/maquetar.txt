@@ -1,0 +1,2 @@
+stem=maquet
+parent=cantar

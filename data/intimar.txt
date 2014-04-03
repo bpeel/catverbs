@@ -1,0 +1,2 @@
+stem=intim
+parent=cantar

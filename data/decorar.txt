@@ -1,0 +1,2 @@
+stem=decor
+parent=cantar

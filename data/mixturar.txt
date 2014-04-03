@@ -1,0 +1,2 @@
+stem=mixtur
+parent=cantar

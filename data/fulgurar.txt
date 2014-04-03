@@ -1,0 +1,2 @@
+stem=fulgur
+parent=cantar

@@ -1,0 +1,2 @@
+stem=revolt
+parent=cantar

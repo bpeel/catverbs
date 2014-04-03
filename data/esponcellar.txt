@@ -1,0 +1,2 @@
+stem=esponcell
+parent=cantar

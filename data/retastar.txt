@@ -1,0 +1,2 @@
+stem=retast
+parent=cantar

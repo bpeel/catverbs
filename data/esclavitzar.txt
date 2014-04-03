@@ -1,0 +1,2 @@
+stem=esclavitz
+parent=cantar

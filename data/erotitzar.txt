@@ -1,0 +1,2 @@
+stem=erotitz
+parent=cantar

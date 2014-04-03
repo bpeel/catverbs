@@ -1,0 +1,2 @@
+stem=desmilitaritz
+parent=cantar

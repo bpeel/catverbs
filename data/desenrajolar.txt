@@ -1,0 +1,2 @@
+stem=desenrajol
+parent=cantar

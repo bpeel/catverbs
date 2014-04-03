@@ -1,0 +1,2 @@
+stem=desinsect
+parent=cantar

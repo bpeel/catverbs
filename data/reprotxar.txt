@@ -1,0 +1,2 @@
+stem=reprotx
+parent=cantar

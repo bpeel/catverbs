@@ -1,0 +1,2 @@
+stem=afigany
+parent=cantar

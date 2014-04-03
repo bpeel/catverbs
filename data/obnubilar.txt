@@ -1,0 +1,2 @@
+stem=obnubil
+parent=cantar

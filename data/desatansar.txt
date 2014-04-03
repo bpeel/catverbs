@@ -1,0 +1,2 @@
+stem=desatans
+parent=cantar

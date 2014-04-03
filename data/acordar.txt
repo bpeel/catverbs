@@ -1,0 +1,2 @@
+stem=acord
+parent=cantar

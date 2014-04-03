@@ -1,0 +1,2 @@
+stem=congratul
+parent=cantar

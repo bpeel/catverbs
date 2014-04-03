@@ -1,0 +1,2 @@
+stem=esguit
+parent=cantar

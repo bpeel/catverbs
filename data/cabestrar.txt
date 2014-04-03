@@ -1,0 +1,2 @@
+stem=cabestr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=dificult
+parent=cantar

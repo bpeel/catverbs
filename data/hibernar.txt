@@ -1,0 +1,2 @@
+stem=hibern
+parent=cantar

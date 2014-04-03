@@ -1,0 +1,2 @@
+stem=xarbot
+parent=cantar

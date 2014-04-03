@@ -1,0 +1,2 @@
+stem=desestatitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=maçol
+parent=cantar

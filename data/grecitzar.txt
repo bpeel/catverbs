@@ -1,0 +1,2 @@
+stem=grecitz
+parent=cantar

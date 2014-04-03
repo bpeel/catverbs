@@ -1,0 +1,2 @@
+stem=clavill
+parent=cantar

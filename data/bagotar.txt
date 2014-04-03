@@ -1,0 +1,2 @@
+stem=bagot
+parent=cantar

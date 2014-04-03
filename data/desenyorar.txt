@@ -1,0 +1,2 @@
+stem=desenyor
+parent=cantar

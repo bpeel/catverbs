@@ -1,0 +1,2 @@
+stem=desenllegany
+parent=cantar

@@ -1,0 +1,2 @@
+stem=aïr
+parent=cantar

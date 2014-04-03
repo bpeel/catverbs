@@ -1,0 +1,2 @@
+stem=saltiron
+parent=cantar

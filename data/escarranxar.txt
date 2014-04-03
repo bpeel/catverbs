@@ -1,0 +1,2 @@
+stem=escarranx
+parent=cantar

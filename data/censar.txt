@@ -1,0 +1,2 @@
+stem=cens
+parent=cantar

@@ -1,0 +1,2 @@
+stem=encript
+parent=cantar

@@ -1,0 +1,2 @@
+stem=esvorell
+parent=cantar

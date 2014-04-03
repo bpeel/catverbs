@@ -1,0 +1,2 @@
+stem=localitz
+parent=cantar

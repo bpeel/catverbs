@@ -1,0 +1,2 @@
+stem=temper
+parent=cantar

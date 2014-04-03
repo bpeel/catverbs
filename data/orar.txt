@@ -1,0 +1,2 @@
+stem=or
+parent=cantar

@@ -1,0 +1,2 @@
+stem=manufactur
+parent=cantar

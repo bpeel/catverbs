@@ -1,0 +1,2 @@
+stem=apeçon
+parent=cantar

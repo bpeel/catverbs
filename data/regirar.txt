@@ -1,0 +1,2 @@
+stem=regir
+parent=cantar

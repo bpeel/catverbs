@@ -1,0 +1,2 @@
+stem=evit
+parent=cantar

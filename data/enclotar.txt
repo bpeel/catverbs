@@ -1,0 +1,2 @@
+stem=enclot
+parent=cantar

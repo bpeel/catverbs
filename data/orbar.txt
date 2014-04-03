@@ -1,0 +1,2 @@
+stem=orb
+parent=cantar

@@ -1,0 +1,2 @@
+stem=concentr
+parent=cantar

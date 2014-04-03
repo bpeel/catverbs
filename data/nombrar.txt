@@ -1,0 +1,2 @@
+stem=nombr
+parent=cantar

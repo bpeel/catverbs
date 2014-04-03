@@ -1,0 +1,2 @@
+stem=naspr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=sorr
+parent=cantar

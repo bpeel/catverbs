@@ -1,0 +1,2 @@
+stem=traspunx
+parent=cantar

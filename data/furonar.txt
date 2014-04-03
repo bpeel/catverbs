@@ -1,0 +1,2 @@
+stem=furon
+parent=cantar

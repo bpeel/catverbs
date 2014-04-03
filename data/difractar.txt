@@ -1,0 +1,2 @@
+stem=difract
+parent=cantar

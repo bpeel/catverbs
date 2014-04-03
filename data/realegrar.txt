@@ -1,0 +1,2 @@
+stem=realegr
+parent=cantar

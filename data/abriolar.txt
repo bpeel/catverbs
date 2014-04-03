@@ -1,0 +1,2 @@
+stem=abriol
+parent=cantar

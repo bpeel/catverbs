@@ -1,0 +1,2 @@
+stem=guilloix
+parent=cantar

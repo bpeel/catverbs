@@ -1,0 +1,2 @@
+stem=socarr
+parent=cantar

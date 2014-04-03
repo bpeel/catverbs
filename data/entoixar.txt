@@ -1,0 +1,2 @@
+stem=entoix
+parent=cantar

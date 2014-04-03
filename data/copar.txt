@@ -1,0 +1,2 @@
+stem=cop
+parent=cantar

@@ -1,0 +1,2 @@
+stem=instrument
+parent=cantar

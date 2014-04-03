@@ -1,0 +1,2 @@
+stem=afal·ler
+parent=cantar

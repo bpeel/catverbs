@@ -1,0 +1,2 @@
+stem=burx
+parent=cantar

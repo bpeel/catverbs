@@ -1,0 +1,2 @@
+stem=deflagr
+parent=cantar

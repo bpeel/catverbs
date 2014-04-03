@@ -1,0 +1,2 @@
+stem=transit
+parent=cantar

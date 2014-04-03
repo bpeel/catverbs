@@ -1,0 +1,2 @@
+stem=batan
+parent=cantar

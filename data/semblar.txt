@@ -1,0 +1,2 @@
+stem=sembl
+parent=cantar

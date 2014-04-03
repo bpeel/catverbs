@@ -1,0 +1,2 @@
+stem=enquadr
+parent=cantar

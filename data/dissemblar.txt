@@ -1,0 +1,2 @@
+stem=dissembl
+parent=cantar

@@ -1,0 +1,2 @@
+stem=raspall
+parent=cantar

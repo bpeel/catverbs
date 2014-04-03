@@ -1,0 +1,2 @@
+stem=enforat
+parent=cantar

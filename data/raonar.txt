@@ -1,0 +1,2 @@
+stem=raon
+parent=cantar

@@ -1,0 +1,2 @@
+stem=familiaritz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=descarbonitz
+parent=cantar

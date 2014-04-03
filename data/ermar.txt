@@ -1,0 +1,2 @@
+stem=erm
+parent=cantar

@@ -1,0 +1,2 @@
+stem=impossibilit
+parent=cantar

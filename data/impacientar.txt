@@ -1,0 +1,2 @@
+stem=impacient
+parent=cantar

@@ -1,0 +1,2 @@
+stem=vion
+parent=cantar

@@ -1,0 +1,2 @@
+stem=xaut
+parent=cantar

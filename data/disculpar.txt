@@ -1,0 +1,2 @@
+stem=disculp
+parent=cantar

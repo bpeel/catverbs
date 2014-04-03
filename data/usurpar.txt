@@ -1,0 +1,2 @@
+stem=usurp
+parent=cantar

@@ -1,0 +1,2 @@
+stem=esbardell
+parent=cantar

@@ -1,0 +1,2 @@
+stem=contemper
+parent=cantar

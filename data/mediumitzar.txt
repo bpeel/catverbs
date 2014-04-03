@@ -1,0 +1,2 @@
+stem=mediumitz
+parent=cantar

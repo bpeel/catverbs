@@ -1,0 +1,2 @@
+stem=acan
+parent=cantar

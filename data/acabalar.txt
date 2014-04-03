@@ -1,0 +1,2 @@
+stem=acabal
+parent=cantar

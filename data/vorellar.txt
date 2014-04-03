@@ -1,0 +1,2 @@
+stem=vorell
+parent=cantar

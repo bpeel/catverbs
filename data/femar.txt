@@ -1,0 +1,2 @@
+stem=fem
+parent=cantar

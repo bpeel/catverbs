@@ -1,0 +1,2 @@
+stem=degot
+parent=cantar

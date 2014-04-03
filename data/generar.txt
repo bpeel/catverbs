@@ -1,0 +1,2 @@
+stem=gener
+parent=cantar

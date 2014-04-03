@@ -1,0 +1,2 @@
+stem=forfoll
+parent=cantar

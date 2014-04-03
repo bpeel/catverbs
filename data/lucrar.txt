@@ -1,0 +1,2 @@
+stem=lucr
+parent=cantar

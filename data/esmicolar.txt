@@ -1,0 +1,2 @@
+stem=esmicol
+parent=cantar

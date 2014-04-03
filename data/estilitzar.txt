@@ -1,0 +1,2 @@
+stem=estilitz
+parent=cantar

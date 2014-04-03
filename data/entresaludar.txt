@@ -1,0 +1,2 @@
+stem=entresalud
+parent=cantar

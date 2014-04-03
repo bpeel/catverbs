@@ -1,0 +1,2 @@
+stem=escudell
+parent=cantar

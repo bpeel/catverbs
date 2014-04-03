@@ -1,0 +1,2 @@
+stem=enrotll
+parent=cantar

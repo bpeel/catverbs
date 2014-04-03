@@ -1,0 +1,2 @@
+stem=cot
+parent=cantar

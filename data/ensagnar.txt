@@ -1,0 +1,2 @@
+stem=ensagn
+parent=cantar

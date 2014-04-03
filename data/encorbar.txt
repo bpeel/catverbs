@@ -1,0 +1,2 @@
+stem=encorb
+parent=cantar

@@ -1,0 +1,2 @@
+stem=imput
+parent=cantar

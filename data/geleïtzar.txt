@@ -1,0 +1,2 @@
+stem=geleïtz
+parent=cantar

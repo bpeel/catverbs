@@ -1,0 +1,2 @@
+stem=alab
+parent=cantar

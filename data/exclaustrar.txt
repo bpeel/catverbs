@@ -1,0 +1,2 @@
+stem=exclaustr
+parent=cantar

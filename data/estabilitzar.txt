@@ -1,0 +1,2 @@
+stem=estabilitz
+parent=cantar

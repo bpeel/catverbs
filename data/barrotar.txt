@@ -1,0 +1,2 @@
+stem=barrot
+parent=cantar

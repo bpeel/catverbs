@@ -1,0 +1,2 @@
+stem=resquitll
+parent=cantar

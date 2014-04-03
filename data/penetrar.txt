@@ -1,0 +1,2 @@
+stem=penetr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=afan
+parent=cantar

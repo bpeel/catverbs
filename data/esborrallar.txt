@@ -1,0 +1,2 @@
+stem=esborrall
+parent=cantar

@@ -1,0 +1,2 @@
+stem=encabrit
+parent=cantar

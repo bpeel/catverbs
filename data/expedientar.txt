@@ -1,0 +1,2 @@
+stem=expedient
+parent=cantar

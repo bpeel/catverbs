@@ -1,0 +1,2 @@
+stem=alçaprem
+parent=cantar

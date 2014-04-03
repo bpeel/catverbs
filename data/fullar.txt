@@ -1,0 +1,2 @@
+stem=full
+parent=cantar

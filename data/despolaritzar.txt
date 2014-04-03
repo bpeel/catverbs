@@ -1,0 +1,2 @@
+stem=despolaritz
+parent=cantar

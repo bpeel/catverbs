@@ -1,0 +1,2 @@
+stem=enemist
+parent=cantar

@@ -1,0 +1,2 @@
+stem=emborboll
+parent=cantar

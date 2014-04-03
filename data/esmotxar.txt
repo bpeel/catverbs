@@ -1,0 +1,2 @@
+stem=esmotx
+parent=cantar

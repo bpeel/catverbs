@@ -1,0 +1,2 @@
+stem=enfad
+parent=cantar

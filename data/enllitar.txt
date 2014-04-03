@@ -1,0 +1,2 @@
+stem=enllit
+parent=cantar

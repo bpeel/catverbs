@@ -1,0 +1,2 @@
+stem=capiton
+parent=cantar

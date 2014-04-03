@@ -1,0 +1,2 @@
+stem=expansion
+parent=cantar

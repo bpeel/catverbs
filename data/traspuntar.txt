@@ -1,0 +1,2 @@
+stem=traspunt
+parent=cantar

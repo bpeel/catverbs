@@ -1,0 +1,2 @@
+stem=estipul
+parent=cantar

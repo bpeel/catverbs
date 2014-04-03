@@ -1,0 +1,2 @@
+stem=focalitz
+parent=cantar

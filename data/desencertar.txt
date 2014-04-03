@@ -1,0 +1,2 @@
+stem=desencert
+parent=cantar

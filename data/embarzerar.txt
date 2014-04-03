@@ -1,0 +1,2 @@
+stem=embarzer
+parent=cantar

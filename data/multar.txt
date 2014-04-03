@@ -1,0 +1,2 @@
+stem=mult
+parent=cantar

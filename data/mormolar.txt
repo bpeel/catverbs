@@ -1,0 +1,2 @@
+stem=mormol
+parent=cantar

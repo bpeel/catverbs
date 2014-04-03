@@ -1,0 +1,2 @@
+stem=ensinistr
+parent=cantar

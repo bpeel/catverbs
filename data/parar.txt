@@ -1,0 +1,2 @@
+stem=par
+parent=cantar

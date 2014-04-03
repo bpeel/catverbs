@@ -1,0 +1,2 @@
+stem=desil·lusion
+parent=cantar

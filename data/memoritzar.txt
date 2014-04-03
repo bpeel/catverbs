@@ -1,0 +1,2 @@
+stem=memoritz
+parent=cantar

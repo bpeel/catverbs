@@ -1,0 +1,2 @@
+stem=rescabal
+parent=cantar

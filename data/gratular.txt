@@ -1,0 +1,2 @@
+stem=gratul
+parent=cantar

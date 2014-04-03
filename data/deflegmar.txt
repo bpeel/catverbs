@@ -1,0 +1,2 @@
+stem=deflegm
+parent=cantar

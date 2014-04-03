@@ -1,0 +1,2 @@
+stem=transparent
+parent=cantar

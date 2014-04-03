@@ -1,0 +1,2 @@
+stem=tib
+parent=cantar

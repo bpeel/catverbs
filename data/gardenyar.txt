@@ -1,0 +1,2 @@
+stem=gardeny
+parent=cantar

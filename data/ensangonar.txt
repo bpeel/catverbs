@@ -1,0 +1,2 @@
+stem=ensangon
+parent=cantar

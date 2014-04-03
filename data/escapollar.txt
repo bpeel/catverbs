@@ -1,0 +1,2 @@
+stem=escapoll
+parent=cantar

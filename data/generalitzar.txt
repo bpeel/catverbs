@@ -1,0 +1,2 @@
+stem=generalitz
+parent=cantar

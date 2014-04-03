@@ -1,0 +1,2 @@
+stem=redund
+parent=cantar

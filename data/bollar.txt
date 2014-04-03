@@ -1,0 +1,2 @@
+stem=boll
+parent=cantar

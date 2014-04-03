@@ -1,0 +1,2 @@
+stem=aprofit
+parent=cantar

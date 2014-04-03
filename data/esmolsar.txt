@@ -1,0 +1,2 @@
+stem=esmols
+parent=cantar

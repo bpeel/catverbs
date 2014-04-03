@@ -1,0 +1,2 @@
+stem=trill
+parent=cantar

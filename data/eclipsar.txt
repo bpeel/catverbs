@@ -1,0 +1,2 @@
+stem=eclips
+parent=cantar

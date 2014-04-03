@@ -1,0 +1,2 @@
+stem=circumcid
+parent=cantar

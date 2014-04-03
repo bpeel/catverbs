@@ -1,0 +1,2 @@
+stem=entaulell
+parent=cantar

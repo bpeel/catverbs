@@ -1,0 +1,2 @@
+stem=enllegany
+parent=cantar

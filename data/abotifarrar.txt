@@ -1,0 +1,2 @@
+stem=abotifarr
+parent=cantar

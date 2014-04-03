@@ -1,0 +1,2 @@
+stem=racionalitz
+parent=cantar

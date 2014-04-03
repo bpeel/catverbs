@@ -1,0 +1,2 @@
+stem=clam
+parent=cantar

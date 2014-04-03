@@ -1,0 +1,2 @@
+stem=recaragol
+parent=cantar

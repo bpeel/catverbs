@@ -1,0 +1,2 @@
+stem=reclam
+parent=cantar

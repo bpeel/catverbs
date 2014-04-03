@@ -1,0 +1,2 @@
+stem=despolititz
+parent=cantar

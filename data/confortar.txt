@@ -1,0 +1,2 @@
+stem=confort
+parent=cantar

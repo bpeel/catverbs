@@ -1,0 +1,2 @@
+stem=desempenyor
+parent=cantar

@@ -1,0 +1,2 @@
+stem=supur
+parent=cantar

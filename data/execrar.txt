@@ -1,0 +1,2 @@
+stem=execr
+parent=cantar

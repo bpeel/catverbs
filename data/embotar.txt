@@ -1,0 +1,2 @@
+stem=embot
+parent=cantar

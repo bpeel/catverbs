@@ -1,0 +1,2 @@
+stem=fonell
+parent=cantar

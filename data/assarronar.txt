@@ -1,0 +1,2 @@
+stem=assarron
+parent=cantar

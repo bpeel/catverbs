@@ -1,0 +1,2 @@
+stem=agran
+parent=cantar

@@ -1,0 +1,2 @@
+stem=salicil
+parent=cantar

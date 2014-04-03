@@ -1,0 +1,2 @@
+stem=entreguard
+parent=cantar

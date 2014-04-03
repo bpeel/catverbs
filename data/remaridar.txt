@@ -1,0 +1,2 @@
+stem=remarid
+parent=cantar

@@ -1,0 +1,2 @@
+stem=inculp
+parent=cantar

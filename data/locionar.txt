@@ -1,0 +1,2 @@
+stem=locion
+parent=cantar

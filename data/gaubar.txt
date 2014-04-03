@@ -1,0 +1,2 @@
+stem=gaub
+parent=cantar

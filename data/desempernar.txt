@@ -1,0 +1,2 @@
+stem=desempern
+parent=cantar

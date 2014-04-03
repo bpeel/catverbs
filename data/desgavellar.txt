@@ -1,0 +1,2 @@
+stem=desgavell
+parent=cantar

@@ -1,0 +1,2 @@
+stem=queix
+parent=cantar

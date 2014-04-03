@@ -1,0 +1,2 @@
+stem=ulul
+parent=cantar

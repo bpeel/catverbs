@@ -1,0 +1,2 @@
+stem=peralt
+parent=cantar

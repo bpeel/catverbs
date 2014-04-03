@@ -1,0 +1,2 @@
+stem=coalitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=sobresegell
+parent=cantar

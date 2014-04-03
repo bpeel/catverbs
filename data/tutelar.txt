@@ -1,0 +1,2 @@
+stem=tutel
+parent=cantar

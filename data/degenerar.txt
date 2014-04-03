@@ -1,0 +1,2 @@
+stem=degener
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desequilibr
+parent=cantar

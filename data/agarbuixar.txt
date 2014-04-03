@@ -1,0 +1,2 @@
+stem=agarbuix
+parent=cantar

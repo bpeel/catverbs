@@ -1,0 +1,2 @@
+stem=deshonor
+parent=cantar

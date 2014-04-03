@@ -1,0 +1,2 @@
+stem=card
+parent=cantar

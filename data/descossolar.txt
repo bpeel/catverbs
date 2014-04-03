@@ -1,0 +1,2 @@
+stem=descossol
+parent=cantar

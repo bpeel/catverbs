@@ -1,0 +1,2 @@
+stem=condens
+parent=cantar

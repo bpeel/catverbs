@@ -1,0 +1,2 @@
+stem=vehicul
+parent=cantar

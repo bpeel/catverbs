@@ -1,0 +1,2 @@
+stem=laïcitz
+parent=cantar

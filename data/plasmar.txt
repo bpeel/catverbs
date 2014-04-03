@@ -1,0 +1,2 @@
+stem=plasm
+parent=cantar

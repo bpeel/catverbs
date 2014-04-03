@@ -1,0 +1,2 @@
+stem=acuind
+parent=cantar

@@ -1,0 +1,2 @@
+stem=sintetitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=enflair
+parent=cantar

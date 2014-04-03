@@ -1,0 +1,2 @@
+stem=escabellon
+parent=cantar

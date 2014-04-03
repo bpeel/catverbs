@@ -1,0 +1,2 @@
+stem=apitx
+parent=cantar

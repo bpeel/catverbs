@@ -1,0 +1,2 @@
+stem=esllom
+parent=cantar

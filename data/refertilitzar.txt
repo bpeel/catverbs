@@ -1,0 +1,2 @@
+stem=refertilitz
+parent=cantar

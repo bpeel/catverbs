@@ -1,0 +1,2 @@
+stem=ensucr
+parent=cantar

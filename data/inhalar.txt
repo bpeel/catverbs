@@ -1,0 +1,2 @@
+stem=inhal
+parent=cantar

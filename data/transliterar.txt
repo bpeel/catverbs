@@ -1,0 +1,2 @@
+stem=transliter
+parent=cantar

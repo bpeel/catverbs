@@ -1,0 +1,2 @@
+stem=ressold
+parent=cantar

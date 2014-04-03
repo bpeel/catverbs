@@ -1,0 +1,2 @@
+stem=acumul
+parent=cantar

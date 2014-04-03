@@ -1,0 +1,2 @@
+stem=esmorron
+parent=cantar

@@ -1,0 +1,2 @@
+stem=ajud
+parent=cantar

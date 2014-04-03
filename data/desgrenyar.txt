@@ -1,0 +1,2 @@
+stem=desgreny
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desennuvol
+parent=cantar

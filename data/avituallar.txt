@@ -1,0 +1,2 @@
+stem=avituall
+parent=cantar

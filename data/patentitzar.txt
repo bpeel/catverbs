@@ -1,0 +1,2 @@
+stem=patentitz
+parent=cantar

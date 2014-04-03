@@ -1,0 +1,2 @@
+stem=desatend
+parent=cantar

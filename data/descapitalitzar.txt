@@ -1,0 +1,2 @@
+stem=descapitalitz
+parent=cantar

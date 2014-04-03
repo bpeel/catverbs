@@ -1,0 +1,2 @@
+stem=eixorell
+parent=cantar

@@ -1,0 +1,2 @@
+stem=vulgaritz
+parent=cantar

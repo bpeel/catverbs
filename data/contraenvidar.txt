@@ -1,0 +1,2 @@
+stem=contraenvid
+parent=cantar

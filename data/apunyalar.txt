@@ -1,0 +1,2 @@
+stem=apunyal
+parent=cantar

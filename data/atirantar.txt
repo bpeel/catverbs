@@ -1,0 +1,2 @@
+stem=atirant
+parent=cantar

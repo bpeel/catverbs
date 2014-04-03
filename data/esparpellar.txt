@@ -1,0 +1,2 @@
+stem=esparpell
+parent=cantar

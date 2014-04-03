@@ -1,0 +1,2 @@
+stem=solvat
+parent=cantar

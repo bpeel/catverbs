@@ -1,0 +1,2 @@
+stem=disseny
+parent=cantar

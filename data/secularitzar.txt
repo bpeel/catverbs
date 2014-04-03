@@ -1,0 +1,2 @@
+stem=secularitz
+parent=cantar

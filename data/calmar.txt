@@ -1,0 +1,2 @@
+stem=calm
+parent=cantar

@@ -1,0 +1,2 @@
+stem=fund
+parent=cantar

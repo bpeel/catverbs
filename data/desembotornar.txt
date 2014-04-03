@@ -1,0 +1,2 @@
+stem=desembotorn
+parent=cantar

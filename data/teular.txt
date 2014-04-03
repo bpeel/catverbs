@@ -1,0 +1,2 @@
+stem=teul
+parent=cantar

@@ -1,0 +1,2 @@
+stem=arterialitz
+parent=cantar

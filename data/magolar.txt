@@ -1,0 +1,2 @@
+stem=magol
+parent=cantar

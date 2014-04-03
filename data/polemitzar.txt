@@ -1,0 +1,2 @@
+stem=polemitz
+parent=cantar

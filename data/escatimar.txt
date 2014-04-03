@@ -1,0 +1,2 @@
+stem=escatim
+parent=cantar

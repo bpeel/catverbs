@@ -1,0 +1,2 @@
+stem=rebaix
+parent=cantar

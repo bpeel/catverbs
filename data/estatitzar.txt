@@ -1,0 +1,2 @@
+stem=estatitz
+parent=cantar

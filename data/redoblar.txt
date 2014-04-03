@@ -1,0 +1,2 @@
+stem=redobl
+parent=cantar

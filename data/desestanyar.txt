@@ -1,0 +1,2 @@
+stem=desestany
+parent=cantar

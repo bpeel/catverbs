@@ -1,0 +1,2 @@
+stem=desenfarcell
+parent=cantar

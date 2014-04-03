@@ -1,0 +1,2 @@
+stem=reconfort
+parent=cantar

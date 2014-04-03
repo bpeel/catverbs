@@ -1,0 +1,2 @@
+stem=tany
+parent=cantar

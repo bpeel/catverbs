@@ -1,0 +1,2 @@
+stem=inspeccion
+parent=cantar

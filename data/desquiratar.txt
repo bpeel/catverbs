@@ -1,0 +1,2 @@
+stem=desquirat
+parent=cantar

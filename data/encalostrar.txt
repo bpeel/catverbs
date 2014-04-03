@@ -1,0 +1,2 @@
+stem=encalostr
+parent=cantar

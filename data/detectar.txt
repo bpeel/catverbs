@@ -1,0 +1,2 @@
+stem=detect
+parent=cantar

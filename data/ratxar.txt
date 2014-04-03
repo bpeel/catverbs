@@ -1,0 +1,2 @@
+stem=ratx
+parent=cantar

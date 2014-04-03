@@ -1,0 +1,2 @@
+stem=calabruixon
+parent=cantar

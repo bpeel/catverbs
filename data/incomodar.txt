@@ -1,0 +1,2 @@
+stem=incomod
+parent=cantar

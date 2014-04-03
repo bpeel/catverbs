@@ -1,0 +1,2 @@
+stem=exercit
+parent=cantar

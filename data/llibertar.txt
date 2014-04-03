@@ -1,0 +1,2 @@
+stem=llibert
+parent=cantar

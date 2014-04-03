@@ -1,0 +1,2 @@
+stem=inspir
+parent=cantar

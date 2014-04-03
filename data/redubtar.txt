@@ -1,0 +1,2 @@
+stem=redubt
+parent=cantar

@@ -1,0 +1,2 @@
+stem=espad
+parent=cantar

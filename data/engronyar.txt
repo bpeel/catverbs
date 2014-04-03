@@ -1,0 +1,2 @@
+stem=engrony
+parent=cantar

@@ -1,0 +1,2 @@
+stem=salpebr
+parent=cantar

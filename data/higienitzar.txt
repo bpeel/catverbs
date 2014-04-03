@@ -1,0 +1,2 @@
+stem=higienitz
+parent=cantar

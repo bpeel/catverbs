@@ -1,0 +1,2 @@
+stem=alforr
+parent=cantar

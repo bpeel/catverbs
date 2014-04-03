@@ -1,0 +1,2 @@
+stem=revir
+parent=cantar

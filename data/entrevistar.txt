@@ -1,0 +1,2 @@
+stem=entrevist
+parent=cantar

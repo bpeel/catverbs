@@ -1,0 +1,2 @@
+stem=desencasquet
+parent=cantar

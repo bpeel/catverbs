@@ -1,0 +1,2 @@
+stem=estrangeritz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=regul
+parent=cantar

@@ -1,0 +1,2 @@
+stem=cair
+parent=cantar

@@ -1,0 +1,2 @@
+stem=entorcill
+parent=cantar

@@ -1,0 +1,2 @@
+stem=remall
+parent=cantar

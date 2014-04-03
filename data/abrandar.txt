@@ -1,0 +1,2 @@
+stem=abrand
+parent=cantar

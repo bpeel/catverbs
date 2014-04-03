@@ -1,0 +1,2 @@
+stem=esfondr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=tram
+parent=cantar

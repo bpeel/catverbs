@@ -1,0 +1,2 @@
+stem=embarboll
+parent=cantar

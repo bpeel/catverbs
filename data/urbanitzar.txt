@@ -1,0 +1,2 @@
+stem=urbanitz
+parent=cantar

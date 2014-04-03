@@ -1,0 +1,2 @@
+stem=compenetr
+parent=cantar

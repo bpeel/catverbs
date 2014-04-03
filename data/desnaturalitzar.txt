@@ -1,0 +1,2 @@
+stem=desnaturalitz
+parent=cantar

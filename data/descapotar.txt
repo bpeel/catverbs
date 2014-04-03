@@ -1,0 +1,2 @@
+stem=descapot
+parent=cantar

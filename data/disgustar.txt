@@ -1,0 +1,2 @@
+stem=disgust
+parent=cantar

@@ -1,0 +1,2 @@
+stem=entronitz
+parent=cantar

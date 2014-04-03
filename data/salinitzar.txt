@@ -1,0 +1,2 @@
+stem=salinitz
+parent=cantar

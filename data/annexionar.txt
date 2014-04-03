@@ -1,0 +1,2 @@
+stem=annexion
+parent=cantar

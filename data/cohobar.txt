@@ -1,0 +1,2 @@
+stem=cohob
+parent=cantar

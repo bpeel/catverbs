@@ -1,0 +1,2 @@
+stem=empared
+parent=cantar

@@ -1,0 +1,2 @@
+stem=emocion
+parent=cantar

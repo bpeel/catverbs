@@ -1,0 +1,2 @@
+stem=enfons
+parent=cantar

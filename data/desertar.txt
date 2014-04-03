@@ -1,0 +1,2 @@
+stem=desert
+parent=cantar

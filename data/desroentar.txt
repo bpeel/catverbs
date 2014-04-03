@@ -1,0 +1,2 @@
+stem=desroent
+parent=cantar

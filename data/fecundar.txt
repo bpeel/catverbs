@@ -1,0 +1,2 @@
+stem=fecund
+parent=cantar

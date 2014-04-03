@@ -1,0 +1,2 @@
+stem=avidol
+parent=cantar

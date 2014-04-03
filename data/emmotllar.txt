@@ -1,0 +1,2 @@
+stem=emmotll
+parent=cantar

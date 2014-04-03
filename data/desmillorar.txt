@@ -1,0 +1,2 @@
+stem=desmillor
+parent=cantar

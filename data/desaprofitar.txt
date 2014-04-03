@@ -1,0 +1,2 @@
+stem=desaprofit
+parent=cantar

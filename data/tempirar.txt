@@ -1,0 +1,2 @@
+stem=tempir
+parent=cantar

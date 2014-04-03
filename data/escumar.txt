@@ -1,0 +1,2 @@
+stem=escum
+parent=cantar

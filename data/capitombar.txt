@@ -1,0 +1,2 @@
+stem=capitomb
+parent=cantar

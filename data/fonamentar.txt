@@ -1,0 +1,2 @@
+stem=fonament
+parent=cantar

@@ -1,0 +1,2 @@
+stem=adorn
+parent=cantar

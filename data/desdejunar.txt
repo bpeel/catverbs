@@ -1,0 +1,2 @@
+stem=desdejun
+parent=cantar

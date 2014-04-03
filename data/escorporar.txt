@@ -1,0 +1,2 @@
+stem=escorpor
+parent=cantar

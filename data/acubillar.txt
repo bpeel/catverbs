@@ -1,0 +1,2 @@
+stem=acubill
+parent=cantar

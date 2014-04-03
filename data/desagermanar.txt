@@ -1,0 +1,2 @@
+stem=desagerman
+parent=cantar

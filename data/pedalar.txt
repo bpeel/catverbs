@@ -1,0 +1,2 @@
+stem=pedal
+parent=cantar

@@ -1,0 +1,2 @@
+stem=cisell
+parent=cantar

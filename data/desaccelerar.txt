@@ -1,0 +1,2 @@
+stem=desacceler
+parent=cantar

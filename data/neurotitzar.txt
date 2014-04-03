@@ -1,0 +1,2 @@
+stem=neurotitz
+parent=cantar

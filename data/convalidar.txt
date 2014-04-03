@@ -1,0 +1,2 @@
+stem=convalid
+parent=cantar

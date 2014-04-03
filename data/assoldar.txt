@@ -1,0 +1,2 @@
+stem=assold
+parent=cantar

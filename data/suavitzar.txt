@@ -1,0 +1,2 @@
+stem=suavitz
+parent=cantar

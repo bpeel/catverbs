@@ -1,0 +1,2 @@
+stem=catx
+parent=cantar

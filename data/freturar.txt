@@ -1,0 +1,2 @@
+stem=fretur
+parent=cantar

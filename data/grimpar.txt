@@ -1,0 +1,2 @@
+stem=grimp
+parent=cantar

@@ -1,0 +1,2 @@
+stem=allist
+parent=cantar

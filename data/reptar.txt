@@ -1,0 +1,2 @@
+stem=rept
+parent=cantar

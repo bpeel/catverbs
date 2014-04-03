@@ -1,0 +1,2 @@
+stem=recit
+parent=cantar

@@ -1,0 +1,2 @@
+stem=capgirell
+parent=cantar

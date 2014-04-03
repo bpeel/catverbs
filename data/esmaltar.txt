@@ -1,0 +1,2 @@
+stem=esmalt
+parent=cantar

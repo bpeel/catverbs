@@ -1,0 +1,2 @@
+stem=fosfat
+parent=cantar

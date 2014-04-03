@@ -1,0 +1,2 @@
+stem=encapçal
+parent=cantar

@@ -1,0 +1,2 @@
+stem=regal
+parent=cantar

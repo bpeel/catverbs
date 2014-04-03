@@ -1,0 +1,2 @@
+stem=acomiad
+parent=cantar

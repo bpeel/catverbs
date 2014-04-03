@@ -1,0 +1,2 @@
+stem=amitjan
+parent=cantar

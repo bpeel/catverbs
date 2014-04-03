@@ -1,0 +1,2 @@
+stem=exsud
+parent=cantar

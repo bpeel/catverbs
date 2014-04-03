@@ -1,0 +1,2 @@
+stem=tatxon
+parent=cantar

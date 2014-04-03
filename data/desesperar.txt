@@ -1,0 +1,2 @@
+stem=desesper
+parent=cantar

@@ -1,0 +1,2 @@
+stem=acorral
+parent=cantar

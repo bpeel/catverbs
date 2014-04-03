@@ -1,0 +1,2 @@
+stem=embarrot
+parent=cantar

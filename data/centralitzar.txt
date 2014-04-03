@@ -1,0 +1,2 @@
+stem=centralitz
+parent=cantar

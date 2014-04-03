@@ -1,0 +1,2 @@
+stem=desallit
+parent=cantar

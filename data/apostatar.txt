@@ -1,0 +1,2 @@
+stem=apostat
+parent=cantar

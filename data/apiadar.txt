@@ -1,0 +1,2 @@
+stem=apiad
+parent=cantar

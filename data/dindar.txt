@@ -1,0 +1,2 @@
+stem=dind
+parent=cantar

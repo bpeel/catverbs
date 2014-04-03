@@ -1,0 +1,2 @@
+stem=rod
+parent=cantar

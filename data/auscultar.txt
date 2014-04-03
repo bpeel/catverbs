@@ -1,0 +1,2 @@
+stem=auscult
+parent=cantar

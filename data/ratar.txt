@@ -1,0 +1,2 @@
+stem=rat
+parent=cantar

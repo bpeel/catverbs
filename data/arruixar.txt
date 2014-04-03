@@ -1,0 +1,2 @@
+stem=arruix
+parent=cantar

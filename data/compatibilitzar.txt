@@ -1,0 +1,2 @@
+stem=compatibilitz
+parent=cantar

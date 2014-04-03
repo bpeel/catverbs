@@ -1,0 +1,2 @@
+stem=cossol
+parent=cantar

@@ -1,0 +1,2 @@
+stem=dign
+parent=cantar

@@ -1,0 +1,2 @@
+stem=commocion
+parent=cantar

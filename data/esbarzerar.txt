@@ -1,0 +1,2 @@
+stem=esbarzer
+parent=cantar

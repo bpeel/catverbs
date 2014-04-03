@@ -1,0 +1,2 @@
+stem=aficion
+parent=cantar

@@ -1,0 +1,2 @@
+stem=nimb
+parent=cantar

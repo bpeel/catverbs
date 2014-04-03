@@ -1,0 +1,2 @@
+stem=hebraïtz
+parent=cantar

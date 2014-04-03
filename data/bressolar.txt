@@ -1,0 +1,2 @@
+stem=bressol
+parent=cantar

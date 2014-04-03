@@ -1,0 +1,2 @@
+stem=esvolv
+parent=cantar

@@ -1,0 +1,2 @@
+stem=freqüent
+parent=cantar

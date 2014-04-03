@@ -1,0 +1,2 @@
+stem=conjunt
+parent=cantar

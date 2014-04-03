@@ -1,0 +1,2 @@
+stem=ondul
+parent=cantar

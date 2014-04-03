@@ -1,0 +1,2 @@
+stem=acid
+parent=cantar

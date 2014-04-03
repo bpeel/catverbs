@@ -1,0 +1,2 @@
+stem=afiler
+parent=cantar

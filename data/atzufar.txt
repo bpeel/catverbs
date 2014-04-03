@@ -1,0 +1,2 @@
+stem=atzuf
+parent=cantar

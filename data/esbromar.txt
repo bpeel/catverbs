@@ -1,0 +1,2 @@
+stem=esbrom
+parent=cantar

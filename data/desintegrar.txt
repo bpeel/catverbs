@@ -1,0 +1,2 @@
+stem=desintegr
+parent=cantar

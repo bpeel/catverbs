@@ -1,0 +1,2 @@
+stem=desmonetitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=telefon
+parent=cantar

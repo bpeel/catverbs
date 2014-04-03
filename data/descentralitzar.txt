@@ -1,0 +1,2 @@
+stem=descentralitz
+parent=cantar

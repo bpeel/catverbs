@@ -1,0 +1,2 @@
+stem=desarcaïtz
+parent=cantar

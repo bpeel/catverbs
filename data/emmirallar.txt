@@ -1,0 +1,2 @@
+stem=emmirall
+parent=cantar

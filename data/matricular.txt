@@ -1,0 +1,2 @@
+stem=matricul
+parent=cantar

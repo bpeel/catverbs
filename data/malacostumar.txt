@@ -1,0 +1,2 @@
+stem=malacostum
+parent=cantar

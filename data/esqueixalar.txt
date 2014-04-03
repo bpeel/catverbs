@@ -1,0 +1,2 @@
+stem=esqueixal
+parent=cantar

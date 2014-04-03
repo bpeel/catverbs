@@ -1,0 +1,2 @@
+stem=reny
+parent=cantar

@@ -1,0 +1,2 @@
+stem=escornifl
+parent=cantar

@@ -1,0 +1,2 @@
+stem=italianitz
+parent=cantar

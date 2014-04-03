@@ -1,0 +1,2 @@
+stem=desintercal
+parent=cantar

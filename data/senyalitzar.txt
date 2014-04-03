@@ -1,0 +1,2 @@
+stem=senyalitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=plant
+parent=cantar

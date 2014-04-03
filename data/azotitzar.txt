@@ -1,0 +1,2 @@
+stem=azotitz
+parent=cantar

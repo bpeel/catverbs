@@ -1,0 +1,2 @@
+stem=equidist
+parent=cantar

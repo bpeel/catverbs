@@ -1,0 +1,2 @@
+stem=solid
+parent=cantar

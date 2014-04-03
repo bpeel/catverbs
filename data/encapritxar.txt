@@ -1,0 +1,2 @@
+stem=encapritx
+parent=cantar

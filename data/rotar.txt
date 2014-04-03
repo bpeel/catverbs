@@ -1,0 +1,2 @@
+stem=rot
+parent=cantar

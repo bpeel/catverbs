@@ -1,0 +1,2 @@
+stem=enferr
+parent=cantar

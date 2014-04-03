@@ -1,0 +1,2 @@
+stem=cabrid
+parent=cantar

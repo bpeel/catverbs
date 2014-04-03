@@ -1,0 +1,2 @@
+stem=calefact
+parent=cantar

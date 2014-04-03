@@ -1,0 +1,2 @@
+stem=desplom
+parent=cantar

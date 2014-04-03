@@ -1,0 +1,2 @@
+stem=brand
+parent=cantar

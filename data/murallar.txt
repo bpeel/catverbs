@@ -1,0 +1,2 @@
+stem=murall
+parent=cantar

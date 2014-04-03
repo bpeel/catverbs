@@ -1,0 +1,2 @@
+stem=fossilitz
+parent=cantar

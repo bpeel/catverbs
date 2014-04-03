@@ -1,0 +1,2 @@
+stem=impact
+parent=cantar

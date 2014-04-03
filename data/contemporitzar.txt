@@ -1,0 +1,2 @@
+stem=contemporitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=traspal
+parent=cantar

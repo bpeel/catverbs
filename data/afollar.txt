@@ -1,0 +1,2 @@
+stem=afoll
+parent=cantar

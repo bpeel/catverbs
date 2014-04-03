@@ -1,0 +1,2 @@
+stem=apaller
+parent=cantar

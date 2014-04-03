@@ -1,0 +1,2 @@
+stem=commensur
+parent=cantar

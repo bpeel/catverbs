@@ -1,0 +1,2 @@
+stem=xaragall
+parent=cantar

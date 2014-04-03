@@ -1,0 +1,2 @@
+stem=empegunt
+parent=cantar

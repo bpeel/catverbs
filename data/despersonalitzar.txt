@@ -1,0 +1,2 @@
+stem=despersonalitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desconjunt
+parent=cantar

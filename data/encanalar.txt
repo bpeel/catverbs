@@ -1,0 +1,2 @@
+stem=encanal
+parent=cantar

@@ -1,0 +1,2 @@
+stem=ostent
+parent=cantar

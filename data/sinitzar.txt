@@ -1,0 +1,2 @@
+stem=sinitz
+parent=cantar

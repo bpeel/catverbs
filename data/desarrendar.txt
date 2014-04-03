@@ -1,0 +1,2 @@
+stem=desarrend
+parent=cantar

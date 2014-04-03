@@ -1,0 +1,2 @@
+stem=escriptur
+parent=cantar

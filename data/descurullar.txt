@@ -1,0 +1,2 @@
+stem=descurull
+parent=cantar

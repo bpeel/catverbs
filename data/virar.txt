@@ -1,0 +1,2 @@
+stem=vir
+parent=cantar

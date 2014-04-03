@@ -1,0 +1,2 @@
+stem=aval
+parent=cantar

@@ -1,0 +1,2 @@
+stem=pasteuritz
+parent=cantar

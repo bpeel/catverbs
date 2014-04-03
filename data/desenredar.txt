@@ -1,0 +1,2 @@
+stem=desenred
+parent=cantar

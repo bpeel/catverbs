@@ -1,0 +1,2 @@
+stem=filtr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=alcoholitz
+parent=cantar

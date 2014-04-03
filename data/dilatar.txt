@@ -1,0 +1,2 @@
+stem=dilat
+parent=cantar

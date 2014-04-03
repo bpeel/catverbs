@@ -1,0 +1,2 @@
+stem=atand
+parent=cantar

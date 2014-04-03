@@ -1,0 +1,2 @@
+stem=memor
+parent=cantar

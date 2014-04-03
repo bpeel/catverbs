@@ -1,0 +1,2 @@
+stem=denigr
+parent=cantar

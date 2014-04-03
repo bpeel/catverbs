@@ -1,0 +1,2 @@
+stem=pavon
+parent=cantar

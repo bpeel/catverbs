@@ -1,0 +1,2 @@
+stem=reglot
+parent=cantar

@@ -1,0 +1,2 @@
+stem=somorgoll
+parent=cantar

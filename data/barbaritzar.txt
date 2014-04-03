@@ -1,0 +1,2 @@
+stem=barbaritz
+parent=cantar

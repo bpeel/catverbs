@@ -1,0 +1,2 @@
+stem=punx
+parent=cantar

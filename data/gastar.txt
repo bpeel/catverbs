@@ -1,0 +1,2 @@
+stem=gast
+parent=cantar

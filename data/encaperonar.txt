@@ -1,0 +1,2 @@
+stem=encaperon
+parent=cantar

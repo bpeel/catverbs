@@ -1,0 +1,2 @@
+stem=desenfund
+parent=cantar

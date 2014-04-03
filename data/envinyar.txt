@@ -1,0 +1,2 @@
+stem=enviny
+parent=cantar

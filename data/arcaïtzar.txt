@@ -1,0 +1,2 @@
+stem=arcaïtz
+parent=cantar

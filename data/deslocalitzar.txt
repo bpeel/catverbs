@@ -1,0 +1,2 @@
+stem=deslocalitz
+parent=cantar

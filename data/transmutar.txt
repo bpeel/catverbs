@@ -1,0 +1,2 @@
+stem=transmut
+parent=cantar

@@ -1,0 +1,2 @@
+stem=garbon
+parent=cantar

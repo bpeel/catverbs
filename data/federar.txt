@@ -1,0 +1,2 @@
+stem=feder
+parent=cantar

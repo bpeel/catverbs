@@ -1,0 +1,2 @@
+stem=turment
+parent=cantar

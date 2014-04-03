@@ -1,0 +1,2 @@
+stem=encimols
+parent=cantar

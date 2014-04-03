@@ -1,0 +1,2 @@
+stem=desnivell
+parent=cantar

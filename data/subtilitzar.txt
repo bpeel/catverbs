@@ -1,0 +1,2 @@
+stem=subtilitz
+parent=cantar

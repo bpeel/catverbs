@@ -1,0 +1,2 @@
+stem=ovir
+parent=cantar

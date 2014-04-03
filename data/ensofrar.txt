@@ -1,0 +1,2 @@
+stem=ensofr
+parent=cantar

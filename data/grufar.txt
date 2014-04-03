@@ -1,0 +1,2 @@
+stem=gruf
+parent=cantar

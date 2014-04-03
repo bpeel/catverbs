@@ -1,0 +1,2 @@
+stem=ridiculitz
+parent=cantar

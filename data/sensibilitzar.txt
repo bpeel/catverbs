@@ -1,0 +1,2 @@
+stem=sensibilitz
+parent=cantar

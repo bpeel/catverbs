@@ -1,0 +1,2 @@
+stem=xarrup
+parent=cantar

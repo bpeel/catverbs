@@ -1,0 +1,2 @@
+stem=agarrot
+parent=cantar

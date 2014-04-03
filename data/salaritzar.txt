@@ -1,0 +1,2 @@
+stem=salaritz
+parent=cantar

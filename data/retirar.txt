@@ -1,0 +1,2 @@
+stem=retir
+parent=cantar

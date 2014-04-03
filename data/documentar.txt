@@ -1,0 +1,2 @@
+stem=document
+parent=cantar

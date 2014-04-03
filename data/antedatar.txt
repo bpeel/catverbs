@@ -1,0 +1,2 @@
+stem=antedat
+parent=cantar

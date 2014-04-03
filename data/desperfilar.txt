@@ -1,0 +1,2 @@
+stem=desperfil
+parent=cantar

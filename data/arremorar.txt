@@ -1,0 +1,2 @@
+stem=arremor
+parent=cantar

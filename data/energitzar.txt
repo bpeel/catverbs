@@ -1,0 +1,2 @@
+stem=energitz
+parent=cantar

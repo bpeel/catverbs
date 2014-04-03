@@ -1,0 +1,2 @@
+stem=enram
+parent=cantar

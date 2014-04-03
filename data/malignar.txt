@@ -1,0 +1,2 @@
+stem=malign
+parent=cantar

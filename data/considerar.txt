@@ -1,0 +1,2 @@
+stem=consider
+parent=cantar

@@ -1,0 +1,2 @@
+stem=escolaritz
+parent=cantar

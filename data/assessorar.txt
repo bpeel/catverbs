@@ -1,0 +1,2 @@
+stem=assessor
+parent=cantar

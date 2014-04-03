@@ -1,0 +1,2 @@
+stem=esgargamell
+parent=cantar

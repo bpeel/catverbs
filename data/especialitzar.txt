@@ -1,0 +1,2 @@
+stem=especialitz
+parent=cantar

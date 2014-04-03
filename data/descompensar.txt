@@ -1,0 +1,2 @@
+stem=descompens
+parent=cantar

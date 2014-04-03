@@ -1,0 +1,2 @@
+stem=adiny
+parent=cantar

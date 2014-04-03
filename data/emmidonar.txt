@@ -1,0 +1,2 @@
+stem=emmidon
+parent=cantar

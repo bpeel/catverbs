@@ -1,0 +1,2 @@
+stem=faraditz
+parent=cantar

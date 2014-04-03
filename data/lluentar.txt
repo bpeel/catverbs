@@ -1,0 +1,2 @@
+stem=lluent
+parent=cantar

@@ -1,0 +1,2 @@
+stem=islamitz
+parent=cantar

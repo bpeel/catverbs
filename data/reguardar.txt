@@ -1,0 +1,2 @@
+stem=reguard
+parent=cantar

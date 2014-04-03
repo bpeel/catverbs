@@ -1,0 +1,2 @@
+stem=pall
+parent=cantar

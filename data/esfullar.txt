@@ -1,0 +1,2 @@
+stem=esfull
+parent=cantar

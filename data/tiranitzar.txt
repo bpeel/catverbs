@@ -1,0 +1,2 @@
+stem=tiranitz
+parent=cantar

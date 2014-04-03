@@ -1,0 +1,2 @@
+stem=moned
+parent=cantar

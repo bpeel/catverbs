@@ -1,0 +1,2 @@
+stem=result
+parent=cantar

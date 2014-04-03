@@ -1,0 +1,2 @@
+stem=descingl
+parent=cantar

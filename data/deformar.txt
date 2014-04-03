@@ -1,0 +1,2 @@
+stem=deform
+parent=cantar

@@ -1,0 +1,2 @@
+stem=fit
+parent=cantar

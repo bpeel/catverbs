@@ -1,0 +1,2 @@
+stem=embon
+parent=cantar

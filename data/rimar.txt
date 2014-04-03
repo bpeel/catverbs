@@ -1,0 +1,2 @@
+stem=rim
+parent=cantar

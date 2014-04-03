@@ -1,0 +1,2 @@
+stem=enredort
+parent=cantar

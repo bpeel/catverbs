@@ -1,0 +1,2 @@
+stem=redelm
+parent=cantar

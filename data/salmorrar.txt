@@ -1,0 +1,2 @@
+stem=salmorr
+parent=cantar

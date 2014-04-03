@@ -1,0 +1,2 @@
+stem=empavellon
+parent=cantar

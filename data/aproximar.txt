@@ -1,0 +1,2 @@
+stem=aproxim
+parent=cantar

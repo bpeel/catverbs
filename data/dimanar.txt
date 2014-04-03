@@ -1,0 +1,2 @@
+stem=diman
+parent=cantar

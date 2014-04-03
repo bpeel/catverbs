@@ -1,0 +1,2 @@
+stem=sop
+parent=cantar

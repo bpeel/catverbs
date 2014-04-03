@@ -1,0 +1,2 @@
+stem=funcion
+parent=cantar

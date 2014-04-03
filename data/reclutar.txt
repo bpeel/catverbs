@@ -1,0 +1,2 @@
+stem=reclut
+parent=cantar

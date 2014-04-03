@@ -1,0 +1,2 @@
+stem=desensucr
+parent=cantar

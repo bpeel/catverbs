@@ -1,0 +1,2 @@
+stem=disson
+parent=cantar

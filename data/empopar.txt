@@ -1,0 +1,2 @@
+stem=empop
+parent=cantar

@@ -1,0 +1,2 @@
+stem=cianur
+parent=cantar

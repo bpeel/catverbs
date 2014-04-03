@@ -1,0 +1,2 @@
+stem=pidol
+parent=cantar

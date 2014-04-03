@@ -1,0 +1,2 @@
+stem=minv
+parent=cantar

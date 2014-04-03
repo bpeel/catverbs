@@ -1,0 +1,2 @@
+stem=estot
+parent=cantar

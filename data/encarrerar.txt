@@ -1,0 +1,2 @@
+stem=encarrer
+parent=cantar

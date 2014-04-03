@@ -1,0 +1,2 @@
+stem=trob
+parent=cantar

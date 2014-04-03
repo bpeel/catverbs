@@ -1,0 +1,2 @@
+stem=marbr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=responsabilitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=gel
+parent=cantar

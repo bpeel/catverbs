@@ -1,0 +1,2 @@
+stem=acatarr
+parent=cantar

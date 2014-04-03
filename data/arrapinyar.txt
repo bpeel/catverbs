@@ -1,0 +1,2 @@
+stem=arrapiny
+parent=cantar

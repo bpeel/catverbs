@@ -1,0 +1,2 @@
+stem=coedit
+parent=cantar

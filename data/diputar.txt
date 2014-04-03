@@ -1,0 +1,2 @@
+stem=diput
+parent=cantar

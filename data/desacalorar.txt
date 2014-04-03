@@ -1,0 +1,2 @@
+stem=desacalor
+parent=cantar

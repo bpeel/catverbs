@@ -1,0 +1,2 @@
+stem=esmorz
+parent=cantar

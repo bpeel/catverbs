@@ -1,0 +1,2 @@
+stem=enreul
+parent=cantar

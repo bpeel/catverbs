@@ -1,0 +1,2 @@
+stem=enast
+parent=cantar

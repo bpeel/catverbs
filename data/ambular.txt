@@ -1,0 +1,2 @@
+stem=ambul
+parent=cantar

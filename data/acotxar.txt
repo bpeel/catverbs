@@ -1,0 +1,2 @@
+stem=acotx
+parent=cantar

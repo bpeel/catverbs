@@ -1,0 +1,2 @@
+stem=dans
+parent=cantar

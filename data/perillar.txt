@@ -1,0 +1,2 @@
+stem=perill
+parent=cantar

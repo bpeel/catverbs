@@ -1,0 +1,2 @@
+stem=ataüll
+parent=cantar

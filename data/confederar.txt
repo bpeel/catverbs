@@ -1,0 +1,2 @@
+stem=confeder
+parent=cantar

@@ -1,0 +1,2 @@
+stem=embroll
+parent=cantar

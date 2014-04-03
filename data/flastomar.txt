@@ -1,0 +1,2 @@
+stem=flastom
+parent=cantar

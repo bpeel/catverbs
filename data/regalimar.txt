@@ -1,0 +1,2 @@
+stem=regalim
+parent=cantar

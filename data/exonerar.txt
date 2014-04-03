@@ -1,0 +1,2 @@
+stem=exoner
+parent=cantar

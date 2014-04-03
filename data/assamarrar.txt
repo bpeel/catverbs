@@ -1,0 +1,2 @@
+stem=assamarr
+parent=cantar

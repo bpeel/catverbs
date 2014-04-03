@@ -1,0 +1,2 @@
+stem=encoll
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desamor
+parent=cantar

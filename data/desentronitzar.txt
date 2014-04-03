@@ -1,0 +1,2 @@
+stem=desentronitz
+parent=cantar

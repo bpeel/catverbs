@@ -1,0 +1,2 @@
+stem=opugn
+parent=cantar

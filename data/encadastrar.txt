@@ -1,0 +1,2 @@
+stem=encadastr
+parent=cantar

@@ -1,0 +1,2 @@
+stem=motlur
+parent=cantar

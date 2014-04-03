@@ -1,0 +1,2 @@
+stem=brost
+parent=cantar

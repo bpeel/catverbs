@@ -1,0 +1,2 @@
+stem=inquiet
+parent=cantar

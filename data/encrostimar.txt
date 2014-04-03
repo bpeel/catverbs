@@ -1,0 +1,2 @@
+stem=encrostim
+parent=cantar

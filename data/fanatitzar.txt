@@ -1,0 +1,2 @@
+stem=fanatitz
+parent=cantar

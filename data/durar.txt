@@ -1,0 +1,2 @@
+stem=dur
+parent=cantar

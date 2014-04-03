@@ -1,0 +1,2 @@
+stem=contract
+parent=cantar

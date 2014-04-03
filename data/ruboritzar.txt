@@ -1,0 +1,2 @@
+stem=ruboritz
+parent=cantar

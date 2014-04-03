@@ -1,0 +1,2 @@
+stem=encairon
+parent=cantar

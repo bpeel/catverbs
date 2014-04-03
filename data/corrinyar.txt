@@ -1,0 +1,2 @@
+stem=corriny
+parent=cantar

@@ -1,0 +1,2 @@
+stem=bruel
+parent=cantar

@@ -1,0 +1,2 @@
+stem=edulcor
+parent=cantar

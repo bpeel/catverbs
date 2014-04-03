@@ -1,0 +1,2 @@
+stem=esparver
+parent=cantar

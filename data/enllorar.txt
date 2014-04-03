@@ -1,0 +1,2 @@
+stem=enllor
+parent=cantar

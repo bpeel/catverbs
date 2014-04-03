@@ -1,0 +1,2 @@
+stem=engarrof
+parent=cantar

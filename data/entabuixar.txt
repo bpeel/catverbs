@@ -1,0 +1,2 @@
+stem=entabuix
+parent=cantar

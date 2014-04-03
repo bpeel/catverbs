@@ -1,0 +1,2 @@
+stem=robor
+parent=cantar

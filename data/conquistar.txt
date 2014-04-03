@@ -1,0 +1,2 @@
+stem=conquist
+parent=cantar

@@ -1,0 +1,2 @@
+stem=sur
+parent=cantar

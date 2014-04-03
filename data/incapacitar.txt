@@ -1,0 +1,2 @@
+stem=incapacit
+parent=cantar

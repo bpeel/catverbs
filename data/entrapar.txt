@@ -1,0 +1,2 @@
+stem=entrap
+parent=cantar

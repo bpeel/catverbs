@@ -1,0 +1,2 @@
+stem=empanxon
+parent=cantar

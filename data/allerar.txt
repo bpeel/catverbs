@@ -1,0 +1,2 @@
+stem=aller
+parent=cantar

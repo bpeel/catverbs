@@ -1,0 +1,2 @@
+stem=reaccion
+parent=cantar

@@ -1,0 +1,2 @@
+stem=despenalitz
+parent=cantar

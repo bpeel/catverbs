@@ -1,0 +1,2 @@
+stem=escorcoll
+parent=cantar

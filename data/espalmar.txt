@@ -1,0 +1,2 @@
+stem=espalm
+parent=cantar

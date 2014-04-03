@@ -1,0 +1,2 @@
+stem=aliment
+parent=cantar

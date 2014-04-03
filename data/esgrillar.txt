@@ -1,0 +1,2 @@
+stem=esgrill
+parent=cantar

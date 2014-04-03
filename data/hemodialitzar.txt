@@ -1,0 +1,2 @@
+stem=hemodialitz
+parent=cantar

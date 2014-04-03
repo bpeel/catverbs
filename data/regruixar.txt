@@ -1,0 +1,2 @@
+stem=regruix
+parent=cantar

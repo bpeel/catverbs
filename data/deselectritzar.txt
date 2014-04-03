@@ -1,0 +1,2 @@
+stem=deselectritz
+parent=cantar

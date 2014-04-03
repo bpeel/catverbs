@@ -1,0 +1,2 @@
+stem=rascl
+parent=cantar

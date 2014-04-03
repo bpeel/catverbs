@@ -1,0 +1,2 @@
+stem=traüll
+parent=cantar

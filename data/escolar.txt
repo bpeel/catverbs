@@ -1,0 +1,2 @@
+stem=escol
+parent=cantar

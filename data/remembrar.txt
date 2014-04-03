@@ -1,0 +1,2 @@
+stem=remembr
+parent=cantar

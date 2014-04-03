@@ -1,0 +1,2 @@
+stem=constern
+parent=cantar

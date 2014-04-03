@@ -1,0 +1,2 @@
+stem=desplant
+parent=cantar

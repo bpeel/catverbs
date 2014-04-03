@@ -1,0 +1,2 @@
+stem=desengany
+parent=cantar

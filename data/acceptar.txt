@@ -1,0 +1,2 @@
+stem=accept
+parent=cantar

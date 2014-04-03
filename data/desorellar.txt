@@ -1,0 +1,2 @@
+stem=desorell
+parent=cantar

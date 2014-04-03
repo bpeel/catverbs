@@ -1,0 +1,2 @@
+stem=crivell
+parent=cantar

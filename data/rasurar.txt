@@ -1,0 +1,2 @@
+stem=rasur
+parent=cantar

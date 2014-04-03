@@ -1,0 +1,2 @@
+stem=aniquil
+parent=cantar

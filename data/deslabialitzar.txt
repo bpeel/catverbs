@@ -1,0 +1,2 @@
+stem=deslabialitz
+parent=cantar

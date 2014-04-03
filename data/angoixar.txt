@@ -1,0 +1,2 @@
+stem=angoix
+parent=cantar

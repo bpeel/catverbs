@@ -1,0 +1,2 @@
+stem=guinyol
+parent=cantar

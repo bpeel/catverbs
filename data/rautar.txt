@@ -1,0 +1,2 @@
+stem=raut
+parent=cantar

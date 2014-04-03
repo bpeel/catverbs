@@ -1,0 +1,2 @@
+stem=desenreder
+parent=cantar

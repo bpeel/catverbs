@@ -1,0 +1,2 @@
+stem=entrespol
+parent=cantar

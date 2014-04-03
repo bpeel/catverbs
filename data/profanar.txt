@@ -1,0 +1,2 @@
+stem=profan
+parent=cantar

@@ -1,0 +1,2 @@
+stem=sulfat
+parent=cantar

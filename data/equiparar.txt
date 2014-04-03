@@ -1,0 +1,2 @@
+stem=equipar
+parent=cantar

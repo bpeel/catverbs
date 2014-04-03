@@ -1,0 +1,2 @@
+stem=emmangr
+parent=cantar

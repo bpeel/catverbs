@@ -1,0 +1,2 @@
+stem=giragons
+parent=cantar

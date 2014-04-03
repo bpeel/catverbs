@@ -1,0 +1,2 @@
+stem=tampon
+parent=cantar

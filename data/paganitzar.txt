@@ -1,0 +1,2 @@
+stem=paganitz
+parent=cantar

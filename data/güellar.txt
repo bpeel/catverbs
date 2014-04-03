@@ -1,0 +1,2 @@
+stem=güell
+parent=cantar

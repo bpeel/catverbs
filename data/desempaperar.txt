@@ -1,0 +1,2 @@
+stem=desempaper
+parent=cantar

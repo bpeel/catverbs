@@ -1,0 +1,2 @@
+stem=pod
+parent=cantar

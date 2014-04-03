@@ -1,0 +1,2 @@
+stem=encens
+parent=cantar

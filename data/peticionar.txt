@@ -1,0 +1,2 @@
+stem=peticion
+parent=cantar

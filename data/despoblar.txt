@@ -1,0 +1,2 @@
+stem=despobl
+parent=cantar

@@ -1,0 +1,2 @@
+stem=enxarx
+parent=cantar

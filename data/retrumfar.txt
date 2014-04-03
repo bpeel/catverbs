@@ -1,0 +1,2 @@
+stem=retrumf
+parent=cantar

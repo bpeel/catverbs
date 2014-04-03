@@ -1,0 +1,2 @@
+stem=eixarm
+parent=cantar

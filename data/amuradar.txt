@@ -1,0 +1,2 @@
+stem=amurad
+parent=cantar

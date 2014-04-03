@@ -1,0 +1,2 @@
+stem=inutilitz
+parent=cantar

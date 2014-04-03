@@ -1,0 +1,2 @@
+stem=descabell
+parent=cantar

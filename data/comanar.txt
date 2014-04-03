@@ -1,0 +1,2 @@
+stem=coman
+parent=cantar

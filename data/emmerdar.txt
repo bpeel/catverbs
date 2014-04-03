@@ -1,0 +1,2 @@
+stem=emmerd
+parent=cantar

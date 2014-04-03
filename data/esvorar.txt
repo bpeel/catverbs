@@ -1,0 +1,2 @@
+stem=esvor
+parent=cantar

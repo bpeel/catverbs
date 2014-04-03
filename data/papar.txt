@@ -1,0 +1,2 @@
+stem=pap
+parent=cantar

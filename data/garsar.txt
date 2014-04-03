@@ -1,0 +1,2 @@
+stem=gars
+parent=cantar

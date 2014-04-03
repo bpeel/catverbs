@@ -1,0 +1,2 @@
+stem=nitrur
+parent=cantar

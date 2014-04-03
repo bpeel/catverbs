@@ -1,0 +1,2 @@
+stem=desafect
+parent=cantar

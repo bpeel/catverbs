@@ -1,0 +1,2 @@
+stem=vot
+parent=cantar

@@ -1,0 +1,2 @@
+stem=guany
+parent=cantar

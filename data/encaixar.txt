@@ -1,0 +1,2 @@
+stem=encaix
+parent=cantar

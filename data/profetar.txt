@@ -1,0 +1,2 @@
+stem=profet
+parent=cantar

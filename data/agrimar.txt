@@ -1,0 +1,2 @@
+stem=agrim
+parent=cantar

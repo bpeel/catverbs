@@ -1,0 +1,2 @@
+stem=decurv
+parent=cantar

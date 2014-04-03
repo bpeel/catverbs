@@ -1,0 +1,2 @@
+stem=palp
+parent=cantar

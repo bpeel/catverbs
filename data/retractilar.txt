@@ -1,0 +1,2 @@
+stem=retractil
+parent=cantar

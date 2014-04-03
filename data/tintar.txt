@@ -1,0 +1,2 @@
+stem=tint
+parent=cantar

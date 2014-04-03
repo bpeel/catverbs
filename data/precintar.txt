@@ -1,0 +1,2 @@
+stem=precint
+parent=cantar

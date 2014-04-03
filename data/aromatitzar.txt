@@ -1,0 +1,2 @@
+stem=aromatitz
+parent=cantar

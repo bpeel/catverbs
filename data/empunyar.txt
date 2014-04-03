@@ -1,0 +1,2 @@
+stem=empuny
+parent=cantar

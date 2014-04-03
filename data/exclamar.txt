@@ -1,0 +1,2 @@
+stem=exclam
+parent=cantar

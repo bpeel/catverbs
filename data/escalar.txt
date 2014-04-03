@@ -1,0 +1,2 @@
+stem=escal
+parent=cantar

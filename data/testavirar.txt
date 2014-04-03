@@ -1,0 +1,2 @@
+stem=testavir
+parent=cantar

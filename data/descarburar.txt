@@ -1,0 +1,2 @@
+stem=descarbur
+parent=cantar

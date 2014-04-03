@@ -1,0 +1,2 @@
+stem=enfust
+parent=cantar

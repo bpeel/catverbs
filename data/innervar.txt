@@ -1,0 +1,2 @@
+stem=innerv
+parent=cantar

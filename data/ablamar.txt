@@ -1,0 +1,2 @@
+stem=ablam
+parent=cantar

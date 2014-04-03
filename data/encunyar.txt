@@ -1,0 +1,2 @@
+stem=encuny
+parent=cantar

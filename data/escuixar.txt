@@ -1,0 +1,2 @@
+stem=escuix
+parent=cantar

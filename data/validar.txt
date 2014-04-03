@@ -1,0 +1,2 @@
+stem=valid
+parent=cantar

@@ -1,0 +1,2 @@
+stem=esgüell
+parent=cantar

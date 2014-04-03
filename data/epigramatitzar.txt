@@ -1,0 +1,2 @@
+stem=epigramatitz
+parent=cantar

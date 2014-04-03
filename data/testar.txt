@@ -1,0 +1,2 @@
+stem=test
+parent=cantar

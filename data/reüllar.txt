@@ -1,0 +1,2 @@
+stem=reüll
+parent=cantar

@@ -1,0 +1,2 @@
+stem=enfaristol
+parent=cantar

@@ -1,0 +1,2 @@
+stem=xinxoll
+parent=cantar

@@ -1,0 +1,2 @@
+stem=emmorter
+parent=cantar

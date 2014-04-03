@@ -1,0 +1,2 @@
+stem=embrost
+parent=cantar

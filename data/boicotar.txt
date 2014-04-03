@@ -1,0 +1,2 @@
+stem=boicot
+parent=cantar

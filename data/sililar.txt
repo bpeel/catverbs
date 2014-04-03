@@ -1,0 +1,2 @@
+stem=silil
+parent=cantar

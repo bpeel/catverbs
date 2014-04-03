@@ -1,0 +1,2 @@
+stem=pact
+parent=cantar

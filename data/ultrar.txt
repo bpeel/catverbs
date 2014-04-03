@@ -1,0 +1,2 @@
+stem=ultr
+parent=cantar

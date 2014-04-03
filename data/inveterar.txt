@@ -1,0 +1,2 @@
+stem=inveter
+parent=cantar

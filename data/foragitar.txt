@@ -1,0 +1,2 @@
+stem=foragit
+parent=cantar

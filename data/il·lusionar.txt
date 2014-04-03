@@ -1,0 +1,2 @@
+stem=il·lusion
+parent=cantar

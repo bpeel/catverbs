@@ -1,0 +1,2 @@
+stem=medit
+parent=cantar

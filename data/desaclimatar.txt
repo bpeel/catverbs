@@ -1,0 +1,2 @@
+stem=desaclimat
+parent=cantar

@@ -1,0 +1,2 @@
+stem=engavany
+parent=cantar

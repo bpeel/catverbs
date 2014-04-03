@@ -1,0 +1,2 @@
+stem=humanitz
+parent=cantar

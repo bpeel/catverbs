@@ -1,0 +1,2 @@
+stem=erer
+parent=cantar

@@ -1,0 +1,2 @@
+stem=verber
+parent=cantar

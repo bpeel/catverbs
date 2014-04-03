@@ -1,0 +1,2 @@
+stem=macadamitz
+parent=cantar

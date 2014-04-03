@@ -1,0 +1,2 @@
+stem=pols
+parent=cantar

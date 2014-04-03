@@ -1,0 +1,2 @@
+stem=mid
+parent=cantar

@@ -1,0 +1,2 @@
+stem=enarbr
+parent=cantar

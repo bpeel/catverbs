@@ -1,0 +1,2 @@
+stem=vant
+parent=cantar

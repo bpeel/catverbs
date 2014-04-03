@@ -1,0 +1,2 @@
+stem=contrasegell
+parent=cantar

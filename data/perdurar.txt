@@ -1,0 +1,2 @@
+stem=perdur
+parent=cantar

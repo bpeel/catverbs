@@ -1,0 +1,2 @@
+stem=amaton
+parent=cantar

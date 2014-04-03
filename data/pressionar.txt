@@ -1,0 +1,2 @@
+stem=pression
+parent=cantar

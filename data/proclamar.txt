@@ -1,0 +1,2 @@
+stem=proclam
+parent=cantar

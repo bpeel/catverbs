@@ -1,0 +1,2 @@
+stem=mat
+parent=cantar

@@ -1,0 +1,2 @@
+stem=tragell
+parent=cantar

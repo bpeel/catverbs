@@ -1,0 +1,2 @@
+stem=desteul
+parent=cantar

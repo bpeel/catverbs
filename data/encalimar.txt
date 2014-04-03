@@ -1,0 +1,2 @@
+stem=encalim
+parent=cantar

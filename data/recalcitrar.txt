@@ -1,0 +1,2 @@
+stem=recalcitr
+parent=cantar

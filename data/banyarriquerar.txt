@@ -1,0 +1,2 @@
+stem=banyarriquer
+parent=cantar

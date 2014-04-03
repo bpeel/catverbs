@@ -1,0 +1,2 @@
+stem=metaforitz
+parent=cantar

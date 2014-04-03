@@ -1,0 +1,2 @@
+stem=manifest
+parent=cantar

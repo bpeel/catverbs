@@ -1,0 +1,2 @@
+stem=delit
+parent=cantar

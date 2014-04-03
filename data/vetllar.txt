@@ -1,0 +1,2 @@
+stem=vetll
+parent=cantar

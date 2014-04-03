@@ -1,0 +1,2 @@
+stem=escanyot
+parent=cantar

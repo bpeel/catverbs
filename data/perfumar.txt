@@ -1,0 +1,2 @@
+stem=perfum
+parent=cantar

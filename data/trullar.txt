@@ -1,0 +1,2 @@
+stem=trull
+parent=cantar

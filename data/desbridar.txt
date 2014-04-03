@@ -1,0 +1,2 @@
+stem=desbrid
+parent=cantar

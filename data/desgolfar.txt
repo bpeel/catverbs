@@ -1,0 +1,2 @@
+stem=desgolf
+parent=cantar

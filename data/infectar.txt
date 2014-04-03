@@ -1,0 +1,2 @@
+stem=infect
+parent=cantar

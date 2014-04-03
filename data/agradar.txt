@@ -1,0 +1,2 @@
+stem=agrad
+parent=cantar

@@ -1,0 +1,2 @@
+stem=obtur
+parent=cantar

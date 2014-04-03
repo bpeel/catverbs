@@ -1,0 +1,2 @@
+stem=traumatitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=eixon
+parent=cantar

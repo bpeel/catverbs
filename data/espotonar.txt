@@ -1,0 +1,2 @@
+stem=espoton
+parent=cantar

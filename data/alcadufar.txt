@@ -1,0 +1,2 @@
+stem=alcaduf
+parent=cantar

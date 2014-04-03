@@ -1,0 +1,2 @@
+stem=impermeabilitz
+parent=cantar

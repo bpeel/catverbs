@@ -1,0 +1,2 @@
+stem=esgrifoll
+parent=cantar

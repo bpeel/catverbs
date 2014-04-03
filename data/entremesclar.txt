@@ -1,0 +1,2 @@
+stem=entremescl
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desmobilitz
+parent=cantar

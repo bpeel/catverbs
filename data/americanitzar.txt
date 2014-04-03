@@ -1,0 +1,2 @@
+stem=americanitz
+parent=cantar

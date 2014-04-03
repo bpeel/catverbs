@@ -1,0 +1,2 @@
+stem=espany
+parent=cantar

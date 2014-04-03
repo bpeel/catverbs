@@ -1,0 +1,2 @@
+stem=europeïtz
+parent=cantar

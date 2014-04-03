@@ -1,0 +1,2 @@
+stem=desratitz
+parent=cantar

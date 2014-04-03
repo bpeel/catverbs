@@ -1,0 +1,2 @@
+stem=refonament
+parent=cantar

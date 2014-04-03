@@ -1,0 +1,2 @@
+stem=coron
+parent=cantar

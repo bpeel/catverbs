@@ -1,0 +1,2 @@
+stem=motoritz
+parent=cantar

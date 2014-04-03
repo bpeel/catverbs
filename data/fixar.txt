@@ -1,0 +1,2 @@
+stem=fix
+parent=cantar

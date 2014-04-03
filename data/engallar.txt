@@ -1,0 +1,2 @@
+stem=engall
+parent=cantar

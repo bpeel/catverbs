@@ -1,0 +1,2 @@
+stem=descord
+parent=cantar

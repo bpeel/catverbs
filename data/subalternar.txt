@@ -1,0 +1,2 @@
+stem=subaltern
+parent=cantar

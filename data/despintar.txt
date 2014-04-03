@@ -1,0 +1,2 @@
+stem=despint
+parent=cantar

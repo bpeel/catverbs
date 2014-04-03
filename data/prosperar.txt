@@ -1,0 +1,2 @@
+stem=prosper
+parent=cantar

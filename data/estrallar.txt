@@ -1,0 +1,2 @@
+stem=estrall
+parent=cantar

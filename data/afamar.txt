@@ -1,0 +1,2 @@
+stem=afam
+parent=cantar

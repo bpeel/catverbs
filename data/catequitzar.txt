@@ -1,0 +1,2 @@
+stem=catequitz
+parent=cantar

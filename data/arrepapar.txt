@@ -1,0 +1,2 @@
+stem=arrepap
+parent=cantar

@@ -1,0 +1,2 @@
+stem=dard
+parent=cantar

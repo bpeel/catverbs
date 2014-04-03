@@ -1,0 +1,2 @@
+stem=soroll
+parent=cantar

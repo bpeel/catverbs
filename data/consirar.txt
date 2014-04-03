@@ -1,0 +1,2 @@
+stem=consir
+parent=cantar

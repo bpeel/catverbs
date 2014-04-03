@@ -1,0 +1,2 @@
+stem=nomin
+parent=cantar

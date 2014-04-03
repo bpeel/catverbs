@@ -1,0 +1,2 @@
+stem=acamp
+parent=cantar

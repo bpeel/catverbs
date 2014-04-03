@@ -1,0 +1,2 @@
+stem=migrol
+parent=cantar

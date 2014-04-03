@@ -1,0 +1,2 @@
+stem=escarnuf
+parent=cantar

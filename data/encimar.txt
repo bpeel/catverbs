@@ -1,0 +1,2 @@
+stem=encim
+parent=cantar

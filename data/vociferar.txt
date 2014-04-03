@@ -1,0 +1,2 @@
+stem=vocifer
+parent=cantar

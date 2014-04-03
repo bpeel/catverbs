@@ -1,0 +1,2 @@
+stem=envidr
+parent=cantar

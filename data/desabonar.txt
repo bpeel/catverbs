@@ -1,0 +1,2 @@
+stem=desabon
+parent=cantar

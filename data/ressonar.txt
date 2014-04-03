@@ -1,0 +1,2 @@
+stem=resson
+parent=cantar

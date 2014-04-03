@@ -1,0 +1,2 @@
+stem=tast
+parent=cantar

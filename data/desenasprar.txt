@@ -1,0 +1,2 @@
+stem=desenaspr
+parent=cantar

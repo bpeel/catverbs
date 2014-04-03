@@ -1,0 +1,2 @@
+stem=delimit
+parent=cantar

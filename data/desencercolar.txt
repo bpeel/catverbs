@@ -1,0 +1,2 @@
+stem=desencercol
+parent=cantar

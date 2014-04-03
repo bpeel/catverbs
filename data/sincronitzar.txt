@@ -1,0 +1,2 @@
+stem=sincronitz
+parent=cantar

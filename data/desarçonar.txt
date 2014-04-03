@@ -1,0 +1,2 @@
+stem=desarçon
+parent=cantar

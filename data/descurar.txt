@@ -1,0 +1,2 @@
+stem=descur
+parent=cantar

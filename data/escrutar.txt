@@ -1,0 +1,2 @@
+stem=escrut
+parent=cantar

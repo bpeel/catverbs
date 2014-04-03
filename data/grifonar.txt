@@ -1,0 +1,2 @@
+stem=grifon
+parent=cantar

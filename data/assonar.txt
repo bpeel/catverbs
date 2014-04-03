@@ -1,0 +1,2 @@
+stem=asson
+parent=cantar

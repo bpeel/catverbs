@@ -1,0 +1,2 @@
+stem=recingl
+parent=cantar

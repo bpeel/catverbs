@@ -1,0 +1,2 @@
+stem=bomb
+parent=cantar

@@ -1,0 +1,2 @@
+stem=replan
+parent=cantar

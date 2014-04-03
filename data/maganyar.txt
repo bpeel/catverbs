@@ -1,0 +1,2 @@
+stem=magany
+parent=cantar

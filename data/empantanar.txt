@@ -1,0 +1,2 @@
+stem=empantan
+parent=cantar

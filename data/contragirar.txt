@@ -1,0 +1,2 @@
+stem=contragir
+parent=cantar

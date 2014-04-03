@@ -1,0 +1,2 @@
+stem=desempastell
+parent=cantar

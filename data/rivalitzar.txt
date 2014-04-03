@@ -1,0 +1,2 @@
+stem=rivalitz
+parent=cantar

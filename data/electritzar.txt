@@ -1,0 +1,2 @@
+stem=electritz
+parent=cantar

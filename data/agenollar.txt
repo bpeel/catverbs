@@ -1,0 +1,2 @@
+stem=agenoll
+parent=cantar

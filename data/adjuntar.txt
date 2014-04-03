@@ -1,0 +1,2 @@
+stem=adjunt
+parent=cantar

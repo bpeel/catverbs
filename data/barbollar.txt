@@ -1,0 +1,2 @@
+stem=barboll
+parent=cantar

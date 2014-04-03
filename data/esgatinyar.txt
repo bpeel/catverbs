@@ -1,0 +1,2 @@
+stem=esgatiny
+parent=cantar

@@ -1,0 +1,2 @@
+stem=subvencion
+parent=cantar

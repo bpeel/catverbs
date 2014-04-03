@@ -1,0 +1,2 @@
+stem=tragit
+parent=cantar

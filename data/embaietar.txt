@@ -1,0 +1,2 @@
+stem=embaiet
+parent=cantar

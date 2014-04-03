@@ -1,0 +1,2 @@
+stem=copul
+parent=cantar

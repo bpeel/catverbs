@@ -1,0 +1,2 @@
+stem=desconx
+parent=cantar

@@ -1,0 +1,2 @@
+stem=desballest
+parent=cantar

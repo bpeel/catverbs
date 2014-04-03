@@ -1,0 +1,2 @@
+stem=envolt
+parent=cantar

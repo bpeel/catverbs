@@ -1,0 +1,2 @@
+stem=catalanitz
+parent=cantar

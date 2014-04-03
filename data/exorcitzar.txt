@@ -1,0 +1,2 @@
+stem=exorcitz
+parent=cantar

@@ -1,0 +1,2 @@
+stem=feixur
+parent=cantar

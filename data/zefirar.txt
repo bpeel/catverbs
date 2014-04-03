@@ -1,0 +1,2 @@
+stem=zefir
+parent=cantar

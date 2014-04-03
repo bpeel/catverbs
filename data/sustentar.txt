@@ -1,0 +1,2 @@
+stem=sustent
+parent=cantar

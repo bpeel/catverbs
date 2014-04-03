@@ -1,0 +1,2 @@
+stem=cicatritz
+parent=cantar

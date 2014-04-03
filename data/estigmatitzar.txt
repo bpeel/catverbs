@@ -1,0 +1,2 @@
+stem=estigmatitz
+parent=cantar

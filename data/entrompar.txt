@@ -1,0 +1,2 @@
+stem=entromp
+parent=cantar

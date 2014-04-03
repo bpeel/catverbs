@@ -1,0 +1,2 @@
+stem=bossell
+parent=cantar

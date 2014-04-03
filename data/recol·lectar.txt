@@ -1,0 +1,2 @@
+stem=recol·lect
+parent=cantar

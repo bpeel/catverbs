@@ -1,0 +1,2 @@
+stem=insult
+parent=cantar

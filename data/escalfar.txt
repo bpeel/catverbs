@@ -1,0 +1,2 @@
+stem=escalf
+parent=cantar

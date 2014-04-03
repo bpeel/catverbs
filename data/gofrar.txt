@@ -1,0 +1,2 @@
+stem=gofr
+parent=cantar

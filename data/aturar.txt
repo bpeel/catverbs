@@ -1,0 +1,2 @@
+stem=atur
+parent=cantar

@@ -1,0 +1,2 @@
+stem=hospitalitz
+parent=cantar

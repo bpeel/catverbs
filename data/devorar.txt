@@ -1,0 +1,2 @@
+stem=devor
+parent=cantar

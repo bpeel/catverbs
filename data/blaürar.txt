@@ -1,0 +1,2 @@
+stem=blaür
+parent=cantar

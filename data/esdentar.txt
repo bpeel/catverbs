@@ -1,0 +1,2 @@
+stem=esdent
+parent=cantar

@@ -1,0 +1,2 @@
+stem=regiment
+parent=cantar

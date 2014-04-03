@@ -1,0 +1,2 @@
+stem=esclaf
+parent=cantar

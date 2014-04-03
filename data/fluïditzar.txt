@@ -1,0 +1,2 @@
+stem=fluïditz
+parent=cantar

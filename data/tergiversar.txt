@@ -1,0 +1,2 @@
+stem=tergivers
+parent=cantar
