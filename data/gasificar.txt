@@ -1,0 +1,2 @@
+common_stem=gasifi
+parent=trencar

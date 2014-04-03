@@ -1,0 +1,2 @@
+common_stem=acetifi
+parent=trencar

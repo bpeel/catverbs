@@ -1,0 +1,2 @@
+common_stem=aparra
+parent=trencar

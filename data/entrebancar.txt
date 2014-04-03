@@ -1,0 +1,2 @@
+common_stem=entreban
+parent=trencar

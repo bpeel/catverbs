@@ -1,0 +1,2 @@
+common_stem=esmor
+parent=trencar

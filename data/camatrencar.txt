@@ -1,0 +1,2 @@
+common_stem=camatren
+parent=trencar

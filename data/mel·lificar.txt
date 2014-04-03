@@ -1,0 +1,2 @@
+common_stem=mel·lifi
+parent=trencar
