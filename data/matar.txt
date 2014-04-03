@@ -1,2 +1,8 @@
 stem=mat
 parent=cantar
+
+# Participles
+m_participle=mort (o matat)
+f_participle=morta (o matada)
+pm_participle=morts (o matats)
+pf_participle=mortes (o matades)
