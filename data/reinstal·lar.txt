@@ -1,0 +1,2 @@
+stem=reinstal·l
+parent=cantar

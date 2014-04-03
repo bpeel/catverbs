@@ -1,0 +1,2 @@
+stem=vacil·l
+parent=cantar

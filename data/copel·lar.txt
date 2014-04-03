@@ -1,0 +1,2 @@
+stem=copel·l
+parent=cantar

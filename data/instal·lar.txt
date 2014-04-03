@@ -1,0 +1,2 @@
+stem=instal·l
+parent=cantar

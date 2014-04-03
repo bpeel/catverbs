@@ -1,0 +1,2 @@
+stem=novel·l
+parent=cantar

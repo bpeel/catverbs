@@ -1,0 +1,2 @@
+stem=titil·l
+parent=cantar

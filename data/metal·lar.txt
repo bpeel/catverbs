@@ -1,0 +1,2 @@
+stem=metal·l
+parent=cantar

@@ -1,0 +1,2 @@
+stem=interpel·l
+parent=cantar

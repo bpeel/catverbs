@@ -1,0 +1,2 @@
+stem=codicil·l
+parent=cantar

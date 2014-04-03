@@ -1,0 +1,2 @@
+stem=refocil·l
+parent=cantar

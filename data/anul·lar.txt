@@ -1,0 +1,2 @@
+stem=anul·l
+parent=cantar

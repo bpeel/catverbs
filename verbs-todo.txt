@@ -30,7 +30,6 @@ para55|abst
 para77|abstr
 para77|abstr
 para27|ac
-para1|acaramel·l|acaramel
 para5|acoll|acull
 para42|acombo
 para24|acompl
@@ -50,10 +49,8 @@ para51|aj
 para51|aj
 para5|ajup
 para42|ando
-para1|anul·l|anul
 para10|apar
 para3|apar|aparer
-para1|apel·l|apel
 para67|aperce
 para11|apr
 para11|apreh
@@ -69,7 +66,6 @@ para55|at
 para42|atala
 para77|atr
 para77|atr
-para1|atxul·l|atxul
 para63|av
 para5|barbull
 para14|be
@@ -83,17 +79,13 @@ para4o5|brunz
 para5|bull
 para20|c
 para27|c
-para1|cancel·l|cancel
 para55|capt
 para55|cart
 para80|carv
-para1|cavil·l|cavil
 para3|cern|cerndre
 para41|circumscri
-para1|circumval·l|circumval
 para20|cl
 para4|cobr|cob
-para1|codicil·l|codicil
 para6|col
 para5|coll|cull
 para74|collt
@@ -116,7 +108,6 @@ para4.llegir|confeg|config|confij
 para26|confon|conf
 para47|confu
 para5|consent
-para1|constel·l|constel
 para39|constr
 uir|constru
 para4o5|consum
@@ -145,7 +136,6 @@ para36|d
 para37|d
 para14|de
 para18|de
-para1|debel·l|debel
 para27|dec
 para67|dece
 para31|decréix|decr
@@ -192,7 +182,6 @@ para11|despr
 para74|dest
 para4.llegir|desteix|destix
 para4.llegir|desteny|destiny
-para1|destil·l|destil
 para39|destr
 para4.vestir|desvest|desvist
 para84|desvi
@@ -219,7 +208,6 @@ para11|empr
 para7|enaig
 para13|enc
 para27|enc
-para1|encaramel·l|encaramel
 para32|encau
 para20|encl
 para4|encobr|encob
@@ -250,7 +238,6 @@ para78|equival
 para18|es
 para42|esborne
 para27|esc
-para1|escintil·l|escintil
 para5|escoll|escull
 para64|escom
 para5|escop|escup
@@ -282,7 +269,6 @@ para11|f
 para46|f
 para61|fèn|fen
 para4.vestir|fer
-para1|flagel·l|flagel
 para26|fon|f
 para4.fregir|freg|fr
 para47|fu
@@ -295,10 +281,7 @@ para20|incl
 para24|incompl
 para26|infon|inf
 para41|inscri
-para1|instal·l|instal
-para1|instil·l|instil
 para36|interd
-para1|interpel·l|interpel
 para63|interv
 para32|interviu
 para4.vestir|invest|invist
@@ -329,7 +312,6 @@ para4o5|ment
 para33|menyscr
 para55|menyst
 para31|merèix|mer
-para1|metal·l|metal
 cons.jar|min
 para14|mo
 para6|mol
@@ -340,7 +322,6 @@ para57|n
 para1|nann|nan
 para23|no
 para3|nom|nòmer
-para1|novel·l|novel
 para42|o
 para60|o
 para7|obliq
@@ -351,10 +332,8 @@ para11|of
 para24|ofer
 para6|ol
 para64|om
-para1|oscil·l|oscil
 para57|p
 para10|par
-para1|parcel·l|parcel
 para58.obrir|pell
 para4.vestir|pened|penet
 para5|perbull
@@ -370,7 +349,6 @@ para23|pla
 para61|plàn|plan
 para14.defectiu|plo
 para68|po
-para1|postil·l|postil
 para32|pou
 para11|pr
 para54|pr
@@ -404,7 +382,6 @@ para6|reabsol
 para64|readm
 para10|reapar
 para14|rebe
-para1|rebel·l|rebel
 para24|rebl
 para5|rebull
 para20|rec
@@ -423,11 +400,9 @@ para12|redarg
 para4|redescobr|redescob
 para41|reescri
 para46|ref
-para1|refocil·l|refocil
 para26|refon|ref
 para4.fregir|refreg|refr
 para50|reimpr
-para1|reinstal·l|reinstal
 para54|rell
 para4.llegir|relleg|rellig|rellij
 para64|rem
@@ -469,7 +444,6 @@ para33|s
 para11|salpr
 para46|satisf
 para5|sent
-para1|sigil·l|sigil
 para38|sobre
 para4.llegir|sobreafeg|sobreafig|sobreafij
 para31|sobrecréix|sobrecr
@@ -509,7 +483,6 @@ para3|tem|témer
 para4.llegir|teny|tiny
 para3|terratrem|terratrémer
 para3|terratrem|terratrèmer
-para1|titil·l|titil
 para6|tol
 para26|ton|t
 para28|toss|t
@@ -540,7 +513,6 @@ para66|abale
 car|bus
 car|col·lo
 car|compli
-para1|copel·l|copel
 car|defe
 para69|enr
 para13|ent
@@ -558,7 +530,6 @@ car|simplifi
 car|sofisti
 jar|sotrague
 car|to
-para1|vacil·l|vacil
 car|xeri
 car|xerri
 car|xo
