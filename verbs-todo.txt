@@ -23,7 +23,6 @@ para85
 para9
 ir.eix|abal
 para6|absol
-para55|abst
 para27|ac
 para24|acompl
 para31|acréix|acr
@@ -45,15 +44,12 @@ para4o5|arrup
 para33|ass
 para13|at
 para39|at
-para55|at
 para14|be
 para82|benv
 para4o5|brum
 para4o5|brunz
 para20|c
 para27|c
-para55|capt
-para55|cart
 para80|carv
 para3|cern|cerndre
 para41|circumscri
@@ -79,7 +75,6 @@ para39|constr
 uir|constru
 para4o5|consum
 para13|cont
-para55|cont
 para74|cont
 para36|contrad
 para46|contraf
@@ -128,7 +123,6 @@ para4.llegir|desteny|destiny
 para39|destr
 para4.vestir|desvest|desvist
 para84|desvi
-para55|det
 para26|difon|dif
 para27|disc
 para68|dispo
@@ -153,7 +147,6 @@ para36|entred
 para54|entrell
 para60|entreo
 para14.defectiu|entreplo
-para55|entret
 para4.llegir|entreteix|entretix
 para82|entrev
 para4.vestir|envest|envist
@@ -200,12 +193,10 @@ para4.vestir|malfer
 para80|malv
 para82|malv
 para84|malvi
-para55|mant
 para26|marfon|marf
 cons.jar|men
 para4o5|ment
 para33|menyscr
-para55|menyst
 para31|merèix|mer
 cons.jar|min
 para14|mo
@@ -217,7 +208,6 @@ para23|no
 para3|nom|nòmer
 para60|o
 para7|obliq
-para55|obt
 para27|oc
 para24|ofer
 para6|ol
@@ -287,7 +277,6 @@ para68|respo
 para24|restabl
 para39|restr
 para4o5|resum
-para55|ret
 para74|ret
 para4.llegir|reteix|retix
 para4.llegir|reteny|retiny
@@ -319,7 +308,6 @@ para4.fregir|sofreg|sofr
 para78|sol
 para14|somo
 para69|somr
-para55|sost
 para41|sotaescri
 para7|sotaig
 para41|subscri
@@ -347,7 +335,6 @@ para78|val
 para78|val
 para4.vestir|vest|vist
 para84|vi
-para55|vilt
 para66|abale
 para69|enr
 para13|ent
