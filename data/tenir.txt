@@ -1,0 +1,5 @@
+common_stem=t
+parent=obtenir
+
+# Imperative
+imp_tu={common_stem}é (o {common_stem}en o {common_stem}ingues)
