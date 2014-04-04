@@ -1,0 +1,4 @@
+common_stem=s
+ustem={common_stem}urt
+stem={common_stem}ort
+parent=collir
