@@ -43,7 +43,6 @@ para51|aj
 para10|apar
 para3|apar|aparer
 para67|aperce
-para11|apr
 para11|apreh
 para32|apreu
 para7|apropinq

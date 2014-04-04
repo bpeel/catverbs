@@ -1,0 +1,27 @@
+common_stem=apr
+stem={common_stem}en
+infinitive={stem}d{infinitive_suffix}
+parent=perdre
+
+# Participles
+participle_stem={common_stem}es
+m_participle={common_stem}ès
+f_participle={participle_stem}a
+pm_participle={participle_stem}os
+pf_participle={participle_stem}es
+
+# Present indicative
+pi_jo={pi_stem}c
+pi_ell={common_stem}èn
+
+# Simple past indicative
+spi_stem={stem}gu
+
+# Present subjunctive
+ps_stem={stem}gu
+
+# Imperfect subjunctive
+is_stem={stem}gu
+
+# Future
+future_stem={stem}dr
