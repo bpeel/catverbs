@@ -1,0 +1,10 @@
+common_stem=v
+parent=prevenir
+
+# Present indicative
+pi_tu={common_stem}éns
+pi_ell={common_stem}e
+pi_ells={common_stem}énen
+
+# Imperative
+imp_tu={common_stem}ine

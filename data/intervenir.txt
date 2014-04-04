@@ -1,0 +1,5 @@
+common_stem=interv
+parent=prevenir
+
+# Imperative
+imp_tu={common_stem}é (o {common_stem}én)

@@ -20,7 +20,6 @@ para72
 para73
 para73
 para81
-para81
 para85
 para9
 ir.eix|abal
@@ -194,7 +193,6 @@ para24|incompl
 para26|infon|inf
 para41|inscri
 para36|interd
-para63|interv
 para4.vestir|invest|invist
 para31|irèix|ir
 para51|j
@@ -308,7 +306,6 @@ para4.llegir|reteix|retix
 para4.llegir|reteny|retiny
 para26|reton|ret
 para80|retrov
-para63|rev
 para79|rev
 para80|rev
 para82|rev
