@@ -393,7 +393,6 @@ para32|repeu
 para11|repr
 para6|resol
 para68|respo
-para5|ressort|ressurt
 para24|restabl
 para39|restr
 para4o5|resum
@@ -428,7 +427,6 @@ para57|sobren
 para57|sobren
 para11|sobrepr
 para33|sobres
-para5|sobresort|sobresurt
 para4.llegir|sobreteix|sobretix
 para63|sobrev
 para78|sobreval
