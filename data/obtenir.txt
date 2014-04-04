@@ -1,0 +1,6 @@
+common_stem=obt
+parent=prevenir
+
+# Imperative
+imp_tu={common_stem}én (o {common_stem}ingues)
+imp_vosaltres={pi_vosaltres} (o {ps_vosaltres})
