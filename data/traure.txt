@@ -35,6 +35,3 @@ ps_stem={common_stem}agu
 
 # Future
 future_stem={stem}ur
-
-# Imperative
-imp_vosaltres={common_stem}aieu

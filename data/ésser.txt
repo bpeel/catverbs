@@ -58,3 +58,4 @@ cond_ells=serien (foren)
 
 # Imperative
 imp_tu=sigues
+imp_vosaltres={ps_vosaltres}

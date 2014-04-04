@@ -80,5 +80,5 @@ imp_jo=-
 imp_tu={pi_ell}
 imp_ell={ps_ell}
 imp_nosaltres={ps_nosaltres}
-imp_vosaltres={ps_vosaltres}
+imp_vosaltres={pi_vosaltres}
 imp_ells={ps_ells}
