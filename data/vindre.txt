@@ -1,0 +1,2 @@
+parent=venir
+infinitive=vindre
