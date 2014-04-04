@@ -1,0 +1,2 @@
+common_stem=susp
+parent=aprendre

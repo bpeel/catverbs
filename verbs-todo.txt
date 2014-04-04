@@ -43,7 +43,6 @@ para51|aj
 para10|apar
 para3|apar|aparer
 para67|aperce
-para11|apreh
 para32|apreu
 para7|apropinq
 para12|arg
@@ -76,7 +75,6 @@ para24|compl
 para23|compla
 para61|complàn|complan
 para68|compo
-para11|compr
 para64|comprom
 para25|con
 para27|conc
@@ -100,7 +98,6 @@ para79|conv
 para84|convi
 para4.vestir|corfer
 para26|corfon|corf
-para11|corpr
 para68|correspo
 para28|cos|c
 para33|cr
@@ -113,15 +110,12 @@ para18|de
 para27|dec
 para67|dece
 para31|decréix|decr
-para11|def
 para47|defu
 para64|dem
-para11|dep
 para38|des
 para58|des
 para7|desaig
 para10|desapar
-para11|desapr
 para13|desat
 para63|desav
 para27|desc
@@ -146,10 +140,8 @@ para46|desf
 para4o5|desment
 para31|desmerèix|desmer
 para60|deso
-para11|desp
 para23|despla
 para68|despo
-para11|despr
 para74|dest
 para4.llegir|desteix|destix
 para4.llegir|desteny|destiny
@@ -169,7 +161,6 @@ para64|em
 para14|embe
 para39|emp
 para32|empou
-para11|empr
 para7|enaig
 para13|enc
 para27|enc
@@ -211,7 +202,6 @@ para32|estiu
 para39|estr
 para46|estraf
 para20|excl
-para11|exp
 para6|exsol
 para46|f
 para61|fèn|fen
@@ -244,11 +234,9 @@ para36|mald
 para13|malent
 para4.vestir|malfer
 para64|malm
-para11|malpr
 para80|malv
 para82|malv
 para84|malvi
-para11|mampr
 para55|mant
 para64|manum
 para26|marfon|marf
@@ -270,7 +258,6 @@ para7|obliq
 para55|obt
 para63|obv
 para27|oc
-para11|of
 para24|ofer
 para6|ol
 para64|om
@@ -347,7 +334,6 @@ para57|ren
 para57|ren
 para4.vestir|reny|riny
 para32|repeu
-para11|repr
 para6|resol
 para68|respo
 para24|restabl
@@ -368,7 +354,6 @@ para4.vestir|revest|revist
 para84|revi
 para68|roma
 para33|s
-para11|salpr
 para46|satisf
 para38|sobre
 para4.llegir|sobreafeg|sobreafig|sobreafij
@@ -378,7 +363,6 @@ para41|sobreescri
 para50|sobreimpr
 para57|sobren
 para57|sobren
-para11|sobrepr
 para33|sobres
 para4.llegir|sobreteix|sobretix
 para63|sobrev
@@ -390,7 +374,6 @@ para4.fregir|sofreg|sofr
 para78|sol
 para14|somo
 para69|somr
-para11|sorpr
 para55|sost
 para41|sotaescri
 para7|sotaig
@@ -398,7 +381,6 @@ para64|sotm
 para41|subscri
 para63|subv
 para24|supl
-para11|susp
 para74|t
 para4.llegir|teix|tix
 para3|tem|témer
@@ -417,7 +399,6 @@ para4.vestir|transvest|transvist
 para54|trasll
 para3|trem|trémer
 cons.jar|trepit
-para11|ullpr
 para79|v
 para80|v
 para82|v
