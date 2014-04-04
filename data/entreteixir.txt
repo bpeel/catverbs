@@ -1,0 +1,2 @@
+stem=entreteix
+parent=servir

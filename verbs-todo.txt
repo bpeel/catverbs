@@ -28,7 +28,6 @@ para4o5|acud
 para36|ad
 para7|adeq
 para41|adscri
-para4.llegir|afeg|afig|afij
 cons.jar|aflon
 para7|ag
 para51|aj
@@ -66,7 +65,6 @@ para27|conc
 para67|conce
 para20|concl
 para78|condol
-para4.llegir|confeg|config|confij
 para26|confon|conf
 para47|confu
 para39|constr
@@ -116,8 +114,6 @@ para60|deso
 para23|despla
 para68|despo
 para74|dest
-para4.llegir|desteix|destix
-para4.llegir|desteny|destiny
 para39|destr
 para4.vestir|desvest|desvist
 para84|desvi
@@ -145,7 +141,6 @@ para36|entred
 para54|entrell
 para60|entreo
 para14.defectiu|entreplo
-para4.llegir|entreteix|entretix
 para82|entrev
 para4.vestir|envest|envist
 para78|equival
@@ -264,7 +259,6 @@ para26|refon|ref
 para4.fregir|refreg|refr
 para50|reimpr
 para54|rell
-para4.llegir|relleg|rellig|rellij
 para14|remo
 para6|remol
 para57|ren
@@ -276,8 +270,6 @@ para24|restabl
 para39|restr
 para4o5|resum
 para74|ret
-para4.llegir|reteix|retix
-para4.llegir|reteny|retiny
 para26|reton|ret
 para80|retrov
 para79|rev
@@ -289,7 +281,6 @@ para68|roma
 para33|s
 para46|satisf
 para38|sobre
-para4.llegir|sobreafeg|sobreafig|sobreafij
 para31|sobrecréix|sobrecr
 para13|sobreent
 para41|sobreescri
@@ -297,7 +288,6 @@ para50|sobreimpr
 para57|sobren
 para57|sobren
 para33|sobres
-para4.llegir|sobreteix|sobretix
 para78|sobreval
 para84|sobrevi
 para27|soc
@@ -311,9 +301,7 @@ para7|sotaig
 para41|subscri
 para24|supl
 para74|t
-para4.llegir|teix|tix
 para3|tem|témer
-para4.llegir|teny|tiny
 para3|terratrem|terratrémer
 para3|terratrem|terratrèmer
 para6|tol
@@ -338,7 +326,6 @@ para69|enr
 para13|ent
 para66|fine
 para66|finestre
-para4.llegir|lleg|llig|llij
 jar|manifasse
 para4|part
 para4|pat

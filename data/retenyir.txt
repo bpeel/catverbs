@@ -1,0 +1,2 @@
+stem=reteny
+parent=servir
