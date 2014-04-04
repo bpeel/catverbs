@@ -227,7 +227,6 @@ para18|es
 para42|esborne
 para27|esc
 para64|escom
-para5|escop|escup
 para41|escri
 para63|esdev
 para42|esga

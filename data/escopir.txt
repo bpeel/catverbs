@@ -1,0 +1,3 @@
+ustem=escup
+stem=escop
+parent=collir
