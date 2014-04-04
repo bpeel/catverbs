@@ -1,0 +1,41 @@
+common_stem=prev
+parent=dormir
+stem={common_stem}en
+
+# Participles
+participle_stem={common_stem}ing
+m_participle={participle_stem}ut
+f_participle={participle_stem}uda
+pm_participle={participle_stem}uts
+pf_participle={participle_stem}udes
+
+# Present indicative
+pi_jo={common_stem}inc
+pi_ell={common_stem}é
+
+# Simple past indicative
+spi_stem={participle_stem}u
+spi_tu={spi_stem}eres
+spi_ell={spi_stem}é
+spi_nosaltres={spi_stem}érem
+spi_vosaltres={spi_stem}éreu
+spi_ells={spi_stem}eren
+
+# Present subjunctive
+ps_stem={spi_stem}
+ps_nosaltres={ps_stem}em
+ps_vosaltres={ps_stem}eu
+
+# Imperfect subjunctive
+is_jo={is_stem}és
+is_tu={is_stem}essis
+is_ell={is_stem}és
+is_nosaltres={is_stem}éssim
+is_vosaltres={is_stem}éssiu
+is_ells={is_stem}essin
+
+# Future
+future_stem={common_stem}indr
+
+# Imperative
+imp_tu={common_stem}én

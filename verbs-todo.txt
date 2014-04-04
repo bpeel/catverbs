@@ -255,7 +255,6 @@ para3|prem|prémer
 para41|prescri
 para4o5|presum
 para13|pret
-para63|prev
 para82|prev
 para78|preval
 para14|promo
