@@ -1,0 +1,2 @@
+stem=desenseu
+parent=cantar

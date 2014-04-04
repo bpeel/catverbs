@@ -1,0 +1,2 @@
+stem=entrecreu
+parent=cantar
