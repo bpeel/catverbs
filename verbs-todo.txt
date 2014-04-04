@@ -213,7 +213,6 @@ para46|estraf
 para20|excl
 para11|exp
 para6|exsol
-para11|f
 para46|f
 para61|fèn|fen
 para4.vestir|fer
