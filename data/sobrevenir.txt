@@ -1,0 +1,2 @@
+common_stem=sobrev
+parent=prevenir

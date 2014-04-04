@@ -31,7 +31,6 @@ para4o5|acud
 para36|ad
 para7|adeq
 para41|adscri
-para63|adv
 para4.llegir|afeg|afig|afij
 cons.jar|aflon
 para7|ag
@@ -47,7 +46,6 @@ para33|ass
 para13|at
 para39|at
 para55|at
-para63|av
 para14|be
 para82|benv
 para4o5|brum
@@ -85,8 +83,6 @@ para55|cont
 para74|cont
 para36|contrad
 para46|contraf
-para63|contrav
-para63|conv
 para79|conv
 para84|convi
 para4.vestir|corfer
@@ -108,14 +104,12 @@ para58|des
 para7|desaig
 para10|desapar
 para13|desat
-para63|desav
 para27|desc
 para20|descl
 para4|descobr|descob
 para23|descompla
 para68|descompo
 para25|descon
-para63|desconv
 para28|descos|desc
 para33|descr
 para41|descri
@@ -161,14 +155,12 @@ para60|entreo
 para14.defectiu|entreplo
 para55|entret
 para4.llegir|entreteix|entretix
-para63|entrev
 para82|entrev
 para4.vestir|envest|envist
 para78|equival
 para18|es
 para27|esc
 para41|escri
-para63|esdev
 para39|esp
 para3|esprem|esprémer
 para13|est
@@ -226,7 +218,6 @@ para3|nom|nòmer
 para60|o
 para7|obliq
 para55|obt
-para63|obv
 para27|oc
 para24|ofer
 para6|ol
@@ -238,7 +229,6 @@ para67|perce
 para4o5|percud
 para46|perf
 para61|pertàn|pertan
-para63|perv
 para84|pervi
 para23|pla
 para61|plàn|plan
@@ -256,7 +246,6 @@ para82|prev
 para78|preval
 para14|promo
 para41|proscri
-para63|prov
 para69|r
 para23|ra
 para46|raref
@@ -276,7 +265,6 @@ para4|recobr|recob
 para24|recompl
 para68|recompo
 para25|recon
-para63|reconv
 para28|recos|rec
 para31|recréix|recr
 para36|red
@@ -323,7 +311,6 @@ para57|sobren
 para57|sobren
 para33|sobres
 para4.llegir|sobreteix|sobretix
-para63|sobrev
 para78|sobreval
 para84|sobrevi
 para27|soc
@@ -336,7 +323,6 @@ para55|sost
 para41|sotaescri
 para7|sotaig
 para41|subscri
-para63|subv
 para24|supl
 para74|t
 para4.llegir|teix|tix
