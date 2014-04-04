@@ -292,7 +292,6 @@ para61|plàn|plan
 para14.defectiu|plo
 para68|po
 para32|pou
-para11|pr
 para54|pr
 para36|pred
 para24|preestabl

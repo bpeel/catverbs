@@ -1,0 +1,8 @@
+common_stem=pr
+parent=aprendre
+
+# Participles
+m_participle={participle_stem}
+
+# Present indicative
+pi_ell={pi_stem}
