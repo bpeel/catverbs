@@ -1,0 +1,10 @@
+common_stem=adm
+stem={common_stem}et
+parent=perdre
+
+# Participles
+participle_stem={common_stem}
+m_participle={participle_stem}ès
+f_participle={participle_stem}esa
+pm_participle={participle_stem}esos
+pf_participle={participle_stem}eses

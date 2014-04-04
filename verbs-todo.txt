@@ -32,7 +32,6 @@ para31|acréix|acr
 para4o5|acud
 para36|ad
 para7|adeq
-para64|adm
 para41|adscri
 para63|adv
 para4.llegir|afeg|afig|afij
@@ -290,7 +289,6 @@ para32|preu
 para63|prev
 para82|prev
 para78|preval
-para64|prom
 para14|promo
 para41|proscri
 para63|prov

@@ -1,0 +1,5 @@
+common_stem=m
+parent=admetre
+
+# Participles
+m_participle={participle_stem}es
