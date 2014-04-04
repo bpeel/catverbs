@@ -1,0 +1,2 @@
+common_stem=col·lo
+parent=trencar
