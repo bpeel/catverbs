@@ -1,0 +1,20 @@
+parent=traure
+
+stem={common_stem}e
+
+gerund={common_stem}aient
+
+# Present indicative
+pi_nosaltres={common_stem}aiem
+pi_vosaltres={common_stem}aieu
+
+# Present subjunctive
+ps_stem={common_stem}egu
+ps_nosaltres={common_stem}aguem
+ps_vosaltres={common_stem}agueu
+
+# Imperfect subjunctive
+is_stem={common_stem}agu
+
+# Future
+future_stem={common_stem}aur
