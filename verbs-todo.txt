@@ -230,7 +230,6 @@ para64|escom
 para41|escri
 para63|esdev
 para42|esga
-para42|esgla
 para39|esp
 para42|espa
 para32|espeu
