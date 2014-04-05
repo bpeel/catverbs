@@ -1,6 +1,6 @@
 /*
  * Catverbs - A portable Catalan conjugation reference for Android
- * Copyright (C) 2012, 2013  Neil Roberts
+ * Copyright (C) 2012, 2013, 2014  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -45,6 +45,23 @@ public class SearchActivity extends ListActivity
     setContentView (R.layout.search);
 
     ListView lv = getListView ();
+
+    try
+      {
+        InputStream indexIn = getAssets ().open ("index.dat");
+        Trie trie = new Trie (indexIn);
+        searchAdapter = new SearchAdapter (this, trie);
+
+        lv.setAdapter (searchAdapter);
+
+        TextView tv = (TextView) findViewById (R.id.search_edit);
+        tv.addTextChangedListener (this);
+      }
+    catch (java.io.IOException e)
+      {
+        throw new IllegalStateException ("Error while loading " +
+                                         "an asset");
+      }
 
     lv.setOnItemClickListener (new AdapterView.OnItemClickListener ()
       {
