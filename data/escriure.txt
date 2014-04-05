@@ -1,0 +1,47 @@
+common_stem=escri
+stem={common_stem}u
+parent=dormir
+
+infinitive_suffix=re
+
+gerund={common_stem}vint
+
+# Participles
+participle_stem={common_stem}
+m_participle={participle_stem}t
+f_participle={participle_stem}ta
+pm_participle={participle_stem}ts
+pf_participle={participle_stem}tes
+
+# Present indicative
+pi_jo={common_stem}c
+pi_nosaltres={common_stem}vim
+pi_vosaltres={common_stem}viu
+
+# Imperfect indicative
+ii_stem={common_stem}v
+
+# Simple past indicative
+spi_stem={common_stem}v
+spi_jo={spi_stem}í ({common_stem}guí)
+spi_tu={spi_stem}ires ({common_stem}gueres)
+spi_ell={spi_stem}í ({common_stem}gué)
+spi_nosaltres={spi_stem}írem ({common_stem}guérem)
+spi_vosaltres={spi_stem}íreu ({common_stem}guéreu)
+spi_ells={spi_stem}iren ({common_stem}gueren)
+
+# Present subjunctive
+ps_stem={common_stem}gu
+ps_nosaltres={ps_stem}em
+ps_vosaltres={ps_stem}eu
+
+# Imperfect subjunctive
+is_jo={common_stem}vís ({is_stem}és)
+is_tu={common_stem}vissis ({is_stem}essis)
+is_ell={common_stem}vís ({is_stem}és)
+is_nosaltres={common_stem}víssim ({is_stem}éssim)
+is_vosaltres={common_stem}víssiu ({is_stem}éssiu)
+is_ells={common_stem}vissin ({is_stem}essin)
+
+# Future
+future_stem={common_stem}ur

@@ -134,7 +134,6 @@ para14.defectiu|entreplo
 para82|entrev
 para78|equival
 para18|es
-para41|escri
 para39|esp
 para3|esprem|esprémer
 para13|est
