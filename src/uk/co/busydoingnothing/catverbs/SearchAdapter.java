@@ -65,7 +65,7 @@ public class SearchAdapter extends BaseAdapter
   public long getItemId (int position)
   {
     SearchResult result = getItem (position);
-    return (result.getArticle () << 32L) | result.getMark ();
+    return result.getArticle ();
   }
 
   @Override
@@ -138,7 +138,7 @@ public class SearchAdapter extends BaseAdapter
     public FilterResults performFiltering (CharSequence filter)
     {
       FilterResults ret = new FilterResults ();
-      String filterString = Hats.removeHats (filter).toLowerCase ();
+      String filterString = filter.toString ().toLowerCase ();
       SearchResult[] results = new SearchResult[MAX_RESULTS];
 
       ret.values = results;

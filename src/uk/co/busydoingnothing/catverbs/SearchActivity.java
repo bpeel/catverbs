@@ -36,9 +36,6 @@ import java.io.InputStream;
 public class SearchActivity extends ListActivity
   implements TextWatcher
 {
-  public static final String EXTRA_LANGUAGE =
-    "uk.co.busydoingnothing.catverbs.Language";
-
   private SearchAdapter searchAdapter;
 
   @Override
@@ -47,37 +44,7 @@ public class SearchActivity extends ListActivity
     super.onCreate (savedInstanceState);
     setContentView (R.layout.search);
 
-    Intent intent = getIntent ();
-
     ListView lv = getListView ();
-
-    if (intent != null)
-      {
-        String language = intent.getStringExtra (EXTRA_LANGUAGE);
-
-        if (language != null)
-          {
-            try
-              {
-                InputStream indexIn =
-                  getAssets ().open ("indices/index-" + language + ".bin");
-                Trie trie = new Trie (indexIn);
-                searchAdapter = new SearchAdapter (this, trie);
-
-                lv.setAdapter (searchAdapter);
-
-                TextView tv = (TextView) findViewById (R.id.search_edit);
-                tv.addTextChangedListener (this);
-
-                setTitle (getTitle () + " [" + language + "]");
-              }
-            catch (java.io.IOException e)
-              {
-                throw new IllegalStateException ("Error while loading " +
-                                                 "an asset");
-              }
-          }
-      }
 
     lv.setOnItemClickListener (new AdapterView.OnItemClickListener ()
       {
@@ -93,8 +60,6 @@ public class SearchActivity extends ListActivity
                                       ArticleActivity.class);
           intent.putExtra (ArticleActivity.EXTRA_ARTICLE_NUMBER,
                            result.getArticle ());
-          intent.putExtra (ArticleActivity.EXTRA_MARK_NUMBER,
-                           result.getMark ());
           startActivity (intent);
         }
       });

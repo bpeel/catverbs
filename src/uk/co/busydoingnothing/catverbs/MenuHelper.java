@@ -42,14 +42,6 @@ public class MenuHelper
 {
   private static final String LICENSE_URL =
     "http://www.gnu.org/licenses/gpl-2.0-standalone.html";
-  private static final String RETA_VORTARO_URL =
-    "http://purl.org/net/voko/revo/";
-  public static final String CATVERBS_PREFERENCES =
-    "CatverbsPreferences";
-  public static final String PREF_LAST_LANGUAGE =
-    "lastLanguage";
-  public static final String PREF_FONT_SIZE =
-    "fontSize";
 
   private static final int DIALOG_ABOUT = 0;
 
@@ -82,12 +74,6 @@ public class MenuHelper
       {
         URLSpan span = new URLSpan (LICENSE_URL);
         string.setSpan (span, pos + 6, pos + 10, 0 /* flags */);
-      }
-
-    if ((pos = string.toString ().indexOf ("Reta Vortaro")) != -1)
-      {
-        URLSpan span = new URLSpan (RETA_VORTARO_URL);
-        string.setSpan (span, pos, pos + 12, 0 /* flags */);
       }
   }
 
@@ -141,18 +127,6 @@ public class MenuHelper
   public static void goSearch (Activity activity)
   {
     Intent intent = new Intent (activity, SearchActivity.class);
-    SharedPreferences prefs =
-      activity.getSharedPreferences (CATVERBS_PREFERENCES,
-                                     Activity.MODE_PRIVATE);
-
-    intent.putExtra (SearchActivity.EXTRA_LANGUAGE,
-                     prefs.getString (PREF_LAST_LANGUAGE, "eo"));
-    activity.startActivity (intent);
-  }
-
-  public static void goChooseLanguage (Activity activity)
-  {
-    Intent intent = new Intent (activity, SelectLanguageActivity.class);
     activity.startActivity (intent);
   }
 
@@ -161,27 +135,13 @@ public class MenuHelper
     activity.showDialog (DIALOG_ABOUT);
   }
 
-  public static void goPreferences (Activity activity)
-  {
-    Intent intent = new Intent (activity, PreferenceActivity.class);
-    activity.startActivity (intent);
-  }
-
   public static boolean onOptionsItemSelected (Activity activity,
                                                MenuItem item)
   {
     switch (item.getItemId ())
       {
-      case R.id.menu_choose_language:
-        goChooseLanguage (activity);
-        return true;
-
       case R.id.menu_search:
         goSearch (activity);
-        return true;
-
-      case R.id.menu_preferences:
-        goPreferences (activity);
         return true;
 
       case R.id.menu_about:

@@ -22,29 +22,16 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 
 /* This activity is just like a landing page to select the right
- * initial activity. If the user has already previously selected a
- * language then we'll default to searching in that language again,
- * otherwise we show the language select page */
+ * initial activity. */
 
 public class StartActivity extends Activity
 {
   @Override
   public void onCreate (Bundle savedInstanceState)
   {
-    String lastLanguage;
-
     super.onCreate (savedInstanceState);
 
-    SharedPreferences prefs =
-      getSharedPreferences (MenuHelper.CATVERBS_PREFERENCES,
-                            Activity.MODE_PRIVATE);
-
-    lastLanguage = prefs.getString (MenuHelper.PREF_LAST_LANGUAGE, null);
-
-    if (lastLanguage == null)
-      MenuHelper.goChooseLanguage (this);
-    else
-      MenuHelper.goSearch (this);
+    MenuHelper.goSearch (this);
 
     /* Finish this activity to get it out of the call stack */
     finish ();
