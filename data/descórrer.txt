@@ -1,0 +1,2 @@
+common_stem=desc
+parent=córrer

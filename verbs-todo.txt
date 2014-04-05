@@ -21,7 +21,6 @@ para85
 para9
 ir.eix|abal
 para6|absol
-para27|ac
 para24|acompl
 para31|acréix|acr
 para4o5|acud
@@ -60,7 +59,6 @@ para23|compla
 para61|complàn|complan
 para68|compo
 para25|con
-para27|conc
 para67|conce
 para20|concl
 para78|condol
@@ -85,7 +83,6 @@ para36|d
 para37|d
 para14|de
 para18|de
-para27|dec
 para67|dece
 para31|decréix|decr
 para47|defu
@@ -94,7 +91,6 @@ para58|des
 para7|desaig
 para10|desapar
 para13|desat
-para27|desc
 para20|descl
 para4|descobr|descob
 para23|descompla
@@ -117,7 +113,6 @@ para39|destr
 para4.vestir|desvest|desvist
 para84|desvi
 para26|difon|dif
-para27|disc
 para68|dispo
 para6|dissol
 para13|dist
@@ -128,7 +123,6 @@ para14|embe
 para39|emp
 para7|enaig
 para13|enc
-para27|enc
 para20|encl
 para4|encobr|encob
 para37|end
@@ -144,7 +138,6 @@ para82|entrev
 para4.vestir|envest|envist
 para78|equival
 para18|es
-para27|esc
 para41|escri
 para39|esp
 para3|esprem|esprémer
@@ -163,7 +156,6 @@ para4.fregir|freg|fr
 para47|fu
 para3|fum|fúmer
 para50|impr
-para27|inc
 para20|incl
 para24|incompl
 para26|infon|inf
@@ -200,7 +192,6 @@ para23|no
 para3|nom|nòmer
 para60|o
 para7|obliq
-para27|oc
 para24|ofer
 para6|ol
 para57|p
@@ -241,7 +232,6 @@ para10|reapar
 para14|rebe
 para24|rebl
 para20|rec
-para27|rec
 para20|recl
 para4|recobr|recob
 para24|recompl
@@ -289,7 +279,6 @@ para57|sobren
 para33|sobres
 para78|sobreval
 para84|sobrevi
-para27|soc
 para24|sofr
 para4.fregir|sofreg|sofr
 para78|sol
@@ -306,7 +295,6 @@ para3|terratrem|terratrèmer
 para6|tol
 para26|ton|t
 para28|toss|t
-para27|transc
 para41|transcri
 para26|transfon|transf
 para4.vestir|transvest|transvist
