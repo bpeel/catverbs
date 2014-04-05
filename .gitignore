@@ -1,3 +1,9 @@
 /html
 /templates
 /articles.dat
+
+/local.properties
+/project.properties
+/bin
+/libs
+/gen
