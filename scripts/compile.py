@@ -48,7 +48,7 @@ class TrieNode:
                 length += 2
 
                 if article.display_name:
-                    length += len(article.display_name.encode("UTF-8"))
+                    length += len(article.display_name.encode("UTF-8")) + 1
 
             for child in self.children:
                 child_length = child.get_length()
