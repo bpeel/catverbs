@@ -25,7 +25,7 @@ class Dictionary:
     def __init__(self):
         self.verbs = {}
 
-        data_dir = os.path.join(os.path.split(__file__)[0], 'data')
+        data_dir = os.path.join(os.path.split(__file__)[0], '..', 'data')
 
         for short_filename in os.listdir(data_dir):
             if not short_filename.endswith('.txt'):
