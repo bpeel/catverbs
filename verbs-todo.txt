@@ -26,7 +26,6 @@ para31|acréix|acr
 para4o5|acud
 para36|ad
 para7|adeq
-para41|adscri
 cons.jar|aflon
 para7|ag
 para51|aj
@@ -47,7 +46,6 @@ para4o5|brunz
 para20|c
 para80|carv
 para3|cern|cerndre
-para41|circumscri
 para20|cl
 para4|cobr|cob
 para6|col
@@ -97,7 +95,6 @@ para68|descompo
 para25|descon
 para28|descos|desc
 para33|descr
-para41|descri
 para36|desd
 para7|desenaig
 para13|desent
@@ -153,7 +150,6 @@ para50|impr
 para20|incl
 para24|incompl
 para26|infon|inf
-para41|inscri
 para36|interd
 para31|irèix|ir
 para51|j
@@ -203,13 +199,11 @@ para36|pred
 para24|preestabl
 para56|prem
 para3|prem|prémer
-para41|prescri
 para4o5|presum
 para13|pret
 para82|prev
 para78|preval
 para14|promo
-para41|proscri
 para69|r
 para23|ra
 para46|raref
@@ -233,7 +227,6 @@ para31|recréix|recr
 para36|red
 para12|redarg
 para4|redescobr|redescob
-para41|reescri
 para46|ref
 para26|refon|ref
 para4.fregir|refreg|refr
@@ -261,7 +254,6 @@ para46|satisf
 para38|sobre
 para31|sobrecréix|sobrecr
 para13|sobreent
-para41|sobreescri
 para50|sobreimpr
 para57|sobren
 para57|sobren
@@ -273,9 +265,7 @@ para4.fregir|sofreg|sofr
 para78|sol
 para14|somo
 para69|somr
-para41|sotaescri
 para7|sotaig
-para41|subscri
 para24|supl
 para74|t
 para3|tem|témer
@@ -284,7 +274,6 @@ para3|terratrem|terratrèmer
 para6|tol
 para26|ton|t
 para28|toss|t
-para41|transcri
 para26|transfon|transf
 para54|trasll
 para3|trem|trémer
