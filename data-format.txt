@@ -73,10 +73,8 @@ Each variable assignments is as follows:
 • The value as a UTF-8 encoded string.
 
 The value string can contain references to other variables by using
-the unicode characters 0xE000→0xE0FE. These are in the private use
-range. The least significant 8 bits of the character number represent
-the variable number that should be substituted.
-
+the characters 0x00→0x1f. These shouldn't be needed in the string
+anyway. The character represents the variable number to substitute.
 The values should be taken from the current article if it provides
 one, or from the nearest ancestor article if not. If the ancestor
 value also contains variable references then the value search should
