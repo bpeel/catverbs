@@ -1,5 +1,5 @@
 /*
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2012  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -15,41 +15,33 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package uk.co.busydoingnothing.prevo;
+package uk.co.busydoingnothing.catverbs;
 
-public class SearchResult
+public class Language
 {
-  String word;
-  int article;
-  int mark;
+  private String name;
+  private String code;
 
-  public SearchResult (String word,
-                       int article,
-                       int mark)
+  public Language (String name,
+                   String code)
   {
-    this.word = word;
-    this.article = article;
-    this.mark = mark;
+    this.name = name;
+    this.code = code;
   }
 
-  public String getWord ()
+  public String getName ()
   {
-    return word;
+    return name;
   }
 
-  public int getArticle ()
+  public String getCode ()
   {
-    return article;
-  }
-
-  public int getMark ()
-  {
-    return mark;
+    return code;
   }
 
   @Override
   public String toString ()
   {
-    return word;
+    return name;
   }
 }

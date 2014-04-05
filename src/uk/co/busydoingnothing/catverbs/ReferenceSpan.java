@@ -1,5 +1,5 @@
 /*
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2012  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package uk.co.busydoingnothing.prevo;
+package uk.co.busydoingnothing.catverbs;
 
 import android.content.Intent;
 import android.text.style.ClickableSpan;
@@ -27,7 +27,7 @@ public class ReferenceSpan extends ClickableSpan
   private int articleNumber;
   private int sectionNumber;
 
-  private static String TAG = "PrevoReference";
+  private static String TAG = "CatverbsReference";
 
   public ReferenceSpan (int articleNumber,
                         int sectionNumber)

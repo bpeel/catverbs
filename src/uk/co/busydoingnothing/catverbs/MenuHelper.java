@@ -1,5 +1,5 @@
 /*
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2012, 2013  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package uk.co.busydoingnothing.prevo;
+package uk.co.busydoingnothing.catverbs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -44,8 +44,8 @@ public class MenuHelper
     "http://www.gnu.org/licenses/gpl-2.0-standalone.html";
   private static final String RETA_VORTARO_URL =
     "http://purl.org/net/voko/revo/";
-  public static final String PREVO_PREFERENCES =
-    "PrevoPreferences";
+  public static final String CATVERBS_PREFERENCES =
+    "CatverbsPreferences";
   public static final String PREF_LAST_LANGUAGE =
     "lastLanguage";
   public static final String PREF_FONT_SIZE =
@@ -142,7 +142,7 @@ public class MenuHelper
   {
     Intent intent = new Intent (activity, SearchActivity.class);
     SharedPreferences prefs =
-      activity.getSharedPreferences (PREVO_PREFERENCES,
+      activity.getSharedPreferences (CATVERBS_PREFERENCES,
                                      Activity.MODE_PRIVATE);
 
     intent.putExtra (SearchActivity.EXTRA_LANGUAGE,

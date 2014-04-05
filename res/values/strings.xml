@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2012  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 -->
 
 <resources>
-  <string name="app_name">PReVo</string>
+  <string name="app_name">Catverbs</string>
   <string name="select_language">Elektu lingvon</string>
   <string name="search">Serĉu</string>
   <string name="preferences">Agordoj</string>
@@ -41,9 +41,8 @@
   <string name="show_all_translations">Montru ĉiujn tradukojn</string>
   <string name="show_no_translations">Montru neniujn tradukojn</string>
   <string name="about_message">
-<b>PReVo @VERSION@</b>\n
+<b>Catverbs @VERSION@</b>\n
 \nCopyright © 2012, 2013 Neil Roberts\n
-\nLa datumo por la vortaro venas de Reta Vortaro.\n
 \nThis program comes with ABSOLUTELY NO WARRANTY. This is free
 software and you are welcome to redistribute it under certain
 conditions. Click here for details.

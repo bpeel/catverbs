@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2012  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@
                 a:layout_width="match_parent"
                 a:layout_height="match_parent"
                 a:id="@+id/article_layout">
-  <uk.co.busydoingnothing.prevo.DelayedScrollView
+  <uk.co.busydoingnothing.catverbs.DelayedScrollView
         a:id="@+id/article_scroll_view"
         a:layout_width="match_parent"
         a:layout_height="match_parent" />

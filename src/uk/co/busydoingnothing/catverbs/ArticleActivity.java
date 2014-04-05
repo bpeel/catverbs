@@ -1,5 +1,5 @@
 /*
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2012, 2013  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package uk.co.busydoingnothing.prevo;
+package uk.co.busydoingnothing.catverbs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -57,9 +57,9 @@ public class ArticleActivity extends Activity
   implements SharedPreferences.OnSharedPreferenceChangeListener
 {
   public static final String EXTRA_ARTICLE_NUMBER =
-    "uk.co.busydoingnothing.prevo.ArticleNumber";
+    "uk.co.busydoingnothing.catverbs.ArticleNumber";
   public static final String EXTRA_MARK_NUMBER =
-    "uk.co.busydoingnothing.prevo.MarkNumber";
+    "uk.co.busydoingnothing.catverbs.MarkNumber";
 
   /* http://www.openintents.org/en/node/720 */
   /* This probably only works with AnkiDroid 2.0 */
@@ -69,7 +69,7 @@ public class ArticleActivity extends Activity
   public static final String SOURCE_TEXT = "SOURCE_TEXT";
   public static final String TARGET_TEXT = "TARGET_TEXT";
 
-  public static final String TAG = "prevoarticle";
+  public static final String TAG = "catverbsarticle";
 
   public static final int DIALOG_NO_FLASHCARD = 0x10c;
 
@@ -402,7 +402,7 @@ public class ArticleActivity extends Activity
     reloadQueued = true;
 
     SharedPreferences prefs =
-      getSharedPreferences (MenuHelper.PREVO_PREFERENCES,
+      getSharedPreferences (MenuHelper.CATVERBS_PREFERENCES,
                             Activity.MODE_PRIVATE);
 
     setFontSize (prefs.getInt (MenuHelper.PREF_FONT_SIZE, fontSize));
@@ -436,7 +436,7 @@ public class ArticleActivity extends Activity
   public void onDestroy ()
   {
     SharedPreferences prefs =
-      getSharedPreferences (MenuHelper.PREVO_PREFERENCES,
+      getSharedPreferences (MenuHelper.CATVERBS_PREFERENCES,
                             Activity.MODE_PRIVATE);
 
     prefs.unregisterOnSharedPreferenceChangeListener (this);
@@ -464,7 +464,7 @@ public class ArticleActivity extends Activity
       fontSize = 0;
 
     SharedPreferences prefs =
-      getSharedPreferences (MenuHelper.PREVO_PREFERENCES,
+      getSharedPreferences (MenuHelper.CATVERBS_PREFERENCES,
                             Activity.MODE_PRIVATE);
     SharedPreferences.Editor editor = prefs.edit ();
     editor.putInt (MenuHelper.PREF_FONT_SIZE, fontSize);

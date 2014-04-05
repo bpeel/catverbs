@@ -1,5 +1,5 @@
 /*
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2013  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package uk.co.busydoingnothing.prevo;
+package uk.co.busydoingnothing.catverbs;
 
 import android.app.Activity;
 import android.content.Context;
@@ -31,7 +31,7 @@ public class SelectedLanguages
   public SelectedLanguages (Context context)
   {
     SharedPreferences prefs =
-      context.getSharedPreferences (MenuHelper.PREVO_PREFERENCES,
+      context.getSharedPreferences (MenuHelper.CATVERBS_PREFERENCES,
                                     Activity.MODE_PRIVATE);
     String languagesString = prefs.getString (PREF, null);
 

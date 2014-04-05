@@ -1,5 +1,5 @@
 /*
- * PReVo - A portable version of ReVo for Android
+ * Catverbs - A portable Catalan conjugation reference for Android
  * Copyright (C) 2012  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package uk.co.busydoingnothing.prevo;
+package uk.co.busydoingnothing.catverbs;
 
 import android.util.Log;
 import android.content.Context;
@@ -37,7 +37,7 @@ public abstract class SpannedCopy
   private static Method newHtmlTextMethod;
   private static Method setPrimaryClipMethod;
 
-  public static final String TAG = "prevoclip";
+  public static final String TAG = "catverbsclip";
 
   private static void initialise ()
   {
