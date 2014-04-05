@@ -1,6 +1,6 @@
 /*
  * Catverbs - A portable Catalan conjugation reference for Android
- * Copyright (C) 2012  Neil Roberts
+ * Copyright (C) 2012, 2014  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -110,23 +110,72 @@ public class Trie
             ((data[offset + 3] & 0xff) << 24));
   }
 
+  private static final int extractShort (byte[] data,
+                                         int offset)
+  {
+    return (((data[offset + 0] & 0xff) << 0) |
+            ((data[offset + 1] & 0xff) << 8));
+  }
+
+  private static final int extractVarInt (byte[] data,
+                                          int offset)
+  {
+    int pos = 0;
+    int value = 0;
+
+    while (true)
+      {
+        value |= (data[offset] & 0x7f) << pos;
+
+        if ((data[offset] & 0x80) == 0)
+          return value;
+
+        pos += 7;
+        offset++;
+      }
+  }
+
+  private static final int getVarIntLength (byte[] data,
+                                            int offset)
+  {
+    int length = 1;
+
+    while ((data[offset++] & 0x80) != 0)
+      length++;
+
+    return length;
+  }
+
   public Trie (InputStream dataStream)
     throws IOException
   {
-    byte lengthBytes[] = new byte[4];
+    byte lengthBytes[] = new byte[8];
+    int lengthPos = 0;
     int totalLength;
+    int value;
 
-    /* Read 4 bytes to get the length of the file */
-    readAll (dataStream, lengthBytes, 0, lengthBytes.length);
-    totalLength = extractInt (lengthBytes, 0) & 0x7fffffff;
+    /* Read enough bytes to get the total length */
+    while (true)
+      {
+        value = dataStream.read ();
+        if (value == -1)
+          throw new IOException("Unexpected EOF");
+
+        lengthBytes[lengthPos++] = (byte) value;
+
+        if ((value & 0x80) == 0)
+          break;
+      }
+
+    totalLength = extractVarInt (lengthBytes, 0) >> 1;
 
     /* Create a byte array big enough to hold the entire file and copy
      * the length we just read into the beginning */
-    data = new byte[totalLength];
-    System.arraycopy (lengthBytes, 0, data, 0, 4);
+    data = new byte[totalLength + lengthPos];
+    System.arraycopy (lengthBytes, 0, data, 0, lengthPos);
 
     /* Read the rest of the data */
-    readAll (dataStream, data, 4, totalLength - 4);
+    readAll (dataStream, data, lengthPos, totalLength);
   }
 
   /* Gets the number of bytes needed for a UTF-8 sequence which begins
@@ -188,19 +237,20 @@ public class Trie
         int characterLen = getUtf8Length (prefixBytes[prefixOffset]);
         int childStart;
 
+        /* Find the position of the character within the node. This is
+         * after the var int */
+        int nodeCharacterPos = trieStart + getVarIntLength (data, trieStart);
+
         /* Get the total length of this node */
-        int offset = extractInt (data, trieStart);
+        int offset = extractVarInt (data, trieStart);
 
         /* Skip the character for this node */
-        childStart = trieStart + 4;
-        childStart += getUtf8Length (data[childStart]);
+        childStart = getUtf8Length (data[nodeCharacterPos]) + nodeCharacterPos;
 
-        /* If the high bit in the offset is set then it is followed by
+        /* If the low bit in the offset is set then it is followed by
          * the matching articles which we want to skip */
-        if (offset < 0)
+        if ((offset & 1) != 0)
           {
-            offset &= 0x7fffffff;
-
             boolean hasNext;
 
             do
@@ -208,14 +258,16 @@ public class Trie
                 hasNext = (data[childStart + 1] & 0x80) != 0;
                 boolean hasDisplayName = (data[childStart + 1] & 0x40) != 0;
 
-                childStart += 3;
+                childStart += 2;
 
                 if (hasDisplayName)
                   childStart += (data[childStart] & 0xff) + 1;
               } while (hasNext);
           }
 
-        int trieEnd = trieStart + offset;
+        offset >>= 1;
+
+        int trieEnd = nodeCharacterPos + offset;
 
         trieStart = childStart;
 
@@ -233,13 +285,16 @@ public class Trie
 
             /* If we've found a matching character then start scanning
              * into this node */
-            if (compareArray (prefixBytes, prefixOffset,
-                              data, trieStart + 4,
+            if (compareArray (prefixBytes,
+                              prefixOffset,
+                              data,
+                              trieStart + getVarIntLength (data, trieStart),
                               characterLen))
               break;
             /* Otherwise skip past the node to the next sibling */
             else
-              trieStart += extractInt (data, trieStart) & 0x7fffffff;
+              trieStart += ((extractVarInt (data, trieStart) >> 1) +
+                            getVarIntLength (data, trieStart));
           }
 
         prefixOffset += characterLen;
@@ -255,7 +310,9 @@ public class Trie
     TrieStack stack = new TrieStack ();
 
     stack.push (trieStart,
-                trieStart + extractInt (data, trieStart) & 0x7fffffff,
+                trieStart +
+                (extractVarInt (data, trieStart) >> 1) +
+                getVarIntLength (data, trieStart),
                 stringBuf.length ());
 
     int numResults = 0;
@@ -271,20 +328,21 @@ public class Trie
 
         stack.pop ();
 
-        int offset = extractInt (data, searchStart);
-        int characterLen = getUtf8Length (data[searchStart + 4]);
-        int childrenStart = searchStart + 4 + characterLen;
+        int offset = extractVarInt (data, searchStart);
+        int characterPos = searchStart + getVarIntLength (data, searchStart);
+        int characterLen = getUtf8Length (data[characterPos]);
+        int childrenStart = characterPos + characterLen;
         int oldLength = stringBuf.length ();
 
         if (firstChar)
           firstChar = false;
         else
           stringBuf.append (new String (data,
-                                        searchStart + 4,
+                                        characterPos,
                                         characterLen));
 
         /* If this is a complete word then add it to the results */
-        if (offset < 0)
+        if ((offset & 1) != 0)
           {
             boolean hasNext = true;
 
@@ -292,11 +350,10 @@ public class Trie
               {
                 int article = ((data[childrenStart] & 0xff) |
                                ((data[childrenStart + 1] & 0xff) << 8));
-                int mark = data[childrenStart + 2] & 0xff;
                 hasNext = (article & 0x8000) != 0;
                 boolean hasDisplayName = (article & 0x4000) != 0;
 
-                childrenStart += 3;
+                childrenStart += 2;
 
                 article &= 0x3fff;
 
@@ -312,23 +369,22 @@ public class Trie
                 else
                   word = stringBuf.toString ();
 
-                results[numResults++] = new SearchResult (word,
-                                                          article,
-                                                          mark);
+                results[numResults++] = new SearchResult (word, article);
               }
 
-            offset &= 0x7fffffff;
           }
+
+        offset >>= 1;
 
         /* If there is a sibling then make sure we continue from that
          * after we've descended through the children of this node */
-        if (searchStart + offset < searchEnd)
-          stack.push (searchStart + offset, searchEnd, oldLength);
+        if (characterPos + offset < searchEnd)
+          stack.push (characterPos + offset, searchEnd, oldLength);
 
         /* Push a search for the children of this node */
-        if (childrenStart < searchStart + offset)
+        if (childrenStart < characterPos + offset)
             stack.push (childrenStart,
-                        searchStart + offset,
+                        characterPos + offset,
                         stringBuf.length ());
       }
 
@@ -346,6 +402,15 @@ public class Trie
       }
 
     FileInputStream inputStream = new FileInputStream (args[0]);
+
+    /* Skip the article offsets */
+    byte[] articleCountBytes = new byte[2];
+    readAll(inputStream, articleCountBytes, 0, 2);
+    int articleCount = ((articleCountBytes[0] & 0xff) |
+                        ((articleCountBytes[1] & 0xff) << 8));
+    byte[] articleOffsets = new byte[articleCount * 4];
+    readAll(inputStream, articleOffsets, 0, articleOffsets.length);
+
     Trie trie = new Trie (inputStream);
 
     SearchResult result[] = new SearchResult[100];
@@ -354,7 +419,6 @@ public class Trie
 
     for (int i = 0; i < numResults; i++)
       System.out.println (result[i].getWord () + ": " +
-                          result[i].getArticle () + "," +
-                          result[i].getMark ());
+                          result[i].getArticle ());
   }
 }

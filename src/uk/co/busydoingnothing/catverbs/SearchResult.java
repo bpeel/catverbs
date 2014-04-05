@@ -1,6 +1,6 @@
 /*
  * Catverbs - A portable Catalan conjugation reference for Android
- * Copyright (C) 2012  Neil Roberts
+ * Copyright (C) 2012, 2014  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,15 +21,12 @@ public class SearchResult
 {
   String word;
   int article;
-  int mark;
 
   public SearchResult (String word,
-                       int article,
-                       int mark)
+                       int article)
   {
     this.word = word;
     this.article = article;
-    this.mark = mark;
   }
 
   public String getWord ()
@@ -40,11 +37,6 @@ public class SearchResult
   public int getArticle ()
   {
     return article;
-  }
-
-  public int getMark ()
-  {
-    return mark;
   }
 
   @Override
