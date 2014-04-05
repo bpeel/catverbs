@@ -1,0 +1,77 @@
+== Overview ==
+
+The generated data format consists of the following parts. All
+integers are in little-endian.
+
+• A two-byte integer specifying the number of verbs
+
+• A list of two-byte file offsets for each article. The offset is from
+  the start of the list of articles. This can be used to jump to a
+  particular article number.
+
+• A trie structure for indexing the articles based on the infinitive.
+
+• The articles themselves
+
+== Trie structure ==
+
+The trie structure contains an searchable index by the infitive and
+points to the corresponding articles. The index name is stripped of
+non-alphabetic characters (including ‘·’) and all of the diacritics
+are removed so that there will just be the characters a-z.
+
+The trie structure consists of a single trie node where a trie node is
+a recursive variable length structure consisting of :-
+
+• A two-byte integer. The least-significant 15 bits represent the
+  offset in bytes to the next sibling of this node (including this
+  node but excluding this integer).
+
+• 1-6 bytes of UTF-8 encoding data to represent the character of
+  this node.
+
+If bit 15 of the offset is set then the word is a valid entry and will
+be followed by a two-byte article number.
+
+The two most-significant bits of the article number have a special
+meaning.
+
+Bit 15: If this is set then there is a subsequent article after this
+        one matching this index name. Otherwise this article
+        represents the end of the list.
+
+Bit 14: If is is set then this entry has a different display name from
+        its name in the trie. In that case immediately following these
+        two bytes will be a single byte representing the length of the
+        display in bytes, followed by the name itself.
+
+Following that there is a list of child nodes of this node.
+
+== Article format ==
+
+Each article consists of the following:
+
+• A two-byte integer to specify the parent article number which this
+  one inherits from or 0xffff if the article has no parent.
+
+• A list of variable assignments
+
+• A 0xff byte to mark the end of the article
+
+Each variable assignments is as follows:
+
+• A single byte to represent the variable name.
+
+• A byte for the length of the value.
+
+• The value as a UTF-8 encoded string.
+
+The value string can contain references to other variables by using
+the unicode characters 0xE000→0xE0FE. These are in the private use
+range. The least significant 8 bits of the character number represent
+the variable number that should be substituted.
+
+The values should be taken from the current article if it provides
+one, or from the nearest ancestor article if not. If the ancestor
+value also contains variable references then the value search should
+start again from the child.
