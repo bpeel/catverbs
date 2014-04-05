@@ -46,7 +46,6 @@ para82|benv
 para4o5|brum
 para4o5|brunz
 para20|c
-para27|c
 para80|carv
 para3|cern|cerndre
 para41|circumscri

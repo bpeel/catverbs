@@ -1,0 +1,35 @@
+common_stem=c
+stem={common_stem}orr
+parent=prevenir
+
+infinitive_suffix=er
+infinitive={common_stem}órr{infinitive_suffix}
+
+gerund={stem}ent
+
+# Participles
+participle_stem={stem}eg
+
+# Present indicative
+pi_jo={pi_stem}o
+pi_tu={pi_stem}es
+pi_ell={pi_stem}e
+pi_nosaltres={pi_stem}em
+pi_vosaltres={pi_stem}eu
+
+# Simple past indicative
+spi_stem={stem}egu
+
+# Present subjunctive
+ps_stem={stem}
+ps_nosaltres={ps_stem}em (o {ps_stem}eguem)
+ps_vosaltres={ps_stem}em (o {ps_stem}egueu)
+
+# Imperfect subjunctive
+is_stem={stem}egu
+
+# Future
+future_stem={stem}{infinitive_suffix}
+
+# Imperative
+imp_tu={pi_ell}
