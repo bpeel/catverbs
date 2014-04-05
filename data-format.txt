@@ -5,13 +5,19 @@ integers are in little-endian.
 
 • A two-byte integer specifying the number of verbs
 
-• A list of two-byte file offsets for each article. The offset is from
-  the start of the list of articles. This can be used to jump to a
-  particular article number.
+• A list of four-byte file offsets for each article. The offset is
+  from the start of the list of articles. This can be used to jump to
+  a particular article number.
 
 • A trie structure for indexing the articles based on the infinitive.
 
 • The articles themselves
+
+== Variable length integer ==
+
+In some places a variable length integer is used. This is a series of
+7-bit values packed into bytes in little-endian. Bit 7 in each byte is
+used to mark whether more bytes follow.
 
 == Trie structure ==
 
@@ -23,14 +29,14 @@ are removed so that there will just be the characters a-z.
 The trie structure consists of a single trie node where a trie node is
 a recursive variable length structure consisting of :-
 
-• A two-byte integer. The least-significant 15 bits represent the
-  offset in bytes to the next sibling of this node (including this
-  node but excluding this integer).
+• A variable length integer. The least-significant bit of this value
+  has a special meaning. The remaining bits are the offset in bytes to
+  the next sibling of this node, excluding this integer.
 
 • 1-6 bytes of UTF-8 encoding data to represent the character of
   this node.
 
-If bit 15 of the offset is set then the word is a valid entry and will
+If bit 0 of the offset is set then the word is a valid entry and will
 be followed by a two-byte article number.
 
 The two most-significant bits of the article number have a special
