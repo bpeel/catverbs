@@ -73,7 +73,6 @@ para36|contrad
 para46|contraf
 para79|conv
 para84|convi
-para4.vestir|corfer
 para26|corfon|corf
 para68|correspo
 para28|cos|c
@@ -110,7 +109,6 @@ para23|despla
 para68|despo
 para74|dest
 para39|destr
-para4.vestir|desvest|desvist
 para84|desvi
 para26|difon|dif
 para68|dispo
@@ -128,14 +126,12 @@ para4|encobr|encob
 para37|end
 para26|enfon|enf
 para47|enfu
-para4.vestir|engol|engul
 para58.obrir|entre
 para36|entred
 para54|entrell
 para60|entreo
 para14.defectiu|entreplo
 para82|entrev
-para4.vestir|envest|envist
 para78|equival
 para18|es
 para41|escri
@@ -150,7 +146,6 @@ para20|excl
 para6|exsol
 para46|f
 para61|fèn|fen
-para4.vestir|fer
 para26|fon|f
 para4.fregir|freg|fr
 para47|fu
@@ -161,7 +156,6 @@ para24|incompl
 para26|infon|inf
 para41|inscri
 para36|interd
-para4.vestir|invest|invist
 para31|irèix|ir
 para51|j
 para51|j
@@ -173,7 +167,6 @@ para14.defectiu|lle
 para56|m
 para36|mald
 para13|malent
-para4.vestir|malfer
 para80|malv
 para82|malv
 para84|malvi
@@ -197,7 +190,6 @@ para6|ol
 para57|p
 para10|par
 para58.obrir|pell
-para4.vestir|pened|penet
 para67|perce
 para4o5|percud
 para46|perf
@@ -252,7 +244,6 @@ para14|remo
 para6|remol
 para57|ren
 para57|ren
-para4.vestir|reny|riny
 para6|resol
 para68|respo
 para24|restabl
@@ -264,7 +255,6 @@ para80|retrov
 para79|rev
 para80|rev
 para82|rev
-para4.vestir|revest|revist
 para84|revi
 para68|roma
 para33|s
@@ -297,7 +287,6 @@ para26|ton|t
 para28|toss|t
 para41|transcri
 para26|transfon|transf
-para4.vestir|transvest|transvist
 para54|trasll
 para3|trem|trémer
 cons.jar|trepit
@@ -306,7 +295,6 @@ para80|v
 para82|v
 para78|val
 para78|val
-para4.vestir|vest|vist
 para84|vi
 para66|abale
 para69|enr
