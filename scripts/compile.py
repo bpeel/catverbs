@@ -3,6 +3,7 @@ import struct
 import os
 import re
 import unicodedata
+import errno
 
 def make_index_value(display_name):
     buf = bytearray()
@@ -161,14 +162,22 @@ for verb in vd:
 
     article_num += 1
 
-out = open("articles.dat", "wb")
+assets_dir = os.path.join(os.path.split(__file__)[0], '..', 'assets')
+try:
+    os.mkdir(assets_dir)
+except OSError as e:
+    if e.errno != errno.EEXIST:
+        raise
 
+out = open(os.path.join(assets_dir, "index.dat"), "wb")
+out.write(trie.compress())
+out.close()
+
+out = open(os.path.join(assets_dir, "articles.dat"), "wb")
 # Write the number of articles
 out.write(struct.pack('<H', article_num))
 # Leave space for the article offsets
 out.seek(article_num * 4, os.SEEK_CUR)
-# Write the trie
-out.write(trie.compress())
 
 offset = 0
 

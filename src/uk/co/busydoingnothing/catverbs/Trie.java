@@ -403,14 +403,6 @@ public class Trie
 
     FileInputStream inputStream = new FileInputStream (args[0]);
 
-    /* Skip the article offsets */
-    byte[] articleCountBytes = new byte[2];
-    readAll(inputStream, articleCountBytes, 0, 2);
-    int articleCount = ((articleCountBytes[0] & 0xff) |
-                        ((articleCountBytes[1] & 0xff) << 8));
-    byte[] articleOffsets = new byte[articleCount * 4];
-    readAll(inputStream, articleOffsets, 0, articleOffsets.length);
-
     Trie trie = new Trie (inputStream);
 
     SearchResult result[] = new SearchResult[100];

@@ -1,7 +1,20 @@
 == Overview ==
 
-The generated data format consists of the following parts. All
-integers are in little-endian.
+The generated data consists of two files in the assets directory. These are:
+
+• index.dat - Contains a trie structure to quickly index the articles
+  by the infinitive
+
+• articles.dat - Contains the actual articles
+
+All integers are in little-endian. In some places a variable length
+integer is used. This is a series of 7-bit values packed into bytes in
+little-endian. Bit 7 in each byte is used to mark whether more bytes
+follow.
+
+== index.dat ==
+
+The index.dat files contains:
 
 • A two-byte integer specifying the number of verbs
 
@@ -9,19 +22,38 @@ integers are in little-endian.
   from the start of the list of articles. This can be used to jump to
   a particular article number.
 
-• A trie structure for indexing the articles based on the infinitive.
-
 • The articles themselves
 
-== Variable length integer ==
+== Article format ==
 
-In some places a variable length integer is used. This is a series of
-7-bit values packed into bytes in little-endian. Bit 7 in each byte is
-used to mark whether more bytes follow.
+Each article consists of the following:
 
-== Trie structure ==
+• A two-byte integer to specify the parent article number which this
+  one inherits from or 0xffff if the article has no parent.
 
-The trie structure contains an searchable index by the infitive and
+• A list of variable assignments
+
+• A 0xff byte to mark the end of the article
+
+Each variable assignments is as follows:
+
+• A single byte to represent the variable name.
+
+• A byte for the length of the value.
+
+• The value as a UTF-8 encoded string.
+
+The value string can contain references to other variables by using
+the characters 0x00→0x1f. These shouldn't be needed in the string
+anyway. The character represents the variable number to substitute.
+The values should be taken from the current article if it provides
+one, or from the nearest ancestor article if not. If the ancestor
+value also contains variable references then the value search should
+start again from the child.
+
+== index.dat ==
+
+The index.dat file contains a searchable index by the infitive and
 points to the corresponding articles. The index name is stripped of
 non-alphabetic characters (including ‘·’) and all of the diacritics
 are removed so that there will just be the characters a-z.
@@ -53,29 +85,3 @@ Bit 14: If is is set then this entry has a different display name from
 
 Following that there is a list of child nodes of this node.
 
-== Article format ==
-
-Each article consists of the following:
-
-• A two-byte integer to specify the parent article number which this
-  one inherits from or 0xffff if the article has no parent.
-
-• A list of variable assignments
-
-• A 0xff byte to mark the end of the article
-
-Each variable assignments is as follows:
-
-• A single byte to represent the variable name.
-
-• A byte for the length of the value.
-
-• The value as a UTF-8 encoded string.
-
-The value string can contain references to other variables by using
-the characters 0x00→0x1f. These shouldn't be needed in the string
-anyway. The character represents the variable number to substitute.
-The values should be taken from the current article if it provides
-one, or from the nearest ancestor article if not. If the ancestor
-value also contains variable references then the value search should
-start again from the child.
