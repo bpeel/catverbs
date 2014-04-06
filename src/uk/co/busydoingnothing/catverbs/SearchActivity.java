@@ -31,7 +31,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-import java.io.InputStream;
 
 public class SearchActivity extends ListActivity
   implements TextWatcher
@@ -46,22 +45,12 @@ public class SearchActivity extends ListActivity
 
     ListView lv = getListView ();
 
-    try
-      {
-        InputStream indexIn = getAssets ().open ("index.dat");
-        Trie trie = new Trie (indexIn);
-        searchAdapter = new SearchAdapter (this, trie);
+    searchAdapter = new SearchAdapter (this, Trie.getDefault (this));
 
-        lv.setAdapter (searchAdapter);
+    lv.setAdapter (searchAdapter);
 
-        TextView tv = (TextView) findViewById (R.id.search_edit);
-        tv.addTextChangedListener (this);
-      }
-    catch (java.io.IOException e)
-      {
-        throw new IllegalStateException ("Error while loading " +
-                                         "an asset");
-      }
+    TextView tv = (TextView) findViewById (R.id.search_edit);
+    tv.addTextChangedListener (this);
 
     lv.setOnItemClickListener (new AdapterView.OnItemClickListener ()
       {

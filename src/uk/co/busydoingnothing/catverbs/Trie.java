@@ -20,6 +20,8 @@ package uk.co.busydoingnothing.catverbs;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import android.content.Context;
 
 class TrieStack
 {
@@ -79,6 +81,8 @@ class TrieStack
 
 public class Trie
 {
+  private static Trie singletonInstance;
+
   private byte data[];
 
   private static void readAll (InputStream stream,
@@ -389,6 +393,26 @@ public class Trie
       }
 
     return numResults;
+  }
+
+  public static Trie getDefault (Context context)
+  {
+    if (singletonInstance == null)
+      {
+        try
+          {
+            InputStream indexIn = context.getAssets ().open ("index.dat");
+            singletonInstance = new Trie (indexIn);
+            indexIn.close ();
+          }
+        catch (java.io.IOException e)
+          {
+            throw new IllegalStateException ("Error while loading " +
+                                             "an asset");
+          }
+      }
+
+    return singletonInstance;
   }
 
   /* Test program */
