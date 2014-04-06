@@ -45,7 +45,6 @@ para4o5|brum
 para4o5|brunz
 para20|c
 para80|carv
-para3|cern|cerndre
 para20|cl
 para4|cobr|cob
 para6|col
