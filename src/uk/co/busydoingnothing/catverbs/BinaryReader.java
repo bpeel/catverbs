@@ -24,7 +24,7 @@ public class BinaryReader
 {
   private long position = 0;
   private InputStream in;
-  private byte numberBuffer[] = new byte[4];
+  private byte buffer[] = new byte[4];
 
   public BinaryReader (InputStream in)
   {
@@ -78,20 +78,20 @@ public class BinaryReader
   public int readShort ()
     throws IOException
   {
-    readAll (numberBuffer, 0, 2);
+    readAll (buffer, 0, 2);
 
-    return (numberBuffer[0] & 0xff) | ((numberBuffer[1] & 0xff) << 8);
+    return (buffer[0] & 0xff) | ((buffer[1] & 0xff) << 8);
   }
 
   public int readInt ()
     throws IOException
   {
-    readAll (numberBuffer, 0, 4);
+    readAll (buffer, 0, 4);
 
-    return ((numberBuffer[0] & 0xff) |
-            ((numberBuffer[1] & 0xff) << 8) |
-            ((numberBuffer[2] & 0xff) << 16) |
-            ((numberBuffer[3] & 0xff) << 24));
+    return ((buffer[0] & 0xff) |
+            ((buffer[1] & 0xff) << 8) |
+            ((buffer[2] & 0xff) << 16) |
+            ((buffer[3] & 0xff) << 24));
   }
 
   public long getPosition ()
@@ -112,18 +112,19 @@ public class BinaryReader
     /* If that doesn't work we'll try manually reading into a buffer */
     if (byteCount > 0)
       {
-        byte buf[] = new byte[1024];
+        if (buffer.length < 1024)
+          buffer = new byte[1024];
 
         do
           {
             int toRead;
 
-            if (buf.length < byteCount)
-              toRead = buf.length;
+            if (buffer.length < byteCount)
+              toRead = buffer.length;
             else
               toRead = (int) byteCount;
 
-            readAll (buf, 0, toRead);
+            readAll (buffer, 0, toRead);
 
             byteCount -= toRead;
             position += toRead;
