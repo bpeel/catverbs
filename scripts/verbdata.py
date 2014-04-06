@@ -24,6 +24,7 @@ class ParseError(Error):
 class Dictionary:
     def __init__(self):
         self.verbs = {}
+        self.variables = {}
 
         data_dir = os.path.join(os.path.split(__file__)[0], '..', 'data')
 
@@ -68,6 +69,7 @@ class Verb:
                                  " in " + filename)
 
             self.values[name] = value
+            dictionary.variables[name] = -1
 
         f.close()
 

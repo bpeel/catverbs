@@ -33,7 +33,7 @@ def get_compressed_integer_length(value):
 
 def encode_value(variables, value):
     def make_replacement(variable):
-        return chr(variables.get_index(variable.group(1)) + 0xE000)
+        return chr(variables[variable.group(1)] + 0xE000)
     return verbdata.BRACKET_RE.sub(make_replacement, value).encode('UTF-8')
 
 class TrieNode:
@@ -134,20 +134,18 @@ class Trie:
         self.root.compress(buffer)
         return buffer
 
-class VariableList:
-    def __init__(self):
-        self.variables = {}
-        self.next_index = 0
-
-    def get_index(self, variable_name):
-        if variable_name not in self.variables:
-            self.variables[variable_name] = self.next_index
-            self.next_index += 1
-        return self.variables[variable_name]
-
 vd = verbdata.Dictionary()
 trie = Trie()
-variables = VariableList()
+
+# Build a hash table of all the variable names with a sorted index
+# number. We want the values to be consistent so that they don't
+# change unless the variables are modified because something about
+# javac or ant doesn't cope very well if constants are changed.
+variables = {}
+variable_index = 0
+for variable in sorted(vd.variables):
+    variables[variable] = variable_index
+    variable_index += 1
 
 article_num = 0
 
@@ -202,7 +200,7 @@ for verb in vd:
             continue
 
         value = encode_value(variables, verb.values[variable])
-        out.write(struct.pack('BB', variables.get_index(variable), len(value)))
+        out.write(struct.pack('BB', variables[variable], len(value)))
         out.write(value)
         offset += len(value) + 2
 
@@ -235,11 +233,11 @@ out.write("/* Automatically generated from compile.py. DO NOT EDIT */\n"
           "public class ArticleVariables\n"
           "{\n");
 
-for variable in variables.variables:
+for variable in sorted(variables):
     out.write("  public static final int " +
               variable.upper() +
               " = " +
-              str(variables.get_index(variable)) +
+              str(variables[variable]) +
               ";\n")
 
 out.write("};\n")
