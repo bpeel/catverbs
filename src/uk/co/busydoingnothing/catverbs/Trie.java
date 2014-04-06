@@ -105,51 +105,6 @@ public class Trie
       }
   }
 
-  private static final int extractInt (byte[] data,
-                                       int offset)
-  {
-    return (((data[offset + 0] & 0xff) << 0) |
-            ((data[offset + 1] & 0xff) << 8) |
-            ((data[offset + 2] & 0xff) << 16) |
-            ((data[offset + 3] & 0xff) << 24));
-  }
-
-  private static final int extractShort (byte[] data,
-                                         int offset)
-  {
-    return (((data[offset + 0] & 0xff) << 0) |
-            ((data[offset + 1] & 0xff) << 8));
-  }
-
-  private static final int extractVarInt (byte[] data,
-                                          int offset)
-  {
-    int pos = 0;
-    int value = 0;
-
-    while (true)
-      {
-        value |= (data[offset] & 0x7f) << pos;
-
-        if ((data[offset] & 0x80) == 0)
-          return value;
-
-        pos += 7;
-        offset++;
-      }
-  }
-
-  private static final int getVarIntLength (byte[] data,
-                                            int offset)
-  {
-    int length = 1;
-
-    while ((data[offset++] & 0x80) != 0)
-      length++;
-
-    return length;
-  }
-
   public Trie (InputStream dataStream)
     throws IOException
   {
@@ -171,7 +126,7 @@ public class Trie
           break;
       }
 
-    totalLength = extractVarInt (lengthBytes, 0) >> 1;
+    totalLength = BinaryUtils.extractVarInt (lengthBytes, 0) >> 1;
 
     /* Create a byte array big enough to hold the entire file and copy
      * the length we just read into the beginning */
@@ -243,10 +198,11 @@ public class Trie
 
         /* Find the position of the character within the node. This is
          * after the var int */
-        int nodeCharacterPos = trieStart + getVarIntLength (data, trieStart);
+        int nodeCharacterPos = (trieStart +
+                                BinaryUtils.getVarIntLength (data, trieStart));
 
         /* Get the total length of this node */
-        int offset = extractVarInt (data, trieStart);
+        int offset = BinaryUtils.extractVarInt (data, trieStart);
 
         /* Skip the character for this node */
         childStart = getUtf8Length (data[nodeCharacterPos]) + nodeCharacterPos;
@@ -292,13 +248,14 @@ public class Trie
             if (compareArray (prefixBytes,
                               prefixOffset,
                               data,
-                              trieStart + getVarIntLength (data, trieStart),
+                              trieStart +
+                              BinaryUtils.getVarIntLength (data, trieStart),
                               characterLen))
               break;
             /* Otherwise skip past the node to the next sibling */
             else
-              trieStart += ((extractVarInt (data, trieStart) >> 1) +
-                            getVarIntLength (data, trieStart));
+              trieStart += ((BinaryUtils.extractVarInt (data, trieStart) >> 1) +
+                            BinaryUtils.getVarIntLength (data, trieStart));
           }
 
         prefixOffset += characterLen;
@@ -315,8 +272,8 @@ public class Trie
 
     stack.push (trieStart,
                 trieStart +
-                (extractVarInt (data, trieStart) >> 1) +
-                getVarIntLength (data, trieStart),
+                (BinaryUtils.extractVarInt (data, trieStart) >> 1) +
+                BinaryUtils.getVarIntLength (data, trieStart),
                 stringBuf.length ());
 
     int numResults = 0;
@@ -332,8 +289,9 @@ public class Trie
 
         stack.pop ();
 
-        int offset = extractVarInt (data, searchStart);
-        int characterPos = searchStart + getVarIntLength (data, searchStart);
+        int offset = BinaryUtils.extractVarInt (data, searchStart);
+        int characterPos = (searchStart +
+                            BinaryUtils.getVarIntLength (data, searchStart));
         int characterLen = getUtf8Length (data[characterPos]);
         int childrenStart = characterPos + characterLen;
         int oldLength = stringBuf.length ();
