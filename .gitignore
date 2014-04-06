@@ -1,7 +1,7 @@
 /html
 /templates
 /assets/index.dat
-/assets/articles.dat
+/assets/articles-*.dat
 
 /local.properties
 /project.properties

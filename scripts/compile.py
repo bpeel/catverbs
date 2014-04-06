@@ -5,6 +5,8 @@ import re
 import unicodedata
 import errno
 
+ARTICLES_PER_FILE = 128
+
 def make_index_value(display_name):
     buf = bytearray()
 
@@ -173,11 +175,7 @@ out = open(os.path.join(assets_dir, "index.dat"), "wb")
 out.write(trie.compress())
 out.close()
 
-out = open(os.path.join(assets_dir, "articles.dat"), "wb")
-# Write the number of articles
-out.write(struct.pack('<H', article_num))
-# Leave space for the article offsets
-out.seek(article_num * 4, os.SEEK_CUR)
+out = None
 
 offset = 0
 
@@ -185,6 +183,12 @@ article_num = 0
 
 for verb in vd:
     verb.offset = offset
+
+    if (article_num & (ARTICLES_PER_FILE - 1)) == 0:
+        if out is not None:
+            out.close();
+        basename = "articles-{0:04x}.dat".format(article_num)
+        out = open(os.path.join(assets_dir, basename), "wb")
 
     if "parent" in verb.values:
         parent = vd.get_verb(verb.values["parent"])
@@ -208,9 +212,5 @@ for verb in vd:
 
     article_num += 1
 
-out.seek(2, os.SEEK_SET)
-
-for verb in vd:
-    out.write(struct.pack('<I', verb.offset))
-
-out.close()
+if out is not None:
+    out.close()

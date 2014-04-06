@@ -1,28 +1,29 @@
 == Overview ==
 
-The generated data consists of two files in the assets directory. These are:
+The generated data consists of two types of files in the assets
+directory. These are:
 
 • index.dat - Contains a trie structure to quickly index the articles
   by the infinitive
 
-• articles.dat - Contains the actual articles
+• articles-*.dat - Contains the actual articles
 
 All integers are in little-endian. In some places a variable length
 integer is used. This is a series of 7-bit values packed into bytes in
 little-endian. Bit 7 in each byte is used to mark whether more bytes
 follow.
 
-== index.dat ==
+== articles-*.dat ==
 
-The index.dat files contains:
+Because Android doesn't support seeking on files opened from an asset,
+the articles are grouped together into assets containing 128 articles
+each. That way the application can roughly jump to the right location
+by loading the right file and then reading enough data to skip to the
+right article. The article files are named like ‘articles-0080.dat’
+where 0080 is the number of the first article in the file.
 
-• A two-byte integer specifying the number of verbs
-
-• A list of four-byte file offsets for each article. The offset is
-  from the start of the list of articles. This can be used to jump to
-  a particular article number.
-
-• The articles themselves
+Each article file just contains the articles packed together back to
+back.
 
 == Article format ==
 
