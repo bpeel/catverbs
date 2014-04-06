@@ -17,12 +17,69 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
-                a:layout_width="match_parent"
-                a:layout_height="match_parent"
-                a:id="@+id/article_layout">
-  <uk.co.busydoingnothing.catverbs.DelayedScrollView
-        a:id="@+id/article_scroll_view"
-        a:layout_width="match_parent"
-        a:layout_height="match_parent" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+  <ScrollView android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+      <TextView android:text="@string/indicative_header"
+                style="@style/article_section" />
+
+      <TextView android:text="@string/present_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/present_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/imperfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/imperfect_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/simple_past_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/simple_past_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/future_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/future_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/conditional_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/conditional_indicative_content"
+                style="@style/article_content" />
+
+      <TextView android:text="@string/subjunctive_header"
+                style="@style/article_section" />
+
+      <TextView android:text="@string/present_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/present_subjunctive_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/imperfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/imperfect_subjunctive_content"
+                style="@style/article_content" />
+
+      <TextView android:text="@string/imperative_header"
+                style="@style/article_section" />
+      <TextView android:id="@+id/imperative_content"
+                style="@style/article_content" />
+
+      <TextView android:text="@string/impersonal_header"
+                style="@style/article_section" />
+
+      <TextView android:text="@string/gerund_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/gerund_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/participle_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/participle_content"
+                style="@style/article_content" />
+
+    </LinearLayout>
+  </ScrollView>
 </RelativeLayout>

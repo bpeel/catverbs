@@ -26,6 +26,19 @@
   <string name="menu_about">Quant a</string>
   <string name="menu_zoom">Apropar el text</string>
   <string name="close">Tancar</string>
+
+  <string name="indicative_header">Indicatiu</string>
+  <string name="subjunctive_header">Subjuntiu</string>
+  <string name="imperative_header">Imperatiu</string>
+  <string name="impersonal_header">Formes no personals</string>
+  <string name="present_header">Present</string>
+  <string name="imperfect_header">Imperfect</string>
+  <string name="simple_past_header">Passat simple</string>
+  <string name="future_header">Futur</string>
+  <string name="conditional_header">Condicional</string>
+  <string name="gerund_header">Gerundi</string>
+  <string name="participle_header">Participi</string>
+
   <string name="about_message">
 <b>Catverbs @VERSION@</b>\n
 \nCopyright © 2012, 2013, 2014 Neil Roberts\n

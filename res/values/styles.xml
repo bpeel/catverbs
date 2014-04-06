@@ -2,7 +2,7 @@
 
 <!--
  * Catverbs - A portable Catalan conjugation reference for Android
- * Copyright (C) 2012  Neil Roberts
+ * Copyright (C) 2014  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,8 +17,20 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<TextView xmlns:a="http://schemas.android.com/apk/res/android"
-          a:id="@+id/section_header"
-          a:layout_width="match_parent"
-          a:layout_height="wrap_content"
-          style="?android:attr/listSeparatorTextViewStyle" />
+<resources>
+  <style name="article_section"
+         parent="@android:style/TextAppearance.Large">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+  <style name="article_subsection"
+         parent="@android:style/TextAppearance.Medium">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+  <style name="article_content"
+         parent="@android:style/TextAppearance">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+</resources>

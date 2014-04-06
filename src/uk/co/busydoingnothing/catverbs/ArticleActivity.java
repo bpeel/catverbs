@@ -33,39 +33,116 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.util.Vector;
 
+class ArticlePart
+{
+  public int resourceId;
+  public int[] variableIds;
+
+  ArticlePart (int resourceId,
+               int ... variableIds)
+  {
+    this.resourceId = resourceId;
+    this.variableIds = variableIds;
+  }
+}
+
 public class ArticleActivity extends Activity
 {
   public static final String EXTRA_ARTICLE_NUMBER =
     "uk.co.busydoingnothing.catverbs.ArticleNumber";
-  private Vector<TextView> sectionHeaders;
-  private Vector<TextView> sectionContents;
 
-  private DelayedScrollView scrollView;
-  private View articleView;
   private int articleNumber;
-
-  private RelativeLayout layout;
 
   private boolean stopped;
   private boolean reloadQueued;
 
-  private LinearLayout loadArticle (int articleNum)
+  private static final ArticlePart articleParts[] =
+  {
+    new ArticlePart (R.id.present_indicative_content,
+                     ArticleVariables.PI_JO,
+                     ArticleVariables.PI_TU,
+                     ArticleVariables.PI_ELL,
+                     ArticleVariables.PI_NOSALTRES,
+                     ArticleVariables.PI_VOSALTRES,
+                     ArticleVariables.PI_ELLS),
+    new ArticlePart (R.id.imperfect_indicative_content,
+                     ArticleVariables.II_JO,
+                     ArticleVariables.II_TU,
+                     ArticleVariables.II_ELL,
+                     ArticleVariables.II_NOSALTRES,
+                     ArticleVariables.II_VOSALTRES,
+                     ArticleVariables.II_ELLS),
+    new ArticlePart (R.id.future_indicative_content,
+                     ArticleVariables.FUTURE_JO,
+                     ArticleVariables.FUTURE_TU,
+                     ArticleVariables.FUTURE_ELL,
+                     ArticleVariables.FUTURE_NOSALTRES,
+                     ArticleVariables.FUTURE_VOSALTRES,
+                     ArticleVariables.FUTURE_ELLS),
+    new ArticlePart (R.id.conditional_indicative_content,
+                     ArticleVariables.COND_JO,
+                     ArticleVariables.COND_TU,
+                     ArticleVariables.COND_ELL,
+                     ArticleVariables.COND_NOSALTRES,
+                     ArticleVariables.COND_VOSALTRES,
+                     ArticleVariables.COND_ELLS),
+    new ArticlePart (R.id.present_subjunctive_content,
+                     ArticleVariables.PS_JO,
+                     ArticleVariables.PS_TU,
+                     ArticleVariables.PS_ELL,
+                     ArticleVariables.PS_NOSALTRES,
+                     ArticleVariables.PS_VOSALTRES,
+                     ArticleVariables.PS_ELLS),
+    new ArticlePart (R.id.imperfect_subjunctive_content,
+                     ArticleVariables.IS_JO,
+                     ArticleVariables.IS_TU,
+                     ArticleVariables.IS_ELL,
+                     ArticleVariables.IS_NOSALTRES,
+                     ArticleVariables.IS_VOSALTRES,
+                     ArticleVariables.IS_ELLS),
+    new ArticlePart (R.id.imperative_content,
+                     ArticleVariables.IMP_JO,
+                     ArticleVariables.IMP_TU,
+                     ArticleVariables.IMP_ELL,
+                     ArticleVariables.IMP_NOSALTRES,
+                     ArticleVariables.IMP_VOSALTRES,
+                     ArticleVariables.IMP_ELLS),
+    new ArticlePart (R.id.gerund_content,
+                     ArticleVariables.GERUND),
+    new ArticlePart (R.id.participle_content,
+                     ArticleVariables.M_PARTICIPLE,
+                     ArticleVariables.F_PARTICIPLE,
+                     ArticleVariables.PM_PARTICIPLE,
+                     ArticleVariables.PF_PARTICIPLE)
+  };
+
+  private void loadArticle (int articleNum)
     throws IOException
   {
     Article article = ArticleLoader.getDefault (this).loadArticle (articleNum);
-    LinearLayout layout = new LinearLayout (this);
 
     setTitle (article.getValue (ArticleVariables.INFINITIVE));
 
-    return layout;
+    StringBuilder buffer = new StringBuilder ();
+
+    for (ArticlePart part : articleParts)
+      {
+        buffer.setLength (0);
+
+        for (int variable : part.variableIds)
+          {
+            article.getValue (variable, buffer);
+            buffer.append ('\n');
+          }
+
+        TextView tv = (TextView) findViewById (part.resourceId);
+        tv.setText (buffer);
+      }
   }
 
   private void loadIntendedArticle ()
   {
     Intent intent = getIntent ();
-
-    sectionHeaders.setSize (0);
-    sectionContents.setSize (0);
 
     if (intent != null)
       {
@@ -76,10 +153,7 @@ public class ArticleActivity extends Activity
             try
               {
                 this.articleNumber = article;
-                if (articleView != null)
-                  scrollView.removeView (articleView);
-                articleView = loadArticle (article);
-                scrollView.addView (articleView);
+                loadArticle (article);
               }
             catch (IOException e)
               {
@@ -96,12 +170,6 @@ public class ArticleActivity extends Activity
     super.onCreate (savedInstanceState);
 
     setContentView (R.layout.article);
-
-    scrollView = (DelayedScrollView) findViewById (R.id.article_scroll_view);
-    layout = (RelativeLayout) findViewById (R.id.article_layout);
-
-    sectionHeaders = new Vector<TextView> ();
-    sectionContents = new Vector<TextView> ();
 
     stopped = true;
     reloadQueued = true;
