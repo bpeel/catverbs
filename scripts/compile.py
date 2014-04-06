@@ -214,3 +214,33 @@ for verb in vd:
 
 if out is not None:
     out.close()
+
+# Write out some Java source for the values of the constants for the
+# variable names
+
+out = open(os.path.join(assets_dir,
+                        '..',
+                        'src',
+                        'uk',
+                        'co',
+                        'busydoingnothing',
+                        'catverbs',
+                        'ArticleVariables.java'),
+           'w')
+
+out.write("/* Automatically generated from compile.py. DO NOT EDIT */\n"
+          "\n"
+          "package uk.co.busydoingnothing.catverbs;\n"
+          "\n"
+          "public class ArticleVariables\n"
+          "{\n");
+
+for variable in variables.variables:
+    out.write("  public static final int " +
+              variable.upper() +
+              " = " +
+              str(variables.get_index(variable)) +
+              ";\n")
+
+out.write("};\n")
+out.close()

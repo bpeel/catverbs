@@ -3,6 +3,8 @@
 /assets/index.dat
 /assets/articles-*.dat
 
+/src/uk/co/busydoingnothing/catverbs/ArticleVariables.java
+
 /local.properties
 /project.properties
 /bin
