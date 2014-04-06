@@ -1,0 +1,9 @@
+common_stem=t
+stem={common_stem}em
+parent=perdre
+
+infinitive_suffix=er
+infinitive={common_stem}ém{infinitive_suffix}
+
+# Future
+future_stem={stem}{infinitive_suffix}

@@ -268,7 +268,6 @@ para69|somr
 para7|sotaig
 para24|supl
 para74|t
-para3|tem|témer
 para3|terratrem|terratrémer
 para3|terratrem|terratrèmer
 para6|tol
