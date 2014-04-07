@@ -1,0 +1,24 @@
+common_stem=mo
+ustem={common_stem}u
+stem={common_stem}v
+parent=perdre
+
+infinitive={ustem}{infinitive_suffix}
+
+# Participles
+participle_stem={common_stem}g
+
+# Present indicative
+pi_jo={common_stem}c
+pi_tu={ustem}s
+pi_ell={ustem}
+pi_ells={ustem}en
+
+# Simple past indicative
+spi_stem={common_stem}gu
+
+# Present subjunctive
+ps_stem={spi_stem}
+
+# Future
+future_stem={ustem}r

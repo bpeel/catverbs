@@ -157,7 +157,6 @@ para4o5|ment
 para33|menyscr
 para31|merèix|mer
 cons.jar|min
-para14|mo
 para6|mol
 para57|n
 para57|n
