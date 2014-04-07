@@ -1,0 +1,8 @@
+stem=compl
+parent=servir
+
+# Participles
+m_participle={participle_stem}ert (o {participle_stem}it)
+f_participle={participle_stem}erta (o {participle_stem}ida)
+pm_participle={participle_stem}erts (o {participle_stem}its)
+pf_participle={participle_stem}ertes (o {participle_stem}ides)

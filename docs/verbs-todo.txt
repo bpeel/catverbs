@@ -51,7 +51,6 @@ para6|col
 para74|collt
 para14|commo
 para10|compar
-para24|compl
 para23|compla
 para61|complàn|complan
 para68|compo
