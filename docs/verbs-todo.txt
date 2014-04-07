@@ -119,7 +119,6 @@ para13|enc
 para20|encl
 para4|encobr|encob
 para37|end
-para26|enfon|enf
 para47|enfu
 para58.obrir|entre
 para36|entred

@@ -1,0 +1,9 @@
+common_stem=enf
+parent=confondre
+
+# Participles
+participle_stem={common_stem}
+m_participle={participle_stem}ús
+f_participle={participle_stem}usa
+pm_participle={participle_stem}usos
+pf_participle={participle_stem}uses
