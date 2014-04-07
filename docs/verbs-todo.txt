@@ -67,7 +67,6 @@ para79|conv
 para84|convi
 para68|correspo
 para28|cos|c
-para33|cr
 para31|créix|cr
 para36|d
 para37|d

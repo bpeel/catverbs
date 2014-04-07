@@ -1,0 +1,31 @@
+common_stem=cr
+stem={common_stem}e
+parent=perdre
+
+infinitive={stem}u{infinitive_suffix}
+
+gerund={stem}ient
+
+# Participles
+participle_stem={common_stem}eg
+
+# Present indicative
+pi_jo={common_stem}ec
+pi_tu={common_stem}eus
+pi_nosaltres={common_stem}eiem
+pi_vosaltres={common_stem}eieu
+pi_ell={common_stem}eu
+pi_ells={common_stem}euen
+
+# Imperfect indicative
+ii_nosaltres={common_stem}èiem
+ii_vosaltres={common_stem}èieu
+
+# Simple past indicative
+spi_stem={common_stem}egu
+
+# Present subjunctive
+ps_stem={spi_stem}
+
+# Future
+future_stem={stem}ur
