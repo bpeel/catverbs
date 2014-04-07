@@ -3,7 +3,6 @@ para15
 para16
 para16
 para18
-para35
 para38
 para43
 para48
