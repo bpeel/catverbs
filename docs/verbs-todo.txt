@@ -120,7 +120,6 @@ para20|excl
 para6|exsol
 para46|f
 para61|fèn|fen
-para4.fregir|freg|fr
 para47|fu
 para50|impr
 para20|incl
@@ -185,7 +184,6 @@ para36|red
 para12|redarg
 para4|redescobr|redescob
 para46|ref
-para4.fregir|refreg|refr
 para50|reimpr
 para54|rell
 para6|remol
@@ -211,7 +209,6 @@ para57|sobren
 para57|sobren
 para78|sobreval
 para84|sobrevi
-para4.fregir|sofreg|sofr
 para78|sol
 para69|somr
 para7|sotaig
