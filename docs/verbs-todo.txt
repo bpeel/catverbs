@@ -105,7 +105,6 @@ para20|encl
 para4|encobr|encob
 para37|end
 para47|enfu
-para58.obrir|entre
 para36|entred
 para54|entrell
 para60|entreo
@@ -154,7 +153,6 @@ para7|obliq
 para6|ol
 para57|p
 para10|par
-para58.obrir|pell
 para67|perce
 para4o5|percud
 para46|perf
@@ -176,7 +174,6 @@ para23|ra
 para46|raref
 para18|re
 para38|re
-para58.obrir|re
 para58|re
 para67|re
 para6|reabsol
