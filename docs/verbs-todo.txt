@@ -69,7 +69,6 @@ para36|contrad
 para46|contraf
 para79|conv
 para84|convi
-para26|corfon|corf
 para68|correspo
 para28|cos|c
 para33|cr
@@ -105,7 +104,6 @@ para68|despo
 para74|dest
 para39|destr
 para84|desvi
-para26|difon|dif
 para68|dispo
 para6|dissol
 para13|dist
@@ -143,7 +141,6 @@ para47|fu
 para50|impr
 para20|incl
 para24|incompl
-para26|infon|inf
 para36|interd
 para31|irèix|ir
 para51|j
@@ -159,7 +156,6 @@ para13|malent
 para80|malv
 para82|malv
 para84|malvi
-para26|marfon|marf
 cons.jar|men
 para4o5|ment
 para33|menyscr
@@ -220,7 +216,6 @@ para36|red
 para12|redarg
 para4|redescobr|redescob
 para46|ref
-para26|refon|ref
 para4.fregir|refreg|refr
 para50|reimpr
 para54|rell
@@ -234,7 +229,6 @@ para24|restabl
 para39|restr
 para4o5|resum
 para74|ret
-para26|reton|ret
 para80|retrov
 para79|rev
 para80|rev
@@ -262,7 +256,6 @@ para24|supl
 para74|t
 para6|tol
 para28|toss|t
-para26|transfon|transf
 para54|trasll
 cons.jar|trepit
 para79|v
