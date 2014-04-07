@@ -224,6 +224,3 @@ para78|val
 para84|vi
 para69|enr
 para13|ent
-para4|part
-para4|pat
-para4|per
