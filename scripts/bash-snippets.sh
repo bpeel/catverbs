@@ -21,9 +21,20 @@ function groups() {
       sort -k 1,1n
 }
 
+NORMAL_RE='|\([^|]\+\)$'
+DOUBLE_RE='|\(\([^|]\+\)[^|]\+\)|\2$'
+
 function remove_group {
+  local re
+
+  if test -z "$2"; then
+      re="$NORMAL_RE";
+  else
+      re="$DOUBLE_RE";
+  fi;
+
   # Remove a group from the todo list
-  sed -ni '/^'"$1"'|\([^|]\+\)$/! p' docs/verbs-todo.txt
+  sed -ni "/^$1$re/"'! p' docs/verbs-todo.txt
   git add docs/verbs-todo.txt
 }
 
@@ -37,8 +48,15 @@ function generate_group {
   if test -z "$var"; then
       var=stem;
   fi
+
+  if test -z "$5"; then
+      re="$NORMAL_RE";
+  else
+      re="$DOUBLE_RE";
+  fi;
+
   # Generate files for a group
-  for x in `sed -n 's/^'"$1"'|\([^|]\+\)$/\1/p' < docs/verbs-todo.txt `; do
+  for x in `sed -n "s/^$1$re/\1/p" < docs/verbs-todo.txt `; do
       echo -e "$var=$x\nparent=$2" > data/"$x$3".txt;
       git add data/"$x$3".txt;
   done
