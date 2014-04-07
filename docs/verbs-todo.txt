@@ -35,7 +35,6 @@ para67|aperce
 para7|apropinq
 para12|arg
 para4o5|arrup
-para33|ass
 para13|at
 para39|at
 para82|benv
@@ -85,7 +84,6 @@ para23|descompla
 para68|descompo
 para25|descon
 para28|descos|desc
-para33|descr
 para36|desd
 para7|desenaig
 para13|desent
@@ -149,7 +147,6 @@ para82|malv
 para84|malvi
 cons.jar|men
 para4o5|ment
-para33|menyscr
 para31|merèix|mer
 cons.jar|min
 para6|mol
@@ -217,7 +214,6 @@ para80|rev
 para82|rev
 para84|revi
 para68|roma
-para33|s
 para46|satisf
 para38|sobre
 para31|sobrecréix|sobrecr
@@ -225,7 +221,6 @@ para13|sobreent
 para50|sobreimpr
 para57|sobren
 para57|sobren
-para33|sobres
 para78|sobreval
 para84|sobrevi
 para4.fregir|sofreg|sofr
