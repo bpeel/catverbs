@@ -1,0 +1,3 @@
+stem=fum
+parent=témer
+infinitive=fúmer

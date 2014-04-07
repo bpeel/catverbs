@@ -143,7 +143,6 @@ para61|fèn|fen
 para26|fon|f
 para4.fregir|freg|fr
 para47|fu
-para3|fum|fúmer
 para50|impr
 para20|incl
 para24|incompl
