@@ -21,7 +21,6 @@ para85
 para9
 ir.eix|abal
 para6|absol
-para24|acompl
 para31|acréix|acr
 para4o5|acud
 para36|ad
@@ -128,7 +127,6 @@ para18|es
 para39|esp
 para13|est
 para74|est
-para24|establ
 para39|estr
 para46|estraf
 para20|excl
@@ -139,7 +137,6 @@ para4.fregir|freg|fr
 para47|fu
 para50|impr
 para20|incl
-para24|incompl
 para36|interd
 para31|irèix|ir
 para51|j
@@ -183,7 +180,6 @@ para14.defectiu|plo
 para68|po
 para54|pr
 para36|pred
-para24|preestabl
 para56|prem
 para4o5|presum
 para13|pret
@@ -201,11 +197,9 @@ para67|re
 para6|reabsol
 para10|reapar
 para14|rebe
-para24|rebl
 para20|rec
 para20|recl
 para4|recobr|recob
-para24|recompl
 para68|recompo
 para25|recon
 para28|recos|rec
@@ -223,7 +217,6 @@ para57|ren
 para57|ren
 para6|resol
 para68|respo
-para24|restabl
 para39|restr
 para4o5|resum
 para74|ret
@@ -249,7 +242,6 @@ para78|sol
 para14|somo
 para69|somr
 para7|sotaig
-para24|supl
 para74|t
 para6|tol
 para28|toss|t

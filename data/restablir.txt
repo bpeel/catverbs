@@ -1,0 +1,2 @@
+stem=restabl
+parent=complir
