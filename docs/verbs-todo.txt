@@ -131,7 +131,6 @@ para82|entrev
 para78|equival
 para18|es
 para39|esp
-para3|esprem|esprémer
 para13|est
 para74|est
 para24|establ
@@ -197,7 +196,6 @@ para54|pr
 para36|pred
 para24|preestabl
 para56|prem
-para3|prem|prémer
 para4o5|presum
 para13|pret
 para82|prev
@@ -267,14 +265,12 @@ para69|somr
 para7|sotaig
 para24|supl
 para74|t
-para3|terratrem|terratrémer
 para3|terratrem|terratrèmer
 para6|tol
 para26|ton|t
 para28|toss|t
 para26|transfon|transf
 para54|trasll
-para3|trem|trémer
 cons.jar|trepit
 para79|v
 para80|v
