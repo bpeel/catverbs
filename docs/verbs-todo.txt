@@ -38,7 +38,6 @@ para4o5|arrup
 para33|ass
 para13|at
 para39|at
-para14|be
 para82|benv
 para4o5|brum
 para4o5|brunz
@@ -48,7 +47,6 @@ para20|cl
 para4|cobr|cob
 para6|col
 para74|collt
-para14|commo
 para10|compar
 para23|compla
 para61|complàn|complan
@@ -73,7 +71,6 @@ para33|cr
 para31|créix|cr
 para36|d
 para37|d
-para14|de
 para18|de
 para67|dece
 para31|decréix|decr
@@ -108,7 +105,6 @@ para13|dist
 para74|dist
 para78|dol
 para78|dol
-para14|embe
 para39|emp
 para7|enaig
 para13|enc
@@ -184,7 +180,6 @@ para4o5|presum
 para13|pret
 para82|prev
 para78|preval
-para14|promo
 para69|r
 para23|ra
 para46|raref
@@ -195,7 +190,6 @@ para58|re
 para67|re
 para6|reabsol
 para10|reapar
-para14|rebe
 para20|rec
 para20|recl
 para4|recobr|recob
@@ -210,7 +204,6 @@ para46|ref
 para4.fregir|refreg|refr
 para50|reimpr
 para54|rell
-para14|remo
 para6|remol
 para57|ren
 para57|ren
@@ -238,7 +231,6 @@ para78|sobreval
 para84|sobrevi
 para4.fregir|sofreg|sofr
 para78|sol
-para14|somo
 para69|somr
 para7|sotaig
 para74|t
