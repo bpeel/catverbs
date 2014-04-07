@@ -21,7 +21,6 @@ para31|acréix|acr
 para4o5|acud
 para36|ad
 para7|adeq
-cons.jar|aflon
 para7|ag
 para51|aj
 para51|aj
@@ -130,7 +129,6 @@ para31|irèix|ir
 para51|j
 para51|j
 para3|juny|júnyer
-cons.jar|jut
 para7|liq
 para54|ll
 para14.defectiu|lle
@@ -140,10 +138,8 @@ para13|malent
 para80|malv
 para82|malv
 para84|malvi
-cons.jar|men
 para4o5|ment
 para31|merèix|mer
-cons.jar|min
 para6|mol
 para57|n
 para57|n
@@ -223,7 +219,6 @@ para74|t
 para6|tol
 para28|toss|t
 para54|trasll
-cons.jar|trepit
 para79|v
 para80|v
 para82|v
