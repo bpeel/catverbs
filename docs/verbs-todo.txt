@@ -59,7 +59,6 @@ para25|con
 para67|conce
 para20|concl
 para78|condol
-para26|confon|conf
 para47|confu
 para39|constr
 uir|constru
