@@ -261,7 +261,6 @@ para7|sotaig
 para24|supl
 para74|t
 para6|tol
-para26|ton|t
 para28|toss|t
 para26|transfon|transf
 para54|trasll
