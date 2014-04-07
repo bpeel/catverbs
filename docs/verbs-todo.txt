@@ -230,13 +230,8 @@ para82|v
 para78|val
 para78|val
 para84|vi
-para66|abale
 para69|enr
 para13|ent
-para66|fine
-para66|finestre
-jar|manifasse
 para4|part
 para4|pat
 para4|per
-jar|sotrague
