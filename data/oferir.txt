@@ -1,0 +1,8 @@
+stem=ofer
+parent=complir
+
+# Participles
+m_participle=ofert (o {participle_stem}it)
+f_participle=oferta (o {participle_stem}ida)
+pm_participle=oferts (o {participle_stem}its)
+pf_participle=ofertes (o {participle_stem}ides)

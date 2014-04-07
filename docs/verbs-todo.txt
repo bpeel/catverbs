@@ -168,7 +168,6 @@ para1|nann|nan
 para23|no
 para60|o
 para7|obliq
-para24|ofer
 para6|ol
 para57|p
 para10|par
@@ -245,7 +244,6 @@ para57|sobren
 para33|sobres
 para78|sobreval
 para84|sobrevi
-para24|sofr
 para4.fregir|sofreg|sofr
 para78|sol
 para14|somo
