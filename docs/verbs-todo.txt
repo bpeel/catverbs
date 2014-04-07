@@ -138,7 +138,6 @@ para20|excl
 para6|exsol
 para46|f
 para61|fèn|fen
-para26|fon|f
 para4.fregir|freg|fr
 para47|fu
 para50|impr

@@ -1,0 +1,9 @@
+common_stem=f
+parent=confondre
+
+# Participles
+participle_stem={common_stem}os
+m_participle={participle_stem}
+f_participle={participle_stem}a
+pm_participle={participle_stem}os
+pf_participle={participle_stem}es
