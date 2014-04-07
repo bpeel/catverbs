@@ -1,0 +1,13 @@
+common_stem=
+stem={common_stem}obr
+parent=dormir
+
+# Participles
+m_participle={common_stem}obert
+f_participle={common_stem}oberta
+pm_participle={common_stem}oberts
+pf_participle={common_stem}obertes
+
+# Present indicative
+pi_tu={pi_stem}es
+pi_ell={pi_stem}e
