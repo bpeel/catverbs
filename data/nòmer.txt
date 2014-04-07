@@ -1,0 +1,3 @@
+stem=nom
+parent=témer
+infinitive=nòmer

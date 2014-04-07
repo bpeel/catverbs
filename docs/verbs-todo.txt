@@ -174,7 +174,6 @@ para57|n
 para57|n
 para1|nann|nan
 para23|no
-para3|nom|nòmer
 para60|o
 para7|obliq
 para24|ofer
