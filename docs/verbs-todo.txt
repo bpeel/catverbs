@@ -202,7 +202,6 @@ para28|toss|t
 para54|trasll
 para79|v
 para80|v
-para82|v
 para78|val
 para78|val
 para84|vi

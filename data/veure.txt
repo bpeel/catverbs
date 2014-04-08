@@ -1,0 +1,5 @@
+common_stem=v
+parent=malveure
+
+# Imperative
+imp_tu={common_stem}eges (o {common_stem}es)
