@@ -1,0 +1,2 @@
+stem=satisf
+parent=desfer

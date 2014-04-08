@@ -54,7 +54,6 @@ para4o5|consum
 para13|cont
 para74|cont
 para36|contrad
-para46|contraf
 para79|conv
 para84|convi
 para68|correspo
@@ -110,7 +109,6 @@ para39|esp
 para13|est
 para74|est
 para39|estr
-para46|estraf
 para20|excl
 para6|exsol
 para46|f
@@ -145,7 +143,6 @@ para57|p
 para10|par
 para67|perce
 para4o5|percud
-para46|perf
 para61|pertàn|pertan
 para84|pervi
 para23|pla
@@ -161,7 +158,6 @@ para82|prev
 para78|preval
 para69|r
 para23|ra
-para46|raref
 para18|re
 para38|re
 para58|re
@@ -176,7 +172,6 @@ para28|recos|rec
 para31|recréix|recr
 para36|red
 para12|redarg
-para46|ref
 para50|reimpr
 para54|rell
 para6|remol
@@ -193,7 +188,6 @@ para80|rev
 para82|rev
 para84|revi
 para68|roma
-para46|satisf
 para38|sobre
 para31|sobrecréix|sobrecr
 para13|sobreent
