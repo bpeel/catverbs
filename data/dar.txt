@@ -2,19 +2,19 @@ stem=d
 parent=cantar
 
 # Present indicative
-pi_jo=-
-pi_tu=-
-pi_ell=-
-pi_ells=-
+pi_jo=—
+pi_tu=—
+pi_ell=—
+pi_ells=—
 
 # Simple past indicative
 spi_jo={spi_stem}i
 
 # Present subjunctive
-ps_jo=-
-ps_tu=-
-ps_ell=-
-ps_ells=-
+ps_jo=—
+ps_tu=—
+ps_ell=—
+ps_ells=—
 
 # Imperfect subjunctive
 is_jo={is_stem}es

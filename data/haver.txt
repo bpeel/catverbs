@@ -29,9 +29,9 @@ ps_vosaltres=hàgiu (o hagueu)
 is_stem=hagu
 
 # Imperative
-imp_jo=-
-imp_tu=-
-imp_ell=-
-imp_nosaltres=-
-imp_vosaltres=-
-imp_ells=-
+imp_jo=—
+imp_tu=—
+imp_ell=—
+imp_nosaltres=—
+imp_vosaltres=—
+imp_ells=—

@@ -76,7 +76,7 @@ cond_vosaltres={cond_stem}íeu
 cond_ells={cond_stem}ien
 
 # Imperative
-imp_jo=-
+imp_jo=—
 imp_tu={pi_ell}
 imp_ell={ps_ell}
 imp_nosaltres={ps_nosaltres}
