@@ -1,0 +1,25 @@
+stem=an
+parent=cantar
+
+# Present indicative
+pi_jo=vaig
+pi_tu=vas
+pi_ell=va
+pi_nosaltres=anem
+pi_vosaltres=aneu
+pi_ells=van
+
+# Present subjunctive
+ps_stem=vag
+ps_nosaltres=anem
+ps_vosaltres=aneu
+
+# Imperfect subjunctive
+is_stem=an
+
+# Future
+future_stem=anir
+
+# Imperative
+imp_jo=-
+imp_tu=vés
