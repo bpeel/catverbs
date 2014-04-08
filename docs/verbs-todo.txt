@@ -30,7 +30,6 @@ para12|arg
 para4o5|arrup
 para13|at
 para39|at
-para82|benv
 para4o5|brum
 para4o5|brunz
 para20|c
@@ -101,7 +100,6 @@ para36|entred
 para54|entrell
 para60|entreo
 para14.defectiu|entreplo
-para82|entrev
 para78|equival
 para18|es
 para39|esp
@@ -151,7 +149,6 @@ para36|pred
 para56|prem
 para4o5|presum
 para13|pret
-para82|prev
 para78|preval
 para69|r
 para23|ra
@@ -182,7 +179,6 @@ para74|ret
 para80|retrov
 para79|rev
 para80|rev
-para82|rev
 para84|revi
 para68|roma
 para38|sobre
