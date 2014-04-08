@@ -1,0 +1,41 @@
+common_stem=malv
+stem={common_stem}eu
+parent=perdre
+
+gerund={common_stem}eient
+
+m_participle={common_stem}ist
+f_participle={common_stem}ista
+pm_participle={common_stem}ists ({common_stem}istos)
+pf_participle={common_stem}istes
+
+# Present indicative
+pi_jo={common_stem}eig
+pi_nosaltres={common_stem}eiem
+pi_vosaltres={common_stem}eieu
+
+# Imperfect indicative
+ii_stem={common_stem}e
+ii_nosaltres={common_stem}èiem
+ii_vosaltres={common_stem}èieu
+
+# Simple past
+spi_jo={common_stem}iu
+spi_tu={common_stem}eieres (o {common_stem}eres)
+spi_ell={common_stem}eié (o {common_stem}éu)
+spi_nosaltres={common_stem}eiérem (o {common_stem}érem)
+spi_vosaltres={common_stem}eiéreu (o {common_stem}éreu)
+spi_ells={common_stem}eieren (o {common_stem}eren)
+
+# Future
+future_stem={stem}r
+
+# Present subjunctive
+ps_stem={common_stem}eg
+
+# Imperfect subjunctive
+is_stem={common_stem}ei
+
+# Imperative
+imp_tu={common_stem}eges (o {common_stem}és)
+imp_vosaltres={ps_vosaltres} (o {pi_vosaltres})

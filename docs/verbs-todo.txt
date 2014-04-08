@@ -126,7 +126,6 @@ para56|m
 para36|mald
 para13|malent
 para80|malv
-para82|malv
 para84|malvi
 para4o5|ment
 para31|merèix|mer
