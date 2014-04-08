@@ -111,7 +111,6 @@ para74|est
 para39|estr
 para20|excl
 para6|exsol
-para46|f
 para61|fèn|fen
 para47|fu
 para50|impr
