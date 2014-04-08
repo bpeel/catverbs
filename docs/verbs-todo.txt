@@ -79,7 +79,6 @@ para28|descos|desc
 para36|desd
 para7|desenaig
 para13|desent
-para46|desf
 para4o5|desment
 para31|desmerèix|desmer
 para60|deso

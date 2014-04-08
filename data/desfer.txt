@@ -1,0 +1,44 @@
+common_stem=desf
+stem={common_stem}e
+parent=perdre
+
+infinitive={stem}r
+
+gerund={common_stem}ent
+
+# Participles
+m_participle={participle_stem}t
+f_participle={participle_stem}ta
+pm_participle={participle_stem}ts
+pf_participle={participle_stem}tes
+
+# Present indicative
+pi_jo={common_stem}aig
+pi_tu={common_stem}às
+pi_ell={common_stem}à
+pi_nosaltres={common_stem}em
+pi_vosaltres={common_stem}eu
+pi_ells={common_stem}an
+
+# Imperfect indicative
+ii_nosaltres={common_stem}èiem
+ii_vosaltres={common_stem}èieu
+
+# Simple past indicative
+spi_stem={common_stem}
+spi_jo={common_stem}iu
+spi_ell={common_stem}éu
+
+# Future
+future_stem={common_stem}ar
+
+# Present subjunctive
+ps_stem={common_stem}ac
+ps_nosaltres={common_stem}em
+ps_vosaltres={common_stem}eu
+
+# Imperfect subjunctive
+is_stem={common_stem}
+
+# Imperative
+imp_tu={common_stem}és
