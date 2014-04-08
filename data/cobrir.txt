@@ -1,0 +1,10 @@
+common_stem=cob
+stem={common_stem}r
+parent=servir
+
+# Participles
+participle_stem={common_stem}er
+m_participle={participle_stem}t
+f_participle={participle_stem}ta
+pm_participle={participle_stem}ts
+pf_participle={participle_stem}tes
