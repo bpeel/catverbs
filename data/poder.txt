@@ -1,0 +1,28 @@
+stem=pod
+parent=perdre
+
+infinitive_suffix=er
+
+# Participles
+participle_stem=pog
+
+# Present indicative
+pi_jo=puc
+pi_tu=pots
+pi_ell=pot
+
+# Simple past indicative
+spi_stem=pogu
+
+# Present subjunctive
+ps_stem=pugu
+
+# Present subjunctive
+is_stem=pogu
+
+# Future
+future_stem={stem}r
+
+# Imperative
+imp_tu=pugues
+imp_vosaltres=pugueu
