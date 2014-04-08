@@ -1,0 +1,26 @@
+stem=sab
+parent=perdre
+
+infinitive_suffix=er
+
+# Present indicative
+pi_jo=sé
+pi_tu=saps
+pi_ell=sap
+
+# Future
+future_stem=sabr
+
+# Present subjunctive
+ps_stem=sapigu
+ps_jo=sàpiga
+ps_tu=sàpigues
+ps_ell=sàpiga
+ps_ells=sàpiguen
+
+# Imperfect subjunctive
+is_stem=sab
+
+# Imperative
+imp_tu=sàpigues
+imp_vosaltres={ps_vosaltres}
