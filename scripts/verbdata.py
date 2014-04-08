@@ -86,6 +86,8 @@ class Verb:
             self.values[name] = value
             dictionary.variables[name] = -1
 
+            line_num += 1
+
         f.close()
 
     def get_value(self, name, depth=0):
