@@ -73,7 +73,6 @@ para7|desaig
 para10|desapar
 para13|desat
 para20|descl
-para4|descobr|descob
 para23|descompla
 para68|descompo
 para25|descon
@@ -100,7 +99,6 @@ para39|emp
 para7|enaig
 para13|enc
 para20|encl
-para4|encobr|encob
 para37|end
 para47|enfu
 para36|entred
@@ -174,14 +172,12 @@ para6|reabsol
 para10|reapar
 para20|rec
 para20|recl
-para4|recobr|recob
 para68|recompo
 para25|recon
 para28|recos|rec
 para31|recréix|recr
 para36|red
 para12|redarg
-para4|redescobr|redescob
 para46|ref
 para50|reimpr
 para54|rell
