@@ -1,0 +1,26 @@
+stem=vol
+parent=perdre
+
+infinitive_suffix=er
+
+# Participles
+participle_stem=volg
+
+# Present indicative
+pi_jo=vull
+
+# Simple past indicative
+spi_stem=volgu
+
+# Future
+future_stem=voldr
+
+# Present subjunctive
+ps_stem=vulgu
+
+# Imperfect subjunctive
+is_stem=volgu
+
+# Imperative
+imp_tu=vulgues
+imp_vosaltres={ps_vosaltres}
