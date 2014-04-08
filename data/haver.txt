@@ -1,0 +1,37 @@
+stem=hav
+parent=perdre
+
+infinitive_suffix=er
+
+# Participles
+participle_stem=hag
+
+# Present indicative
+pi_jo=he (o haig)
+pi_tu=has
+pi_ell=ha
+pi_nosaltres=hem (o havem)
+pi_vosaltres=heu (o haveu)
+pi_ells=han
+
+# Simple past indicative
+spi_stem=hagu
+
+# Future
+future_stem=haur
+
+# Present subjunctive
+ps_stem=hag
+ps_nosaltres=hàgem (o haguem)
+ps_vosaltres=hàgiu (o hagueu)
+
+# Imperfect subjunctive
+is_stem=hagu
+
+# Imperative
+imp_jo=-
+imp_tu=-
+imp_ell=-
+imp_nosaltres=-
+imp_vosaltres=-
+imp_ells=-

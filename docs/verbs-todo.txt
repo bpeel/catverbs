@@ -4,7 +4,6 @@ para16
 para16
 para18
 para38
-para48
 para49
 para49
 para58
