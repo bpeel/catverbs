@@ -197,6 +197,5 @@ para79|v
 para80|v
 para78|val
 para78|val
-para84|vi
 para69|enr
 para13|ent

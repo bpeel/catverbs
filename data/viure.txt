@@ -1,0 +1,29 @@
+common_stem=vi
+ustem={common_stem}u
+stem={common_stem}v
+parent=perdre
+
+infinitive={ustem}{infinitive_suffix}
+
+gerund={stem}int
+
+# Participles
+participle_stem=visc
+
+# Present indicative
+pi_jo={common_stem}sc
+pi_tu={ustem}s
+pi_ell={ustem}
+pi_nosaltres={stem}im
+pi_vosaltres={stem}iu
+pi_ells={ustem}en
+
+# Simple past indicative
+spi_stem={common_stem}squ
+
+# Future
+future_stem={common_stem}ur
+
+# Present subjunctive
+ps_stem={spi_stem}
+
