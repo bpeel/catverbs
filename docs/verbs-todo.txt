@@ -50,7 +50,6 @@ para13|cont
 para74|cont
 para36|contrad
 para79|conv
-para84|convi
 para68|correspo
 para28|cos|c
 para31|créix|cr
@@ -80,7 +79,6 @@ para23|despla
 para68|despo
 para74|dest
 para39|destr
-para84|desvi
 para68|dispo
 para6|dissol
 para13|dist
@@ -121,7 +119,6 @@ para56|m
 para36|mald
 para13|malent
 para80|malv
-para84|malvi
 para4o5|ment
 para31|merèix|mer
 para6|mol
@@ -136,7 +133,6 @@ para10|par
 para67|perce
 para4o5|percud
 para61|pertàn|pertan
-para84|pervi
 para23|pla
 para61|plàn|plan
 para14.defectiu|plo
@@ -176,7 +172,6 @@ para74|ret
 para80|retrov
 para79|rev
 para80|rev
-para84|revi
 para68|roma
 para38|sobre
 para31|sobrecréix|sobrecr
@@ -185,7 +180,6 @@ para50|sobreimpr
 para57|sobren
 para57|sobren
 para78|sobreval
-para84|sobrevi
 para78|sol
 para69|somr
 para7|sotaig
