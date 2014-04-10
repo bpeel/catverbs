@@ -1,0 +1,5 @@
+common_stem=v
+parent=malvendre
+
+# Present indicative
+pi_ell={stem}
