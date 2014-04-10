@@ -1,2 +1,0 @@
-stem=guetitz
-parent=cantar

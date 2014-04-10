@@ -1,2 +1,0 @@
-common_stem=abale
-parent=envejar

@@ -1,2 +1,0 @@
-stem=arrinx
-parent=cantar

@@ -1,2 +1,0 @@
-stem=desemmales
-parent=cantar

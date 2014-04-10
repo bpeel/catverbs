@@ -1,2 +1,0 @@
-stem=paral·lelitz
-parent=cantar

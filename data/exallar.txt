@@ -1,2 +1,0 @@
-stem=exall
-parent=cantar

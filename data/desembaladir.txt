@@ -1,2 +1,0 @@
-stem=desembalad
-parent=servir

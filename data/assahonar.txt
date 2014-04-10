@@ -1,2 +1,0 @@
-stem=assahon
-parent=cantar

@@ -1,2 +1,0 @@
-stem=reabsob
-parent=servir

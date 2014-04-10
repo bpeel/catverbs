@@ -1,2 +1,0 @@
-stem=exorm
-parent=cantar

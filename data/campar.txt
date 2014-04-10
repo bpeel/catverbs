@@ -1,2 +1,0 @@
-stem=camp
-parent=cantar

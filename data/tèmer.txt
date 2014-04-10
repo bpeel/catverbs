@@ -1,2 +1,0 @@
-parent=témer
-infinitive={common_stem}èm{infinitive_suffix}
