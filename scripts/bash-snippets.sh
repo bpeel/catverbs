@@ -15,7 +15,7 @@
 
 function groups() {
   # Sort the groups from the todo list in reverse order of frequency
-  sed -r s/'^([^|]*)\|.*/\1/' docs/verbs-todo.txt | \
+  sed -r s/'^\+ [^ ]+ ([^|]*).*/\1/' docs/verbs-todo.txt | \
       sort | \
       uniq -c | \
       sort -k 1,1n
@@ -34,7 +34,7 @@ function remove_group {
   fi;
 
   # Remove a group from the todo list
-  sed -ni "/^$1$re/"'! p' docs/verbs-todo.txt
+  sed -ni "/^+ [^ ]\+ $1$re/"'! p' docs/verbs-todo.txt
   git add docs/verbs-todo.txt
 }
 
@@ -56,7 +56,7 @@ function generate_group {
   fi;
 
   # Generate files for a group
-  for x in `sed -n "s/^$1$re/\1/p" < docs/verbs-todo.txt `; do
+  for x in `sed -n "s/^+ [^ ]\+ $1$re/\1/p" < docs/verbs-todo.txt `; do
       echo -e "$var=$x\nparent=$2" > data/"$x$3".txt;
       git add data/"$x$3".txt;
   done
