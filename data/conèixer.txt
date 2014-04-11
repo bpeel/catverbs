@@ -1,0 +1,22 @@
+common_stem=con
+stem={common_stem}eix
+parent=perdre
+
+infinitive_suffix=er
+infinitive={common_stem}èix{infinitive_suffix}
+
+# Participles
+participle_stem={common_stem}eg
+
+# Present indicative
+pi_jo={common_stem}ec
+pi_tu={stem}es
+
+# Simple past indicative
+spi_stem={common_stem}egu
+
+# Future
+future_stem={stem}er
+
+# Present subjunctive
+ps_stem={spi_stem}
