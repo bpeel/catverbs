@@ -1,0 +1,12 @@
+stem=ompl
+parent=dormir
+
+# Present indicative
+pi_tu={stem}es
+pi_ell={stem}e
+
+# Participles
+m_participle={stem}ert (o {stem}it)
+f_participle={stem}erta (o {stem}ida)
+pm_participle={stem}erts (o {stem}its)
+pf_participle={stem}ertes (o {stem}ides)
