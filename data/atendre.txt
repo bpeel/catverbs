@@ -1,0 +1,25 @@
+common_stem=at
+stem={common_stem}en
+parent=perdre
+
+infinitive_suffix=re
+infinitive={stem}d{infinitive_suffix}
+
+# Participles
+m_participle={common_stem}ès
+f_participle={common_stem}esa
+pm_participle={common_stem}esos
+pf_participle={common_stem}eses
+
+# Present indicative
+pi_jo={stem}c
+pi_ell={common_stem}én
+
+# Simple past indicative
+spi_stem={stem}gu
+
+# Future
+future_stem={stem}dr
+
+# Present subjunctive
+ps_stem={spi_stem}
