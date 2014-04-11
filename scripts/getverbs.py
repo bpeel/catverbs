@@ -34,7 +34,7 @@ def get_verb_list_text(root):
 
 def get_verb_list(root):
     text = get_verb_list_text(root)
-    return re.findall(r'^\* *\[\[([^\]]+?)(?:-se(?:'+"'"+'n)?)?\]\] *$',
+    return re.findall(r'^\* *\[\[([^\]]+?)(?:-se(?:'+"'"+'n)?|'"'"'s)?\]\] *$',
                       text,
                       re.MULTILINE)
 
