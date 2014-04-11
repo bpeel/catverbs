@@ -1,0 +1,24 @@
+common_stem=comp
+stem={common_stem}on
+parent=perdre
+
+infinitive_suffix=re
+infinitive={stem}d{infinitive_suffix}
+
+# Participles
+m_participle={common_stem}ost
+f_participle={common_stem}osta
+pm_participle={common_stem}ostos (o {common_stem}osts)
+pf_participle={common_stem}ostes
+
+# Present indicative
+pi_jo={stem}c
+
+# Simple past indicative
+spi_stem={stem}gu
+
+# Present subjunctive
+ps_stem={spi_stem}
+
+# Future
+future_stem={stem}dr
