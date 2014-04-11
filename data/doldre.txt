@@ -1,0 +1,5 @@
+stem=dol
+parent=valer
+
+infinitive_suffix=re
+infinitive={stem}d{infinitive_suffix}
