@@ -1,0 +1,19 @@
+stem=val
+parent=perdre
+
+infinitive_suffix=er
+
+# Participles
+participle_stem={stem}g
+
+# Present indicative
+pi_jo={stem}c
+
+# Simple past indicative
+spi_stem={stem}gu
+
+# Future
+future_stem={stem}dr
+
+# Present subjunctive
+ps_stem={spi_stem}
