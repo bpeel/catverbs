@@ -1,0 +1,2 @@
+common_stem=compar
+parent=aparèixer
