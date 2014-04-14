@@ -1,0 +1,6 @@
+common_stem=m
+stem={common_stem}ol
+parent=absoldre
+
+# Participles
+participle_stem={common_stem}òl
