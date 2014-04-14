@@ -1,0 +1,22 @@
+stem=absol
+parent=perdre
+
+infinitive={stem}d{infinitive_suffix}
+
+# Participles
+m_participle={participle_stem}t
+f_participle={participle_stem}ta
+pm_participle={participle_stem}ts
+pf_participle={participle_stem}tes
+
+# Present indicative
+pi_jo={stem}c
+
+# Simple past indicative
+spi_stem={stem}gu
+
+# Future
+future_stem={stem}dr
+
+# Present subjunctive
+ps_stem={spi_stem}
