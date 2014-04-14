@@ -1,0 +1,8 @@
+stem=roman
+parent=compondre
+
+# Participles
+m_participle=romàs
+f_participle=romasa
+pm_participle=romasos
+pf_participle=romases
