@@ -1,0 +1,6 @@
+common_stem=contrad
+parent=dir
+
+# Imperative
+imp_tu={ps_stem}es (o {pi_ell})
+imp_vosaltres={ps_vosaltres} (o {pi_vosaltres})
