@@ -1,0 +1,36 @@
+common_stem=d
+stem={common_stem}i
+parent=perdre
+
+infinitive_suffix=ir
+infinitive={common_stem}{infinitive_suffix}
+
+# Participles
+m_participle={participle_stem}t
+f_participle={participle_stem}ta
+pm_participle={participle_stem}ts
+pf_participle={participle_stem}tes
+
+# Present indicative
+pi_jo={pi_stem}c
+pi_tu={pi_stem}us
+pi_ell={pi_stem}u
+pi_ells={pi_stem}uen
+
+# Imperfect indicative
+ii_stem={common_stem}e
+ii_nosaltres={common_stem}èiem
+ii_vosaltres={common_stem}èieu
+
+# Simple past indicative
+spi_stem={stem}gu
+
+# Present subjunctive
+ps_stem={spi_stem}
+
+# Future
+future_stem={stem}r
+
+# Imperative
+imp_tu={ps_stem}es
+imp_vosaltres={ps_vosaltres}
