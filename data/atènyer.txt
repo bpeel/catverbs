@@ -1,16 +1,17 @@
-stem=ateny
+common_stem=at
+stem={common_stem}eny
 parent=perdre
 
 infinitive_suffix=er
-infinitive=atèny{infinitive_suffix}
+infinitive={common_stem}èny{infinitive_suffix}
 
 gerund={stem}ent
 
 # Participles
-m_participle=atès
-f_participle=atesa
-pm_participle=atesos
-pf_participle=ateses
+m_participle={common_stem}ès
+f_participle={common_stem}esa
+pm_participle={common_stem}esos
+pf_participle={common_stem}eses
 
 # Future
 future_stem={stem}{infinitive_suffix}
