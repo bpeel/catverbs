@@ -1,0 +1,5 @@
+common_stem=cl
+parent=descloure
+
+# Participles
+m_participle={common_stem}os
