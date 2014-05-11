@@ -1,0 +1,18 @@
+common_stem=enaig
+stem={common_stem}u
+parent=cantar
+
+# Present indicative
+pi_stem={common_stem}ü
+pi_jo={stem}o
+pi_ell={stem}a
+
+# Imperfect indicative
+ii_stem={stem}
+
+# Simple past indicative
+spi_stem={stem}
+spi_jo={common_stem}üí
+
+# Present subjunctive
+ps_stem={pi_stem}
