@@ -1,0 +1,9 @@
+common_stem=constr
+parent=atènyer
+
+# Participles
+participle_stem={common_stem}et
+m_participle={participle_stem}
+f_participle={participle_stem}a
+pm_participle={participle_stem}s
+pf_participle={participle_stem}es
