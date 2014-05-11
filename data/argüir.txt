@@ -1,0 +1,2 @@
+stem=argü
+parent=servir

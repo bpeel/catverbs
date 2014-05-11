@@ -1,0 +1,2 @@
+stem=redargü
+parent=servir
