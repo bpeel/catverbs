@@ -1,0 +1,2 @@
+stem=resum
+parent=mentir
