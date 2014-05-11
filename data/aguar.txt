@@ -1,0 +1,24 @@
+common_stem=ag
+stem={common_stem}u
+parent=cantar
+
+# Present indicative
+pi_stem={common_stem}ú
+pi_nosaltres={common_stem}üem
+pi_vosaltres={common_stem}üeu
+
+# Imperfect indicative
+ii_stem={stem}
+
+# Simple past indicative
+spi_stem={stem}
+spi_jo={common_stem}üí
+spi_tu={common_stem}üares
+
+# Present subjunctive
+ps_stem={pi_stem}
+ps_nosaltres={pi_nosaltres}
+ps_vosaltres={pi_vosaltres}
+
+# Imperfect subjunctive
+is_stem={common_stem}ü
