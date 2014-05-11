@@ -1,0 +1,30 @@
+common_stem=descl
+stem={common_stem}ou
+parent=perdre
+
+gerund={common_stem}oent
+
+# Participles
+participle_stem={common_stem}os
+m_participle={common_stem}òs
+f_participle={participle_stem}a
+pm_participle={participle_stem}os
+pf_participle={participle_stem}es
+
+# Present indicative
+pi_jo={common_stem}oc
+pi_nosaltres={common_stem}oem
+pi_vosaltres={common_stem}oeu
+
+# Imperfect indicative
+ii_stem={common_stem}o
+ii_jo={ii_stem}ïa
+ii_tu={ii_stem}ïes
+ii_ell={ii_stem}ïa
+ii_ells={ii_stem}ïen
+
+# Simple past indicative
+spi_stem={common_stem}ogu
+
+# Present subjunctive
+ps_stem={spi_stem}
