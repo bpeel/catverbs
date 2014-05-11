@@ -1,0 +1,9 @@
+common_stem=c
+parent=descloure
+
+# Participles
+participle_stem={common_stem}uit
+m_participle={participle_stem} (o {common_stem}ogut)
+f_participle={participle_stem}a (o {common_stem}oguda)
+pm_participle={participle_stem}s (o {common_stem}oguts)
+pf_participle={participle_stem}es (o {common_stem}ogudes)
