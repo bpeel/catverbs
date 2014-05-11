@@ -1,2 +1,5 @@
 stem=brunz
 parent=mentir
+
+# Present indicative
+pi_tu={pi_stem}es (o {pi_stem}eixes)
