@@ -1,0 +1,16 @@
+stem=ateny
+parent=perdre
+
+infinitive_suffix=er
+infinitive=atèny{infinitive_suffix}
+
+gerund={stem}ent
+
+# Participles
+m_participle=atès
+f_participle=atesa
+pm_participle=atesos
+pf_participle=ateses
+
+# Future
+future_stem={stem}{infinitive_suffix}
