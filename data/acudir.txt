@@ -1,0 +1,7 @@
+common_stem=acu
+stem={common_stem}d
+parent=mentir
+
+# Present indicative
+pi_tu={common_stem}ts (o {pi_stem}eixes)
+pi_ell={common_stem}t (o {pi_stem}eix)
