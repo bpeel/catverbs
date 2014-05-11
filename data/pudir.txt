@@ -1,0 +1,7 @@
+common_stem=pu
+stem={common_stem}d
+parent=dormir
+
+# Present indicative
+pi_tu={common_stem}ts
+pi_ell={common_stem}t
