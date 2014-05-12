@@ -1,0 +1,14 @@
+common_stem=re
+parent=eixir
+
+# Present indicative
+pi_jo={common_stem}ïxo
+pi_tu={common_stem}ïxes
+pi_ell={common_stem}ïx
+pi_ells={common_stem}ïxen
+
+# Present subjunctive
+ps_jo={common_stem}ïxi
+ps_tu={common_stem}ïxis
+ps_ell={common_stem}ïxi
+ps_ells={common_stem}ïxin
