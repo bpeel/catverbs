@@ -1,0 +1,15 @@
+common_stem=
+stem={common_stem}eix
+parent=dormir
+
+# Present indicative
+pi_jo={common_stem}ixo
+pi_tu={common_stem}ixes
+pi_ell={common_stem}ix
+pi_ells={common_stem}ixen
+
+# Present subjunctive
+ps_jo={common_stem}ixi
+ps_tu={common_stem}ixis
+ps_ell={common_stem}ixi
+ps_ells={common_stem}ixin
