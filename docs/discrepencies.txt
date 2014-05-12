@@ -1,0 +1,11 @@
+I think these things are mistakes in Els Verbs Conjugats:
+
+• The imperative for ‘dar’ is shifted wrong so that the conjugation
+  for nosaltres appears as the one for ells.
+
+• The second-person plural simple future for eixir is ‘eixereu’ but
+  that doesn't make sense and Viccionari and DIEC seem to have it as
+  ‘eixireu’.
+
+• The first-person plural present indicative for ‘entrelluir’ is
+  listed as ‘entrelluem’ but it should probably be ‘entrelluïm’.
