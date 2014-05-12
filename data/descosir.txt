@@ -1,0 +1,15 @@
+common_stem=desc
+stem={common_stem}os
+parent=dormir
+
+# Present indicative
+pi_jo={common_stem}uso
+pi_tu={common_stem}uses
+pi_ell={common_stem}ús
+pi_ells={common_stem}usen
+
+# Present subjunctive
+ps_jo={common_stem}usi
+ps_tu={common_stem}usis
+ps_ell={common_stem}usi
+ps_ells={common_stem}usin
