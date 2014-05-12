@@ -1,0 +1,4 @@
+common_stem=mer
+parent=créixer
+
+infinitive={common_stem}èix{infinitive_suffix}
