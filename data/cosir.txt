@@ -1,0 +1,5 @@
+common_stem=c
+parent=descosir
+
+# Present indicative
+pi_ell={common_stem}us
