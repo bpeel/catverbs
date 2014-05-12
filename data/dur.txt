@@ -1,0 +1,21 @@
+common_stem=d
+stem={common_stem}u
+parent=perdre
+
+infinitive_suffix=r
+
+# Participles
+participle_stem={common_stem}
+f_participle={participle_stem}uta
+pf_participle={participle_stem}utes
+
+# Present indicative
+pi_jo={stem}c
+pi_tu= {stem}us (o {stem}s)
+pi_ell={stem}u (o {stem})
+
+# Simple past indicative
+spi_stem={stem}gu
+
+# Present subjunctive
+ps_stem={spi_stem}
