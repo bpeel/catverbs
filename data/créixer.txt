@@ -1,0 +1,35 @@
+common_stem=cr
+stem={common_stem}eix
+parent=perdre
+
+infinitive_suffix=er
+infinitive={common_stem}éix{infinitive_suffix}
+
+# Participles
+participle_stem={common_stem}esc
+
+# Present indicative
+pi_tu={stem}es
+
+# Simple past indicative
+spi_jo={spi_stem}í (o {common_stem}esquí)
+spi_tu={spi_stem}eres (o {common_stem}esqueres)
+spi_ell={spi_stem}é (o {common_stem}esqué)
+spi_nosaltres={spi_stem}érem (o {common_stem}esquérem)
+spi_vosaltres={spi_stem}éreu (o {common_stem}esquéreu)
+spi_ells={spi_stem}eren (o {common_stem}esqueren)
+
+# Present subjunctive
+ps_nosaltres={ps_stem}em (o {common_stem}esquem)
+ps_vosaltres={ps_stem}eu (o {common_stem}esqueu)
+
+# Imperfect subjunctive
+is_jo={is_stem}és (o {common_stem}esqués)
+is_tu={is_stem}essis (o {common_stem}esquessis)
+is_ell={is_stem}és (o {common_stem}esqués)
+is_nosaltres={is_stem}éssim (o {common_stem}esquéssim
+is_vosaltres={is_stem}éssiu (o {common_stem}esquéssiu)
+is_ells={is_stem}essin (o {common_stem}esquessin)
+
+# Future
+future_stem={stem}{infinitive_suffix}
