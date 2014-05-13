@@ -1,0 +1,5 @@
+common_stem=pr
+parent=entrelluir
+
+# Present indicative
+pi_ell={stem}u
