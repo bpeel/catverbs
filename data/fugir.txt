@@ -1,0 +1,8 @@
+common_stem=fu
+stem={common_stem}g
+parent=dormir
+
+# Present indicative
+pi_jo={common_stem}jo
+pi_tu={pi_stem}es
+pi_ell={common_stem}ig
