@@ -1,0 +1,39 @@
+common_stem=pert
+ustem={common_stem}angu
+stem={common_stem}any
+parent=perdre
+
+infinitive_suffix=er
+infinitive={common_stem}àny{infinitive_suffix}
+
+# Participles
+m_participle={ustem}t (o {participle_stem}ut)
+f_participle={ustem}da (o {participle_stem}uda)
+pm_participle={ustem}ts (o {participle_stem}uts)
+pf_participle={ustem}des (o {participle_stem}udes)
+
+# Simple past indicative
+spi_jo={spi_stem}í (o {ustem}í)
+spi_tu={spi_stem}eres (o {ustem}eres)
+spi_ell={spi_stem}é (o {ustem}é)
+spi_nosaltres={spi_stem}érem (o {ustem}érem)
+spi_vosaltres={spi_stem}éreu (o {ustem}éreu)
+spi_ells={spi_stem}eren (o {ustem}eren)
+
+# Present subjunctive
+ps_jo={ps_stem}i (o {ustem}i)
+ps_tu={ps_stem}is (o {ustem}is)
+ps_nosaltres={ps_stem}em (o {ustem}em)
+ps_vosaltres={ps_stem}eu (o {ustem}eu)
+ps_ells={ps_stem}in (o {ustem}in)
+
+# Imperfect subjunctive
+is_jo={is_stem}és (o {ustem}és)
+is_tu={is_stem}essis (o {ustem}essis)
+is_nosaltres={is_stem}éssim (o {ustem}éssim)
+is_vosaltres={is_stem}éssiu (o {ustem}éssiu)
+is_ells={is_stem}essin (o {ustem}essin)
+
+# Future
+future_stem={stem}{infinitive_suffix}
+
