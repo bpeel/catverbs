@@ -1,0 +1,30 @@
+stem=hav
+parent=perdre
+
+infinitive_suffix=re
+infinitive=heu{infinitive_suffix}
+
+# Participles
+participle_stem=hag
+
+# Present indicative
+pi_jo=hec
+pi_tu=heus
+pi_ell=heu
+pi_nosaltres=havem
+pi_vosaltres=haveu
+pi_ells=heuen
+
+# Simple past indicative
+spi_stem=hagu
+
+# Future
+future_stem=haur
+
+# Present subjunctive
+ps_stem=hegu
+ps_nosaltres=haguem
+ps_vosaltres=hagueu
+
+# Imperfect subjunctive
+is_stem=hagu
