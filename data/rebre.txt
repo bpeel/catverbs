@@ -1,0 +1,7 @@
+common_stem=re
+stem={common_stem}b
+parent=perdre
+
+# Present indicative
+pi_tu={common_stem}ps
+pi_ell={common_stem}p
