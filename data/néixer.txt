@@ -1,0 +1,38 @@
+common_stem=n
+parent=nàixer
+
+infinitive={common_stem}éix{infinitive_suffix}
+
+# Present indicative
+pi_stem={common_stem}eix
+pi_nosaltres={common_stem}aixem
+pi_vosaltres={common_stem}aixeu
+
+# Imperfect indicative
+ii_stem={stem}
+
+# Simple past indicative
+spi_stem={common_stem}asqu
+spi_jo={stem}í (o {spi_stem}í)
+spi_tu={stem}eres (o {spi_stem}eres)
+spi_ell={stem}é (o {spi_stem}é)
+spi_nosaltres={stem}érem (o {spi_stem}érem)
+spi_vosaltres={stem}éreu (o {spi_stem}éreu)
+spi_ells={stem}eren (o {spi_stem}eren)
+
+# Present subjunctive
+ps_stem={pi_stem}
+ps_jo={pi_stem}i
+ps_tu={ps_stem}is
+ps_nosaltres={stem}em
+ps_vosaltres={stem}eu
+ps_ell={pi_stem}i
+ps_ells={ps_stem}in
+
+# Imperfect subjunctive
+is_jo={stem}és (o {common_stem}asqués)
+is_tu={stem}essis (o {common_stem}asquessis)
+is_ell={stem}és (o {common_stem}asqués)
+is_nosaltres={stem}éssim (o {common_stem}asquéssim)
+is_vosaltres={stem}éssiu (o {common_stem}asquéssiu)
+is_ells={stem}essin (o {common_stem}asquessin)
