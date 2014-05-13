@@ -1,13 +1,5 @@
-stem=cab
-parent=perdre
-
-infinitive_suffix=re
-
-gerund={stem}ent
-
-# Present indicative
-pi_tu=caps
-pi_ell=cap
+common_stem=ca
+parent=rebre
 
 # Present subjunctive
 ps_jo=càpiga
@@ -15,6 +7,3 @@ ps_tu=càpigues
 ps_nosaltres=capiguem
 ps_vosaltres=capigueu
 ps_ells=càpiguen
-
-# Imperfect subjunctive
-is_stem={stem}
