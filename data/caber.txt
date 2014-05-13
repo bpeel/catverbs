@@ -1,4 +1,3 @@
-stem=cab
 parent=cabre
 
 infinitive_suffix=er
