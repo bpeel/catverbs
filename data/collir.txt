@@ -12,5 +12,4 @@ pi_ells={ustem}en
 # Present subjunctive
 ps_jo={ustem}i
 ps_tu={ustem}is
-ps_ell={ustem}i
 ps_ells={ustem}in

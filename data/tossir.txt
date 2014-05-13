@@ -11,5 +11,4 @@ pi_ells={common_stem}ussen
 # Present subjunctive
 ps_jo={common_stem}ussi
 ps_tu={common_stem}ussis
-ps_ell={common_stem}ussi
 ps_ells={common_stem}ussin

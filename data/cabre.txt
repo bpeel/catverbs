@@ -12,7 +12,6 @@ pi_ell=cap
 # Present subjunctive
 ps_jo=càpiga
 ps_tu=càpigues
-ps_ell={ps_jo}
 ps_nosaltres=capiguem
 ps_vosaltres=capigueu
 ps_ells=càpiguen

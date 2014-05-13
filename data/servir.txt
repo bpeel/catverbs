@@ -10,5 +10,4 @@ pi_ells={pi_stem}eixen
 # Present subjunctive
 ps_jo={ps_stem}eixi
 ps_tu={ps_stem}eixis
-ps_ell={ps_stem}eixi
 ps_ells={ps_stem}eixin

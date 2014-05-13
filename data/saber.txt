@@ -15,7 +15,6 @@ future_stem=sabr
 ps_stem=sapigu
 ps_jo=sàpiga
 ps_tu=sàpigues
-ps_ell=sàpiga
 ps_ells=sàpiguen
 
 # Imperfect subjunctive

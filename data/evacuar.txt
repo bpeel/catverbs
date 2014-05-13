@@ -4,7 +4,6 @@ parent=cantar
 # Present subjunctive
 ps_jo={ps_stem}ï
 ps_tu={ps_stem}ïs
-ps_ell={ps_stem}ï
 ps_nosaltres={ps_stem}em
 ps_vosaltres={ps_stem}eu
 ps_ells={ps_stem}ïn

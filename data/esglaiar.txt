@@ -8,5 +8,4 @@ spi_jo={common_stem}í
 # Present subjunctive
 ps_jo={common_stem}ï
 ps_tu={common_stem}ïs
-ps_ell={common_stem}ï
 ps_ells={common_stem}ïn

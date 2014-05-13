@@ -18,7 +18,6 @@ spi_stem={common_stem}asqu
 ps_stem={common_stem}asqu
 ps_jo={common_stem}asca
 ps_tu={ps_stem}es
-ps_ell={common_stem}asca
 ps_ells={ps_stem}en
 
 # Future

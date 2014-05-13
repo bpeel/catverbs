@@ -39,7 +39,6 @@ ps_vosaltres={ps_stem}iu
 # Imperfect subjunctive
 is_jo={is_stem}ís
 is_tu={is_stem}issis
-is_ell={is_stem}ís
 is_nosaltres={is_stem}íssim
 is_vosaltres={is_stem}íssiu
 is_ells={is_stem}issin

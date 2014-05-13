@@ -13,9 +13,7 @@ spi_jo={spi_stem}i
 # Present subjunctive
 ps_jo=—
 ps_tu=—
-ps_ell=—
 ps_ells=—
 
 # Imperfect subjunctive
 is_jo={is_stem}es
-is_ell={is_stem}es

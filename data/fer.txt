@@ -8,7 +8,6 @@ pi_ell=fa
 # Imperfect subjunctive
 is_stem=f
 is_jo=fes
-is_ell=fes
 
 # Imperative
 imp_tu=fes

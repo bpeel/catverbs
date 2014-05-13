@@ -26,13 +26,11 @@ ps_jo={pi_stem}i
 ps_tu={ps_stem}is
 ps_nosaltres={stem}em
 ps_vosaltres={stem}eu
-ps_ell={pi_stem}i
 ps_ells={ps_stem}in
 
 # Imperfect subjunctive
 is_jo={stem}és (o {common_stem}asqués)
 is_tu={stem}essis (o {common_stem}asquessis)
-is_ell={stem}és (o {common_stem}asqués)
 is_nosaltres={stem}éssim (o {common_stem}asquéssim)
 is_vosaltres={stem}éssiu (o {common_stem}asquéssiu)
 is_ells={stem}essin (o {common_stem}asquessin)

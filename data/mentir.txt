@@ -10,5 +10,4 @@ pi_ells={pi_stem}en (o {pi_stem}eixen)
 # Present subjunctive
 ps_jo={ps_stem}i (o {ps_stem}eixi)
 ps_tu={ps_stem}is (o {ps_stem}eixis)
-ps_ell={ps_jo}
 ps_ells={ps_stem}in (o {ps_stem}eixin)

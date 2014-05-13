@@ -40,7 +40,6 @@ ps_stem=sigu
 # Imperfect subjunctive
 is_jo=fos
 is_tu=fossis
-is_ell=fos
 is_nosaltres=fóssim
 is_vosaltres=fóssiu
 is_ells=fossin
