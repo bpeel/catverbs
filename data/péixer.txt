@@ -1,0 +1,32 @@
+common_stem=p
+stem={common_stem}aix
+parent=perdre
+
+infinitive_suffix=er
+infinitive={common_stem}éix{infinitive_suffix}
+
+# Participles
+participle_stem={common_stem}asc
+
+# Present indicative
+pi_stem={common_stem}eix
+pi_tu={pi_stem}es
+pi_nosaltres={common_stem}aixem
+pi_vosaltres={common_stem}aixeu
+
+# Imperfect indicative
+ii_stem={stem}
+
+# Simple past indicative
+spi_stem={stem}
+
+# Present subjunctive
+ps_stem={pi_stem}
+ps_nosaltres={stem}em
+ps_vosaltres={stem}eu
+
+# Imperfect subjunctive
+is_stem={stem}
+
+# Future
+future_stem={stem}{infinitive_suffix}
