@@ -1,0 +1,7 @@
+stem=o
+parent=reduir
+
+# Present indicative
+pi_tu={pi_stem}eixes (o {stem}us)
+pi_ell={pi_stem}eix (o {stem}u)
+pi_ells={pi_stem}eixen (o {stem}uen)
