@@ -1,0 +1,6 @@
+common_stem=f
+ustem={common_stem}engu
+stem={common_stem}eny
+parent=pertànyer
+
+infinitive={common_stem}èny{infinitive_suffix}
