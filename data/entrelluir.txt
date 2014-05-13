@@ -1,0 +1,37 @@
+common_stem=entrell
+stem={common_stem}u
+parent=dormir
+
+# Participles
+m_participle={participle_stem}ït
+f_participle={participle_stem}ïda
+pm_participle={participle_stem}ïts
+pf_participle={participle_stem}ïdes
+
+# Present indicative
+pi_tu={stem}us
+pi_ell={stem}u (o {common_stem}ú)
+pi_nosaltres={stem}ïm
+pi_vosaltres={stem}ïu
+
+# Imperfect indicative
+ii_jo={ii_stem}ïa
+ii_tu={ii_stem}ïes
+ii_ell={ii_stem}ïa
+ii_ells={ii_stem}ïen
+
+# Simple past indicative
+spi_tu={spi_stem}ïres
+spi_ells={spi_stem}ïren
+
+# Present subjunctive
+ps_jo={ps_stem}ï
+ps_tu={ps_stem}ïs
+ps_ell={ps_stem}ï
+ps_nosaltres={ps_stem}ïm
+ps_vosaltres={ps_stem}ïu
+ps_ells={ps_stem}ïn
+
+# Imperfect subjunctive
+is_tu={is_stem}ïssis
+is_ells={is_stem}ïssin
