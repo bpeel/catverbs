@@ -1,0 +1,2 @@
+stem=premor
+parent=morir

@@ -1,0 +1,9 @@
+stem=mor
+parent=dormir
+
+# Participles
+participle_stem={stem}t
+m_participle={participle_stem}
+f_participle={participle_stem}a
+pm_participle={participle_stem}s
+pf_participle={participle_stem}es
