@@ -1,0 +1,10 @@
+common_stem=impr
+stem={common_stem}im
+parent=servir
+
+# Participles
+participle_stem={common_stem}es
+m_participle={common_stem}ès
+f_participle={participle_stem}a
+pm_participle={participle_stem}os
+pf_participle={participle_stem}es
