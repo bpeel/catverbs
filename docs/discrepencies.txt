@@ -9,3 +9,8 @@ I think these things are mistakes in Els Verbs Conjugats:
 
 • The first-person plural present indicative for ‘entrelluir’ is
   listed as ‘entrelluem’ but it should probably be ‘entrelluïm’.
+
+These things would be good to add as notes to the conjugations:
+
+• The conjugation with ‘eix’ in lluir is used when the verb used
+  figuratively.

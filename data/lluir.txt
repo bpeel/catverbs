@@ -1,0 +1,15 @@
+common_stem=ll
+parent=entrelluir
+
+# Present indicative
+pi_jo={stem}o (o {stem}eixo)
+pi_tu={stem}us (o {stem}eixes)
+pi_ell={stem}u (o {stem} o {stem}eix)
+pi_ells={stem}en (o {stem}eixen)
+
+# Present subjunctive
+ps_jo={stem}ï (o {stem}eixi)
+ps_tu={stem}ïs (o {stem}eixis)
+ps_ell={stem}ï (o {stem}eixi)
+ps_ells={stem}ïn (o {stem}eixin)
+
