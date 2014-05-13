@@ -1,0 +1,2 @@
+stem=deso
+parent=oir
