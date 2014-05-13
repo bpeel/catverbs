@@ -1,0 +1,28 @@
+common_stem=j
+stem={common_stem}ai
+parent=perdre
+
+infinitive={common_stem}au{infinitive_suffix}
+
+# Participles
+participle_stem={common_stem}ag
+
+# Present indicative
+pi_jo={common_stem}ac
+pi_tu={common_stem}aus
+pi_ell={common_stem}au
+pi_ells={common_stem}auen
+
+# Imperfect indicative
+ii_stem={common_stem}e
+ii_nosaltres={common_stem}èiem
+ii_vosaltres={common_stem}èieu
+
+# Simple past indicative
+spi_stem={common_stem}agu
+
+# Present subjunctive
+ps_stem={spi_stem}
+
+# Future
+future_stem={common_stem}aur

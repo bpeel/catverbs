@@ -1,0 +1,20 @@
+parent=jaure
+
+infinitive={common_stem}eu{infinitive_suffix}
+
+# Present indicative
+pi_jo={common_stem}ec
+pi_tu={common_stem}eus
+pi_ell={common_stem}eu
+pi_ells={common_stem}euen
+
+# Present subjunctive
+ps_stem={common_stem}egu
+ps_nosaltres={common_stem}aguem
+ps_vosaltres={common_stem}agueu
+
+# Imperfect subjunctive
+is_stem={spi_stem}
+
+# Future
+future_stem={common_stem}aur
