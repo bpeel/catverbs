@@ -28,7 +28,6 @@ spi_vosaltres={common_stem}eiéreu (o {common_stem}éreu)
 spi_ells={common_stem}eieren (o {common_stem}eren)
 
 # Future
-future_stem={stem}r
 
 # Present subjunctive
 ps_stem={common_stem}eg

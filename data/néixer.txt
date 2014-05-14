@@ -1,4 +1,3 @@
-common_stem=n
 parent=nàixer
 
 infinitive={common_stem}éix{infinitive_suffix}
@@ -12,7 +11,6 @@ pi_vosaltres={common_stem}aixeu
 ii_stem={stem}
 
 # Simple past indicative
-spi_stem={common_stem}asqu
 spi_jo={stem}í (o {spi_stem}í)
 spi_tu={stem}eres (o {spi_stem}eres)
 spi_ell={stem}é (o {spi_stem}é)

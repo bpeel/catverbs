@@ -15,6 +15,3 @@ ps_vosaltres={common_stem}agueu
 
 # Imperfect subjunctive
 is_stem={spi_stem}
-
-# Future
-future_stem={common_stem}aur

@@ -6,7 +6,6 @@ infinitive_suffix=re
 gerund={stem}ent
 
 # Participles
-participle_stem={stem}
 m_participle={participle_stem}ut
 f_participle={participle_stem}uda
 pm_participle={participle_stem}uts
@@ -25,7 +24,6 @@ ii_vosaltres={ii_stem}íeu
 ii_ells={ii_stem}ien
 
 # Simple past indicative
-spi_stem={pi_stem}
 spi_tu={spi_stem}eres
 spi_ell={spi_stem}é
 spi_nosaltres={spi_stem}érem

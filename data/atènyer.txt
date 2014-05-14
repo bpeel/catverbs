@@ -5,7 +5,6 @@ parent=perdre
 infinitive_suffix=er
 infinitive={common_stem}èny{infinitive_suffix}
 
-gerund={stem}ent
 
 # Participles
 m_participle={common_stem}ès

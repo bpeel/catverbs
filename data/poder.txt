@@ -20,9 +20,6 @@ ps_stem=pugu
 # Present subjunctive
 is_stem=pogu
 
-# Future
-future_stem={stem}r
-
 # Imperative
 imp_tu=pugues
 imp_vosaltres=pugueu

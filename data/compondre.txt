@@ -2,7 +2,6 @@ common_stem=comp
 stem={common_stem}on
 parent=perdre
 
-infinitive_suffix=re
 infinitive={stem}d{infinitive_suffix}
 
 # Participles

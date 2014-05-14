@@ -1,7 +1,6 @@
 stem=hav
 parent=perdre
 
-infinitive_suffix=re
 infinitive=heu{infinitive_suffix}
 
 # Participles

@@ -1,4 +1,3 @@
-stem=hav
 parent=heure
 
 infinitive_suffix=er
@@ -18,7 +17,6 @@ ps_nosaltres=hàgem (o haguem)
 ps_vosaltres=hàgiu (o hagueu)
 
 # Imperative
-imp_jo=—
 imp_tu=—
 imp_ell=—
 imp_nosaltres=—

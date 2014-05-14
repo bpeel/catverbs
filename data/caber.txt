@@ -1,6 +1,2 @@
 parent=cabre
-
 infinitive_suffix=er
-
-# Future
-future_stem={stem}r

@@ -28,7 +28,6 @@ spi_nosaltres=—
 spi_vosaltres=—
 
 # Present subjunctive
-ps_stem={spi_stem}
 ps_jo=—
 ps_tu=—
 ps_ell={ps_stem}i
@@ -41,9 +40,6 @@ is_tu=—
 is_ell={is_stem}és
 is_nosaltres=—
 is_vosaltres=—
-
-# Future
-future_stem={stem}dr
 
 # Future
 future_jo=—

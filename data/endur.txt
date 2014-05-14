@@ -2,7 +2,6 @@ common_stem=end
 parent=dur
 
 # Present indicative
-pi_jo={stem}c
 pi_tu={stem}us (o {common_stem}ús)
 pi_ell={stem}u (o {common_stem}ú)
 
