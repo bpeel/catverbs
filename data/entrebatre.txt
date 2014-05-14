@@ -1,0 +1,2 @@
+stem=entrebat
+parent=perdre
