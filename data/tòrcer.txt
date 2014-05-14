@@ -1,0 +1,6 @@
+common_stem=t
+ustem={common_stem}orç
+stem={common_stem}orc
+parent=vèncer
+
+infinitive={common_stem}òrc{infinitive_suffix}
