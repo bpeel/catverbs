@@ -1,0 +1,56 @@
+common_stem=plo
+parent=moure
+
+# Participles
+f_participle=—
+pm_participle=—
+pf_participle=—
+
+# Present indicative
+pi_jo=—
+pi_tu=—
+pi_nosaltres=—
+pi_vosaltres=—
+
+# Imperfect indicative
+ii_jo=—
+ii_tu=—
+ii_nosaltres=—
+ii_vosaltres=—
+
+# Simple past indicative
+spi_jo=—
+spi_tu=—
+spi_nosaltres=—
+spi_vosaltres=—
+
+# Present subjunctive
+ps_jo=—
+ps_tu=—
+ps_ell={ps_stem}i
+ps_nosaltres=—
+ps_vosaltres=—
+
+# Imperfect subjunctive
+is_jo=—
+is_tu=—
+is_ell={is_stem}és
+is_nosaltres=—
+is_vosaltres=—
+
+# Future
+future_jo=—
+future_tu=—
+future_nosaltres=—
+future_vosaltres=—
+
+# Conditional
+cond_jo=—
+cond_tu=—
+cond_nosaltres=—
+cond_vosaltres=—
+
+# Imperative
+imp_tu=—
+imp_nosaltres=—
+imp_vosaltres=—
