@@ -1,0 +1,17 @@
+common_stem=v
+stem={common_stem}enc
+parent=perdre
+
+infinitive_suffix=er
+infinitive={common_stem}ènc{infinitive_suffix}
+
+# Participles
+participle_stem={common_stem}enç
+
+# Present indicative
+pi_jo={common_stem}enço
+pi_tu={stem}es
+pi_ell={common_stem}enç
+
+# Future
+future_stem={stem}{infinitive_suffix}
