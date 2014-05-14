@@ -18,6 +18,12 @@ I think these things are mistakes in Els Verbs Conjugats:
   (which is like creure) but actually shows a conjugatoin like beure
   in the conjugation page. I've chosen beure in catverbs.
 
+• júnyer is listed as being like servir. Apparently it is an
+  antiquated verb that in practice is only used in the infinitive now
+  so the conjugation probably doesn't really matter. However
+  Viccionari lists it as being like témer which probably makes more
+  sense so I've chosen that for catverbs.
+
 These things would be good to add as notes to the conjugations:
 
 • The conjugation with ‘eix’ in lluir is used when the verb used

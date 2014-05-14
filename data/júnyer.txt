@@ -1,0 +1,3 @@
+stem=juny
+parent=témer
+infinitive=júnyer
