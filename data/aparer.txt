@@ -1,0 +1,4 @@
+stem=apar
+parent=dormir
+
+infinitive_suffix=er
