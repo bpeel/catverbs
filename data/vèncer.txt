@@ -1,4 +1,5 @@
 common_stem=v
+ustem={common_stem}enç
 stem={common_stem}enc
 parent=perdre
 
@@ -6,12 +7,12 @@ infinitive_suffix=er
 infinitive={common_stem}ènc{infinitive_suffix}
 
 # Participles
-participle_stem={common_stem}enç
+participle_stem={ustem}
 
 # Present indicative
-pi_jo={common_stem}enço
+pi_jo={ustem}o
 pi_tu={stem}es
-pi_ell={common_stem}enç
+pi_ell={ustem}
 
 # Future
 future_stem={stem}{infinitive_suffix}
