@@ -12,6 +12,12 @@ I think these things are mistakes in Els Verbs Conjugats:
 
 • ‘haguereu’ is missing an accent for the simple past of heure.
 
+• It says that lleure is conjugated like creure. However DIEC and
+  Viccionari say that is conjugated like beure. These differ in the
+  imperfect. GDLC confusingly seems to say it is conjugated like seure
+  (which is like creure) but actually shows a conjugatoin like beure
+  in the conjugation page. I've chosen beure in catverbs.
+
 These things would be good to add as notes to the conjugations:
 
 • The conjugation with ‘eix’ in lluir is used when the verb used
