@@ -36,6 +36,13 @@
   <string name="simple_past_header">Passat simple</string>
   <string name="future_header">Futur</string>
   <string name="conditional_header">Condicional</string>
+  <string name="perfect_header">Perfet</string>
+  <string name="pluperfect_header">Plusquamperfet</string>
+  <string name="periphrastic_past_header">Passat perifràstic</string>
+  <string name="anterior_past_header">Passat anterior</string>
+  <string name="periphrastic_anterior_past_header">Passat anterior perifràstic</string>
+  <string name="future_perfect_header">Futur perfet</string>
+  <string name="conditional_perfect_header">Condicional perfet</string>
   <string name="gerund_header">Gerundi</string>
   <string name="participle_header">Participi</string>
 

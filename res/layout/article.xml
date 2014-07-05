@@ -41,10 +41,6 @@
                 style="@style/article_subsection" />
       <TextView android:id="@+id/imperfect_indicative_content"
                 style="@style/article_content" />
-      <TextView android:text="@string/simple_past_header"
-                style="@style/article_subsection" />
-      <TextView android:id="@+id/simple_past_indicative_content"
-                style="@style/article_content" />
       <TextView android:text="@string/future_header"
                 style="@style/article_subsection" />
       <TextView android:id="@+id/future_indicative_content"
@@ -53,6 +49,20 @@
                 style="@style/article_subsection" />
       <TextView android:id="@+id/conditional_indicative_content"
                 style="@style/article_content" />
+
+      <TextView android:text="@string/impersonal_header"
+                style="@style/article_section" />
+
+      <TextView android:text="@string/gerund_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/gerund_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/participle_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/participle_content"
+                style="@style/article_content" />
+
+      <!-- page two -->
 
       <TextView android:text="@string/subjunctive_header"
                 style="@style/article_section" />
@@ -71,18 +81,67 @@
       <TextView android:id="@+id/imperative_content"
                 style="@style/article_content" />
 
-      <TextView android:text="@string/impersonal_header"
+      <TextView android:text="@string/indicative_header"
                 style="@style/article_section" />
 
-      <TextView android:text="@string/gerund_header"
+      <TextView android:text="@string/simple_past_header"
                 style="@style/article_subsection" />
-      <TextView android:id="@+id/gerund_content"
-                style="@style/article_content" />
-      <TextView android:text="@string/participle_header"
-                style="@style/article_subsection" />
-      <TextView android:id="@+id/participle_content"
+      <TextView android:id="@+id/simple_past_indicative_content"
                 style="@style/article_content" />
 
+      <!-- page three -->
+
+      <TextView android:text="@string/indicative_header"
+                style="@style/article_section" />
+
+      <TextView android:text="@string/perfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/perfect_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/pluperfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/pluperfect_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/periphrastic_past_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/periphrastic_past_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/anterior_past_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/anterior_past_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/periphrastic_anterior_past_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/periphrastic_anterior_past_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/future_perfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/future_perfect_indicative_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/conditional_perfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/conditional_perfect_indicative_content"
+                style="@style/article_content" />
+
+      <TextView android:text="@string/subjunctive_header"
+                style="@style/article_section" />
+
+      <TextView android:text="@string/perfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/perfect_subjunctive_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/pluperfect_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/pluperfect_subjunctive_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/periphrastic_past_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/periphrastic_past_subjunctive_content"
+                style="@style/article_content" />
+      <TextView android:text="@string/periphrastic_anterior_past_header"
+                style="@style/article_subsection" />
+      <TextView android:id="@+id/periphrastic_anterior_past_subjunctive_content"
+                style="@style/article_content" />
     </LinearLayout>
   </ScrollView>
 </RelativeLayout>
