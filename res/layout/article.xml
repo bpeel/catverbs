@@ -25,7 +25,10 @@
               android:layout_height="match_parent">
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-                  android:orientation="vertical">
+                  android:orientation="vertical"
+                  style="@style/article_root">
+
+      <!-- page one -->
 
       <TextView android:text="@string/indicative_header"
                 style="@style/article_section" />
