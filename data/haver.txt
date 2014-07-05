@@ -13,7 +13,7 @@ pi_ells=han
 
 # Present subjunctive
 ps_stem=hag
-ps_nosaltres=hàgem (o haguem)
+ps_nosaltres=hàgim (o haguem)
 ps_vosaltres=hàgiu (o hagueu)
 
 # Imperative
