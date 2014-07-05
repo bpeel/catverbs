@@ -36,13 +36,13 @@ import java.util.Vector;
 class ArticlePart
 {
   public int resourceId;
-  public int[] variableIds;
+  public Object[] items;
 
   ArticlePart (int resourceId,
-               int ... variableIds)
+               Object ... items)
   {
     this.resourceId = resourceId;
-    this.variableIds = variableIds;
+    this.items = items;
   }
 }
 
@@ -136,10 +136,17 @@ public class ArticleActivity extends Activity
       {
         buffer.setLength (0);
 
-        for (int variable : part.variableIds)
+        for (Object item : part.items)
           {
-            article.getValue (variable, buffer);
-            buffer.append ('\n');
+            if (item instanceof Integer)
+              {
+                article.getValue (((Integer) item).intValue (), buffer);
+                buffer.append ('\n');
+              }
+            else
+              {
+                buffer.append (item.toString ());
+              }
           }
 
         TextView tv = (TextView) findViewById (part.resourceId);
