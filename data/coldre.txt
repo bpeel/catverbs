@@ -1,2 +1,2 @@
-common_stem=col
+stem=col
 parent=absoldre

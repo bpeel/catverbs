@@ -1,2 +1,2 @@
-common_stem=tol
+stem=tol
 parent=absoldre

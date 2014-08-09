@@ -1,2 +1,2 @@
-common_stem=resol
+stem=resol
 parent=absoldre

@@ -1,2 +1,2 @@
-common_stem=reabsol
+stem=reabsol
 parent=absoldre

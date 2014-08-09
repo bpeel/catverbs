@@ -1,2 +1,2 @@
-common_stem=exsol
+stem=exsol
 parent=absoldre
