@@ -17,11 +17,13 @@
 
 package uk.co.busydoingnothing.catverbs;
 
-import android.app.Activity;
 import android.app.Dialog;
+import android.app.TabActivity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -29,6 +31,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TabHost;
 import android.widget.TextView;
 import java.io.IOException;
 import java.util.Vector;
@@ -46,7 +49,24 @@ class ArticlePart
   }
 }
 
-public class ArticleActivity extends Activity
+class ArticleTab
+{
+  public String tag;
+  public int name;
+  public int resourceId;
+
+  ArticleTab (String tag,
+              int name,
+              int resourceId)
+  {
+    this.tag = tag;
+    this.name = name;
+    this.resourceId = resourceId;
+  }
+}
+
+public class ArticleActivity extends TabActivity
+  implements TabHost.TabContentFactory
 {
   public static final String EXTRA_ARTICLE_NUMBER =
     "uk.co.busydoingnothing.catverbs.ArticleNumber";
@@ -55,6 +75,8 @@ public class ArticleActivity extends Activity
 
   private boolean stopped;
   private boolean reloadQueued;
+
+  private View pageViews[];
 
   private static final ArticlePart articleParts[] =
   {
@@ -200,6 +222,19 @@ public class ArticleActivity extends Activity
                      "vagin haver ", ArticleVariables.INFINITIVE)
   };
 
+  private static final ArticleTab articleTabs[] =
+  {
+    new ArticleTab ("article_page1",
+                    R.string.article_page1,
+                    R.layout.article_page1),
+    new ArticleTab ("article_page2",
+                    R.string.article_page2,
+                    R.layout.article_page2),
+    new ArticleTab ("article_page3",
+                    R.string.article_page3,
+                    R.layout.article_page3)
+  };
+
   private void loadArticle (int articleNum)
     throws IOException
   {
@@ -226,8 +261,12 @@ public class ArticleActivity extends Activity
               }
           }
 
-        TextView tv = (TextView) findViewById (part.resourceId);
-        tv.setText (buffer);
+        for (View view : pageViews)
+          {
+            TextView tv = (TextView) view.findViewById (part.resourceId);
+            if (tv != null)
+              tv.setText (buffer);
+          }
       }
   }
 
@@ -261,6 +300,24 @@ public class ArticleActivity extends Activity
     super.onCreate (savedInstanceState);
 
     setContentView (R.layout.article);
+
+    pageViews = new View[articleTabs.length];
+
+    LayoutInflater layoutInflater = getLayoutInflater ();
+
+    for (int i = 0; i < pageViews.length; i++)
+      pageViews[i] = layoutInflater.inflate (articleTabs[i].resourceId, null);
+
+    TabHost tabHost = (TabHost) findViewById (android.R.id.tabhost);
+    Resources res = getResources ();
+
+    for (ArticleTab articleTab : articleTabs)
+      {
+         TabHost.TabSpec tab = tabHost.newTabSpec (articleTab.tag);
+         tab.setIndicator (res.getText (articleTab.name));
+         tab.setContent (this);
+         tabHost.addTab (tab);
+      }
 
     stopped = true;
     reloadQueued = true;
@@ -324,5 +381,16 @@ public class ArticleActivity extends Activity
       }
 
     return super.onKeyDown (keyCode, event);
+  }
+
+  @Override
+  public View createTabContent(String tag)
+  {
+    for (int i = 0; i < pageViews.length; i++)
+      if (articleTabs[i].tag.equals (tag))
+        return pageViews[i];
+
+    /* This shouldn't be reached */
+    return null;
   }
 }

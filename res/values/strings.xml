@@ -27,6 +27,10 @@
   <string name="menu_zoom">Apropar el text</string>
   <string name="close">Tancar</string>
 
+  <string name="article_page1">simple</string>
+  <string name="article_page2">que</string>
+  <string name="article_page3">a+b</string>
+
   <string name="indicative_header">Indicatiu</string>
   <string name="subjunctive_header">Subjuntiu</string>
   <string name="imperative_header">Imperatiu</string>
