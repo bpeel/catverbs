@@ -1,2 +1,2 @@
-stem=perf
+common_stem=perf
 parent=desfer

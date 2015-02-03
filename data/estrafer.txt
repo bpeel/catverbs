@@ -1,2 +1,2 @@
-stem=estraf
+common_stem=estraf
 parent=desfer

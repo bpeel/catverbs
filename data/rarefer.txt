@@ -1,2 +1,2 @@
-stem=raref
+common_stem=raref
 parent=desfer

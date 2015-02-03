@@ -1,2 +1,2 @@
-stem=contraf
+common_stem=contraf
 parent=desfer

@@ -1,2 +1,2 @@
-stem=satisf
+common_stem=satisf
 parent=desfer

@@ -1,2 +1,2 @@
-stem=ref
+common_stem=ref
 parent=desfer
