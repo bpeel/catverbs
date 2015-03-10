@@ -19,6 +19,7 @@ import os
 import re
 import unicodedata
 import errno
+import sys
 
 ARTICLES_PER_FILE = 128
 
@@ -172,6 +173,10 @@ for verb in vd:
         verb.display_name = infinitive
     else:
         verb.display_name = None
+
+    if infinitive != os.path.splitext(os.path.basename(verb.filename))[0]:
+        sys.stderr.write("WARN: " + verb.filename + " contains infinitive " +
+                         infinitive + "\n")
 
     trie.add_article(verb)
 

@@ -63,6 +63,7 @@ class Verb:
     def __init__(self, dictionary, filename):
         self.dictionary = dictionary
         self.values = {}
+        self.filename = filename
 
         f = open(filename, 'r', encoding='UTF-8')
         line_num = 1
