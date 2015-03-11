@@ -2,7 +2,7 @@
 
 <!--
  * Catverbs - A portable Catalan conjugation reference for Android
- * Copyright (C) 2012, 2013, 2014  Neil Roberts
+ * Copyright (C) 2012, 2013, 2014, 2015  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,8 +19,8 @@
 
 <manifest xmlns:a="http://schemas.android.com/apk/res/android"
           package="uk.co.busydoingnothing.catverbs"
-          a:versionCode="2"
-          a:versionName="0.2"
+          a:versionCode="3"
+          a:versionName="0.3"
           a:installLocation="auto">
   <uses-sdk a:minSdkVersion="7" a:targetSdkVersion="14" />
 
