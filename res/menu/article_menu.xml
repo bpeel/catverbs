@@ -22,9 +22,6 @@
         a:title="@string/menu_search"
         a:icon="@android:drawable/ic_menu_search"
         a:showAsAction="ifRoom" />
-  <item a:id="@+id/menu_zoom"
-        a:title="@string/menu_zoom"
-        a:icon="@android:drawable/ic_menu_zoom" />
   <item a:id="@+id/menu_about"
         a:title="@string/menu_about"
         a:icon="@android:drawable/ic_menu_info_details" />
