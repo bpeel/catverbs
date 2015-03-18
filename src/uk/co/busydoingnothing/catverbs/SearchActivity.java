@@ -20,6 +20,7 @@ package uk.co.busydoingnothing.catverbs;
 import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -35,6 +36,10 @@ import android.widget.TextView;
 public class SearchActivity extends ListActivity
   implements TextWatcher
 {
+  private static final String CATALAN_DICTIONARY_HOST =
+    "www.catalandictionary.org";
+  private static final String[] REFLEXIVE_ENDINGS = { "-se", "'s" };
+
   private SearchAdapter searchAdapter;
 
   @Override
@@ -71,12 +76,61 @@ public class SearchActivity extends ListActivity
       });
   }
 
+  private void setIntendedSearch(TextView tv)
+  {
+    Intent intent = getIntent ();
+
+    if (intent == null)
+      return;
+
+    String action = intent.getAction ();
+
+    if (action == null || !Intent.ACTION_VIEW.equals (action))
+      return;
+
+    Uri data = intent.getData ();
+
+    if (!data.getScheme ().equals ("http") ||
+        !data.getHost ().equals (CATALAN_DICTIONARY_HOST))
+      return;
+
+    String query = data.getQueryParameter ("q");
+
+    if (query == null ||
+        !query.startsWith ("conjugator/"))
+      return;
+
+    String verb = query.substring (11);
+
+    int verbEnd = verb.indexOf ('/');
+
+    if (verbEnd != -1)
+      verb = verb.substring (0, verbEnd);
+
+    verb = Uri.decode (verb);
+
+    for (int i = 0; i < REFLEXIVE_ENDINGS.length; i++)
+      {
+        if (verb.endsWith (REFLEXIVE_ENDINGS[i]))
+          {
+            verb = verb.substring (0,
+                                   verb.length () -
+                                   REFLEXIVE_ENDINGS[i].length ());
+            break;
+          }
+      }
+
+    tv.setText (verb);
+  }
+
   @Override
   public void onStart ()
   {
     super.onStart ();
 
     View tv = findViewById (R.id.search_edit);
+
+    setIntendedSearch ((TextView) tv);
 
     tv.requestFocus ();
 

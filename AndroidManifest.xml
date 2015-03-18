@@ -37,6 +37,13 @@
     </activity>
     <activity a:name="SearchActivity"
               a:label="@string/search">
+      <intent-filter>
+        <data a:scheme="http"
+              a:host="www.catalandictionary.org" />
+        <action a:name="android.intent.action.VIEW" />
+        <category a:name="android.intent.category.BROWSABLE" />
+        <category a:name="android.intent.category.DEFAULT" />
+      </intent-filter>
     </activity>
     <activity a:name="ArticleActivity">
     </activity>
