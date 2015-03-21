@@ -34,9 +34,6 @@
         <action a:name="android.intent.action.MAIN" />
         <category a:name="android.intent.category.LAUNCHER" />
       </intent-filter>
-    </activity>
-    <activity a:name="SearchActivity"
-              a:label="@string/search">
       <intent-filter>
         <data a:scheme="http"
               a:host="www.catalandictionary.org" />
@@ -44,6 +41,9 @@
         <category a:name="android.intent.category.BROWSABLE" />
         <category a:name="android.intent.category.DEFAULT" />
       </intent-filter>
+    </activity>
+    <activity a:name="SearchActivity"
+              a:label="@string/search">
     </activity>
     <activity a:name="ArticleActivity">
     </activity>

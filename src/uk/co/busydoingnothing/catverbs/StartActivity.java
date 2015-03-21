@@ -1,6 +1,6 @@
 /*
  * Catverbs - A portable Catalan conjugation reference for Android
- * Copyright (C) 2013  Neil Roberts
+ * Copyright (C) 2013, 2015  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,7 +18,9 @@
 package uk.co.busydoingnothing.catverbs;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 
 /* This activity is just like a landing page to select the right
@@ -26,12 +28,63 @@ import android.os.Bundle;
 
 public class StartActivity extends Activity
 {
+  private static final String CATALAN_DICTIONARY_HOST =
+    "www.catalandictionary.org";
+  private static final String[] REFLEXIVE_ENDINGS = { "-se", "'s" };
+
+  private String getIntendedSearch()
+  {
+    Intent intent = getIntent ();
+
+    if (intent == null)
+      return null;
+
+    String action = intent.getAction ();
+
+    if (action == null || !Intent.ACTION_VIEW.equals (action))
+      return null;
+
+    Uri data = intent.getData ();
+
+    if (!data.getScheme ().equals ("http") ||
+        !data.getHost ().equals (CATALAN_DICTIONARY_HOST))
+      return null;
+
+    String query = data.getQueryParameter ("q");
+
+    if (query == null ||
+        !query.startsWith ("conjugator/"))
+      return null;
+
+    String verb = query.substring (11);
+
+    int verbEnd = verb.indexOf ('/');
+
+    if (verbEnd != -1)
+      verb = verb.substring (0, verbEnd);
+
+    verb = Uri.decode (verb);
+
+    for (int i = 0; i < REFLEXIVE_ENDINGS.length; i++)
+      {
+        if (verb.endsWith (REFLEXIVE_ENDINGS[i]))
+          {
+            verb = verb.substring (0,
+                                   verb.length () -
+                                   REFLEXIVE_ENDINGS[i].length ());
+            break;
+          }
+      }
+
+    return verb;
+  }
+
   @Override
   public void onCreate (Bundle savedInstanceState)
   {
     super.onCreate (savedInstanceState);
 
-    MenuHelper.goSearch (this);
+    MenuHelper.goSearch (this, getIntendedSearch());
 
     /* Finish this activity to get it out of the call stack */
     finish ();

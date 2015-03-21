@@ -124,10 +124,20 @@ public class MenuHelper
     return dialog;
   }
 
-  public static void goSearch (Activity activity)
+  public static void goSearch (Activity activity,
+                               String searchString)
   {
     Intent intent = new Intent (activity, SearchActivity.class);
+
+    if (searchString != null)
+      intent.putExtra(SearchActivity.SEARCH_STRING, searchString);
+
     activity.startActivity (intent);
+  }
+
+  public static void goSearch (Activity activity)
+  {
+    goSearch(activity, null);
   }
 
   public static void showAbout (Activity activity)

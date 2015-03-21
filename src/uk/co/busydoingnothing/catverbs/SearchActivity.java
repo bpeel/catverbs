@@ -1,6 +1,6 @@
 /*
  * Catverbs - A portable Catalan conjugation reference for Android
- * Copyright (C) 2012, 2013, 2014  Neil Roberts
+ * Copyright (C) 2012, 2013, 2014, 2015  Neil Roberts
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,7 +20,6 @@ package uk.co.busydoingnothing.catverbs;
 import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -36,9 +35,8 @@ import android.widget.TextView;
 public class SearchActivity extends ListActivity
   implements TextWatcher
 {
-  private static final String CATALAN_DICTIONARY_HOST =
-    "www.catalandictionary.org";
-  private static final String[] REFLEXIVE_ENDINGS = { "-se", "'s" };
+  public static final String SEARCH_STRING =
+    "uk.co.busydoingnothing.catverbs.SearchString";
 
   private SearchAdapter searchAdapter;
   private boolean reloadQueued;
@@ -86,44 +84,12 @@ public class SearchActivity extends ListActivity
     if (intent == null)
       return;
 
-    String action = intent.getAction ();
+    String searchString = intent.getStringExtra (SEARCH_STRING);
 
-    if (action == null || !Intent.ACTION_VIEW.equals (action))
+    if (searchString == null)
       return;
 
-    Uri data = intent.getData ();
-
-    if (!data.getScheme ().equals ("http") ||
-        !data.getHost ().equals (CATALAN_DICTIONARY_HOST))
-      return;
-
-    String query = data.getQueryParameter ("q");
-
-    if (query == null ||
-        !query.startsWith ("conjugator/"))
-      return;
-
-    String verb = query.substring (11);
-
-    int verbEnd = verb.indexOf ('/');
-
-    if (verbEnd != -1)
-      verb = verb.substring (0, verbEnd);
-
-    verb = Uri.decode (verb);
-
-    for (int i = 0; i < REFLEXIVE_ENDINGS.length; i++)
-      {
-        if (verb.endsWith (REFLEXIVE_ENDINGS[i]))
-          {
-            verb = verb.substring (0,
-                                   verb.length () -
-                                   REFLEXIVE_ENDINGS[i].length ());
-            break;
-          }
-      }
-
-    tv.setText (verb);
+    tv.setText (searchString);
   }
 
   @Override
