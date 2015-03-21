@@ -41,6 +41,7 @@ public class SearchActivity extends ListActivity
   private static final String[] REFLEXIVE_ENDINGS = { "-se", "'s" };
 
   private SearchAdapter searchAdapter;
+  private boolean reloadQueued;
 
   @Override
   public void onCreate (Bundle savedInstanceState)
@@ -74,6 +75,8 @@ public class SearchActivity extends ListActivity
           startActivity (intent);
         }
       });
+
+    reloadQueued = true;
   }
 
   private void setIntendedSearch(TextView tv)
@@ -130,7 +133,11 @@ public class SearchActivity extends ListActivity
 
     View tv = findViewById (R.id.search_edit);
 
-    setIntendedSearch ((TextView) tv);
+    if (reloadQueued)
+      {
+        reloadQueued = false;
+        setIntendedSearch ((TextView) tv);
+      }
 
     tv.requestFocus ();
 
