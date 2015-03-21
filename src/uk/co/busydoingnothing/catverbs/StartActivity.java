@@ -79,12 +79,35 @@ public class StartActivity extends Activity
     return verb;
   }
 
+  private boolean tryExactArticleSearch (String searchString)
+  {
+    Trie trie = Trie.getDefault (this);
+
+    SearchResult[] results = new SearchResult[3];
+
+    int numResults = trie.search (searchString, results);
+
+    for (int i = 0; i < numResults; i++)
+      {
+        if (results[i].getWord ().equals (searchString))
+          {
+            MenuHelper.goArticle (this, results[i].getArticle ());
+            return true;
+          }
+      }
+
+    return false;
+  }
+
   @Override
   public void onCreate (Bundle savedInstanceState)
   {
     super.onCreate (savedInstanceState);
 
-    MenuHelper.goSearch (this, getIntendedSearch());
+    String searchString = getIntendedSearch ();
+
+    if (searchString == null || !tryExactArticleSearch (searchString))
+      MenuHelper.goSearch (this, searchString);
 
     /* Finish this activity to get it out of the call stack */
     finish ();
