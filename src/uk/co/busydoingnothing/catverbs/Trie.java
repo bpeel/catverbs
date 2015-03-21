@@ -85,6 +85,67 @@ public class Trie
 
   private byte data[];
 
+  private static final SearchCharacterMapping[] searchCharacterMappings =
+  {
+    new SearchCharacterMapping ('Ŀ', "l"),
+    new SearchCharacterMapping ('ŀ', "l"),
+    new SearchCharacterMapping ('·', ""),
+    new SearchCharacterMapping ('·', ""),
+    new SearchCharacterMapping ('.', ""),
+    new SearchCharacterMapping ('À', "A"),
+    new SearchCharacterMapping ('É', "E"),
+    new SearchCharacterMapping ('È', "E"),
+    new SearchCharacterMapping ('Í', "I"),
+    new SearchCharacterMapping ('Ï', "I"),
+    new SearchCharacterMapping ('Ó', "O"),
+    new SearchCharacterMapping ('Ò', "O"),
+    new SearchCharacterMapping ('Ú', "U"),
+    new SearchCharacterMapping ('Ü', "U"),
+    new SearchCharacterMapping ('Ç', "C"),
+    new SearchCharacterMapping ('à', "a"),
+    new SearchCharacterMapping ('é', "e"),
+    new SearchCharacterMapping ('è', "e"),
+    new SearchCharacterMapping ('í', "i"),
+    new SearchCharacterMapping ('ï', "i"),
+    new SearchCharacterMapping ('ó', "o"),
+    new SearchCharacterMapping ('ò', "o"),
+    new SearchCharacterMapping ('ú', "u"),
+    new SearchCharacterMapping ('ü', "u"),
+    new SearchCharacterMapping ('ç', "c")
+  };
+
+  private static void normalizeSearchCharacter (StringBuilder out, char ch)
+  {
+    int i;
+
+    for (i = 0; i < searchCharacterMappings.length; i++)
+      {
+        SearchCharacterMapping mapping = searchCharacterMappings[i];
+
+        if (mapping.character == ch)
+          {
+            out.append(mapping.replacement);
+            return;
+          }
+      }
+
+    if (ch >= 'A' && ch <= 'Z')
+      out.append((char) (ch - 'A' + 'a'));
+    else
+      out.append(ch);
+  }
+
+  private static CharSequence normalizeSearchString (CharSequence in)
+  {
+    StringBuilder out = new StringBuilder ();
+    int i;
+
+    for (i = 0; i < in.length (); i++)
+      normalizeSearchCharacter (out, in.charAt(i));
+
+    return out;
+  }
+
   private static void readAll (InputStream stream,
                                byte[] data,
                                int offset,
@@ -178,15 +239,17 @@ public class Trie
    * than the length of the results array then they are ignored. If
    * less are available then the remainder of the array is untouched.
    * The method returns the number of results found */
-  public int search (String prefix,
+  public int search (CharSequence prefix,
                      SearchResult[] results)
   {
+    String normalizedPrefix = normalizeSearchString (prefix).toString ();
+
     /* Convert the string to unicode to make it easier to compare with
      * the unicode characters in the trie. 'getBytes' with no
      * parameters converts the string to the default charset. This
      * assumes the default charset is always UTF-8 which seems to be
      * the case on Android */
-    byte[] prefixBytes = prefix.getBytes ();
+    byte[] prefixBytes = normalizedPrefix.getBytes ();
 
     int trieStart = 0;
     int prefixOffset = 0;
@@ -261,7 +324,7 @@ public class Trie
         prefixOffset += characterLen;
       }
 
-    StringBuilder stringBuf = new StringBuilder (prefix);
+    StringBuilder stringBuf = new StringBuilder (normalizedPrefix);
 
     /* trieStart is now pointing at the last node with this string.
      * Any children of that node are therefore extensions of the

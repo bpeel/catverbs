@@ -52,35 +52,6 @@ public class SearchAdapter extends BaseAdapter
 
   private Trie trie;
 
-  private static final SearchCharacterMapping[] searchCharacterMappings =
-  {
-    new SearchCharacterMapping ('Ŀ', "l"),
-    new SearchCharacterMapping ('ŀ', "l"),
-    new SearchCharacterMapping ('·', ""),
-    new SearchCharacterMapping ('·', ""),
-    new SearchCharacterMapping ('.', ""),
-    new SearchCharacterMapping ('À', "A"),
-    new SearchCharacterMapping ('É', "E"),
-    new SearchCharacterMapping ('È', "E"),
-    new SearchCharacterMapping ('Í', "I"),
-    new SearchCharacterMapping ('Ï', "I"),
-    new SearchCharacterMapping ('Ó', "O"),
-    new SearchCharacterMapping ('Ò', "O"),
-    new SearchCharacterMapping ('Ú', "U"),
-    new SearchCharacterMapping ('Ü', "U"),
-    new SearchCharacterMapping ('Ç', "C"),
-    new SearchCharacterMapping ('à', "a"),
-    new SearchCharacterMapping ('é', "e"),
-    new SearchCharacterMapping ('è', "e"),
-    new SearchCharacterMapping ('í', "i"),
-    new SearchCharacterMapping ('ï', "i"),
-    new SearchCharacterMapping ('ó', "o"),
-    new SearchCharacterMapping ('ò', "o"),
-    new SearchCharacterMapping ('ú', "u"),
-    new SearchCharacterMapping ('ü', "u"),
-    new SearchCharacterMapping ('ç', "c")
-  };
-
   public SearchAdapter (Context context,
                         Trie trie)
   {
@@ -174,49 +145,16 @@ public class SearchAdapter extends BaseAdapter
     return filter;
   }
 
-  private static void normalizeSearchCharacter (StringBuilder out, char ch)
-  {
-    int i;
-
-    for (i = 0; i < searchCharacterMappings.length; i++)
-      {
-        SearchCharacterMapping mapping = searchCharacterMappings[i];
-
-        if (mapping.character == ch)
-          {
-            out.append(mapping.replacement);
-            return;
-          }
-      }
-
-    if (ch >= 'A' && ch <= 'Z')
-      out.append((char) (ch - 'A' + 'a'));
-    else
-      out.append(ch);
-  }
-
-  private static String normalizeSearchString (CharSequence in)
-  {
-    StringBuilder out = new StringBuilder ();
-    int i;
-
-    for (i = 0; i < in.length (); i++)
-      normalizeSearchCharacter (out, in.charAt(i));
-
-    return out.toString ();
-  }
-
   private class SearchFilter extends Filter
   {
     @Override
     public FilterResults performFiltering (CharSequence filter)
     {
       FilterResults ret = new FilterResults ();
-      String filterString = normalizeSearchString (filter);
       SearchResult[] results = new SearchResult[MAX_RESULTS];
 
       ret.values = results;
-      ret.count = trie.search (filterString, results);
+      ret.count = trie.search (filter, results);
 
       return ret;
     }
