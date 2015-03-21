@@ -140,6 +140,14 @@ public class MenuHelper
     goSearch(activity, null);
   }
 
+  public static void goArticle (Context context,
+                                int articleNum)
+  {
+    Intent intent = new Intent (context, ArticleActivity.class);
+    intent.putExtra (ArticleActivity.EXTRA_ARTICLE_NUMBER, articleNum);
+    context.startActivity (intent);
+  }
+
   public static void showAbout (Activity activity)
   {
     activity.showDialog (DIALOG_ABOUT);

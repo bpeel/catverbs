@@ -66,11 +66,8 @@ public class SearchActivity extends ListActivity
           SearchAdapter adapter =
             (SearchAdapter) parent.getAdapter ();
           SearchResult result = adapter.getItem (position);
-          Intent intent = new Intent (view.getContext (),
-                                      ArticleActivity.class);
-          intent.putExtra (ArticleActivity.EXTRA_ARTICLE_NUMBER,
-                           result.getArticle ());
-          startActivity (intent);
+
+          MenuHelper.goArticle (view.getContext (), result.getArticle ());
         }
       });
 
