@@ -4,7 +4,3 @@ parent=dur
 # Present indicative
 pi_tu={stem}us (o {common_stem}ús)
 pi_ell={stem}u (o {common_stem}ú)
-
-# Imperfect indicative
-ii_nosaltres={common_stem}úiem
-ii_vosaltres={common_stem}úieu

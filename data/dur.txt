@@ -4,6 +4,10 @@ parent=perdre
 
 infinitive_suffix=r
 
+# Imperfect indicative
+ii_nosaltres={common_stem}úiem
+ii_vosaltres={common_stem}úieu
+
 # Participles
 participle_stem={common_stem}
 f_participle={participle_stem}uta
