@@ -127,11 +127,15 @@ for filename in os.listdir(DATA_DIR):
     if mo != None:
         infinitive = os.path.basename(mo.group(1))
 
+        out_filename = os.path.join(OUT_DIR, infinitive + ".txt")
+        if os.path.isfile(out_filename):
+            print("Skipping " + infinitive + ", already exported")
+            continue
+
         f = open(os.path.join(DATA_DIR, filename), 'r', encoding='UTF-8')
         soup = bs4.BeautifulSoup(f)
         f.close()
 
-        out_filename = os.path.join(OUT_DIR, infinitive + ".txt")
         f = open(out_filename, 'w', encoding='UTF-8')
 
         try:
