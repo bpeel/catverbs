@@ -141,6 +141,7 @@ for filename in os.listdir(DATA_DIR):
         try:
             process_verb(f, soup)
         except ParseError as e:
+            os.remove(out_filename)
             sys.stderr.write(out_filename + ": " + str(e) + "\n")
             break
 
