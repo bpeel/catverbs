@@ -21,6 +21,7 @@ import re
 DATA_DIR = "scraped-data"
 OUT_DIR = "vic-verbs"
 CONJS = ["jo", "tu", "ell", "nosaltres", "vosaltres", "ells"]
+PARTICIPLES = ["m", "f", "pm", "pf"]
 
 SECTIONS = [["indicatiu",
              ("present", "pi"),
@@ -33,6 +34,10 @@ SECTIONS = [["indicatiu",
              ("imperfet", "is")],
             ["imperatiu",
              ("present", "imp")]]
+
+list_re = re.compile(r'\s*,\s*')
+gerund_re = re.compile(r'^gerundi$')
+participles_re = re.compile(r'^participis?$')
 
 class ParseError(Exception):
     pass
@@ -66,6 +71,14 @@ def get_part(table, main_part, sub_part):
                     return child
     raise ParseError("Couldn't find part " + main_part + ", " + sub_part)
 
+def get_special_part(table, name, reg):
+    for child in table.children:
+        if isinstance(child, bs4.element.Tag) and child.name == "tr":
+            if child.th and reg.match(child.th.text.strip().lower()):
+                return child
+
+    raise ParseError("Couldn't find special part " + name)
+
 def dump_conjugation(out, part, prefix):
     var_num = 0
     for child in part.children:
@@ -87,6 +100,18 @@ def process_verb(out, soup):
             part = get_part(table, main_part[0], sub_part[0])
             dump_conjugation(out, part, sub_part[1])
             out.write("\n")
+
+    gerund = get_special_part(table, "gerund", gerund_re)
+    out.write("gerund=" + gerund.td.text.strip() + "\n")
+
+    participles_row = get_special_part(table, "participles", participles_re)
+    participles = list_re.split(participles_row.td.text.strip())
+
+    if len(participles) != len(PARTICIPLES):
+        raise ParseError("Invalid participles")
+
+    for i in range(0, len(participles)):
+        out.write(PARTICIPLES[i] + "_participle=" + participles[i] + "\n")
 
 try:
     os.mkdir(OUT_DIR)
