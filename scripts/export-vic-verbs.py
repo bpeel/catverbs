@@ -22,17 +22,17 @@ DATA_DIR = "scraped-data"
 OUT_DIR = "vic-verbs"
 CONJS = ["jo", "tu", "ell", "nosaltres", "vosaltres", "ells"]
 
-SECTIONS = [["Indicatiu",
-             ("Present", "pi"),
-             ("Imperfet", "ii"),
-             ("Passat simple", "spi"),
-             ("Futur", "future"),
-             ("Condicional", "cond")],
-            ["Subjuntiu",
-             ("Present", "ps"),
-             ("Imperfet", "is")],
-            ["Imperatiu",
-             ("Present", "imp")]]
+SECTIONS = [["indicatiu",
+             ("present", "pi"),
+             ("imperfet", "ii"),
+             ("passat simple", "spi"),
+             ("futur", "future"),
+             ("condicional", "cond")],
+            ["subjuntiu",
+             ("present", "ps"),
+             ("imperfet", "is")],
+            ["imperatiu",
+             ("present", "imp")]]
 
 class ParseError(Exception):
     pass
@@ -60,9 +60,9 @@ def get_part(table, main_part, sub_part):
         if isinstance(child, bs4.element.Tag) and child.name == "tr":
             header_count = count_headers(child)
             if header_count >= 2:
-                in_main_part = child.th.text.strip() == main_part
+                in_main_part = child.th.text.strip().lower() == main_part
             elif in_main_part and header_count == 1:
-                if child.th.text.strip() == sub_part:
+                if child.th.text.strip().lower() == sub_part:
                     return child
     raise ParseError("Couldn't find part " + main_part + ", " + sub_part)
 
