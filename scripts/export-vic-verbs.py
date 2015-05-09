@@ -39,6 +39,7 @@ SECTIONS = [["indicatiu",
 list_re = re.compile(r'\s*,\s*')
 gerund_re = re.compile(r'^gerundi$')
 participles_re = re.compile(r'^participis?$')
+dash_re = re.compile(r'^[-–]?$')
 
 class ParseError(Exception):
     pass
@@ -88,7 +89,7 @@ def dump_conjugation(out, part, prefix):
     for child in part.children:
         if isinstance(child, bs4.element.Tag) and child.name == "td":
             value = child.text.strip()
-            if value == "":
+            if dash_re.match(value):
                 value = "—"
             out.write(prefix + "_" + CONJS[var_num] + "=" + value + "\n")
             var_num += 1
