@@ -17,6 +17,7 @@ import bs4
 import os
 import errno
 import re
+import sys
 
 DATA_DIR = "scraped-data"
 OUT_DIR = "vic-verbs"
@@ -133,6 +134,10 @@ for filename in os.listdir(DATA_DIR):
         out_filename = os.path.join(OUT_DIR, infinitive + ".txt")
         f = open(out_filename, 'w', encoding='UTF-8')
 
-        process_verb(f, soup)
+        try:
+            process_verb(f, soup)
+        except ParseError as e:
+            sys.stderr.write(out_filename + ": " + str(e) + "\n")
+            break
 
         f.close()
