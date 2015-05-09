@@ -52,4 +52,11 @@ for verb in dictionary:
 
     dump_conjugations(f, verb, "imp")
 
+    for var in ["gerund",
+                "m_participle",
+                "f_participle",
+                "pm_participle",
+                "pf_participle"]:
+        f.write(var + "=" + cgi.escape(verb.get_value(var)) + "\n")
+
     f.close()
