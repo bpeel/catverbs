@@ -43,13 +43,16 @@ participles_re = re.compile(r'^participis?$')
 class ParseError(Exception):
     pass
 
+class NoTableError(ParseError):
+    pass
+
 def get_table(soup):
     for th in soup.find_all('th'):
         this_title = th.get_text().strip()
         if this_title == "Formes personals simples":
             return th.parent.parent
 
-    raise ParseError("Couldn't find table")
+    raise NoTableError("Couldn't find table")
 
 def count_headers(row):
     header_count = 0
@@ -140,6 +143,9 @@ for filename in os.listdir(DATA_DIR):
 
         try:
             process_verb(f, soup)
+        except NoTableError as e:
+            os.remove(out_filename)
+            sys.stderr.write(out_filename + ": " + str(e) + " (continuing)\n")
         except ParseError as e:
             os.remove(out_filename)
             sys.stderr.write(out_filename + ": " + str(e) + "\n")
