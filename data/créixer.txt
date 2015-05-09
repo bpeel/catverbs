@@ -26,7 +26,7 @@ ps_vosaltres={ps_stem}eu (o {common_stem}esqueu)
 # Imperfect subjunctive
 is_jo={is_stem}és (o {common_stem}esqués)
 is_tu={is_stem}essis (o {common_stem}esquessis)
-is_nosaltres={is_stem}éssim (o {common_stem}esquéssim
+is_nosaltres={is_stem}éssim (o {common_stem}esquéssim)
 is_vosaltres={is_stem}éssiu (o {common_stem}esquéssiu)
 is_ells={is_stem}essin (o {common_stem}esquessin)
 
