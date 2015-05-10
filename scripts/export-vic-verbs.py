@@ -110,6 +110,11 @@ def add_alternatives(values, part):
         if isinstance(part, bs4.element.Tag) and part.name == "tr":
             if part.th:
                 break
+
+            td = part.td
+            if td and td.has_attr('colspan'):
+                break
+
             add_alternatives_from_row(values, part)
 
 def fixup_alternatives(variable, alts):
