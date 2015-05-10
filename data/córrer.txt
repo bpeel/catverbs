@@ -23,7 +23,7 @@ spi_stem={stem}egu
 # Present subjunctive
 ps_stem={stem}
 ps_nosaltres={ps_stem}em (o {ps_stem}eguem)
-ps_vosaltres={ps_stem}em (o {ps_stem}egueu)
+ps_vosaltres={ps_stem}eu (o {ps_stem}egueu)
 
 # Imperfect subjunctive
 is_stem={stem}egu
