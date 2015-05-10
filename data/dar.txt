@@ -9,6 +9,7 @@ pi_ells=—
 
 # Simple past indicative
 spi_jo={spi_stem}i
+spi_ell={spi_stem}a
 
 # Present subjunctive
 ps_jo=—
