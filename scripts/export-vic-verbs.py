@@ -42,6 +42,11 @@ participles_re = re.compile(r'^participis?$')
 dash_re = re.compile(r'^[-–]?$')
 eix_re = re.compile(r'eix(?:o|es||en|i|is|in)$')
 
+ALTERNATIVE_OVERRIDES = { 'is_tu' : re.compile(r'[eiï]sses$'),
+                          'is_nosaltres' : re.compile(r'[éí]ssem$'),
+                          'is_vosaltres' : re.compile(r'[éí]sseu$'),
+                          'is_ells' : re.compile(r'[eiï]ssen$') }
+
 class ParseError(Exception):
     pass
 
@@ -129,17 +134,8 @@ def fixup_alternatives(variable, alts):
     if len(alts) != 2:
         return
 
-    if variable == "is_tu":
-        if alts[1].endswith("isses"):
-            del alts[1]
-    elif variable == "is_nosaltres":
-        if alts[1].endswith("íssem"):
-            del alts[1]
-    elif variable == "is_vosaltres":
-        if alts[1].endswith("ísseu"):
-            del alts[1]
-    elif variable == "is_ells":
-        if alts[1].endswith("issen"):
+    if variable in ALTERNATIVE_OVERRIDES:
+        if ALTERNATIVE_OVERRIDES[variable].search(alts[1]):
             del alts[1]
 
 def dump_conjugation(out, part, prefix):
