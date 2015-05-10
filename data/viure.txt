@@ -8,7 +8,7 @@ infinitive={ustem}{infinitive_suffix}
 gerund={stem}int
 
 # Participles
-participle_stem=visc
+participle_stem={common_stem}sc
 
 # Present indicative
 pi_jo={common_stem}sc
