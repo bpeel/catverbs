@@ -5,7 +5,7 @@ parent=perdre
 infinitive={stem}d{infinitive_suffix}
 
 # Participles
-particiciple_stem={common_stem}
+participle_stem={common_stem}
 m_participle={participle_stem}ós
 f_participle={participle_stem}osa
 pm_participle={participle_stem}osos
