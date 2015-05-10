@@ -24,7 +24,24 @@ I think these things are mistakes in Els Verbs Conjugats:
   Viccionari lists it as being like témer which probably makes more
   sense so I've chosen that for catverbs.
 
+• For aguar, EVC has some strange diacritics which don't look right
+  and don't match DIEC. Catverbs currently uses what EVC does.
+
+This seem to be mistakes in Viccionari:
+
+• DIEC doesn't list ‘apareixo’ and only has ‘aparec’. However a quick
+  google seems to indicate that people do use the first form so I've
+  left it in.
+
+• In argüir, EVC always has the umlaut above the u, whereas viccionari
+  has it changing to the i sometimes. diccionari.cat also does this
+  but in different places. DIEC doesn't say anything about the
+  conjugation which might imply it's regular and shouldn't move the
+  umlaut. Catverbs doesn't move it.
+
 These things would be good to add as notes to the conjugations:
 
 • The conjugation with ‘eix’ in lluir is used when the verb used
   figuratively.
+
+• adir has a different conjugation when used reflexively.
