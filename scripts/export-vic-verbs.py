@@ -112,7 +112,7 @@ def add_alternatives(values, part):
                 break
             add_alternatives_from_row(values, part)
 
-def reorder_alternatives(alts):
+def fixup_alternatives(variable, alts):
     # Move the alternative ending in ‘eix’ to the end
     for i in range(0, len(alts)):
         if eix_re.search(alts[i]):
@@ -120,6 +120,22 @@ def reorder_alternatives(alts):
             del alts[i]
             alts.append(value)
             break
+
+    if len(alts) != 2:
+        return
+
+    if variable == "is_tu":
+        if alts[1].endswith("isses"):
+            del alts[1]
+    elif variable == "is_nosaltres":
+        if alts[1].endswith("íssem"):
+            del alts[1]
+    elif variable == "is_vosaltres":
+        if alts[1].endswith("ísseu"):
+            del alts[1]
+    elif variable == "is_ells":
+        if alts[1].endswith("issen"):
+            del alts[1]
 
 def dump_conjugation(out, part, prefix):
     var_num = 0
@@ -142,8 +158,9 @@ def dump_conjugation(out, part, prefix):
 
     for i in range(0, len(values)):
         alts = values[i]
-        reorder_alternatives(alts)
-        out.write(prefix + "_" + CONJS[i] + "=" + alts[0])
+        variable = prefix + "_" + CONJS[i]
+        fixup_alternatives(variable, alts)
+        out.write(variable + "=" + alts[0])
         if len(alts) > 1:
             out.write(" (o " + " o ".join(alts[1:]) + ")")
         out.write("\n")
