@@ -40,6 +40,7 @@ list_re = re.compile(r'\s*,\s*')
 gerund_re = re.compile(r'^gerundi$')
 participles_re = re.compile(r'^participis?$')
 dash_re = re.compile(r'^[-–]?$')
+eix_re = re.compile(r'eix(?:o|es||en|i|is|in)$')
 
 class ParseError(Exception):
     pass
@@ -84,18 +85,68 @@ def get_special_part(table, name, reg):
 
     raise ParseError("Couldn't find special part " + name)
 
+def add_alternatives_from_row(values, row):
+    var_num = 0
+    to_add = []
+
+    for child in row.children:
+        if isinstance(child, bs4.element.Tag) and child.name == "td":
+            # Only add the alternative if the row doesn't have a note
+            if var_num >= len(CONJS):
+                return
+
+            to_add.append(child.text.strip())
+            var_num += 1
+
+    for i in range(0, len(to_add)):
+        if to_add[i] != "":
+            values[i].append(to_add[i])
+
+def add_alternatives(values, part):
+    while True:
+        part = part.next_sibling
+        if part == None:
+            break
+        if isinstance(part, bs4.element.Tag) and part.name == "tr":
+            if part.th:
+                break
+            add_alternatives_from_row(values, part)
+
+def reorder_alternatives(alts):
+    # Move the alternative ending in ‘eix’ to the end
+    for i in range(0, len(alts)):
+        if eix_re.search(alts[i]):
+            value = alts[i]
+            del alts[i]
+            alts.append(value)
+            break
+
 def dump_conjugation(out, part, prefix):
     var_num = 0
+    values = []
+
     for child in part.children:
         if isinstance(child, bs4.element.Tag) and child.name == "td":
             value = child.text.strip()
             if dash_re.match(value):
                 value = "—"
-            out.write(prefix + "_" + CONJS[var_num] + "=" + value + "\n")
+            values.append([value])
             var_num += 1
             if var_num >= len(CONJS):
-                return
-    raise ParseError("Not enough tds in row")
+                break
+
+    if var_num < len(CONJS):
+        raise ParseError("Not enough tds in row")
+
+    add_alternatives(values, part)
+
+    for i in range(0, len(values)):
+        alts = values[i]
+        reorder_alternatives(alts)
+        out.write(prefix + "_" + CONJS[i] + "=" + alts[0])
+        if len(alts) > 1:
+            out.write(" (o " + " o ".join(alts[1:]) + ")")
+        out.write("\n")
 
 def process_verb(out, soup):
     table = get_table(soup)
