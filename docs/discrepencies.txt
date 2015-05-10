@@ -27,6 +27,9 @@ I think these things are mistakes in Els Verbs Conjugats:
 • For aguar, EVC has some strange diacritics which don't look right
   and don't match DIEC. Catverbs currently uses what EVC does.
 
+• The present subjunctive of haver has an alternative that doesn't
+  appear in DIEC or GDLC.
+
 This seem to be mistakes in Viccionari:
 
 • DIEC doesn't list ‘apareixo’ and only has ‘aparec’. However a quick
