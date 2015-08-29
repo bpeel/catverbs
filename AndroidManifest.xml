@@ -19,8 +19,8 @@
 
 <manifest xmlns:a="http://schemas.android.com/apk/res/android"
           package="uk.co.busydoingnothing.catverbs"
-          a:versionCode="4"
-          a:versionName="0.4"
+          a:versionCode="5"
+          a:versionName="0.5"
           a:installLocation="auto">
   <uses-sdk a:minSdkVersion="7" a:targetSdkVersion="14" />
 
